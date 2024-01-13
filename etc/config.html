@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="İsmail Efe Top" />
+  <title>İsmail Efe Top's Doom Emacs Config</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 50em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+     /* for computers */
+    p, li {
+        font-size: 16pt;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">İsmail Efe Top's Doom Emacs Config</h1>
+<p class="author">İsmail Efe Top</p>
+</header>
+<h1 id="one-liners">One Liners</h1>
+<h2 id="my-contact-information">My contact information</h2>
+<div class="sourceCode" id="cb1" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> user-full-name <span class="st">&quot;İsmail Efe Top&quot;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>      user-mail-address <span class="st">&quot;ismailefetop@gmail.com&quot;</span>)</span></code></pre></div>
+<h2 id="setting-the-default-shell">Setting the default shell</h2>
+<div class="sourceCode" id="cb2" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> shell-file-name (executable-find <span class="st">&quot;bash&quot;</span>))</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>(setq-default vterm-shell (executable-find <span class="st">&quot;fish&quot;</span>))</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>(setq-default explicit-shell-file-name (executable-find <span class="st">&quot;fish&quot;</span>))</span></code></pre></div>
+<h2 id="theme">Theme</h2>
+<div class="sourceCode" id="cb3" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> doom-theme <span class="dt">&#39;kanagawa</span>)</span></code></pre></div>
+<h3 id="good-themes">Good themes</h3>
+<ul>
+<li>doom-dracula</li>
+<li>kanagawa</li>
+<li>Catppuccin</li>
+</ul>
+<h2 id="font">Font</h2>
+<div class="sourceCode" id="cb4" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> doom-font (font-spec :family <span class="st">&quot;JetBrains Mono&quot;</span> :size <span class="dv">22</span>))</span></code></pre></div>
+<h2 id="line-numbers">Line Numbers</h2>
+<div class="sourceCode" id="cb5" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> display-line-numbers-type <span class="kw">t</span>)</span></code></pre></div>
+<h2 id="disable-confirm-on-exit.">Disable Confirm on exit.</h2>
+<div class="sourceCode" id="cb6" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> confirm-kill-emacs <span class="kw">nil</span>)</span></code></pre></div>
+<h2 id="disable-which-key-delay">Disable Which-Key Delay</h2>
+<div class="sourceCode" id="cb7" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> which-key-idle-delay <span class="fl">0.0</span>)</span></code></pre></div>
+<h2 id="disable-autosave">Disable autosave</h2>
+<div class="sourceCode" id="cb8" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">;disable backup</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a> (<span class="kw">setq</span> backup-inhibited <span class="kw">t</span>)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="co">;disable auto save</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a> (<span class="kw">setq</span> auto-save-default <span class="kw">nil</span>)</span></code></pre></div>
+<h2 id="automatically-kill-running-processes-on-exit"><a
+href="https://emacsredux.com/blog/2020/07/18/automatically-kill-running-processes-on-exit/">Automatically
+Kill Running Processes on Exit</a></h2>
+<div class="sourceCode" id="cb9" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> confirm-kill-processes <span class="kw">nil</span>)</span></code></pre></div>
+<h2 id="zoom">Zoom</h2>
+<div class="sourceCode" id="cb10" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>(global-set-key (kbd <span class="st">&quot;C-+&quot;</span>) <span class="dt">&#39;text-scale-increase</span>)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>(global-set-key (kbd <span class="st">&quot;C--&quot;</span>) <span class="dt">&#39;text-scale-decrease</span>)</span></code></pre></div>
+<h2 id="enable-word-count">Enable Word Count</h2>
+<div class="sourceCode" id="cb11" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> doom-modeline-enable-word-count <span class="kw">t</span>)</span></code></pre></div>
+<h2 id="disable-unnecessary-new-os-windows">Disable unnecessary new os
+windows</h2>
+<div class="sourceCode" id="cb12" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> use-dialog-box <span class="kw">nil</span>)&#39;</span></code></pre></div>
+<h2 id="calendar">Calendar</h2>
+<h3 id="make-calendar-start-on-monday">Make calendar start on
+monday</h3>
+<div class="sourceCode" id="cb13" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> calendar-week-start-day <span class="dv">1</span>)</span></code></pre></div>
+<h2 id="sets-olivettis-body-width">Sets olivettis body width</h2>
+<div class="sourceCode" id="cb14" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> olivetti-body-width <span class="dv">94</span>)</span></code></pre></div>
+<h2 id="default-bib-file">Default Bib File</h2>
+<div class="sourceCode" id="cb15" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> org-cite-global-bibliography &#39;(<span class="st">&quot;/Users/ismailefetop/uni/citation/bib.bib&quot;</span>))</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>(setq! bibtex-completion-bibliography &#39;(<span class="st">&quot;/Users/ismailefetop/uni/citation/bib.bib&quot;</span>))</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>(setq! citar-bibliography &#39;(<span class="st">&quot;/Users/ismailefetop/uni/citation/bib.bib&quot;</span>))</span></code></pre></div>
+<h2 id="super-save">Super-save</h2>
+<div class="sourceCode" id="cb16" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>(super-save-mode +1)</span></code></pre></div>
+<h2 id="opening-large-files">Opening Large Files</h2>
+<div class="sourceCode" id="cb17" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">;; warn when opening files bigger than 200MB</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> large-file-warning-threshold <span class="dv">200000000</span>)</span></code></pre></div>
+<h2 id="disable-hl-line-mode">Disable hl-line-mode</h2>
+<div class="sourceCode" id="cb18" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>(remove-hook <span class="dt">&#39;doom-first-buffer-hook</span> <span class="op">#&#39;</span>global-hl-line-mode)</span></code></pre></div>
+<h2 id="make-the-title-bar-text-empty">Make the title bar text empty
+<span class="tag" data-tag-name="mac"><span
+class="smallcaps">mac</span></span></h2>
+<div class="sourceCode" id="cb19" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> ns-use-proxy-icon <span class="kw">nil</span>)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> frame-title-format <span class="kw">nil</span>)</span></code></pre></div>
+<h2 id="open-olivetti-mode">Open olivetti Mode</h2>
+<div class="sourceCode" id="cb20" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">;; (add-hook &#39;org-mode-hook &#39;olivetti-mode)</span></span></code></pre></div>
+<h1 id="pandoc">Pandoc</h1>
+<h2 id="set-pandoc-binary">Set Pandoc Binary <span class="tag"
+data-tag-name="mac"><span class="smallcaps">mac</span></span></h2>
+<div class="sourceCode" id="cb21" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> pandoc-binary <span class="st">&quot;/opt/homebrew/bin/pandoc&quot;</span>)</span></code></pre></div>
+<h2 id="global-settingsdata-file">Global Settings/Data File <span
+class="tag" data-tag-name="mac"><span
+class="smallcaps">mac</span></span></h2>
+<div class="sourceCode" id="cb22" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> pandoc-data-dir <span class="st">&quot;/Users/ismailefetop/.config/doom/etc/pandoc/&quot;</span>)</span></code></pre></div>
+<h1 id="org">Org</h1>
+<h2 id="org-directories">Org directories</h2>
+<h3 id="main-directory">Main Directory <span class="tag"
+data-tag-name="mac"><span class="smallcaps">mac</span></span></h3>
+<div class="sourceCode" id="cb23" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> org-directory <span class="st">&quot;~/.orgs/org/&quot;</span>)</span></code></pre></div>
+<h3 id="other-org-directories">Other Org Directories <span class="tag"
+data-tag-name="mac"><span class="smallcaps">mac</span></span></h3>
+<div class="sourceCode" id="cb24" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> org-agenda-files &#39;(<span class="st">&quot;~/uni/current-course/&quot;</span> <span class="st">&quot;~/.orgs/org/&quot;</span> <span class="st">&quot;~/ideas/&quot;</span> <span class="st">&quot;/Users/ismailefetop/Library/Mobile Documents/com~apple~CloudDocs/org/&quot;</span>))</span></code></pre></div>
+<h2 id="trusting-the-org-blocks-in-org-automatically">Trusting the
+org-blocks in org automatically</h2>
+<div class="sourceCode" id="cb25" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> org-confirm-babel-evaluate <span class="kw">nil</span>)</span></code></pre></div>
+<h2 id="change-the-look-of-org-agenda-to-do-view.">Change the look of
+org-agenda to-do view.</h2>
+<div class="sourceCode" id="cb26" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> org-agenda-prefix-format</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>      &#39;((agenda . <span class="st">&quot; %i %-12:c%?-12t% s&quot;</span>)</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>        (todo   . <span class="st">&quot; &quot;</span>)</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>        (tags   . <span class="st">&quot; %i %-12:c&quot;</span>)</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>        (<span class="kw">search</span> . <span class="st">&quot; %i %-12:c&quot;</span>)))</span></code></pre></div>
+<h2 id="to-open-emacs-with-orgmode">to open emacs with orgmode</h2>
+<h3 id="define-the-keyboard-shortcut-as-a-string">Define the keyboard
+shortcut as a string</h3>
+<div class="sourceCode" id="cb27" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> my-keyboard-shortcut <span class="st">&quot;SPC o a a n&quot;</span>)</span></code></pre></div>
+<h3 id="define-a-function-to-execute-the-keyboard-shortcut">Define a
+function to execute the keyboard shortcut</h3>
+<div class="sourceCode" id="cb28" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> my-send-keyboard-shortcut </span>()</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>  (interactive)</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>  (execute-kbd-macro (kbd my-keyboard-shortcut)))</span></code></pre></div>
+<h3 id="call-the-function-when-emacs-starts-up">Call the function when
+Emacs starts up</h3>
+<div class="sourceCode" id="cb29" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co">;; (add-hook &#39;emacs-startup-hook &#39;my-send-keyboard-shortcut)</span></span></code></pre></div>
+<h2 id="set-agenda-view">Set Agenda View</h2>
+<div class="sourceCode" id="cb30" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>(use-package! org</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>  :config</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>  <span class="co">;; to start the agende from the current day</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">setq</span> org-agenda-start-on-weekday <span class="kw">nil</span>)</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">setq</span> org-agenda-start-day <span class="st">&quot;+0d&quot;</span>)</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>  <span class="co">;; set span 7</span></span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">setq</span> org-agenda-span <span class="dv">7</span>)</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>  <span class="co">;; Add additional configuration here</span></span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div>
+<h2 id="org-capture-templates">Org Capture Templates <span class="tag"
+data-tag-name="mac"><span class="smallcaps">mac</span></span></h2>
+<div class="sourceCode" id="cb31" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>(after! org</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">setq</span> org-capture-templates</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>        &#39;((<span class="st">&quot;t&quot;</span> <span class="st">&quot;School Todo&quot;</span> entry (file+olp+datetree <span class="st">&quot;~/uni/current-course/todo.org&quot;</span>)</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>           <span class="st">&quot;* TODO %?</span><span class="sc">\n</span><span class="st">  %i</span><span class="sc">\n</span><span class="st">  %a&quot;</span>)</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>          (<span class="st">&quot;j&quot;</span> <span class="st">&quot;Journal&quot;</span> entry (file+olp+datetree <span class="st">&quot;~/org/journal.org&quot;</span>)</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>           <span class="st">&quot;* %?</span><span class="sc">\n</span><span class="st">Entered on %U</span><span class="sc">\n</span><span class="st">  %i</span><span class="sc">\n</span><span class="st">  %a&quot;</span>)</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>          (<span class="st">&quot;n&quot;</span> <span class="st">&quot;Class Note&quot;</span> entry (file+olp+datetree <span class="st">&quot;~/uni/current-course/notes/%A.org&quot;</span>)</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>           <span class="st">&quot;* %?</span><span class="sc">\n</span><span class="st">Entered on %U</span><span class="sc">\n</span><span class="st">  %i</span><span class="sc">\n</span><span class="st">  %a&quot;</span>)))</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<h2 id="org-auto-tangle">Org Auto Tangle</h2>
+<div class="sourceCode" id="cb32" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>   (<span class="kw">require</span> <span class="dt">&#39;org-auto-tangle</span>)</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>(add-hook <span class="dt">&#39;org-mode-hook</span> <span class="dt">&#39;org-auto-tangle-mode</span>)</span></code></pre></div>
+<h1 id="functions">Functions</h1>
+<h2 id="copy-path-function">Copy Path Function <span class="tag"
+data-tag-name="mac"><span class="smallcaps">mac</span></span></h2>
+<div class="sourceCode" id="cb33" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> open-finder-and-copy-path </span>()</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;Open Finder and copy the selected file&#39;s path.&quot;</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>  (interactive)</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">let</span> ((file-path (read-file-name <span class="st">&quot;Select a file: &quot;</span>)))</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>    (kill-new file-path)</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    (message <span class="st">&quot;Copied file path: %s&quot;</span> file-path)</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>    (start-process <span class="st">&quot;finder&quot;</span> <span class="kw">nil</span> <span class="st">&quot;open&quot;</span> <span class="st">&quot;-R&quot;</span> file-path)))</span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> close-all-buffers </span>()</span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>(interactive)</span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">mapc</span> <span class="dt">&#39;kill-buffer</span> (buffer-list)))</span></code></pre></div>
+<h2 id="reading-mode">Reading Mode</h2>
+<div class="sourceCode" id="cb34" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> efe/reading-mode </span>()</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;Toggle reading mode.&quot;</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>  (interactive)</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>  (hide-mode-line-mode +1)</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>  <span class="co">;; (load-theme &#39;kanagawa)</span></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>  (olivetti-mode)</span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>  <span class="co">;; (setq hl-line-mode nil)</span></span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>  (menu-bar--display-line-numbers-mode-none))</span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>(global-set-key (kbd <span class="st">&quot;C-ö&quot;</span>) <span class="dt">&#39;efe/reading-mode</span>)</span></code></pre></div>
+<h2 id="undo-reading-mode">Undo Reading Mode</h2>
+<div class="sourceCode" id="cb35" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> efe/undo-reading-mode </span>()</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;undo reading mode.&quot;</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>  (interactive)</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>  <span class="co">;; (disable-theme &#39;kanagawa)</span></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>  <span class="co">;; (load-theme &#39;doom-dracula t)</span></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>  (hide-mode-line-mode <span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">setq</span> olivetti-mode <span class="kw">nil</span>)</span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>  <span class="co">;; (setq hl-line-mode t)</span></span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a>  (menu-bar--display-line-numbers-mode-absolute))</span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a>(global-set-key (kbd <span class="st">&quot;C-ç&quot;</span>) <span class="dt">&#39;efe/undo-reading-mode</span>)</span></code></pre></div>
+<h2 id="export-to-docx">Export to docx</h2>
+<div class="sourceCode" id="cb36" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> efe/export-to-docx </span>()</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;Output to docx using pandoc-mode&quot;</span></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>  (interactive)</span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>  (pandoc-mode)</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>  (execute-kbd-macro (kbd <span class="st">&quot;C-c / O W d b b r&quot;</span>))</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">setq</span> pandoc-mode <span class="kw">nil</span>)</span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div>
+<div class="sourceCode" id="cb37" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> insert-idiom-template </span>()</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;Inserts a template for an idiom.&quot;</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>  (interactive)</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>  (insert <span class="st">&quot;</span><span class="sc">\n</span><span class="st">* Idiom</span><span class="sc">\n</span><span class="st">&quot;</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>          <span class="st">&quot;- *Meaning:*</span><span class="sc">\n</span><span class="st">&quot;</span></span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>          <span class="st">&quot;- *Example Sentence:*</span><span class="sc">\n</span><span class="st">&quot;</span></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>          <span class="st">&quot;- *Source:*</span><span class="sc">\n</span><span class="st">&quot;</span></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>          <span class="st">&quot;- *Date:*</span><span class="sc">\n</span><span class="st">&quot;</span>))</span></code></pre></div>
+<h1 id="snippet-templates">Snippet Templates</h1>
+<h2 id="week-templates">Week Templates</h2>
+<div class="sourceCode" id="cb38" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>(set-file-template! <span class="st">&quot;</span><span class="sc">\\</span><span class="st">.org$&quot;</span> :trigger <span class="st">&quot;__week.org&quot;</span> :mode <span class="dt">&#39;org-mode</span>)</span></code></pre></div>
+<h1 id="defaults">Defaults</h1>
+<h2 id="email-client">Email Client</h2>
+<div class="sourceCode" id="cb39" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> browse-url-mailto-function <span class="dt">&#39;browse-url-generic</span>)</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> browse-url-generic-program <span class="st">&quot;open&quot;</span>)</span></code></pre></div>
+<h2 id="openwith-defaults">Openwith Defaults <span class="tag"
+data-tag-name="mac"><span class="smallcaps">mac</span></span></h2>
+<div class="sourceCode" id="cb40" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">require</span> <span class="dt">&#39;openwith</span>)</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>(openwith-mode <span class="kw">t</span>)</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> openwith-associations</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>      &#39;((<span class="st">&quot;</span><span class="sc">\\</span><span class="st">.pdf</span><span class="sc">\\</span><span class="st">&#39;&quot;</span> <span class="st">&quot;open&quot;</span> (file))</span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;</span><span class="sc">\\</span><span class="st">.docx</span><span class="sc">\\</span><span class="st">&#39;&quot;</span> <span class="st">&quot;open&quot;</span> (file))</span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;</span><span class="sc">\\</span><span class="st">.jpg</span><span class="sc">\\</span><span class="st">&#39;&quot;</span> <span class="st">&quot;open&quot;</span> (file))</span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;</span><span class="sc">\\</span><span class="st">.psd</span><span class="sc">\\</span><span class="st">&#39;&quot;</span> <span class="st">&quot;open&quot;</span> (file))</span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;</span><span class="sc">\\</span><span class="st">.jpeg</span><span class="sc">\\</span><span class="st">&#39;&quot;</span> <span class="st">&quot;open&quot;</span> (file))</span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;</span><span class="sc">\\</span><span class="st">.png</span><span class="sc">\\</span><span class="st">&#39;&quot;</span> <span class="st">&quot;open&quot;</span> (file))</span>
+<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;</span><span class="sc">\\</span><span class="st">.pptx</span><span class="sc">\\</span><span class="st">&#39;&quot;</span> <span class="st">&quot;open&quot;</span> (file))</span>
+<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;</span><span class="sc">\\</span><span class="st">.epub</span><span class="sc">\\</span><span class="st">&#39;&quot;</span> <span class="st">&quot;open&quot;</span> (file))</span>
+<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a>        <span class="co">;; (&quot;\\.svg\\&#39;&quot; &quot;open&quot; (file))</span></span>
+<span id="cb40-13"><a href="#cb40-13" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;</span><span class="sc">\\</span><span class="st">.gif</span><span class="sc">\\</span><span class="st">&#39;&quot;</span> <span class="st">&quot;open&quot;</span> (file))</span>
+<span id="cb40-14"><a href="#cb40-14" aria-hidden="true" tabindex="-1"></a>        <span class="co">;; Add more image formats as needed</span></span>
+<span id="cb40-15"><a href="#cb40-15" aria-hidden="true" tabindex="-1"></a>        ))</span></code></pre></div>
+<h1 id="dictionary-servers">Dictionary Servers</h1>
+<h2 id="merriam-webster-thesaurus">Merriam-Webster Thesaurus</h2>
+<div class="sourceCode" id="cb41" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>(use-package! mw-thesaurus</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>  :defer <span class="kw">t</span></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>  :commands mw-thesaurus-lookup-dwim</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>  :hook (mw-thesaurus-mode . variable-pitch-mode)</span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>  :config</span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>  (map! :map mw-thesaurus-mode-map [remap evil-record-macro] <span class="op">#&#39;</span>mw-thesaurus--quit)</span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a>  <span class="co">;; window on the right side</span></span>
+<span id="cb41-9"><a href="#cb41-9" aria-hidden="true" tabindex="-1"></a>  (add-to-list</span>
+<span id="cb41-10"><a href="#cb41-10" aria-hidden="true" tabindex="-1"></a>   <span class="dt">&#39;display-buffer-alist</span></span>
+<span id="cb41-11"><a href="#cb41-11" aria-hidden="true" tabindex="-1"></a>   `(,mw-thesaurus-buffer-name</span>
+<span id="cb41-12"><a href="#cb41-12" aria-hidden="true" tabindex="-1"></a>     (display-buffer-reuse-window</span>
+<span id="cb41-13"><a href="#cb41-13" aria-hidden="true" tabindex="-1"></a>      display-buffer-in-direction)</span>
+<span id="cb41-14"><a href="#cb41-14" aria-hidden="true" tabindex="-1"></a>     (direction . right)</span>
+<span id="cb41-15"><a href="#cb41-15" aria-hidden="true" tabindex="-1"></a>     (window . root)</span>
+<span id="cb41-16"><a href="#cb41-16" aria-hidden="true" tabindex="-1"></a>     (window-width . <span class="fl">0.3</span>))))</span></code></pre></div>
+<h2 id="emacs-dictionary">Emacs Dictionary</h2>
+<div class="sourceCode" id="cb42" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> dictionary-server <span class="st">&quot;dict.org&quot;</span>)</span></code></pre></div>
+<h1 id="after-save-hook">After Save hook</h1>
+<div class="sourceCode" id="cb43" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>(add-hook <span class="dt">&#39;after-save-hook</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>          <span class="dt">&#39;executable-make-buffer-file-executable-if-script-p</span>)</span></code></pre></div>
+<h1 id="garbage-collection">Garbage collection</h1>
+<div class="sourceCode" id="cb44" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>(after! gcmh</span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">setq</span> gcmh-high-cons-threshold (<span class="op">*</span> <span class="dv">64</span> <span class="dv">1048576</span>)))</span></code></pre></div>
+<h1 id="make-emacs-silent">Make emacs silent</h1>
+<div class="sourceCode" id="cb45" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> byte-compile-warnings &#39;(<span class="kw">not</span> obsolete))</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> warning-suppress-log-types &#39;((comp) (bytecomp)))</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> native-comp-async-report-warnings-errors <span class="dt">&#39;silent</span>)</span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> inhibit-startup-echo-area-message (user-login-name))</span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> visible-bell <span class="kw">t</span>)</span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> ring-bell-function <span class="dt">&#39;ignore</span>)</span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> set-message-beep <span class="dt">&#39;silent</span>)</span></code></pre></div>
+<h1 id="presentation">Presentation</h1>
+<h2 id="make-images-adjust-to-width">Make images adjust to width</h2>
+<div class="sourceCode" id="cb46" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> org-image-actual-width <span class="kw">nil</span>)</span></code></pre></div>
+<h2 id="biu">bi"u</h2>
+<h1 id="startup">Startup</h1>
+<h2 id="maximize-on-startup-using-rectangle">Maximize on startup using
+Rectangle <span class="tag" data-tag-name="mac"><span
+class="smallcaps">mac</span></span></h2>
+<div class="sourceCode" id="cb47" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co">;; Requires the mac app Rectangle to function.</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> rectangle-maximize </span>()</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;Execute a shell command when Emacs starts.&quot;</span></span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a>  (call-process-shell-command <span class="st">&quot;open -g &#39;rectangle://execute-action?name=maximize&#39;&quot;</span> <span class="kw">nil</span> <span class="dv">0</span>))</span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a><span class="co">;; Add the function to the Emacs startup hook</span></span>
+<span id="cb47-7"><a href="#cb47-7" aria-hidden="true" tabindex="-1"></a>(add-hook <span class="dt">&#39;emacs-startup-hook</span> <span class="dt">&#39;rectangle-maximize</span>)</span></code></pre></div>
+<h1 id="notes-for-myself">Notes for myself</h1>
+<h2 id="doom-doctor-warnings.">Doom Doctor warnings.</h2>
+<h3
+id="the-installed-ripgrep-binary-was-not-built-with-support-for-pcre-lookaheads.">!
+The installed ripgrep binary was not built with support for PCRE
+lookaheads.</h3>
+<pre class="shell"><code>brew uninstall ripgrep
+brew install rust
+cargo install --features pcre2 ripgrep
+</code></pre>
+<h3
+id="the-installed-grep-binary-was-not-built-with-support-for-pcre-lookaheads.">!
+The installed grep binary was not built with support for PCRE
+lookaheads.</h3>
+<pre class="shell"><code>brew install grep
+# In .zshrc/.bashrc
+if [ -d &quot;$(brew --prefix)/opt/grep/libexec/gnubin&quot; ]; then
+    PATH=&quot;$(brew --prefix)/opt/grep/libexec/gnubin:$PATH&quot;
+fi
+</code></pre>
+<h3
+id="lang-sh-couldnt-find-shellcheck.-shell-script-linting-will-not-work">:lang
+sh ! Couldn't find shellcheck. Shell script linting will not work</h3>
+<pre class="shell"><code>npm install -g marked
+brew install shellcheck
+</code></pre>
+<h2
+id="to-make-latex-and-latex-export-work-the-code-snippet-below-have-to-be-excuted">to
+make latex and latex export work the code snippet below have to be
+excuted</h2>
+<pre class="shell"><code>brew install basictex
+cd /Library/TeX/texbin
+sudo tlmgr update --self
+sudo tlmgr install wrapfig
+sudo tlmgr install marvosym
+sudo tlmgr install wasysym
+sudo tlmgr install capt-of
+sudo tlmgr instal dvipng
+sudo tlmgr instal soul
+</code></pre>
+<h2 id="to-save-window-sitecauses-graphical-errors">to save window
+site(causes graphical errors)</h2>
+<div class="sourceCode" id="cb52" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="co">;; remember window position</span></span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>(desktop-save-mode <span class="dv">1</span>)</span></code></pre></div>
+<h2 id="disabling-tilde-outside-of-doom-emacs">Disabling tilde outside
+of doom emacs</h2>
+<div class="sourceCode" id="cb53" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>(remove-hook <span class="dt">&#39;text-mode-hook</span> <span class="op">#&#39;</span>vi-tilde-fringe-mode)</span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>(remove-hook <span class="dt">&#39;doom-first-buffer-hook</span> <span class="op">#&#39;</span>global-vi-tilde-fringe-mode)</span></code></pre></div>
+<h2 id="using-emacs-plus">Using emacs-plus</h2>
+<h3 id="installing">Installing</h3>
+<pre class="shell"><code>brew tap d12frosted/emacs-plus
+brew install emacs-plus --with-native-comp --with-imagemagick --with-retro-emacs-logo-icon
+</code></pre>
+<h3 id="background-service">Background service</h3>
+<pre class="shell"><code>#To start d12frosted/emacs-plus/emacs-plus@29 now and restart at login:
+
+brew services start d12frosted/emacs-plus/emacs-plus@29
+
+#Or, if you don&#39;t want/need a background service you can just run:
+
+/opt/homebrew/opt/emacs-plus@29/bin/emacs =fg-daemon
+</code></pre>
+<h2 id="to-only-show-todo-list-on-custom-agenda">To only show todo list
+on custom agenda</h2>
+<div class="sourceCode" id="cb56" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> org-agenda-custom-commands</span>
+<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>      &#39;((<span class="st">&quot;n&quot;</span> <span class="st">&quot;Agenda and all TODOs&quot;</span></span>
+<span id="cb56-3"><a href="#cb56-3" aria-hidden="true" tabindex="-1"></a>        ((alltodo <span class="st">&quot;&quot;</span>)</span>
+<span id="cb56-4"><a href="#cb56-4" aria-hidden="true" tabindex="-1"></a>         ))))</span></code></pre></div>
+<h1 id="testing">Testing</h1>
+<div class="sourceCode" id="cb57" data-org-language="emacs-lisp"><pre
+class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a>(defvar-local hidden-mode-line-mode <span class="kw">nil</span>)</span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>(define-minor-mode hidden-mode-line-mode</span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;Minor mode to hide the mode-line in the current buffer.&quot;</span></span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a>  :init-value <span class="kw">nil</span></span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a>  :global <span class="kw">t</span></span>
+<span id="cb57-7"><a href="#cb57-7" aria-hidden="true" tabindex="-1"></a>  :variable hidden-mode-line-mode</span>
+<span id="cb57-8"><a href="#cb57-8" aria-hidden="true" tabindex="-1"></a>  :group <span class="dt">&#39;editing-basics</span></span>
+<span id="cb57-9"><a href="#cb57-9" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">if</span> hidden-mode-line-mode</span>
+<span id="cb57-10"><a href="#cb57-10" aria-hidden="true" tabindex="-1"></a>      (<span class="kw">setq</span> hide-mode-line mode-line-format</span>
+<span id="cb57-11"><a href="#cb57-11" aria-hidden="true" tabindex="-1"></a>            mode-line-format <span class="kw">nil</span>)</span>
+<span id="cb57-12"><a href="#cb57-12" aria-hidden="true" tabindex="-1"></a>    (<span class="kw">setq</span> mode-line-format hide-mode-line</span>
+<span id="cb57-13"><a href="#cb57-13" aria-hidden="true" tabindex="-1"></a>          hide-mode-line <span class="kw">nil</span>))</span>
+<span id="cb57-14"><a href="#cb57-14" aria-hidden="true" tabindex="-1"></a>  (force-mode-line-update)</span>
+<span id="cb57-15"><a href="#cb57-15" aria-hidden="true" tabindex="-1"></a>  <span class="co">;; Apparently force-mode-line-update is not always enough to</span></span>
+<span id="cb57-16"><a href="#cb57-16" aria-hidden="true" tabindex="-1"></a>  <span class="co">;; redisplay the mode-line</span></span>
+<span id="cb57-17"><a href="#cb57-17" aria-hidden="true" tabindex="-1"></a>  (redraw-display)</span>
+<span id="cb57-18"><a href="#cb57-18" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">when</span> (<span class="kw">and</span> (called-interactively-p <span class="dt">&#39;interactive</span>)</span>
+<span id="cb57-19"><a href="#cb57-19" aria-hidden="true" tabindex="-1"></a>             hidden-mode-line-mode)</span>
+<span id="cb57-20"><a href="#cb57-20" aria-hidden="true" tabindex="-1"></a>    (run-with-idle-timer</span>
+<span id="cb57-21"><a href="#cb57-21" aria-hidden="true" tabindex="-1"></a>     <span class="dv">0</span> <span class="kw">nil</span> <span class="dt">&#39;message</span></span>
+<span id="cb57-22"><a href="#cb57-22" aria-hidden="true" tabindex="-1"></a>     (concat <span class="st">&quot;Hidden Mode Line Mode enabled.  &quot;</span></span>
+<span id="cb57-23"><a href="#cb57-23" aria-hidden="true" tabindex="-1"></a>             <span class="st">&quot;Use M-x hidden-mode-line-mode to make the mode-line appear.&quot;</span>))))</span></code></pre></div>
+</body>
+</html>

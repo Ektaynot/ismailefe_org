@@ -5,7 +5,7 @@ html {
   
   body {
     margin: 0 auto;
-    max-width: 36em;
+    max-width: 50em;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
@@ -16,6 +16,12 @@ html {
     font-kerning: normal;
   }
   
+  /* for computers */
+  p, li {
+    font-size: 16pt;
+  }
+  
+  /* for phones */
   @media (max-width: 600px) {
     body {
       font-size: 0.9em;
@@ -26,6 +32,9 @@ html {
     }
     h1 {
       font-size: 1.8em;
+    }
+    p, li {
+      font-size: 12pt;
     }
   }
   
@@ -53,8 +62,11 @@ html {
   
   p {
     margin: 1em 0;
+    
   }
   
+
+
   a,
   a:visited {
     color: #1a1a1a;
@@ -69,17 +81,11 @@ html {
     max-width: 100%;
   }
   
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3, h4, h5, h6 {
     margin-top: 1.4em;
   }
   
-  h5,
-  h6 {
+  h5, h6 {
     font-size: 1em;
     font-style: italic;
   }

@@ -1,6 +1,8 @@
 html {
-    color: #1a1a1a;
-    background-color: #fdfdfd;
+    color: #313131;
+    /* background-color: #fdfdfd; */
+    /* background-color: #f4f3ef; */
+    background-color: #FFFFFF;
   }
   
   body {
@@ -15,7 +17,7 @@ html {
     text-rendering: optimizeLegibility;
     font-kerning: normal;
   }
-  
+
   /* for computers */
   p, li {
     font-size: 16pt;

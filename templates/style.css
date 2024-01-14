@@ -22,7 +22,14 @@ html {
   p, li {
     font-size: 16pt;
   }
-  
+  a {
+    color:red;
+  }
+
+  #return-to-site {
+    text-align: center;
+    color: rgb(255, 114, 101);
+  }
   /* for phones */
   @media (max-width: 600px) {
     body {

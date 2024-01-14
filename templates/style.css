@@ -1,7 +1,7 @@
 html {
+    /* Changed */
     color: #313131;
-    /* background-color: #fdfdfd; */
-    /* background-color: #f4f3ef; */
+    /* Changed */
     background-color: #FFFFFF;
   }
   
@@ -22,10 +22,8 @@ html {
   p, li {
     font-size: 16pt;
   }
-  a {
-    color:red;
-  }
 
+  /* for adding color to the return to site hyperlink */
   #return-to-site {
     text-align: center;
     color: rgb(255, 114, 101);
@@ -42,6 +40,7 @@ html {
     h1 {
       font-size: 1.8em;
     }
+    /* added */
     p, li {
       font-size: 12pt;
     }

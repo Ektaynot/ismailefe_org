@@ -1,0 +1,53 @@
+#+title: My EDC Essentials.
+#+AUTHOR: İsmail Efe Top
+#+DATE: 2024-01-14
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+
+* What is EDC?
+
+EDC stands for every day carry, encompassing everything from your wallet and phone to various types of screwdrivers can be included in the EDC category.
+
+Even though everyone carries some stuff with them, there are people that take great pride in their EDC. We can find those people in [[https://www.reddit.com/r/EDC/][forums]] and [[https://youtu.be/BQJyHHBkFPg?si=Xt-NkxlRHMklMiXL][youtube]] videos. Those places can be a great starting point for people who want to give a little more effort to what they carry.
+
+
+* My EDC
+
+While mine might seem a little lacking and boring, it has been by far the most efficient setup for me.
+
+I will mostly write about the interesting stuff and give only the bare minimum for the normal stuff.
+
+** 📱
+I am using an iPhone, while the operating system is quite locked I love the polished iOS experience and the great ecosystem which I am a part of.
+
+** 🎧
+I am using the airpods pro 2nd gen. While expensive, they sound great and switching between my phone and my computer is stupid easy. Not having to deal with the unwanted small stuff and focusing on my creative projects is really important to me. Being in the apple ecosystem allows me to do that.
+
+** ⌚️
+I am using an old apple watch. I like tracking my sleep and exercises so that I can make adjustments. Also, seeing notifications without looking at my phone really comes in handy more than you might think.
+
+** 🪪
+Like most people, I used a lot of different wallets. My biggest problem with my old wallets were they size. Because of my different circumstances I need to carry lots of cards and photos with me. For my old wallets to carry those different cards they needed to be really bulky. I wanted a slim option, so I found the [[https://www.amazon.com/Front-Pocket-Wallet-Zippers-Minimalist/dp/B0C77NS29R][OneTigris]]. I can stuff a lot and not have to worry about them being lost. I carry the ones I frequently use in the front pockets. It really is the perfect wallet for me.
+
+** 🔑
+I carry the keys for my dormitory, nothing special.
+
+* My Backpack
+
+I like to use different bags in my backpack. That way nothing is lost inside my bag. I have a computer case with a big zipper pocket, a travel pouch, and an umbrella.
+** 🎒
+My backpack is a mid-size Herschel Little America. Because I carry my backpack everywhere, it needs to be light and comfortable. This bag is just that. It has no fancy trick. Just a light and small backpack. It's the perfect size for carry it everyday.
+
+** 💻
+This is probably the most important part of my life. I take notes for class, I program on it, I watch youtube. Basically most of my digital life is on here. I have a mba(2022) with 16 gigs of ram and 512 gigs of storage. I am coming from a linux laptop, It used to have 3 hours of battery use and the linux system would broke a couple of times a month. MacOS has the hackability of linux and it is crazy stable. I can easily say that this laptop suits my needs perfectly.
+
+** 💼
+While the most important use-case of my computer case is protecting my computer, it also holds a lot of important accessory like:
+- Logitech pebble
+- 70W USB-C Power Adapter
+- One Magsafe Cable
+- One Lighting Cable
+- a Baseus Presentation Remote
+- a Generic Type-C Hub
+
+** 👝
+I also have a vintage travel pouch. On one side I have a usb power adapter and a 3 headed power cable and on the other I have a small notebook and different pens. On the outer shell I house different kinds of medicines.

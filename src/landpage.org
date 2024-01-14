@@ -1,0 +1,11 @@
+* İsmail Efe's Blog Site
+
+Welcome to my second brain. I am planning to post my thoughts and class notes here.
+/This site was fully made by me using [[https://orgmode.org/][org-mode]] and [[https://pandoc.org/][pandoc]]./
+
+** Class Notes:
+- [[/class_notes/eds200/part_1/][EDS200 Part 1]]
+- [[/class_notes/eds200/part_2/][EDS200 Part 2]]
+
+** Blog Posts:
+- There aren't any right now, but I plan to add them in the future.

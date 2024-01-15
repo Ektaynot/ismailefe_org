@@ -6,33 +6,34 @@
 
 First of all, this post is directly inspired by [[https://xenodium.com/my-emacs-eye-candy/][Álvaro's]] work. I love his stuff and he has been a great inspiration for me. I suggest everyone to check out his stuff.
 
-In this post I am planning to walk you through my visual emacs setup, I will use the [[https://github.com/doomemacs/doomemacs][Doom Framework]]. There will be no explanation of [[https://www.gnu.org/software/emacs/][emacs]] or [[https://orgmode.org][org-mode]]. Also, I won't go into how my inner emacs setup works as I intent to make a blog post about that.
+
+In this post I am planning to walk you through my visual [[https://www.gnu.org/software/emacs/][Emacs]] setup, I will use the [[https://github.com/doomemacs/doomemacs][Doom Framework]]. I am planning on making a detail blog post about Emacs, [[https://orgmode.org/][org-mode]] and how I use them, because of this I will not go into explanation of what Emacs is. There are great sources about Emacs and org-mode on youtube. Until I make that post, you can explore the Emacs world freely.
 
 *Let's Start*
 
 * Installing Brew
-I will be using [[https://brew.sh/][brew]] to install emacs and it's dependencies.
+I will be using [[https://brew.sh/][brew]] to install Emacs and it's dependencies.
 
 #+begin_src sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 #+end_src
 
 * Installing Emacs
-I choosing the default cask emacs. I tried several different forks of mac emacs but all of them gave me poor performance on my m2 macbook.
+I choosing the default cask Emacs. I tried several different forks of mac Emacs but all of them gave me poor performance on my m2 macbook.
 
 #+begin_src sh
 brew install --cask emacs
 #+end_src
 
-*After installing do not start emacs.* Starting emacs will create an emacs profile, which will conflict with our doom profile.
+*After installing do not start Emacs.* Starting Emacs will create a profile, which will conflict with your doom profile.
 
 * Installing Doom
-Doom is a stable framework for emacs. You can considered like a base config file. It really makes emacs usable out-of-box.
+Doom is a stable framework for Emacs. You can considered like a base config file. It really makes Emacs usable out-of-box.
 #+begin_src sh
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 ~/.config/emacs/bin/doom install
 #+end_src
-And now we are ready to hack our emacs.
+And now we are ready to hack our Emacs.
 
 * Changing the theme
 I used to use the doom-dracula theme. But nowadays my favorite is the [[https://github.com/meritamen/emacs-kanagawa-theme][kanagawa theme]].

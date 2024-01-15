@@ -245,36 +245,36 @@
 href="https://xenodium.com/my-emacs-eye-candy/">Álvaro's</a> work. I
 love his stuff and he has been a great inspiration for me. I suggest
 everyone to check out his stuff.</p>
-<p>In this post I am planning to walk you through my visiual emacs
-setup, I will use the <a
-href="https://github.com/doomemacs/doomemacs">Doom Framework</a>. There
-will be no explaination of <a
-href="https://www.gnu.org/software/emacs/">emacs</a> or <a
-href="https://orgmode.org">org-mode</a>. Also, I won't go into how my
-inner emacs setup works as I intent to make a blog post about that.</p>
+<p>In this post I am planning to walk you through my visual <a
+href="https://www.gnu.org/software/emacs/">Emacs</a> setup, I will use
+the <a href="https://github.com/doomemacs/doomemacs">Doom Framework</a>.
+I am planning on making a detail blog post about Emacs, <a
+href="https://orgmode.org/">org-mode</a> and how I use them, because of
+this I will not go into explaination of what Emacs is. There are great
+sources about Emacs and org-mode on youtube. Until I make that post, you
+can explore the Emacs world freely.</p>
 <p><strong>Let's Start</strong></p>
-<h1 id="install-brew">Install Brew</h1>
-<p>I will be using <a href="https://brew.sh/">brew</a> to install emacs
+<h1 id="installing-brew">Installing Brew</h1>
+<p>I will be using <a href="https://brew.sh/">brew</a> to install Emacs
 and it's dependencies.</p>
 <div class="sourceCode" id="cb1" data-org-language="sh"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">/bin/bash</span> <span class="at">-c</span> <span class="st">&quot;</span><span class="va">$(</span><span class="ex">curl</span> <span class="at">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="va">)</span><span class="st">&quot;</span></span></code></pre></div>
-<h1 id="install-emacs">Install Emacs</h1>
-<p>I choosing the default cask emacs. I tried several different forks of
-mac emacs but all of them gave me poor performance on my m2 macbook.</p>
+<h1 id="installing-emacs">Installing Emacs</h1>
+<p>I choosing the default cask Emacs. I tried several different forks of
+mac Emacs but all of them gave me poor performance on my m2 macbook.</p>
 <div class="sourceCode" id="cb2" data-org-language="sh"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install <span class="at">--cask</span> emacs</span></code></pre></div>
-<p><strong>After installing do not start emacs.</strong> Starting emacs
-will create an emacs profile, which will conflict with our doom
-profile.</p>
-<h1 id="install-doom">Install Doom</h1>
-<p>Doom is a stable framework for emacs. You can considered like a base
-config file. It really makes emacs usable out-of-box.</p>
+<p><strong>After installing do not start Emacs.</strong> Starting Emacs
+will create a profile, which will conflict with your doom profile.</p>
+<h1 id="installing-doom">Installing Doom</h1>
+<p>Doom is a stable framework for Emacs. You can considered like a base
+config file. It really makes Emacs usable out-of-box.</p>
 <div class="sourceCode" id="cb3" data-org-language="sh"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone <span class="at">--depth</span> 1 https://github.com/doomemacs/doomemacs ~/.config/emacs</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">~/.config/emacs/bin/doom</span> install</span></code></pre></div>
-<p>And now we are ready to hack our emacs.</p>
+<p>And now we are ready to hack our Emacs.</p>
 <h1 id="changing-the-theme">Changing the theme</h1>
-<p>I used to use the doom-dracula theme. But nowdays my favorite is the
+<p>I used to use the doom-dracula theme. But nowadays my favorite is the
 <a href="https://github.com/meritamen/emacs-kanagawa-theme">kanagawa
 theme</a>.</p>
 <p>Add the below line to ~/.config/doom/package.el</p>
@@ -288,11 +288,11 @@ class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb5-
 href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a>.</p>
 <div class="sourceCode" id="cb6" data-org-language="emacs-lisp"><pre
 class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> doom-font (font-spec :family <span class="st">&quot;JetBrains Mono&quot;</span> :size <span class="dv">22</span>))</span></code></pre></div>
-<h1 id="enable-word-count">Enable Word Count</h1>
+<h1 id="enabling-word-count">Enabling Word Count</h1>
 <p>This puts a word count in the modeline.</p>
 <div class="sourceCode" id="cb7" data-org-language="emacs-lisp"><pre
 class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> doom-modeline-enable-word-count <span class="kw">t</span>)</span></code></pre></div>
-<h1 id="disable-hl-line-mode">Disable hl-line-mode</h1>
+<h1 id="disabling-hl-line-mode">Disabling hl-line-mode</h1>
 <p>'hl-line' makes the current line a different color. I don't like
 it.</p>
 <div class="sourceCode" id="cb8" data-org-language="emacs-lisp"><pre
@@ -303,7 +303,7 @@ text. <strong>Only works for mac.</strong></p>
 <div class="sourceCode" id="cb9" data-org-language="emacs-lisp"><pre
 class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> ns-use-proxy-icon <span class="kw">nil</span>)</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> frame-title-format <span class="kw">nil</span>)</span></code></pre></div>
-<h1 id="remove-the-tilde-signs">Remove the tilde signs</h1>
+<h1 id="removing-the-tilde-signs">Removing the tilde signs</h1>
 <p>There is an ugly tilde sign on empty lines by default. I really don't
 like it. You can remove it by commenting out the 'vi-tilde-fringe' line
 in ~/.config/doom/init.el</p>

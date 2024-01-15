@@ -22,10 +22,18 @@ html {
   p, li {
     font-size: 16pt;
   }
-
+  /* for computers */
+  #mailme {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10em;
+  }
   /* for adding color to the return to site hyperlink */
   #return-to-site {
     text-align: center;
+  }
+  #return-to-site a{
+    font-size: 20px;
     color: rgb(255, 114, 101);
   }
   /* for phones */
@@ -44,6 +52,15 @@ html {
     p, li {
       font-size: 12pt;
     }
+    #mailme {
+      text-align: center;
+      font-size: 16px;
+      margin-top: 5em;}
+    #return-to-site a{
+        font-size: 18px;
+        color: rgb(255, 114, 101);
+      }
+    
   }
   
   @media print {

@@ -63,6 +63,9 @@ html {
     p, li {
       font-size: 12pt;
     }
+    .bottom-header {
+      margin-top: 5em;
+    }
     .bottom-header-link {
       font-size: 16px;
     }

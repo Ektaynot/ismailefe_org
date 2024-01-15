@@ -1,0 +1,19 @@
+#+title: About Me.
+#+AUTHOR: İsmail Efe Top
+#+DATE: 2024-01-15
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗺️</text></svg>">
+#+HTML_HEAD: <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
+
+My name is İsmail Efe Top. I'm a first year Foreign Language Education student at [[https://www.metu.edu.tr/][METU]].
+
+I like discovering new places, programming and hacking the programs I use. Some of my favorite programs are...
+
+- [[https://www.gnu.org/software/emacs/][Emacs]] for writing and reading.
+- [[https://sw.kovidgoyal.net/kitty/][Kitty]] for terminal emulation.
+- [[https://bear.app][Bear]] for taking short notes.
+- [[https://www.zotero.org/][Zotero]] for collecting papers and making citations.
+- [[https://arc.net/][Arc]] for web browsing.
+
+Other than that, I am a proud owner of a [[https://happyhackingkb.com/][HHKB]], my favorite drink is Ice Caramel Latte, and my favorite place is the METU campus.

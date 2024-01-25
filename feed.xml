@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>İsmail Efe's Blog Site</title>
 <generator>Emacs webfeeder.el</generator>
 <link href="https://ismailefe.org/"/>
-<link href="https://ismailefe.org/atom.xml" rel="self"/>
-<id>https://ismailefe.org/atom.xml</id>
-<updated>2024-01-26T01:40:35+03:00</updated>
+<link href="https://ismailefe.org/feed.xml" rel="self"/>
+<id>https://ismailefe.org/feed.xml</id>
+<updated>2024-01-26T01:45:24+03:00</updated>
 <entry>
   <title>My Favorite Themes</title>
   <author><name>İsmail Efe Top</name></author>

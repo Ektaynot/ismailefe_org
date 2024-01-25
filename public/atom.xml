@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>İsmail Efe's Blog Site</title>
+<generator>Emacs webfeeder.el</generator>
+<link href="https://ismailefe.org/"/>
+<link href="https://ismailefe.org/atom.xml" rel="self"/>
+<id>https://ismailefe.org/atom.xml</id>
+<updated>2024-01-26T01:40:35+03:00</updated>
+<entry>
+  <title>My Favorite Themes</title>
+  <author><name>İsmail Efe Top</name></author>
+  <content type="html"><![CDATA[<nil></nil>]]></content>
+  <link href="https://ismailefe.org/~/projects/org-blog/ismailefe_org/blog/favorite_themes/index.html"/>
+  <id>https://ismailefe.org/~/projects/org-blog/ismailefe_org/blog/favorite_themes/index.html</id>
+  <updated>2024-01-25T00:00:00+03:00</updated>
+</entry>
+<entry>
+  <title>My Top Album Picks For 2023</title>
+  <author><name>İsmail Efe Top</name></author>
+  <content type="html"><![CDATA[<nil></nil>]]></content>
+  <link href="https://ismailefe.org/~/projects/org-blog/ismailefe_org/blog/best_albums_2023/index.html"/>
+  <id>https://ismailefe.org/~/projects/org-blog/ismailefe_org/blog/best_albums_2023/index.html</id>
+  <updated>2024-01-18T00:00:00+03:00</updated>
+</entry>
+<entry>
+  <title>My EDC Essentials.</title>
+  <author><name>İsmail Efe Top</name></author>
+  <content type="html"><![CDATA[<nil></nil>]]></content>
+  <link href="https://ismailefe.org/~/projects/org-blog/ismailefe_org/blog/my_edc/index.html"/>
+  <id>https://ismailefe.org/~/projects/org-blog/ismailefe_org/blog/my_edc/index.html</id>
+  <updated>2024-01-14T00:00:00+03:00</updated>
+</entry>
+<entry>
+  <title>My Emacs Eye Candy</title>
+  <author><name>İsmail Efe Top</name></author>
+  <content type="html"><![CDATA[<nil></nil>]]></content>
+  <link href="https://ismailefe.org/~/projects/org-blog/ismailefe_org/blog/eye_candy/index.html"/>
+  <id>https://ismailefe.org/~/projects/org-blog/ismailefe_org/blog/eye_candy/index.html</id>
+  <updated>2024-01-14T00:00:00+03:00</updated>
+</entry>
+</feed>

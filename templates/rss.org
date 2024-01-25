@@ -1,0 +1,15 @@
+#+title: rss
+#+AUTHOR: İsmail Efe Top
+#+DATE: 2024-01-26
+
+#+begin_src emacs-lisp
+(webfeeder-build
+ "atom.xml"
+ "../public"
+ "https://ismailefe.org/"
+ '("~/projects/org-blog/ismailefe_org/blog/my_edc/index.html" "~/projects/org-blog/ismailefe_org/blog/eye_candy/index.html" "~/projects/org-blog/ismailefe_org/blog/best_albums_2023/index.html" "~/projects/org-blog/ismailefe_org/blog/favorite_themes/index.html")
+ :title "İsmail Efe's Blog Site"
+ :description "İsmail Efe's Second Brain")
+#+end_src
+
+#+RESULTS:

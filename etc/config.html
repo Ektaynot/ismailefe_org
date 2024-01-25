@@ -239,7 +239,7 @@
 <body>
 <header id="title-block-header">
 <h1 class="title">İsmail Efe Top's Doom Emacs Config</h1>
-<p class="author">İsmail Efe Top</p>
+<p class="author"><a href="mailto:ismailefetop@gmail.com">İsmail Efe Top</a></p>
 </header>
 <h1 id="one-liners">One Liners</h1>
 <h2 id="my-contact-information">My contact information</h2>
@@ -358,7 +358,7 @@ class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb26
 <span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>        (todo   . <span class="st">&quot; &quot;</span>)</span>
 <span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>        (tags   . <span class="st">&quot; %i %-12:c&quot;</span>)</span>
 <span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>        (<span class="kw">search</span> . <span class="st">&quot; %i %-12:c&quot;</span>)))</span></code></pre></div>
-<h2 id="to-open-emacs-with-orgmode">to open emacs with orgmode</h2>
+<h2 id="to-open-emacs-with-orgmode">to open Emacs with orgmode</h2>
 <h3 id="define-the-keyboard-shortcut-as-a-string">Define the keyboard
 shortcut as a string</h3>
 <div class="sourceCode" id="cb27" data-org-language="emacs-lisp"><pre
@@ -515,7 +515,7 @@ class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb43
 <div class="sourceCode" id="cb44" data-org-language="emacs-lisp"><pre
 class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>(after! gcmh</span>
 <span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">setq</span> gcmh-high-cons-threshold (<span class="op">*</span> <span class="dv">64</span> <span class="dv">1048576</span>)))</span></code></pre></div>
-<h1 id="make-emacs-silent">Make emacs silent</h1>
+<h1 id="make-emacs-silent">Make Emacs silent</h1>
 <div class="sourceCode" id="cb45" data-org-language="emacs-lisp"><pre
 class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> byte-compile-warnings &#39;(<span class="kw">not</span> obsolete))</span>
 <span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> warning-suppress-log-types &#39;((comp) (bytecomp)))</span>
@@ -586,8 +586,7 @@ site(causes graphical errors)</h2>
 <div class="sourceCode" id="cb52" data-org-language="emacs-lisp"><pre
 class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="co">;; remember window position</span></span>
 <span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>(desktop-save-mode <span class="dv">1</span>)</span></code></pre></div>
-<h2 id="disabling-tilde-outside-of-doom-emacs">Disabling tilde outside
-of doom emacs</h2>
+<h2 id="disabling-tilde-outside-of-doom-emacs">Disabling tilde outside of Doom Emacs</h2>
 <div class="sourceCode" id="cb53" data-org-language="emacs-lisp"><pre
 class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>(remove-hook <span class="dt">&#39;text-mode-hook</span> <span class="op">#&#39;</span>vi-tilde-fringe-mode)</span>
 <span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>(remove-hook <span class="dt">&#39;doom-first-buffer-hook</span> <span class="op">#&#39;</span>global-vi-tilde-fringe-mode)</span></code></pre></div>

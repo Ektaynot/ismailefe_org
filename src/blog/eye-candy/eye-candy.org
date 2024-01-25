@@ -20,7 +20,7 @@ I will be using [[https://brew.sh/][brew]] to install Emacs and it's dependencie
 #+end_src
 
 * Installing Emacs
-I choosing the default cask Emacs. I tried several different forks of mac Emacs but all of them gave me poor performance on my m2 macbook.
+I am choosing the default cask for Emacs. I tried several different forks of mac Emacs but all of them gave me poor performance on my m2 macbook.
 
 #+begin_src sh
 brew install --cask emacs

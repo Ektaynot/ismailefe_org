@@ -41,7 +41,10 @@ html {
     display: flex;
     padding: 10px;
 }
-
+footer {
+  padding: 16pt;
+  text-align: center;
+}
 .bottom-header-link {
   font-size: 20px;
 }

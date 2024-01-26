@@ -5,7 +5,7 @@
 <link>https://ismailefe.org/</link>
 <description>İsmail Efe's Second Brain.</description>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 26 Jan 2024 17:50:18 +0300</lastBuildDate>
+<lastBuildDate>Fri, 26 Jan 2024 17:53:19 +0300</lastBuildDate>
 <item>
   <title>My EDC Essentials.</title>
   <description><![CDATA[<!DOCTYPE html>
@@ -222,9 +222,6 @@ for any commands.</p>
 <h1 id="changing-the-icon">Changing the Icon</h1>
 <p>Lastly, I like to use this <a href="https://commons.wikimedia.org/wiki/File:Emacs-logo.svg">Icon</a>.
 It is quite old but it suits my style.</p>
-<div id="return-to-site">
-<p><a href="/">Return to Site</a></p>
-</div>
 </body></html>]]></description>
   <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
   <link>https://ismailefe.org/blog/eye_candy/index.html</link>

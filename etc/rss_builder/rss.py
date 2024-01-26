@@ -11,7 +11,7 @@ blog_posts = ["/blog/my_edc/index.html",
 
 update_time = str(datetime.now().strftime('%Y-%m-%dT%H:%M:%S%z'))+'+03:00'
 
-feed_output = "/Users/ismailefetop/projects/org-blog/ismailefe_org/etc/rss_builder/feed.xml"
+feed_output = "/Users/ismailefetop/projects/org-blog/ismailefe_org/feed.xml"
 xml_file = open(feed_output, "w")
 
 xml_file.write(

@@ -3,10 +3,10 @@
 <title>İsmail Efe's Blog Site</title>
 <description>İsmail Efe's Blog Site</description>
 <link>https://ismailefe.org</link>
-<lastBuildDate>2024-01-26T13:44:34+03:00</lastBuildDate>
+<lastBuildDate>2024-01-26T13:56:00+03:00</lastBuildDate>
 <item>
   <title>My EDC Essentials.</title>
-  <author><name>İsmail Efe Top</name></author>
+  <author>İsmail Efe Top</author>
   <description><body>
 <header id="title-block-header">
 <h1 class="title">My EDC Essentials.</h1>
@@ -121,7 +121,7 @@
 
 <item>
   <title>My Emacs Eye Candy</title>
-  <author><name>İsmail Efe Top</name></author>
+  <author>İsmail Efe Top</author>
   <description><body>
 <header id="title-block-header">
 <h1 class="title">My Emacs Eye Candy</h1>
@@ -228,7 +228,7 @@ It is quite old but it suits my style.</p>
 
 <item>
   <title>My Top Album Picks For 2023</title>
-  <author><name>İsmail Efe Top</name></author>
+  <author>İsmail Efe Top</author>
   <description><body>
 <header id="title-block-header">
 <h1 class="title">My Top Album Picks For 2023</h1>
@@ -355,7 +355,7 @@ It is quite old but it suits my style.</p>
 
 <item>
   <title>My Favorite Themes</title>
-  <author><name>İsmail Efe Top</name></author>
+  <author>İsmail Efe Top</author>
   <description><body>
 <header id="title-block-header">
 <h1 class="title">My Favorite Themes</h1>
@@ -419,5 +419,6 @@ It is quite old but it suits my style.</p>
   <link>https://ismailefe.org/blog/favorite_themes/index.html</link>
   <pubDate>2024-01-25T00:00:00+03:00</pubDate>
 </item>
+
 </channel>
 </rss>

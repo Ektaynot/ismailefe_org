@@ -20,7 +20,6 @@ f'''<rss version="2.0">
 <title>İsmail Efe's Blog Site</title>
 <description>İsmail Efe's Blog Site</description>
 <link>https://ismailefe.org</link>
-<atom:link href="http://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>{update_time}</lastBuildDate>'''
 )
 
@@ -60,7 +59,7 @@ for post in blog_posts:
     xml_file.write(f'''
 <item>
   <title>{post_dictionary["title"]}</title>
-  <author><name>{post_dictionary["author"]}</name></author>
+  <author>{post_dictionary["author"]}</author>
   <description>{post_dictionary["body_html"]}</description>
   <link>{website_header+post}</link>
   <pubDate>{post_dictionary["date"]}T00:00:00+03:00</pubDate>

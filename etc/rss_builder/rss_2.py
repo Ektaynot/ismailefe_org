@@ -56,10 +56,10 @@ def parse_html(filename_arg):
 for post in blog_posts:
     post_dictionary = parse_html(system_header+post)
     xml_file = open(feed_output, "a")
+    # <author>{post_dictionary["author"]}</author>
     xml_file.write(f'''
 <item>
   <title>{post_dictionary["title"]}</title>
-  <author>{post_dictionary["author"]}</author>
   <description>{post_dictionary["body_html"]}</description>
   <link>{website_header+post}</link>
   <pubDate>{post_dictionary["date"]}T00:00:00+03:00</pubDate>

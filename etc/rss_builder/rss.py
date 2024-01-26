@@ -43,15 +43,11 @@ def parse_html(filename_arg):
     date_tag = soup.find(class_='date')
     date = date_tag.text if date_tag else None
 
-    # Extract author (assuming author is in a <meta> tag with name="author")
-    author_tag = soup.find('meta', {'name': 'author'})
-    author = author_tag['content'] if author_tag and 'content' in author_tag.attrs else None
-
     # Extract body content as HTML
     body_tag = soup.body
     body_html = str(body_tag) if body_tag else None
 
-    post_dict = {"title":title,"date":date,"author":author,"body_html":body_html}
+    post_dict = {"title":title,"date":date,"body_html":body_html}
 
     return post_dict
 

@@ -71,6 +71,5 @@ for post in blog_posts:
 xml_file = open(feed_output, "a")
 xml_file.write('''
 </channel>
-</feed>
-''')
+</feed>''')
 xml_file.close()

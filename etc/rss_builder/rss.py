@@ -51,7 +51,6 @@ def parse_html(filename_arg):
     body_html = str(body_tag) if body_tag else None
 
     post_dict = {"title":title,"date":date,"author":author,"body_html":body_html}
-    print(post_dict)
 
     return post_dict
 
@@ -62,7 +61,7 @@ for post in blog_posts:
 <entry>
   <title>{post_dictionary["title"]}</title>
   <author><name>{post_dictionary["author"]}</name></author>
-  <content type="html"><![CDATA[{post_dictionary["body_html"]}]]></content>
+  <description type="html"><![CDATA[{post_dictionary["body_html"]}]]></description>
   <link href="{website_header+post}"/>
   <id>{website_header+post}</id>
   <updated>{post_dictionary["date"]}T00:00:00+03:00</updated>

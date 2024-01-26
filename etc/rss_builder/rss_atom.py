@@ -16,10 +16,11 @@ xml_file = open(feed_output, "w")
 
 xml_file.write(
 f'''<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>İsmail Efe's Blog Site</title>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>İsmail Efe's Blog Site</title>
 <generator>Custom Generator</generator>
 <link href="https://ismailefe.org/"/>
-<link href="https://ismailefe.org/feed.xml" rel="self"/>
+<link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
 <id>https://ismailefe.org/feed.xml</id>
 <updated>{update_time}</updated>'''
 )

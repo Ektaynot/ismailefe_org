@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
 <title>İsmail Efe's Blog Site</title>
-<generator>Custom Generator</generator>
-<link href="https://ismailefe.org/"/>
-<link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<id>https://ismailefe.org/feed.xml</id>
-<updated>2024-01-26T14:21:35+03:00</updated>
-<entry>
+<link>https://ismailefe.org/</link>
+<description>İsmail Efe's Second Brain.</description>
+<atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
+<lastBuildDate>Fri, 26 Jan 2024 17:25:25 +0300</lastBuildDate>
+<item>
   <title>My EDC Essentials.</title>
-  <author><name>İsmail Efe Top</name></author>
-  <content type="text/html"><![CDATA[<!DOCTYPE html>
+  <description><![CDATA[<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
 <header id="title-block-header">
 <h1 class="title">My EDC Essentials.</h1>
@@ -117,16 +116,16 @@
 <div id="return-to-site">
 <p><a href="/">Return to Site</a></p>
 </div>
-</body></html>]]></content>
-  <link href="https://ismailefe.org/blog/my_edc/index.html"/>
-  <id>https://ismailefe.org/blog/my_edc/index.html</id>
-  <updated>2024-01-14T00:00:00+03:00</updated>
-</entry>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/my_edc/index.html</link>
+  <guid>https://ismailefe.org/blog/my_edc/index.html</guid>
+  <pubDate>Sun, 14 Jan 2024 00:00:00 +0300</pubDate>
+</item>
 
-<entry>
+<item>
   <title>My Emacs Eye Candy</title>
-  <author><name>İsmail Efe Top</name></author>
-  <content type="text/html"><![CDATA[<!DOCTYPE html>
+  <description><![CDATA[<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
 <header id="title-block-header">
 <h1 class="title">My Emacs Eye Candy</h1>
@@ -226,16 +225,16 @@ It is quite old but it suits my style.</p>
 <div id="return-to-site">
 <p><a href="/">Return to Site</a></p>
 </div>
-</body></html>]]></content>
-  <link href="https://ismailefe.org/blog/eye_candy/index.html"/>
-  <id>https://ismailefe.org/blog/eye_candy/index.html</id>
-  <updated>2024-01-14T00:00:00+03:00</updated>
-</entry>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/eye_candy/index.html</link>
+  <guid>https://ismailefe.org/blog/eye_candy/index.html</guid>
+  <pubDate>Sun, 14 Jan 2024 00:00:00 +0300</pubDate>
+</item>
 
-<entry>
+<item>
   <title>My Top Album Picks For 2023</title>
-  <author><name>İsmail Efe Top</name></author>
-  <content type="text/html"><![CDATA[<!DOCTYPE html>
+  <description><![CDATA[<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
 <header id="title-block-header">
 <h1 class="title">My Top Album Picks For 2023</h1>
@@ -355,16 +354,16 @@ It is quite old but it suits my style.</p>
 <div id="return-to-site">
 <p><a href="/">Return to Site</a></p>
 </div>
-</body></html>]]></content>
-  <link href="https://ismailefe.org/blog/best_albums_2023/index.html"/>
-  <id>https://ismailefe.org/blog/best_albums_2023/index.html</id>
-  <updated>2024-01-18T00:00:00+03:00</updated>
-</entry>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/best_albums_2023/index.html</link>
+  <guid>https://ismailefe.org/blog/best_albums_2023/index.html</guid>
+  <pubDate>Thu, 18 Jan 2024 00:00:00 +0300</pubDate>
+</item>
 
-<entry>
+<item>
   <title>My Favorite Themes</title>
-  <author><name>İsmail Efe Top</name></author>
-  <content type="text/html"><![CDATA[<!DOCTYPE html>
+  <description><![CDATA[<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
 <header id="title-block-header">
 <h1 class="title">My Favorite Themes</h1>
@@ -424,9 +423,12 @@ It is quite old but it suits my style.</p>
 <div id="return-to-site">
 <p><a href="/">Return to Site</a></p>
 </div>
-</body></html>]]></content>
-  <link href="https://ismailefe.org/blog/favorite_themes/index.html"/>
-  <id>https://ismailefe.org/blog/favorite_themes/index.html</id>
-  <updated>2024-01-25T00:00:00+03:00</updated>
-</entry>
-</feed>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/favorite_themes/index.html</link>
+  <guid>https://ismailefe.org/blog/favorite_themes/index.html</guid>
+  <pubDate>Thu, 25 Jan 2024 00:00:00 +0300</pubDate>
+</item>
+
+</channel>
+</rss>

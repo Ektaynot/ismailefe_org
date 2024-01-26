@@ -9,17 +9,19 @@ blog_posts = ["/blog/my_edc/index.html",
               "/blog/favorite_themes/index.html"
               ]
 
-update_time = str(datetime.now().strftime('%Y-%m-%dT%H:%M:%S%z'))+'+03:00'
+update_time = str(datetime.now().strftime('%a, %d %b %Y %H:%M:%S'))+' +0300'
 
 feed_output = "/Users/ismailefetop/projects/org-blog/ismailefe_org/feed.xml"
 xml_file = open(feed_output, "w")
 
 xml_file.write(
-f'''<rss version="2.0">
+f'''<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>İsmail Efe's Blog Site</title>
-<description>İsmail Efe's Blog Site</description>
-<link>https://ismailefe.org</link>
+<link>https://ismailefe.org/</link>
+<description>İsmail Efe's Second Brain.</description>
+<atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>{update_time}</lastBuildDate>'''
 )
 
@@ -53,16 +55,27 @@ def parse_html(filename_arg):
 
     return post_dict
 
+def format_date(input_date):
+    # Convert input date string to a datetime object
+    input_datetime = datetime.strptime(input_date, '%Y-%m-%d')
+
+    # Format the datetime object to the desired string format
+    formatted_date = input_datetime.strftime('%a, %d %b %Y')
+
+    return formatted_date
+
 for post in blog_posts:
     post_dictionary = parse_html(system_header+post)
     xml_file = open(feed_output, "a")
-    # <author>{post_dictionary["author"]}</author>
     xml_file.write(f'''
 <item>
   <title>{post_dictionary["title"]}</title>
-  <description>{post_dictionary["body_html"]}</description>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">{post_dictionary["body_html"]}</html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
   <link>{website_header+post}</link>
-  <pubDate>{post_dictionary["date"]}T00:00:00+03:00</pubDate>
+  <guid>{website_header+post}</guid>
+  <pubDate>{format_date(post_dictionary["date"])} 00:00:00 +0300</pubDate>
 </item>
 ''')
     xml_file.close()

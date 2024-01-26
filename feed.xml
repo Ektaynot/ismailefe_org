@@ -4,11 +4,11 @@
 <link href="https://ismailefe.org/"/>
 <link href="https://ismailefe.org/feed.xml" rel="self"/>
 <id>https://ismailefe.org/feed.xml</id>
-<updated>2024-01-26T13:09:35+03:00</updated>
+<updated>2024-01-26T13:14:56+03:00</updated>
 <entry>
   <title>My EDC Essentials.</title>
   <author><name>İsmail Efe Top</name></author>
-  <description type="html"><![CDATA[<body>
+  <content type="html"><![CDATA[<body>
 <header id="title-block-header">
 <h1 class="title">My EDC Essentials.</h1>
 <p class="author">
@@ -115,7 +115,7 @@
 <div id="return-to-site">
 <p><a href="/">Return to Site</a></p>
 </div>
-</body>]]></description>
+</body>]]></content>
   <link href="https://ismailefe.org/blog/my_edc/index.html"/>
   <id>https://ismailefe.org/blog/my_edc/index.html</id>
   <updated>2024-01-14T00:00:00+03:00</updated>
@@ -124,7 +124,7 @@
 <entry>
   <title>My Emacs Eye Candy</title>
   <author><name>İsmail Efe Top</name></author>
-  <description type="html"><![CDATA[<body>
+  <content type="html"><![CDATA[<body>
 <header id="title-block-header">
 <h1 class="title">My Emacs Eye Candy</h1>
 <p class="author"><a href="mailto:ismailefetop@gmail.com">İsmail Efe Top</a></p>
@@ -223,7 +223,7 @@ It is quite old but it suits my style.</p>
 <div id="return-to-site">
 <p><a href="/">Return to Site</a></p>
 </div>
-</body>]]></description>
+</body>]]></content>
   <link href="https://ismailefe.org/blog/eye_candy/index.html"/>
   <id>https://ismailefe.org/blog/eye_candy/index.html</id>
   <updated>2024-01-14T00:00:00+03:00</updated>
@@ -232,7 +232,7 @@ It is quite old but it suits my style.</p>
 <entry>
   <title>My Top Album Picks For 2023</title>
   <author><name>İsmail Efe Top</name></author>
-  <description type="html"><![CDATA[<body>
+  <content type="html"><![CDATA[<body>
 <header id="title-block-header">
 <h1 class="title">My Top Album Picks For 2023</h1>
 <p class="author"><a href="mailto:ismailefetop@gmail.com">İsmail Efe Top</a></p>
@@ -351,7 +351,7 @@ It is quite old but it suits my style.</p>
 <div id="return-to-site">
 <p><a href="/">Return to Site</a></p>
 </div>
-</body>]]></description>
+</body>]]></content>
   <link href="https://ismailefe.org/blog/best_albums_2023/index.html"/>
   <id>https://ismailefe.org/blog/best_albums_2023/index.html</id>
   <updated>2024-01-18T00:00:00+03:00</updated>
@@ -360,7 +360,7 @@ It is quite old but it suits my style.</p>
 <entry>
   <title>My Favorite Themes</title>
   <author><name>İsmail Efe Top</name></author>
-  <description type="html"><![CDATA[<body>
+  <content type="html"><![CDATA[<body>
 <header id="title-block-header">
 <h1 class="title">My Favorite Themes</h1>
 <p class="author"><a href="mailto:ismailefetop@gmail.com">İsmail Efe Top</a></p>
@@ -419,7 +419,7 @@ It is quite old but it suits my style.</p>
 <div id="return-to-site">
 <p><a href="/">Return to Site</a></p>
 </div>
-</body>]]></description>
+</body>]]></content>
   <link href="https://ismailefe.org/blog/favorite_themes/index.html"/>
   <id>https://ismailefe.org/blog/favorite_themes/index.html</id>
   <updated>2024-01-25T00:00:00+03:00</updated>

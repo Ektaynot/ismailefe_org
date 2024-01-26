@@ -62,7 +62,8 @@ for post in blog_posts:
 <entry>
   <title>{post_dictionary["title"]}</title>
   <author><name>{post_dictionary["author"]}</name></author>
-  <content type="text/html"><![CDATA[{post_dictionary["body_html"]}]]></content>
+  <content type="text/html"><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">{post_dictionary["body_html"]}</html>]]></content>
   <link href="{website_header+post}"/>
   <id>{website_header+post}</id>
   <updated>{post_dictionary["date"]}T00:00:00+03:00</updated>

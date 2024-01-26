@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 
 system_header = "/Users/ismailefetop/projects/org-blog/ismailefe_org"
 website_header= "https://ismailefe.org"
-blog_posts = ["/blog/my_edc/index.html", 
-              "/blog/eye_candy/index.html", 
-              "/blog/best_albums_2023/index.html", 
+blog_posts = ["/blog/my_edc/index.html",
+              "/blog/eye_candy/index.html",
+              "/blog/best_albums_2023/index.html",
               "/blog/favorite_themes/index.html"
               ]
 

@@ -19,7 +19,10 @@ html {
 
   /* for computers */
   p, li {
-    font-size: 16pt;
+    font-size: 17pt;
+  }
+  q {
+    font-size: 15pt;
   }
   /* for computers */
   #mailme {
@@ -63,6 +66,9 @@ footer {
     }
     /* added */
     p, li {
+      font-size: 14pt;
+    }
+    q {
       font-size: 12pt;
     }
     .bottom-header {

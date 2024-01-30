@@ -12,9 +12,14 @@
 - Leadership
 - Public Speaking
 - Problem Solving
-- Coding
-- Office Programs
 - Time and task managment
+** Languages
+- Native in Turkish
+- Fluent in English
+** Computer Skills
+- Very knowledable in GNU/Linux, Git, Emacs
+- Comfortable in Microsoft Office programs
+- Fluent in python and bash
 -----
 * Interests
 - Open-Source Software

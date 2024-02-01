@@ -115,7 +115,9 @@ footer {
 
   a,
   a:visited {
-    color: #1a1a1a;
+    color: #8294C4;
+    text-decoration: none;
+
   }
   
   img {

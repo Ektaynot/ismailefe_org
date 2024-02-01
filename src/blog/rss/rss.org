@@ -1,0 +1,147 @@
+#+title: RSS Solutions
+#+AUTHOR: İsmail Efe Top
+#+DATE: 2024-02-01
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗺️</text></svg>">
+#+HTML_HEAD: <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
+
+* My problem
+I love reading personal blogs, since I love them so much I decided to make one myself a couple of weeks ago.
+
+There were a lot of framework projects for personal blogs like [[https://gohugo.io/][hugo]], [[https://astro.build/][Astro JS]] and [[https://jekyllrb.com/][Jekyll]]. But for different reasons I found them quite restrictive. Since I was already using Emacs for most of my writing I thought I could use org-mode to write blog posts and use pandoc to convert them to HTML. It worked quite well. This is blog is the result of that. But this method has it's downsides, you have to do some manual labor. And this includes RSS.
+
+* RSS
+RSS is *"a standardized system for the distribution of content from an online publisher."* In a nutshell, it is a file you host that has all the important metadata like what are the posts in your blog, who wrote them, and what are the posts about.
+
+The frameworks I mention have solutions for automating the generation of RSS files. I also found a solution that works for exactly what I do, [[https://github.com/emacsmirror/webfeeder][webfeeder]]. With the webfeeder I was able to achieve the bare minimum, but anything more than that required a more extensive knowledge of the lisp language.
+
+After all this, I felt like I had to dive deeper to RSS. I already had a basic understanding, but looking at the RSS feeds of different sites gave me the knowledge and the courage to write a script that automated RSS generation.
+
+* Basics of RSS
+
+RSS is simply a big nested XML file. You start by declaring the usage and the version of the file.
+#+begin_src xml
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+#+end_src
+Then you open a channel tag and give your basic information.
+#+begin_src xml
+<channel>
+<title>İsmail Efe's Blog Site</title>
+<link>https://ismailefe.org/</link>
+<description>İsmail Efe's Second Brain.</description>
+<atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
+<lastBuildDate>Thu, 01 Feb 2024 11:27:51 +0300</lastBuildDate>
+#+end_src
+Now we can start giving it the key items. These are going to be your posts. I am going to give you an example.
+#+begin_src xml
+<item>
+<title>My EDC Essentials.</title>
+<description>
+<![CDATA[ <!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>YOUR HTML CONTENT</body></html> ]]>
+</description>
+<author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+<link>https://ismailefe.org/blog/my_edc/index.html</link>
+<guid>https://ismailefe.org/blog/my_edc/index.html</guid>
+<pubDate>Sun, 14 Jan 2024 00:00:00 +0300</pubDate>
+</item>
+#+end_src
+Let's tie the loose ends.
+#+begin_src xml
+</channel>
+</rss>
+#+end_src
+This is what a basic RSS file for a blog looks like.
+
+* Automation
+I wanted to write this script in rust but I am still learning, so I decided to use python for this. Here is what I did.
+
+#+begin_src python
+from datetime import datetime
+from bs4 import BeautifulSoup
+
+system_header = "/Users/ismailefetop/projects/org-blog/ismailefe_org"
+website_header= "https://ismailefe.org"
+blog_posts = ["/blog/my_edc/index.html",
+              "/blog/eye_candy/index.html",
+              "/blog/best_albums_2023/index.html",
+              "/blog/favorite_themes/index.html"
+              ]
+
+update_time = str(datetime.now().strftime('%a, %d %b %Y %H:%M:%S'))+' +0300'
+
+feed_output = "/Users/ismailefetop/projects/org-blog/ismailefe_org/feed.xml"
+xml_file = open(feed_output, "w")
+
+xml_file.write(
+f'''<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>İsmail Efe's Blog Site</title>
+<link>https://ismailefe.org/</link>
+<description>İsmail Efe's Second Brain.</description>
+<atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
+<lastBuildDate>{update_time}</lastBuildDate>'''
+)
+
+xml_file.close()
+
+# Below function is written by ChatGPT.
+def parse_html(filename_arg):
+    # Read the HTML file
+    with open(filename_arg, 'r', encoding='utf-8') as file:
+        html_content = file.read()
+
+    # Parse the HTML content using BeautifulSoup
+    soup = BeautifulSoup(html_content, 'html.parser')
+
+    # Extract title
+    title_tag = soup.find('title')
+    title = title_tag.text if title_tag else None
+
+    # Extract date (assuming date is in an element with class="date")
+    date_tag = soup.find(class_='date')
+    date = date_tag.text if date_tag else None
+
+    # Extract body content as HTML
+    body_tag = soup.body
+    body_html = str(body_tag) if body_tag else None
+
+    post_dict = {"title":title,"date":date,"body_html":body_html}
+
+    return post_dict
+
+# Below function is written by ChatGPT.
+def format_date(input_date):
+    # Convert input date string to a datetime object
+    input_datetime = datetime.strptime(input_date, '%Y-%m-%d')
+
+    # Format the datetime object to the desired string format
+    formatted_date = input_datetime.strftime('%a, %d %b %Y')
+
+    return formatted_date
+
+for post in blog_posts:
+    post_dictionary = parse_html(system_header+post)
+    xml_file = open(feed_output, "a")
+    xml_file.write(f'''
+<item>
+  <title>{post_dictionary["title"]}</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">{post_dictionary["body_html"]}</html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>{website_header+post}</link>
+  <guid>{website_header+post}</guid>
+  <pubDate>{format_date(post_dictionary["date"])} 00:00:00 +0300</pubDate>
+</item>
+''')
+    xml_file.close()
+
+xml_file = open(feed_output, "a")
+xml_file.write('''
+</channel>
+</rss>''')
+xml_file.close()
+#+end_src
+
+When I write a new post, all I have to do is add the name of the post to the blog posts list. Feel free to modify it to your heart's content.

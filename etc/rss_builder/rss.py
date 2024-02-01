@@ -6,7 +6,8 @@ website_header= "https://ismailefe.org"
 blog_posts = ["/blog/my_edc/index.html",
               "/blog/eye_candy/index.html",
               "/blog/best_albums_2023/index.html",
-              "/blog/favorite_themes/index.html"
+              "/blog/favorite_themes/index.html",
+              "/blog/rss/index.html"
               ]
 
 update_time = str(datetime.now().strftime('%a, %d %b %Y %H:%M:%S'))+' +0300'

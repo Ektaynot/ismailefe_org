@@ -115,7 +115,10 @@ footer {
 
   a,
   a:visited {
-    color: #8294C4;
+    /* purple */
+    color: #81689D;
+    /* blue */
+    /* color: #8294C4; */
     text-decoration: none;
 
   }

@@ -16,10 +16,19 @@
     <title>Welcome!</title>
     <style>
       #ismail-efes-blog-site {
-        font-size: 40px;
+        font-size: 34pt;
       }
       #blog-posts {
-        font-size: 32px;
+        font-size: 28pt;
+      }
+      .post-date {
+        color: grey;
+        font-size: 12pt;
+      }
+      @media (max-width: 600px) {
+        .post-date {
+          font-size: 10pt;
+        }
       }
     </style>
   </head>
@@ -36,11 +45,36 @@
 
     <h2 id="blog-posts">Blog Posts:</h2>
     <ul>
-      <li><a href="/blog/my_edc/">My EDC Essentials.</a></li>
-      <li><a href="/blog/eye_candy/">My Emacs Eye Candy.</a></li>
-      <li><a href="/blog/best_albums_2023/">My Top Album Picks For 2023</a></li>
-      <li><a href="/blog/favorite_themes/">My Favorite Themes</a></li>
-      <li><a href="/blog/rss/">RSS Solutions</a></li>
+      <li>
+        <p>
+          <a href="/blog/rss/">RSS Solutions</a>
+          <b class="post-date"> / Feb 1, 2024</b>
+        </p>
+      </li>
+      <li>
+        <p>
+          <a href="/blog/favorite_themes/">My Favorite Themes</a
+          ><b class="post-date"> / Jan 25, 2024</b>
+        </p>
+      </li>
+      <li>
+        <p>
+          <a href="/blog/best_albums_2023/">My Top Album Picks For 2023</a
+          ><b class="post-date"> / Jan 18, 2024</b>
+        </p>
+      </li>
+      <li>
+        <p>
+          <a href="/blog/eye_candy/">My Emacs Eye Candy.</a
+          ><b class="post-date"> / Jan 14, 2024</b>
+        </p>
+      </li>
+      <li>
+        <p>
+          <a href="/blog/my_edc/">My EDC Essentials.</a
+          ><b class="post-date"> / Jan 14, 2024</b>
+        </p>
+      </li>
     </ul>
     <div class="bottom-header">
       <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link"

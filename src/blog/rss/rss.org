@@ -144,4 +144,4 @@ xml_file.write('''
 xml_file.close()
 #+end_src
 
-When I write a new post, all I have to do is add the name of the post to the blog posts list. Feel free to modify it to your heart's content.
+When I write a new post, all I have to do is add the name of the post to the blog posts list. Feel free to modify it to your heart's content. As a note, while working on this project, I used the [[https://validator.w3.org/feed/][RSS Validator]]. This site checks whether your RSS feed is valid and highlights any problems you might have. It really is a life-save when working on RSS files.

@@ -154,6 +154,6 @@ When I write a new post, all I have to do is add the name of the post to the blo
   <a
     class="bottom-header-link"
     href="https://github.com/Ektaynot/ismailefe_org"
-    target="_blank">Source Code</a>
+    target="_blank">Source</a>
 </div>
 #+END_EXPORT

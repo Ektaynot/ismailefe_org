@@ -4,7 +4,6 @@
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
 #+HTML_HEAD: <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗺️</text></svg>">
-#+HTML_HEAD: <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
 
 * My problem
 I love reading personal blogs, since I love them so much I decided to make one myself a couple of weeks ago.
@@ -145,3 +144,16 @@ xml_file.close()
 #+end_src
 
 When I write a new post, all I have to do is add the name of the post to the blog posts list. Feel free to modify it to your heart's content. As a note, while working on this project, I used the [[https://validator.w3.org/feed/][RSS Validator]]. This site checks whether your RSS feed is valid and highlights any problems you might have. It really is a life-save when working on RSS files.
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link"
+    >Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a
+    class="bottom-header-link"
+    href="https://github.com/Ektaynot/ismailefe_org"
+    target="_blank">Source Code</a>
+</div>
+#+END_EXPORT

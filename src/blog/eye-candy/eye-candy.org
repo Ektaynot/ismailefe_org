@@ -3,7 +3,6 @@
 #+DATE: 2024-01-14
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
 #+HTML_HEAD: <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗺️</text></svg>">
-#+HTML_HEAD: <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
 
 First of all, this post is directly inspired by [[https://xenodium.com/my-emacs-eye-candy/][Álvaro's]] work. I love his stuff and he has been a great inspiration for me. I suggest everyone to check out his stuff.
 
@@ -118,3 +117,16 @@ When writing or reading I like a couple of things different. I like to open up o
 
 * Changing the Icon
 Lastly, I like to use this [[https://commons.wikimedia.org/wiki/File:Emacs-logo.svg][logo]]. It is quite old but it suits my style.
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link"
+    >Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a
+    class="bottom-header-link"
+    href="https://github.com/Ektaynot/ismailefe_org"
+    target="_blank">Source Code</a>
+</div>
+#+END_EXPORT

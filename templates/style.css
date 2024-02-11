@@ -46,7 +46,7 @@ html {
     color: rgb(255, 114, 101);
   }
   .bottom-header {
-    margin-top: 10em;
+    margin-top: 8em;
     justify-content: space-evenly;
     display: flex;
     padding: 10px;

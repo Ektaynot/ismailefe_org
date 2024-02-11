@@ -1,0 +1,35 @@
+#+title: Now
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗺️</text></svg>">
+
+If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
+
+* When did I update this page
+- Feb 11, 2024
+
+* What am I working on
+- This Blog
+- Persona 3 Reload
+- Preparing a course schedule for my semester
+
+* What do I enjoy
+- Finishing Persona 3 Reload
+- Deciding on my site's layout
+
+* What are my goals
+- Writing a new blog post every week
+- Transitioning from vacation-mode to semester-mode
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link"
+    >Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a
+    class="bottom-header-link"
+    href="https://github.com/Ektaynot/ismailefe_org"
+    target="_blank">Source Code</a>
+</div>
+#+END_EXPORT

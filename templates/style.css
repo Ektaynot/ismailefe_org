@@ -86,7 +86,6 @@ footer {
     }
     #return-to-site a{
         font-size: 18px;
-        color: rgb(255, 114, 101);
       }
     
   }
@@ -123,12 +122,13 @@ footer {
   a,
   a:visited {
     /* purple */
-    color: #81689D;
-    color: #745B90;
-    /* blue */
-    /* color: #8294C4; */
+    /* color: #745B90; */
+    /* flexoki theme blue */
+    color: rgb(67, 133, 190);
     text-decoration: none;
-
+  }
+  a:hover {
+    color: rgb(209, 77, 65);
   }
   
   img {

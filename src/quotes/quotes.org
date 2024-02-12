@@ -1,0 +1,26 @@
+#+title: Quotes
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗺️</text></svg>">
+
+This page contains bits of information that I collected from various different sources. It's going to keep evolving over time.
+
+#+BEGIN_EXPORT html
+<br>
+#+END_EXPORT
+
++ DO NOT add tags, create projects, or create other to-do infrastructure to manage your to-dos better. This is procrastination disguised as productivity. [[https://randsinrepose.com/archives/seven-steps-to-fixing-stalled-to-do-tasks/][- randsinrepose]]
+
++ “Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.” - Antoine de Saint-Exupéry
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link"
+    >Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a
+    class="bottom-header-link"
+    href="https://github.com/Ektaynot/ismailefe_org"
+    target="_blank">Source</a>
+</div>
+#+END_EXPORT

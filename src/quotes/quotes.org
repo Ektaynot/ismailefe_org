@@ -2,7 +2,7 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
 #+HTML_HEAD: <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗺️</text></svg>">
 
-This page contains bits of information that I collected from various different sources. It's going to keep evolving over time.
+This page contains bits of information that I collected from various sources. It's going to keep evolving over time.
 
 #+BEGIN_EXPORT html
 <br>

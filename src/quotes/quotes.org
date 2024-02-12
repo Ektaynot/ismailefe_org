@@ -8,7 +8,7 @@ This page contains bits of information that I collected from various sources. It
 <br>
 #+END_EXPORT
 
-+ DO NOT add tags, create projects, or create other to-do infrastructure to manage your to-dos better. This is procrastination disguised as productivity. [[https://randsinrepose.com/archives/seven-steps-to-fixing-stalled-to-do-tasks/][- randsinrepose]]
++ "DO NOT add tags, create projects, or create other to-do infrastructure to manage your to-dos better. This is procrastination disguised as productivity." [[https://randsinrepose.com/archives/seven-steps-to-fixing-stalled-to-do-tasks/][- randsinrepose]]
 
 + “Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.” - Antoine de Saint-Exupéry
 

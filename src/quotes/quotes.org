@@ -12,6 +12,8 @@ This page contains bits of information that I collected from various sources. It
 
 + “Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.” - Antoine de Saint-Exupéry
 
++ "Kindness without honesty is manipulative, inauthentic, disconnecting. Honesty without kindness is cruel, arrogant, disconnecting." - Bryan Reeves
+
 #+BEGIN_EXPORT html
 <div class="bottom-header">
   <a class="bottom-header-link" href="/">Home</a>

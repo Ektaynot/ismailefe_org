@@ -5,7 +5,7 @@
 
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
-* When did I update this page
+* When did I last update this page
 - Feb 11, 2024
 
 * What am I working on

@@ -1,0 +1,28 @@
+.pp{
+    display: flex;
+    justify-content: center;
+  }
+  .pp-image {
+    width: 350px;
+  }
+  .quote{
+    padding-top: 2em;
+  }
+  .quote-author {
+    text-align: right;
+    font-size: 15pt;
+  }
+  @media (max-width: 600px) {
+    body {
+      padding: 12px;
+    }
+    .pp-image {
+    width: 250px;
+  }
+  .quote{
+    padding-top: 2em;
+  }
+  .quote-author {
+    font-size: 12pt;
+  } 
+  }

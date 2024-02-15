@@ -3,7 +3,21 @@
 #+DATE: 2024-01-15
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/about/about.css" />
 #+HTML_HEAD: <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗺️</text></svg>">
+
+#+BEGIN_EXPORT html
+<div class="pp">
+<img class="pp-image" alt="taken by my beautiful partner." src="pp.jpg" >
+</div>
+<div class="quote">
+  <q><b>Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.</b></q>
+</div>
+<div class="quote-author">
+  <p class="quote-author"><b>- Antoine de Saint-Exupéry</b></p>
+</div>
+
+#+END_EXPORT
 
 My name is İsmail Efe Top. I'm a first year Foreign Language Education student at [[https://www.metu.edu.tr/][METU]].
 
@@ -15,4 +29,17 @@ I like discovering new places, programming and hacking the programs I use. Some 
 - [[https://www.zotero.org/][Zotero]] for collecting papers and making citations.
 - [[https://arc.net/][Arc]] for web browsing.
 
-Other than that, I am a proud owner of a [[https://happyhackingkb.com/][HHKB]], my favorite drink is Ice Caramel Latte, and my favorite place is the METU campus.
+Other than that, I am a proud owner of a [[https://happyhackingkb.com/][HHKB]], my favorite drink is Ice Caramel Latte, I am a really good Tetris player and my favorite place is the METU campus.
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link"
+    >Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a
+    class="bottom-header-link"
+    href="https://github.com/Ektaynot/ismailefe_org"
+    target="_blank">Source</a>
+</div>
+#+END_EXPORT

@@ -1,7 +1,16 @@
-#+title: İsmail Efe Top
-
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="cv.css" />
 #+HTML_HEAD: <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗺️</text></svg>">
+
+#+BEGIN_EXPORT html
+  <div class="ust-kısım">
+  <div class="name">
+    <p class="name"> İsmail Efe Top
+    <span class="pronoun">(He/Him)</span></p>
+  </div>
+    <img class="pp" src="/about/pp.jpg">
+  </div>
+#+END_EXPORT
 
 * Education
 - Started university in 2022, currently studying foreign language education in Middle East Technical University.
@@ -16,7 +25,7 @@
 - Native in Turkish
 - Fluent in English
 ** Computer Skills
-- Very knowledable in GNU/Linux, Git, Emacs
+- Very knowledable about GNU/Linux, Git, Emacs
 - Comfortable in Microsoft Office programs
 - Fluent in python and bash
 -----

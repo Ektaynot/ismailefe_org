@@ -5,7 +5,371 @@
 <link>https://ismailefe.org/</link>
 <description>İsmail Efe's Second Brain.</description>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 16 Feb 2024 23:22:18 +0300</lastBuildDate>
+<lastBuildDate>Fri, 16 Feb 2024 23:31:50 +0300</lastBuildDate>
+<item>
+  <title>My EDC Essentials.</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
+<header id="title-block-header">
+<h1 class="title">My EDC Essentials.</h1>
+<p class="author">
+<p class="author">İsmail Efe Top</p>
+</p>
+<p class="date">2024-01-14</p>
+</header>
+<h1 id="what-is-edc">What is EDC?</h1>
+<p>
+      EDC stands for every day carry, encompassing everything from your wallet
+      and phone to various types of screwdrivers can be included in the EDC
+      category.
+    </p>
+<p>
+      Even though everyone carries some stuff with them, there are people that
+      take great pride in their EDC. We can find those people in
+      <a href="https://www.reddit.com/r/EDC/">forums</a> and
+      <a href="https://youtu.be/BQJyHHBkFPg?si=Xt-NkxlRHMklMiXL">youtube</a>
+      videos. Those places can be a great starting point for people who want to
+      give a little more effort to what they carry.
+    </p>
+<h1 id="my-edc">My EDC</h1>
+<p>
+      While mine might seem a little lacking and boring, it has been by far the
+      most efficient setup for me.
+    </p>
+<p>
+      I will mostly write about the interesting stuff and give only the bare
+      minimum for the normal stuff.
+    </p>
+<h2 id="emoji">📱</h2>
+<p>
+      I am using an iPhone, while the operating system is quite locked I love
+      the polished iOS experience and the great ecosystem which I am a part of.
+    </p>
+<h2 id="emoji">🎧</h2>
+<p>
+      I am using the airpods pro 2nd gen. While expensive, they sound great and
+      switching between my phone and my computer is stupid easy. Not having to
+      deal with the unwanted small stuff and focusing on my creative projects is
+      really important to me. Being in the apple ecosystem allows me to do that.
+    </p>
+<h2 id="emoji">⌚️</h2>
+<p>
+      I am using an old apple watch. I like tracking my sleep and exercises so
+      that I can make adjustments. Also, seeing notifications without looking at
+      my phone really comes in handy more than you might think.
+    </p>
+<h2 id="emoji">🪪</h2>
+<p>
+      Like most people, I used a lot of different wallets. My biggest problem
+      with my old wallets were they size. Because of my different circumstances
+      I need to carry lots of cards and photos with me. For my old wallets to
+      carry those different cards they needed to be really bulky. I wanted a
+      slim option, so I found the
+      <a href="https://www.amazon.com/Front-Pocket-Wallet-Zippers-Minimalist/dp/B0C77NS29R">OneTigris</a>. I can stuff a lot and not have to worry about them being lost. I carry
+      the ones I frequently use in the front pockets. It really is the perfect
+      wallet for me.
+    </p>
+<h2 id="emoji">🔑</h2>
+<p>I carry the keys for my dormitory, nothing special.</p>
+<h1 id="my-backpack">My Backpack</h1>
+<p>
+      I like to use different bags in my backpack. That way nothing is lost
+      inside my bag. I have a computer case with a big zipper pocket, a travel
+      pouch, and an umbrella.
+    </p>
+<h2 id="emoji">🎒</h2>
+<p>
+      My backpack is a mid-size Herschel Little America. Because I carry my
+      backpack everywhere, it needs to be light and comfortable. This bag is
+      just that. It has no fancy trick. Just a light and small backpack. It's
+      the perfect size for carry it everyday.
+    </p>
+<h2 id="emoji">💻</h2>
+<p>
+      This is probably the most important part of my life. I take notes for
+      class, I program on it, I watch youtube. Basically most of my digital life
+      is on here. I have a mba(2022) with 16 gigs of ram and 512 gigs of
+      storage. I am coming from a linux laptop, It used to have 3 hours of
+      battery use and the linux system would broke a couple of times a month.
+      MacOS has the hackability of linux and it is crazy stable. I can easily
+      say that this laptop suits my needs perfectly.
+    </p>
+<h2 id="emoji">💼</h2>
+<p>
+      While the most important use-case of my computer case is protecting my
+      computer, it also holds a lot of important accessory like:
+    </p>
+<ul>
+<li>Logitech pebble</li>
+<li>70W USB-C Power Adapter</li>
+<li>One Magsafe Cable</li>
+<li>One Lighting Cable</li>
+<li>a Baseus Presentation Remote</li>
+<li>a Generic Type-C Hub</li>
+</ul>
+<h2 id="emoji">👝</h2>
+<p>
+      I also have a vintage travel pouch. On one side I have a usb power adapter
+      and a 3 headed power cable and on the other I have a small notebook and
+      different pens. On the outer shell I house different kinds of medicines.
+    </p>
+<div class="bottom-header">
+<a class="bottom-header-link" href="/">Home</a>
+<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
+<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/my_edc/index.html</link>
+  <guid>https://ismailefe.org/blog/my_edc/index.html</guid>
+  <pubDate>Sun, 14 Jan 2024 00:00:00 +0300</pubDate>
+</item>
+
+<item>
+  <title>My Emacs Eye Candy</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
+<header id="title-block-header">
+<h1 class="title">My Emacs Eye Candy</h1>
+<p class="author">İsmail Efe Top</p>
+<p class="date">2024-01-14</p>
+</header>
+<p>First of all, this post is directly inspired by <a href="https://xenodium.com/my-emacs-eye-candy/">Álvaro's</a> work. I
+love his stuff and he has been a great inspiration for me. I suggest
+everyone to check out his stuff.</p>
+<img src="eye_candy.png"/>
+<p>In this post I am planning to walk you through my visual <a href="https://www.gnu.org/software/emacs/">Emacs</a> setup, I will use
+the <a href="https://github.com/doomemacs/doomemacs">Doom Framework</a>.
+I am planning on making a detail blog post about Emacs, <a href="https://orgmode.org/">org-mode</a> and how I use them, because of
+this I will not go into explanation of what Emacs is. There are great
+sources about Emacs and org-mode on youtube. Until I make that post, you
+can explore the Emacs world freely.</p>
+<p><strong>Let's Start</strong></p>
+<h1 id="install-brew">Installing Homebrew</h1>
+<p>I will be using <a href="https://brew.sh/">Homebrew</a> to install Emacs
+and it's dependencies.</p>
+<div class="sourceCode" data-org-language="sh" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a aria-hidden="true" href="#cb1-1" tabindex="-1"></a><span class="ex">/bin/bash</span> <span class="at">-c</span> <span class="st">"</span><span class="va">$(</span><span class="ex">curl</span> <span class="at">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="va">)</span><span class="st">"</span></span></code></pre></div>
+<h1 id="install-emacs">Installing Emacs</h1>
+<p>I am choosing the default cask for Emacs. I tried several different forks of
+mac Emacs but all of them gave me poor performance on my m2 macbook.</p>
+<div class="sourceCode" data-org-language="sh" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a aria-hidden="true" href="#cb2-1" tabindex="-1"></a><span class="ex">brew</span> install <span class="at">--cask</span> emacs</span></code></pre></div>
+<p><strong>After installing do not start Emacs.</strong> Starting Emacs
+will create a profile, which will conflict with your doom
+profile.</p>
+<h1 id="install-doom">Installing Doom</h1>
+<p>Doom is a stable framework for Emacs. You can considered like a base
+config file. It really makes Emacs usable out-of-box.</p>
+<div class="sourceCode" data-org-language="sh" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a aria-hidden="true" href="#cb3-1" tabindex="-1"></a><span class="fu">git</span> clone <span class="at">--depth</span> 1 https://github.com/doomemacs/doomemacs ~/.config/emacs</span>
+<span id="cb3-2"><a aria-hidden="true" href="#cb3-2" tabindex="-1"></a><span class="ex">~/.config/emacs/bin/doom</span> install</span></code></pre></div>
+<p>And now we are ready to hack our Emacs.</p>
+<h1 id="changing-the-theme">Changing the theme</h1>
+<p>I used to use the doom-dracula theme. But nowadays my favorite is the
+<a href="https://github.com/meritamen/emacs-kanagawa-theme">kanagawa
+theme</a>.</p>
+<p>Add the below line to ~/.config/doom/package.el</p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb4"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb4-1"><a aria-hidden="true" href="#cb4-1" tabindex="-1"></a>(package! kanagawa-theme)</span></code></pre></div>
+<p>Then set your theme to kanagawa, for this put the below line in your config file ~/.config/doom/config.el</p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb5"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb5-1"><a aria-hidden="true" href="#cb5-1" tabindex="-1"></a>(<span class="kw">setq</span> doom-theme <span class="dt">'kanagawa</span>)</span></code></pre></div>
+<p><b>Note:</b> From now on all the code should go into your config file.</p>
+<h1 id="changing-the-font">Changing the font</h1>
+<p>I like using the <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a>.</p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb6"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb6-1"><a aria-hidden="true" href="#cb6-1" tabindex="-1"></a>(<span class="kw">setq</span> doom-font (font-spec :family <span class="st">"JetBrains Mono"</span> :size <span class="dv">22</span>))</span></code></pre></div>
+<h1 id="enable-word-count">Enabling Word Count</h1>
+<p>This puts a word count in the modeline.</p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb7"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb7-1"><a aria-hidden="true" href="#cb7-1" tabindex="-1"></a>(<span class="kw">setq</span> doom-modeline-enable-word-count <span class="kw">t</span>)</span></code></pre></div>
+<h1 id="disable-hl-line-mode">Disabling hl-line-mode</h1>
+<p>'hl-line' makes the current line a different color. I don't like
+it.</p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb8"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb8-1"><a aria-hidden="true" href="#cb8-1" tabindex="-1"></a>(remove-hook <span class="dt">'doom-first-buffer-hook</span> <span class="op">#'</span>global-hl-line-mode)</span></code></pre></div>
+<h1 id="the-title-bar">The title bar</h1>
+<p>I like the look of an empty unified title-bar, so this removes the
+text. <strong>Only works for mac.</strong></p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb9"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb9-1"><a aria-hidden="true" href="#cb9-1" tabindex="-1"></a>(<span class="kw">setq</span> ns-use-proxy-icon <span class="kw">nil</span>)</span>
+<span id="cb9-2"><a aria-hidden="true" href="#cb9-2" tabindex="-1"></a>(<span class="kw">setq</span> frame-title-format <span class="kw">nil</span>)</span></code></pre></div>
+<h1 id="remove-the-tilde-signs">Removing the tilde signs</h1>
+<p>There is an ugly tilde sign on empty lines by default. I really don't
+like it. You can remove it by commenting out the 'vi-tilde-fringe' line
+in ~/.config/doom/init.el</p>
+<h1 id="olivetti-mode">Olivetti Mode</h1>
+<p>There is a melpa package called <a href="https://github.com/rnkn/olivetti">olivetti</a>. This package
+provides a good look for writing/reading by decreasing the width of the
+buffer.</p>
+<p>You can install Olivetti by adding the below line to
+~/.config/doom/package.el</p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb10"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb10-1"><a aria-hidden="true" href="#cb10-1" tabindex="-1"></a>(package! olivetti)</span></code></pre></div>
+<p>You can adjust the width like this</p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb11"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb11-1"><a aria-hidden="true" href="#cb11-1" tabindex="-1"></a>(<span class="kw">setq</span> olivetti-body-width <span class="dv">94</span>)</span></code></pre></div>
+<h1 id="reading-mode">Reading Mode</h1>
+<p>When writing or reading I like a couple of things different. I like
+to open up olivetti, disable the line numbers and the modeline. This
+function allows me to change these settings in one go. Also I have an
+undo function. I have them set to 'ö' and 'ç' as those keys are not used
+for any commands.</p>
+<p><strong>Reading Function:</strong></p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb12"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb12-1"><a aria-hidden="true" href="#cb12-1" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> efe/reading-mode </span>()</span>
+<span id="cb12-2"><a aria-hidden="true" href="#cb12-2" tabindex="-1"></a>  <span class="st">"Toggle reading mode."</span></span>
+<span id="cb12-3"><a aria-hidden="true" href="#cb12-3" tabindex="-1"></a>  (interactive)</span>
+<span id="cb12-4"><a aria-hidden="true" href="#cb12-4" tabindex="-1"></a>  (hide-mode-line-mode +1)</span>
+<span id="cb12-5"><a aria-hidden="true" href="#cb12-5" tabindex="-1"></a>  (olivetti-mode)</span>
+<span id="cb12-6"><a aria-hidden="true" href="#cb12-6" tabindex="-1"></a>  (menu-bar--display-line-numbers-mode-none))</span>
+<span id="cb12-7"><a aria-hidden="true" href="#cb12-7" tabindex="-1"></a>(global-set-key (kbd <span class="st">"C-ö"</span>) <span class="dt">'efe/reading-mode</span>)</span></code></pre></div>
+<p><strong>Undo Function:</strong></p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb13"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb13-1"><a aria-hidden="true" href="#cb13-1" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> efe/undo-reading-mode </span>()</span>
+<span id="cb13-2"><a aria-hidden="true" href="#cb13-2" tabindex="-1"></a>  <span class="st">"undo reading mode."</span></span>
+<span id="cb13-3"><a aria-hidden="true" href="#cb13-3" tabindex="-1"></a>  (interactive)</span>
+<span id="cb13-4"><a aria-hidden="true" href="#cb13-4" tabindex="-1"></a>  (hide-mode-line-mode <span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb13-5"><a aria-hidden="true" href="#cb13-5" tabindex="-1"></a>  (<span class="kw">setq</span> olivetti-mode <span class="kw">nil</span>)</span>
+<span id="cb13-6"><a aria-hidden="true" href="#cb13-6" tabindex="-1"></a>  (menu-bar--display-line-numbers-mode-absolute))</span>
+<span id="cb13-7"><a aria-hidden="true" href="#cb13-7" tabindex="-1"></a>(global-set-key (kbd <span class="st">"C-ç"</span>) <span class="dt">'efe/undo-reading-mode</span>)</span></code></pre></div>
+<h1 id="changing-the-icon">Changing the Icon</h1>
+<p>Lastly, I like to use this <a href="https://commons.wikimedia.org/wiki/File:Emacs-logo.svg">Icon</a>.
+It is quite old but it suits my style.</p>
+<div class="bottom-header">
+<a class="bottom-header-link" href="/">Home</a>
+<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
+<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/eye_candy/index.html</link>
+  <guid>https://ismailefe.org/blog/eye_candy/index.html</guid>
+  <pubDate>Sun, 14 Jan 2024 00:00:00 +0300</pubDate>
+</item>
+
+<item>
+  <title>My Top Album Picks For 2023</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
+<header id="title-block-header">
+<h1 class="title">My Top Album Picks For 2023</h1>
+<p class="author">İsmail Efe Top</p>
+<p class="date">2024-01-18</p>
+</header>
+<p>
+      2023 might be my busiest year yet. As a first-year in my major, I'm
+      discovering a new city, giving tons of presentations, and balancing my
+      relationships. As a result, I've had less time to discover and enjoy new
+      music.
+    </p>
+<p>
+      In spite of this I found lots of good record to listen to. Here are my top
+      picks of 2023.
+    </p>
+<p><em>this listing is in no particular order.</em></p>
+<h1 id="scaring-the-hoes">1. SCARING THE HOES</h1>
+<div class="artwork">
+<img alt="The artwork of Scaring the Hoes." class="artwork" src="scaring.png"/>
+</div>
+<div class="dogtag">
+<p class="dogtag">Genre: Hip hop</p>
+<p class="dogtag">Artists: JPEGMAFIA &amp; Danny Brown</p>
+</div>
+<p>
+      Until the announcement of this album I've have never heard of Danny Brown.
+      And honestly, I didn't care who he was, because I knew that if JPEGMAFIA
+      was one of the co-artists of this project, it would be good. When the
+      first song 'lean beef patty' came out, I knew I was right.
+    </p>
+<p>
+      But I have to be honest, this album is not for everyone. It has a rough
+      and dirty sound. Lots of beat switches and samples that are straight from
+      a forgotten graveyard. But these are the exact reasons why I love this
+      album so much. This album is your weird friend that always do niche movie
+      references and that joke about internet memes. When done is dose, which
+      SCARING THE HOES does, it feels like a different and fun thing.
+    </p>
+<h1 id="lets-start-here.">2. Let's Start Here.</h1>
+<div class="artwork">
+<img alt="The artwork of Let's start here." class="artwork" src="lets.jpeg"/>
+</div>
+<div class="dogtag">
+<p class="dogtag">Genre: Psychedelic rock</p>
+<p class="dogtag">Artists: Lil Yachty</p>
+</div>
+<p>
+      I always knew Lil Yachty as a lighthearted rapper. So, when I heard that
+      he had made a Psychedelic Rock album, I knew I had to check it out.
+    </p>
+<p>
+      On my first listen, the Pink Floyd influence was pretty apparent but there
+      was something different. His sound was fun, catchy and like how a
+      Psychedelic Rock should be; it was <em>trippy</em>. And the album stayed
+      that way, it was fresh every time I listened to it. That's why I spend the
+      quarter of my year listening to this album.
+    </p>
+<h1 id="utopia">3. UTOPIA</h1>
+<div class="artwork">
+<img alt="The artwork of UTOPIA." class="artwork" src="utopia.png"/>
+</div>
+<div class="dogtag">
+<p class="dogtag">Genre: Hip hop</p>
+<p class="dogtag">Artists: Travis Scoot</p>
+</div>
+<p>
+      Utopia is an album in which Travis Scott tries to return to his roots. It
+      features raw cuts and a plethora of different voices.
+    </p>
+<p>
+      This album was in the making for about 4 years. And you can tell this by
+      how polished it is. Also, there are 52 beat switches in the album. So,
+      every song feels like you are listening to an
+      <a href="https://en.wikipedia.org/wiki/Extended_play">EP</a>.
+    </p>
+<h1 id="latin-virgin">4. LATIN VIRGIN</h1>
+<div class="artwork">
+<img alt="The artwork of LATIN VIRGIN." class="artwork" src="latin.png"/>
+</div>
+<div class="dogtag">
+<p class="dogtag">Genre: Hip hop</p>
+<p class="dogtag">Artists: Alizade</p>
+</div>
+<p>
+      This is a Turkish release, and one of my favorites. The reason why I love
+      this album so much is that it's a big milestone for the Turkish rap scene.
+      For a really long time the scene was populated by people who claim that
+      woman weren't able to make good rap tracks and those few who made good rap
+      tracks were people who were very conservative of their bodies. Alizade
+      showed that you don't have to hide your body to make good rap song. While
+      her songs lack in the lyrics department she more than makes up for it by
+      using different types of sounds and colorful beats in her songs.
+    </p>
+<p>
+      While she is still criticized in Turkey for showing off her body and not
+      being a proper <em>'lyricist'</em>, I admire what she is bringing to the
+      table in the Turkish rap scene.
+    </p>
+<h1 id="for-all-the-dogs">5. For All The Dogs</h1>
+<div class="artwork">
+<img alt="The artwork of For All The Dogs." class="artwork" src="dogs.png"/>
+</div>
+<div class="dogtag">
+<p class="dogtag">Genre: Hip hop</p>
+<p class="dogtag">Artists: Drake</p>
+</div>
+<p>
+      I feel like Drake's albums are really a hit or miss. And luckily this
+      album is a hit. While this album could cook a bit more, I like how raw it
+      is. There are bunch of features I really like and it is a fun album.
+    </p>
+<p>
+      He really needs to not take himself so seriously, he shines best when he
+      has fun too.
+    </p>
+<div class="bottom-header">
+<a class="bottom-header-link" href="/">Home</a>
+<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
+<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/best_albums_2023/index.html</link>
+  <guid>https://ismailefe.org/blog/best_albums_2023/index.html</guid>
+  <pubDate>Thu, 18 Jan 2024 00:00:00 +0300</pubDate>
+</item>
+
 <item>
   <title>My Favorite Themes</title>
   <description><![CDATA[<!DOCTYPE html>
@@ -73,8 +437,8 @@
 </div>
 </body></html>]]></description>
   <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
-  <link>https://ismailefe.org/Users/ismailefetop/projects/org-blog/ismailefe_org/blog/favorite_themes/index.html</link>
-  <guid>https://ismailefe.org/Users/ismailefetop/projects/org-blog/ismailefe_org/blog/favorite_themes/index.html</guid>
+  <link>https://ismailefe.org/blog/favorite_themes/index.html</link>
+  <guid>https://ismailefe.org/blog/favorite_themes/index.html</guid>
   <pubDate>Thu, 25 Jan 2024 00:00:00 +0300</pubDate>
 </item>
 
@@ -274,373 +638,9 @@
 </div>
 </body></html>]]></description>
   <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
-  <link>https://ismailefe.org/Users/ismailefetop/projects/org-blog/ismailefe_org/blog/rss/index.html</link>
-  <guid>https://ismailefe.org/Users/ismailefetop/projects/org-blog/ismailefe_org/blog/rss/index.html</guid>
+  <link>https://ismailefe.org/blog/rss/index.html</link>
+  <guid>https://ismailefe.org/blog/rss/index.html</guid>
   <pubDate>Thu, 01 Feb 2024 00:00:00 +0300</pubDate>
-</item>
-
-<item>
-  <title>My Top Album Picks For 2023</title>
-  <description><![CDATA[<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
-<header id="title-block-header">
-<h1 class="title">My Top Album Picks For 2023</h1>
-<p class="author">İsmail Efe Top</p>
-<p class="date">2024-01-18</p>
-</header>
-<p>
-      2023 might be my busiest year yet. As a first-year in my major, I'm
-      discovering a new city, giving tons of presentations, and balancing my
-      relationships. As a result, I've had less time to discover and enjoy new
-      music.
-    </p>
-<p>
-      In spite of this I found lots of good record to listen to. Here are my top
-      picks of 2023.
-    </p>
-<p><em>this listing is in no particular order.</em></p>
-<h1 id="scaring-the-hoes">1. SCARING THE HOES</h1>
-<div class="artwork">
-<img alt="The artwork of Scaring the Hoes." class="artwork" src="scaring.png"/>
-</div>
-<div class="dogtag">
-<p class="dogtag">Genre: Hip hop</p>
-<p class="dogtag">Artists: JPEGMAFIA &amp; Danny Brown</p>
-</div>
-<p>
-      Until the announcement of this album I've have never heard of Danny Brown.
-      And honestly, I didn't care who he was, because I knew that if JPEGMAFIA
-      was one of the co-artists of this project, it would be good. When the
-      first song 'lean beef patty' came out, I knew I was right.
-    </p>
-<p>
-      But I have to be honest, this album is not for everyone. It has a rough
-      and dirty sound. Lots of beat switches and samples that are straight from
-      a forgotten graveyard. But these are the exact reasons why I love this
-      album so much. This album is your weird friend that always do niche movie
-      references and that joke about internet memes. When done is dose, which
-      SCARING THE HOES does, it feels like a different and fun thing.
-    </p>
-<h1 id="lets-start-here.">2. Let's Start Here.</h1>
-<div class="artwork">
-<img alt="The artwork of Let's start here." class="artwork" src="lets.jpeg"/>
-</div>
-<div class="dogtag">
-<p class="dogtag">Genre: Psychedelic rock</p>
-<p class="dogtag">Artists: Lil Yachty</p>
-</div>
-<p>
-      I always knew Lil Yachty as a lighthearted rapper. So, when I heard that
-      he had made a Psychedelic Rock album, I knew I had to check it out.
-    </p>
-<p>
-      On my first listen, the Pink Floyd influence was pretty apparent but there
-      was something different. His sound was fun, catchy and like how a
-      Psychedelic Rock should be; it was <em>trippy</em>. And the album stayed
-      that way, it was fresh every time I listened to it. That's why I spend the
-      quarter of my year listening to this album.
-    </p>
-<h1 id="utopia">3. UTOPIA</h1>
-<div class="artwork">
-<img alt="The artwork of UTOPIA." class="artwork" src="utopia.png"/>
-</div>
-<div class="dogtag">
-<p class="dogtag">Genre: Hip hop</p>
-<p class="dogtag">Artists: Travis Scoot</p>
-</div>
-<p>
-      Utopia is an album in which Travis Scott tries to return to his roots. It
-      features raw cuts and a plethora of different voices.
-    </p>
-<p>
-      This album was in the making for about 4 years. And you can tell this by
-      how polished it is. Also, there are 52 beat switches in the album. So,
-      every song feels like you are listening to an
-      <a href="https://en.wikipedia.org/wiki/Extended_play">EP</a>.
-    </p>
-<h1 id="latin-virgin">4. LATIN VIRGIN</h1>
-<div class="artwork">
-<img alt="The artwork of LATIN VIRGIN." class="artwork" src="latin.png"/>
-</div>
-<div class="dogtag">
-<p class="dogtag">Genre: Hip hop</p>
-<p class="dogtag">Artists: Alizade</p>
-</div>
-<p>
-      This is a Turkish release, and one of my favorites. The reason why I love
-      this album so much is that it's a big milestone for the Turkish rap scene.
-      For a really long time the scene was populated by people who claim that
-      woman weren't able to make good rap tracks and those few who made good rap
-      tracks were people who were very conservative of their bodies. Alizade
-      showed that you don't have to hide your body to make good rap song. While
-      her songs lack in the lyrics department she more than makes up for it by
-      using different types of sounds and colorful beats in her songs.
-    </p>
-<p>
-      While she is still criticized in Turkey for showing off her body and not
-      being a proper <em>'lyricist'</em>, I admire what she is bringing to the
-      table in the Turkish rap scene.
-    </p>
-<h1 id="for-all-the-dogs">5. For All The Dogs</h1>
-<div class="artwork">
-<img alt="The artwork of For All The Dogs." class="artwork" src="dogs.png"/>
-</div>
-<div class="dogtag">
-<p class="dogtag">Genre: Hip hop</p>
-<p class="dogtag">Artists: Drake</p>
-</div>
-<p>
-      I feel like Drake's albums are really a hit or miss. And luckily this
-      album is a hit. While this album could cook a bit more, I like how raw it
-      is. There are bunch of features I really like and it is a fun album.
-    </p>
-<p>
-      He really needs to not take himself so seriously, he shines best when he
-      has fun too.
-    </p>
-<div class="bottom-header">
-<a class="bottom-header-link" href="/">Home</a>
-<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
-<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
-<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
-</div>
-</body></html>]]></description>
-  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
-  <link>https://ismailefe.org/Users/ismailefetop/projects/org-blog/ismailefe_org/blog/best_albums_2023/index.html</link>
-  <guid>https://ismailefe.org/Users/ismailefetop/projects/org-blog/ismailefe_org/blog/best_albums_2023/index.html</guid>
-  <pubDate>Thu, 18 Jan 2024 00:00:00 +0300</pubDate>
-</item>
-
-<item>
-  <title>My EDC Essentials.</title>
-  <description><![CDATA[<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
-<header id="title-block-header">
-<h1 class="title">My EDC Essentials.</h1>
-<p class="author">
-<p class="author">İsmail Efe Top</p>
-</p>
-<p class="date">2024-01-14</p>
-</header>
-<h1 id="what-is-edc">What is EDC?</h1>
-<p>
-      EDC stands for every day carry, encompassing everything from your wallet
-      and phone to various types of screwdrivers can be included in the EDC
-      category.
-    </p>
-<p>
-      Even though everyone carries some stuff with them, there are people that
-      take great pride in their EDC. We can find those people in
-      <a href="https://www.reddit.com/r/EDC/">forums</a> and
-      <a href="https://youtu.be/BQJyHHBkFPg?si=Xt-NkxlRHMklMiXL">youtube</a>
-      videos. Those places can be a great starting point for people who want to
-      give a little more effort to what they carry.
-    </p>
-<h1 id="my-edc">My EDC</h1>
-<p>
-      While mine might seem a little lacking and boring, it has been by far the
-      most efficient setup for me.
-    </p>
-<p>
-      I will mostly write about the interesting stuff and give only the bare
-      minimum for the normal stuff.
-    </p>
-<h2 id="emoji">📱</h2>
-<p>
-      I am using an iPhone, while the operating system is quite locked I love
-      the polished iOS experience and the great ecosystem which I am a part of.
-    </p>
-<h2 id="emoji">🎧</h2>
-<p>
-      I am using the airpods pro 2nd gen. While expensive, they sound great and
-      switching between my phone and my computer is stupid easy. Not having to
-      deal with the unwanted small stuff and focusing on my creative projects is
-      really important to me. Being in the apple ecosystem allows me to do that.
-    </p>
-<h2 id="emoji">⌚️</h2>
-<p>
-      I am using an old apple watch. I like tracking my sleep and exercises so
-      that I can make adjustments. Also, seeing notifications without looking at
-      my phone really comes in handy more than you might think.
-    </p>
-<h2 id="emoji">🪪</h2>
-<p>
-      Like most people, I used a lot of different wallets. My biggest problem
-      with my old wallets were they size. Because of my different circumstances
-      I need to carry lots of cards and photos with me. For my old wallets to
-      carry those different cards they needed to be really bulky. I wanted a
-      slim option, so I found the
-      <a href="https://www.amazon.com/Front-Pocket-Wallet-Zippers-Minimalist/dp/B0C77NS29R">OneTigris</a>. I can stuff a lot and not have to worry about them being lost. I carry
-      the ones I frequently use in the front pockets. It really is the perfect
-      wallet for me.
-    </p>
-<h2 id="emoji">🔑</h2>
-<p>I carry the keys for my dormitory, nothing special.</p>
-<h1 id="my-backpack">My Backpack</h1>
-<p>
-      I like to use different bags in my backpack. That way nothing is lost
-      inside my bag. I have a computer case with a big zipper pocket, a travel
-      pouch, and an umbrella.
-    </p>
-<h2 id="emoji">🎒</h2>
-<p>
-      My backpack is a mid-size Herschel Little America. Because I carry my
-      backpack everywhere, it needs to be light and comfortable. This bag is
-      just that. It has no fancy trick. Just a light and small backpack. It's
-      the perfect size for carry it everyday.
-    </p>
-<h2 id="emoji">💻</h2>
-<p>
-      This is probably the most important part of my life. I take notes for
-      class, I program on it, I watch youtube. Basically most of my digital life
-      is on here. I have a mba(2022) with 16 gigs of ram and 512 gigs of
-      storage. I am coming from a linux laptop, It used to have 3 hours of
-      battery use and the linux system would broke a couple of times a month.
-      MacOS has the hackability of linux and it is crazy stable. I can easily
-      say that this laptop suits my needs perfectly.
-    </p>
-<h2 id="emoji">💼</h2>
-<p>
-      While the most important use-case of my computer case is protecting my
-      computer, it also holds a lot of important accessory like:
-    </p>
-<ul>
-<li>Logitech pebble</li>
-<li>70W USB-C Power Adapter</li>
-<li>One Magsafe Cable</li>
-<li>One Lighting Cable</li>
-<li>a Baseus Presentation Remote</li>
-<li>a Generic Type-C Hub</li>
-</ul>
-<h2 id="emoji">👝</h2>
-<p>
-      I also have a vintage travel pouch. On one side I have a usb power adapter
-      and a 3 headed power cable and on the other I have a small notebook and
-      different pens. On the outer shell I house different kinds of medicines.
-    </p>
-<div class="bottom-header">
-<a class="bottom-header-link" href="/">Home</a>
-<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
-<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
-<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
-</div>
-</body></html>]]></description>
-  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
-  <link>https://ismailefe.org/Users/ismailefetop/projects/org-blog/ismailefe_org/blog/my_edc/index.html</link>
-  <guid>https://ismailefe.org/Users/ismailefetop/projects/org-blog/ismailefe_org/blog/my_edc/index.html</guid>
-  <pubDate>Sun, 14 Jan 2024 00:00:00 +0300</pubDate>
-</item>
-
-<item>
-  <title>My Emacs Eye Candy</title>
-  <description><![CDATA[<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
-<header id="title-block-header">
-<h1 class="title">My Emacs Eye Candy</h1>
-<p class="author">İsmail Efe Top</p>
-<p class="date">2024-01-14</p>
-</header>
-<p>First of all, this post is directly inspired by <a href="https://xenodium.com/my-emacs-eye-candy/">Álvaro's</a> work. I
-love his stuff and he has been a great inspiration for me. I suggest
-everyone to check out his stuff.</p>
-<img src="eye_candy.png"/>
-<p>In this post I am planning to walk you through my visual <a href="https://www.gnu.org/software/emacs/">Emacs</a> setup, I will use
-the <a href="https://github.com/doomemacs/doomemacs">Doom Framework</a>.
-I am planning on making a detail blog post about Emacs, <a href="https://orgmode.org/">org-mode</a> and how I use them, because of
-this I will not go into explanation of what Emacs is. There are great
-sources about Emacs and org-mode on youtube. Until I make that post, you
-can explore the Emacs world freely.</p>
-<p><strong>Let's Start</strong></p>
-<h1 id="install-brew">Installing Homebrew</h1>
-<p>I will be using <a href="https://brew.sh/">Homebrew</a> to install Emacs
-and it's dependencies.</p>
-<div class="sourceCode" data-org-language="sh" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a aria-hidden="true" href="#cb1-1" tabindex="-1"></a><span class="ex">/bin/bash</span> <span class="at">-c</span> <span class="st">"</span><span class="va">$(</span><span class="ex">curl</span> <span class="at">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="va">)</span><span class="st">"</span></span></code></pre></div>
-<h1 id="install-emacs">Installing Emacs</h1>
-<p>I am choosing the default cask for Emacs. I tried several different forks of
-mac Emacs but all of them gave me poor performance on my m2 macbook.</p>
-<div class="sourceCode" data-org-language="sh" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a aria-hidden="true" href="#cb2-1" tabindex="-1"></a><span class="ex">brew</span> install <span class="at">--cask</span> emacs</span></code></pre></div>
-<p><strong>After installing do not start Emacs.</strong> Starting Emacs
-will create a profile, which will conflict with your doom
-profile.</p>
-<h1 id="install-doom">Installing Doom</h1>
-<p>Doom is a stable framework for Emacs. You can considered like a base
-config file. It really makes Emacs usable out-of-box.</p>
-<div class="sourceCode" data-org-language="sh" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a aria-hidden="true" href="#cb3-1" tabindex="-1"></a><span class="fu">git</span> clone <span class="at">--depth</span> 1 https://github.com/doomemacs/doomemacs ~/.config/emacs</span>
-<span id="cb3-2"><a aria-hidden="true" href="#cb3-2" tabindex="-1"></a><span class="ex">~/.config/emacs/bin/doom</span> install</span></code></pre></div>
-<p>And now we are ready to hack our Emacs.</p>
-<h1 id="changing-the-theme">Changing the theme</h1>
-<p>I used to use the doom-dracula theme. But nowadays my favorite is the
-<a href="https://github.com/meritamen/emacs-kanagawa-theme">kanagawa
-theme</a>.</p>
-<p>Add the below line to ~/.config/doom/package.el</p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb4"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb4-1"><a aria-hidden="true" href="#cb4-1" tabindex="-1"></a>(package! kanagawa-theme)</span></code></pre></div>
-<p>Then set your theme to kanagawa, for this put the below line in your config file ~/.config/doom/config.el</p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb5"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb5-1"><a aria-hidden="true" href="#cb5-1" tabindex="-1"></a>(<span class="kw">setq</span> doom-theme <span class="dt">'kanagawa</span>)</span></code></pre></div>
-<p><b>Note:</b> From now on all the code should go into your config file.</p>
-<h1 id="changing-the-font">Changing the font</h1>
-<p>I like using the <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a>.</p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb6"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb6-1"><a aria-hidden="true" href="#cb6-1" tabindex="-1"></a>(<span class="kw">setq</span> doom-font (font-spec :family <span class="st">"JetBrains Mono"</span> :size <span class="dv">22</span>))</span></code></pre></div>
-<h1 id="enable-word-count">Enabling Word Count</h1>
-<p>This puts a word count in the modeline.</p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb7"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb7-1"><a aria-hidden="true" href="#cb7-1" tabindex="-1"></a>(<span class="kw">setq</span> doom-modeline-enable-word-count <span class="kw">t</span>)</span></code></pre></div>
-<h1 id="disable-hl-line-mode">Disabling hl-line-mode</h1>
-<p>'hl-line' makes the current line a different color. I don't like
-it.</p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb8"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb8-1"><a aria-hidden="true" href="#cb8-1" tabindex="-1"></a>(remove-hook <span class="dt">'doom-first-buffer-hook</span> <span class="op">#'</span>global-hl-line-mode)</span></code></pre></div>
-<h1 id="the-title-bar">The title bar</h1>
-<p>I like the look of an empty unified title-bar, so this removes the
-text. <strong>Only works for mac.</strong></p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb9"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb9-1"><a aria-hidden="true" href="#cb9-1" tabindex="-1"></a>(<span class="kw">setq</span> ns-use-proxy-icon <span class="kw">nil</span>)</span>
-<span id="cb9-2"><a aria-hidden="true" href="#cb9-2" tabindex="-1"></a>(<span class="kw">setq</span> frame-title-format <span class="kw">nil</span>)</span></code></pre></div>
-<h1 id="remove-the-tilde-signs">Removing the tilde signs</h1>
-<p>There is an ugly tilde sign on empty lines by default. I really don't
-like it. You can remove it by commenting out the 'vi-tilde-fringe' line
-in ~/.config/doom/init.el</p>
-<h1 id="olivetti-mode">Olivetti Mode</h1>
-<p>There is a melpa package called <a href="https://github.com/rnkn/olivetti">olivetti</a>. This package
-provides a good look for writing/reading by decreasing the width of the
-buffer.</p>
-<p>You can install Olivetti by adding the below line to
-~/.config/doom/package.el</p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb10"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb10-1"><a aria-hidden="true" href="#cb10-1" tabindex="-1"></a>(package! olivetti)</span></code></pre></div>
-<p>You can adjust the width like this</p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb11"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb11-1"><a aria-hidden="true" href="#cb11-1" tabindex="-1"></a>(<span class="kw">setq</span> olivetti-body-width <span class="dv">94</span>)</span></code></pre></div>
-<h1 id="reading-mode">Reading Mode</h1>
-<p>When writing or reading I like a couple of things different. I like
-to open up olivetti, disable the line numbers and the modeline. This
-function allows me to change these settings in one go. Also I have an
-undo function. I have them set to 'ö' and 'ç' as those keys are not used
-for any commands.</p>
-<p><strong>Reading Function:</strong></p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb12"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb12-1"><a aria-hidden="true" href="#cb12-1" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> efe/reading-mode </span>()</span>
-<span id="cb12-2"><a aria-hidden="true" href="#cb12-2" tabindex="-1"></a>  <span class="st">"Toggle reading mode."</span></span>
-<span id="cb12-3"><a aria-hidden="true" href="#cb12-3" tabindex="-1"></a>  (interactive)</span>
-<span id="cb12-4"><a aria-hidden="true" href="#cb12-4" tabindex="-1"></a>  (hide-mode-line-mode +1)</span>
-<span id="cb12-5"><a aria-hidden="true" href="#cb12-5" tabindex="-1"></a>  (olivetti-mode)</span>
-<span id="cb12-6"><a aria-hidden="true" href="#cb12-6" tabindex="-1"></a>  (menu-bar--display-line-numbers-mode-none))</span>
-<span id="cb12-7"><a aria-hidden="true" href="#cb12-7" tabindex="-1"></a>(global-set-key (kbd <span class="st">"C-ö"</span>) <span class="dt">'efe/reading-mode</span>)</span></code></pre></div>
-<p><strong>Undo Function:</strong></p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb13"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb13-1"><a aria-hidden="true" href="#cb13-1" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> efe/undo-reading-mode </span>()</span>
-<span id="cb13-2"><a aria-hidden="true" href="#cb13-2" tabindex="-1"></a>  <span class="st">"undo reading mode."</span></span>
-<span id="cb13-3"><a aria-hidden="true" href="#cb13-3" tabindex="-1"></a>  (interactive)</span>
-<span id="cb13-4"><a aria-hidden="true" href="#cb13-4" tabindex="-1"></a>  (hide-mode-line-mode <span class="op">-</span><span class="dv">1</span>)</span>
-<span id="cb13-5"><a aria-hidden="true" href="#cb13-5" tabindex="-1"></a>  (<span class="kw">setq</span> olivetti-mode <span class="kw">nil</span>)</span>
-<span id="cb13-6"><a aria-hidden="true" href="#cb13-6" tabindex="-1"></a>  (menu-bar--display-line-numbers-mode-absolute))</span>
-<span id="cb13-7"><a aria-hidden="true" href="#cb13-7" tabindex="-1"></a>(global-set-key (kbd <span class="st">"C-ç"</span>) <span class="dt">'efe/undo-reading-mode</span>)</span></code></pre></div>
-<h1 id="changing-the-icon">Changing the Icon</h1>
-<p>Lastly, I like to use this <a href="https://commons.wikimedia.org/wiki/File:Emacs-logo.svg">Icon</a>.
-It is quite old but it suits my style.</p>
-<div class="bottom-header">
-<a class="bottom-header-link" href="/">Home</a>
-<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
-<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
-<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
-</div>
-</body></html>]]></description>
-  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
-  <link>https://ismailefe.org/Users/ismailefetop/projects/org-blog/ismailefe_org/blog/eye_candy/index.html</link>
-  <guid>https://ismailefe.org/Users/ismailefetop/projects/org-blog/ismailefe_org/blog/eye_candy/index.html</guid>
-  <pubDate>Sun, 14 Jan 2024 00:00:00 +0300</pubDate>
 </item>
 
 </channel>

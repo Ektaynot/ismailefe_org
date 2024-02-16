@@ -28,6 +28,7 @@ f'''<?xml version="1.0" encoding="utf-8"?>
 
 xml_file.close()
 
+# Below function is partially written by ChatGPT.
 def parse_html(filename_arg):
     # Read the HTML file
     with open(filename_arg, 'r', encoding='utf-8') as file:
@@ -52,6 +53,7 @@ def parse_html(filename_arg):
 
     return post_dict
 
+# Below function is written by ChatGPT.
 def format_date(input_date):
     # Convert input date string to a datetime object
     input_datetime = datetime.strptime(input_date, '%Y-%m-%d')

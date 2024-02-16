@@ -28,6 +28,7 @@ I like discovering new places, programming and hacking the programs I use. Some 
 - [[https://bear.app][Bear]] for taking short notes.
 - [[https://www.zotero.org/][Zotero]] for collecting papers and making citations.
 - [[https://arc.net/][Arc]] for web browsing.
+- My timezone is GMT+03:00.
 
 Other than that, I am a proud owner of a [[https://happyhackingkb.com/][HHKB]], my favorite drink is Ice Caramel Latte, I am a really good Tetris player and my favorite place is the METU campus.
 

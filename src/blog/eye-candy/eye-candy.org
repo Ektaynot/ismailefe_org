@@ -2,7 +2,10 @@
 #+AUTHOR: İsmail Efe Top
 #+DATE: 2024-01-14
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
-#+HTML_HEAD: <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗺️</text></svg>">
+#+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
 
 First of all, this post is directly inspired by [[https://xenodium.com/my-emacs-eye-candy/][Álvaro's]] work. I love his stuff and he has been a great inspiration for me. I suggest everyone to check out his stuff.
 

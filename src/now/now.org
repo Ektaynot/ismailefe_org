@@ -5,23 +5,24 @@
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 #+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * When did I last update this page
-- Feb 11, 2024
+- Feb 18, 2024
 
 * What am I working on
 - This Blog
-- Persona 3 Reload
-- Preparing a course schedule for my semester
+- Class schedule
 
 * What do I enjoy
-- Finishing Persona 3 Reload
 - Deciding on my site's layout
+- Writing blog posts
+- Discovering good food
 
 * What are my goals
 - Writing a new blog post every week
-- Transitioning from vacation-mode to semester-mode
+- Surviving add-drop week🙏
 
 #+BEGIN_EXPORT html
 <div class="bottom-header">

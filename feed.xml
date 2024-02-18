@@ -5,7 +5,7 @@
 <link>https://ismailefe.org/</link>
 <description>İsmail Efe's Second Brain.</description>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 16 Feb 2024 23:31:50 +0300</lastBuildDate>
+<lastBuildDate>Sun, 18 Feb 2024 22:44:35 +0300</lastBuildDate>
 <item>
   <title>My EDC Essentials.</title>
   <description><![CDATA[<!DOCTYPE html>
@@ -641,6 +641,151 @@ It is quite old but it suits my style.</p>
   <link>https://ismailefe.org/blog/rss/index.html</link>
   <guid>https://ismailefe.org/blog/rss/index.html</guid>
   <pubDate>Thu, 01 Feb 2024 00:00:00 +0300</pubDate>
+</item>
+
+<item>
+  <title>University File Structure</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
+<header id="title-block-header">
+<h1 class="title">University File Structure</h1>
+<p class="author">İsmail Efe Top</p>
+<p class="date">2024-02-18</p>
+</header>
+<p>I have a very structured file management system for my university
+life. I save almost everything and everything that I saved has a place.
+Let's start with the main folder.</p>
+<h1 id="uni-folder">Uni Folder</h1>
+<p>I have a folder called 'uni' in my icloud drive. This folder sync
+between my macbook and iphone. This allows me to access my PDFs and docs
+with ease from either of my devices. I have shortcut to this folder on
+my ~(home) folder. Here is what this folder looks like on the first
+level.</p>
+<div class="sourceCode" data-org-language="sh" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a aria-hidden="true" href="#cb1-1" tabindex="-1"></a><span class="bu">.</span></span>
+<span id="cb1-2"><a aria-hidden="true" href="#cb1-2" tabindex="-1"></a><span class="ex">├──</span> citation</span>
+<span id="cb1-3"><a aria-hidden="true" href="#cb1-3" tabindex="-1"></a><span class="ex">├──</span> current-course <span class="at">-</span><span class="op">&gt;</span> /Users/ismailefetop/uni/first_year/02/</span>
+<span id="cb1-4"><a aria-hidden="true" href="#cb1-4" tabindex="-1"></a><span class="ex">├──</span> etc</span>
+<span id="cb1-5"><a aria-hidden="true" href="#cb1-5" tabindex="-1"></a><span class="ex">├──</span> first_year</span>
+<span id="cb1-6"><a aria-hidden="true" href="#cb1-6" tabindex="-1"></a><span class="ex">└──</span> prep</span></code></pre></div>
+<ul>
+<li>Citation folder houses my <a href="https://www.zotero.org/">zotero</a> bookmarks. I use an <a href="https://github.com/andras-simonyi/citeproc-el">Emacs extension</a>
+which allows me to cite those bookmarks.</li>
+<li>Current course folder is a shortcut to my current semester.</li>
+<li>etc folder houses stuff that are necessary but aren't specific
+enough for a folder.</li>
+<li>first_year and prep are for categorizing years in my
+university life.</li>
+</ul>
+<h1 id="semester-folders">Semester folders</h1>
+<p>Every year houses 2 semester folders inside it. Because my classes
+changes every semester it is the easiest way to categorize my classes.
+Let's look at the first semester of my first year. This is the first
+level.</p>
+<div class="sourceCode" data-org-language="sh" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a aria-hidden="true" href="#cb2-1" tabindex="-1"></a><span class="bu">.</span></span>
+<span id="cb2-2"><a aria-hidden="true" href="#cb2-2" tabindex="-1"></a><span class="ex">├──</span> ceit100</span>
+<span id="cb2-3"><a aria-hidden="true" href="#cb2-3" tabindex="-1"></a><span class="ex">├──</span> eds200</span>
+<span id="cb2-4"><a aria-hidden="true" href="#cb2-4" tabindex="-1"></a><span class="ex">├──</span> fle134</span>
+<span id="cb2-5"><a aria-hidden="true" href="#cb2-5" tabindex="-1"></a><span class="ex">├──</span> fle137</span>
+<span id="cb2-6"><a aria-hidden="true" href="#cb2-6" tabindex="-1"></a><span class="ex">├──</span> fle147</span>
+<span id="cb2-7"><a aria-hidden="true" href="#cb2-7" tabindex="-1"></a><span class="ex">├──</span> hist2201</span>
+<span id="cb2-8"><a aria-hidden="true" href="#cb2-8" tabindex="-1"></a><span class="ex">├──</span> school.org</span>
+<span id="cb2-9"><a aria-hidden="true" href="#cb2-9" tabindex="-1"></a><span class="ex">├──</span> todo.org</span>
+<span id="cb2-10"><a aria-hidden="true" href="#cb2-10" tabindex="-1"></a><span class="ex">└──</span> turk103</span></code></pre></div>
+<p>Every class has it's own folder. I will talk about them more in the
+next section.</p>
+<h2 id="school.org">school.org</h2>
+<p>This file is my semester's guidebook. It houses my class schedule,
+the classrooms, and shortcuts to class folders. It uses <a href="https://orgmode.org">org mode</a>, which is similar to <a href="https://www.markdownguide.org/">markdown</a> but more
+powerful.</p>
+<h2 id="todo.org">todo.org</h2>
+<p>I use <a href="https://orgmode.org/manual/Capture.html">org
+capture</a>, which allow me to write quick todo items when writing stuff
+in Emacs. These todo bits go into this file.</p>
+<h1 id="class-folders">Class Folders</h1>
+<p>These folders are the meat and bones of my setup. They hold
+everything about that particular class and they do it in <em>style</em>.
+for example let's look at my eds200 folder.</p>
+<div class="sourceCode" data-org-language="sh" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a aria-hidden="true" href="#cb3-1" tabindex="-1"></a><span class="bu">.</span></span>
+<span id="cb3-2"><a aria-hidden="true" href="#cb3-2" tabindex="-1"></a><span class="ex">├──</span> eds200.org</span>
+<span id="cb3-3"><a aria-hidden="true" href="#cb3-3" tabindex="-1"></a><span class="ex">├──</span> homeworks</span>
+<span id="cb3-4"><a aria-hidden="true" href="#cb3-4" tabindex="-1"></a><span class="ex">├──</span> notes</span>
+<span id="cb3-5"><a aria-hidden="true" href="#cb3-5" tabindex="-1"></a><span class="ex">└──</span> odtuclass</span></code></pre></div>
+<h2 id="eds200.org">eds200.org</h2>
+<p>Every class folder has an org file with that classes name. It houses
+information such as the instructor's name, email address and their
+office hours. It also have quick access to folders.</p>
+<h2 id="homeworks-folder">homeworks folder</h2>
+<p>Every homework related thing goes into this folder and every homework
+has it's own folder.</p>
+<h2 id="notes-folder">notes folder</h2>
+<p>I divide homeworks by week. I write notes in org and these org files
+go into appropriate week folder.</p>
+<h2 id="odtuclass-folder">odtuclass folder</h2>
+<p>My university uses it's own <a href="https://moodle.org/">moodle</a>.
+Our instructors communicate and give homework to us through there. It is
+also divided by week and the stuff our instructors upload goes into
+those folders.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>It might seem overly complicated at first, but once you get used to
+it, it's very easy to operate. It's definitely better than looking for
+that one file you downloaded weeks ago. And you don't need to know any
+complicated computer stuff to use this system. <u>Even though org files
+are plain text files.</u> You can just change the org files with more
+common text files.</p>
+<h1 id="sidenote">Sidenote</h1>
+<p>Creating this folder structure might be cumbersome, so I created this
+python script to ease the process.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a aria-hidden="true" href="#cb4-1" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb4-2"><a aria-hidden="true" href="#cb4-2" tabindex="-1"></a></span>
+<span id="cb4-3"><a aria-hidden="true" href="#cb4-3" tabindex="-1"></a>class_list <span class="op">=</span> [<span class="st">'ba100'</span>,</span>
+<span id="cb4-4"><a aria-hidden="true" href="#cb4-4" tabindex="-1"></a>              <span class="st">'hist2202'</span>,</span>
+<span id="cb4-5"><a aria-hidden="true" href="#cb4-5" tabindex="-1"></a>              <span class="st">'fle129'</span>,</span>
+<span id="cb4-6"><a aria-hidden="true" href="#cb4-6" tabindex="-1"></a>              <span class="st">'fle200'</span>,</span>
+<span id="cb4-7"><a aria-hidden="true" href="#cb4-7" tabindex="-1"></a>              <span class="st">'fle280'</span>,</span>
+<span id="cb4-8"><a aria-hidden="true" href="#cb4-8" tabindex="-1"></a>              <span class="st">'fle480'</span>,</span>
+<span id="cb4-9"><a aria-hidden="true" href="#cb4-9" tabindex="-1"></a>              <span class="st">'turk104'</span>,</span>
+<span id="cb4-10"><a aria-hidden="true" href="#cb4-10" tabindex="-1"></a>              <span class="st">'eng102'</span>]</span>
+<span id="cb4-11"><a aria-hidden="true" href="#cb4-11" tabindex="-1"></a></span>
+<span id="cb4-12"><a aria-hidden="true" href="#cb4-12" tabindex="-1"></a>year <span class="op">=</span> <span class="st">'first_year/'</span></span>
+<span id="cb4-13"><a aria-hidden="true" href="#cb4-13" tabindex="-1"></a></span>
+<span id="cb4-14"><a aria-hidden="true" href="#cb4-14" tabindex="-1"></a>semester <span class="op">=</span> <span class="st">'02/'</span></span>
+<span id="cb4-15"><a aria-hidden="true" href="#cb4-15" tabindex="-1"></a></span>
+<span id="cb4-16"><a aria-hidden="true" href="#cb4-16" tabindex="-1"></a>system_path <span class="op">=</span> <span class="st">'/Users/ismailefetop/uni/'</span> <span class="op">+</span> year <span class="op">+</span> semester</span>
+<span id="cb4-17"><a aria-hidden="true" href="#cb4-17" tabindex="-1"></a></span>
+<span id="cb4-18"><a aria-hidden="true" href="#cb4-18" tabindex="-1"></a><span class="co"># overwriting an exisiting folder might create problems, so the code doesn't do anything if the wanted semester folder exist.</span></span>
+<span id="cb4-19"><a aria-hidden="true" href="#cb4-19" tabindex="-1"></a><span class="cf">if</span> os.path.exists(system_path) <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb4-20"><a aria-hidden="true" href="#cb4-20" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">'This directory already exists.'</span>)</span>
+<span id="cb4-21"><a aria-hidden="true" href="#cb4-21" tabindex="-1"></a>    quit()</span>
+<span id="cb4-22"><a aria-hidden="true" href="#cb4-22" tabindex="-1"></a></span>
+<span id="cb4-23"><a aria-hidden="true" href="#cb4-23" tabindex="-1"></a>os.makedirs(system_path, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb4-24"><a aria-hidden="true" href="#cb4-24" tabindex="-1"></a></span>
+<span id="cb4-25"><a aria-hidden="true" href="#cb4-25" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(system_path <span class="op">+</span> <span class="st">'school.org'</span>, <span class="st">'w'</span>) <span class="im">as</span> fp:</span>
+<span id="cb4-26"><a aria-hidden="true" href="#cb4-26" tabindex="-1"></a>    <span class="cf">pass</span></span>
+<span id="cb4-27"><a aria-hidden="true" href="#cb4-27" tabindex="-1"></a></span>
+<span id="cb4-28"><a aria-hidden="true" href="#cb4-28" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(system_path <span class="op">+</span> <span class="st">'todo.org'</span>, <span class="st">'w'</span>) <span class="im">as</span> fp:</span>
+<span id="cb4-29"><a aria-hidden="true" href="#cb4-29" tabindex="-1"></a>    <span class="cf">pass</span></span>
+<span id="cb4-30"><a aria-hidden="true" href="#cb4-30" tabindex="-1"></a></span>
+<span id="cb4-31"><a aria-hidden="true" href="#cb4-31" tabindex="-1"></a><span class="cf">for</span> class_name <span class="kw">in</span> class_list:</span>
+<span id="cb4-32"><a aria-hidden="true" href="#cb4-32" tabindex="-1"></a>    class_name_folder <span class="op">=</span> system_path <span class="op">+</span> class_name <span class="op">+</span> <span class="st">'/'</span></span>
+<span id="cb4-33"><a aria-hidden="true" href="#cb4-33" tabindex="-1"></a>    os.makedirs(class_name_folder, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb4-34"><a aria-hidden="true" href="#cb4-34" tabindex="-1"></a>    os.makedirs(class_name_folder <span class="op">+</span> <span class="st">'odtuclass/'</span>, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb4-35"><a aria-hidden="true" href="#cb4-35" tabindex="-1"></a>    os.makedirs(class_name_folder <span class="op">+</span> <span class="st">'odtuclass/misc/'</span>, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb4-36"><a aria-hidden="true" href="#cb4-36" tabindex="-1"></a>    os.makedirs(class_name_folder <span class="op">+</span> <span class="st">'notes/'</span>, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb4-37"><a aria-hidden="true" href="#cb4-37" tabindex="-1"></a>    os.makedirs(class_name_folder <span class="op">+</span> <span class="st">'homeworks/'</span>, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb4-38"><a aria-hidden="true" href="#cb4-38" tabindex="-1"></a></span>
+<span id="cb4-39"><a aria-hidden="true" href="#cb4-39" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span>(class_name_folder <span class="op">+</span> <span class="ss">f'</span><span class="sc">{</span>class_name<span class="sc">}</span><span class="ss">.org'</span>, <span class="st">'w'</span>) <span class="im">as</span> fp:</span>
+<span id="cb4-40"><a aria-hidden="true" href="#cb4-40" tabindex="-1"></a>        <span class="cf">pass</span></span></code></pre></div>
+<div class="bottom-header">
+<a class="bottom-header-link" href="/">Home</a>
+<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
+<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/uni_file_structure/index.html</link>
+  <guid>https://ismailefe.org/blog/uni_file_structure/index.html</guid>
+  <pubDate>Sun, 18 Feb 2024 00:00:00 +0300</pubDate>
 </item>
 
 </channel>

@@ -233,10 +233,10 @@
     code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" type="text/css" href="/templates/style.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
 </head>
 <body>
 <header id="title-block-header">
@@ -253,13 +253,13 @@ between my macbook and iphone. This allows me to access my PDFs and docs
 with ease from either of my devices. I have shortcut to this folder on
 my ~(home) folder. Here is what this folder looks like on the first
 level.</p>
-<div class="sourceCode" id="cb1" data-org-language="sh"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">.</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> citation</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> current-course <span class="at">-</span><span class="op">&gt;</span> /Users/ismailefetop/uni/first_year/02/</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> etc</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> first_year</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="ex">└──</span> prep</span></code></pre></div>
+<pre><code>uni
+├── citation
+├── current-course -&gt; /Users/ismailefetop/uni/first_year/02/
+├── etc
+├── first_year
+└── prep
+</code></pre>
 <ul>
 <li>Citation folder houses my <a
 href="https://www.zotero.org/">zotero</a> bookmarks. I use an <a
@@ -268,25 +268,30 @@ which allows me to cite those bookmarks.</li>
 <li>Current course folder is a shortcut to my current semester.</li>
 <li>etc folder houses stuff that are necessary but aren't specific
 enough for a folder.</li>
-<li>first_year and prep are for categorizing years in my
+<li>first<sub>year</sub> and prep are for categorizing years in my
 university life.</li>
 </ul>
 <h1 id="semester-folders">Semester folders</h1>
 <p>Every year houses 2 semester folders inside it. Because my classes
 changes every semester it is the easiest way to categorize my classes.
-Let's look at the first semester of my first year. This is the first
+<strong>For example:</strong></p>
+<pre><code>first_year
+├── 01
+└── 02
+</code></pre>
+<p>Let's look at the first semester of my first year. This is the first
 level.</p>
-<div class="sourceCode" id="cb2" data-org-language="sh"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">.</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> ceit100</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> eds200</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> fle134</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> fle137</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> fle147</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> hist2201</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> school.org</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> todo.org</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="ex">└──</span> turk103</span></code></pre></div>
+<pre><code>01
+├── ceit100
+├── eds200
+├── fle134
+├── fle137
+├── fle147
+├── hist2201
+├── school.org
+├── todo.org
+└── turk103
+</code></pre>
 <p>Every class has it's own folder. I will talk about them more in the
 next section.</p>
 <h2 id="school.org">school.org</h2>
@@ -303,12 +308,12 @@ in Emacs. These todo bits go into this file.</p>
 <p>These folders are the meat and bones of my setup. They hold
 everything about that particular class and they do it in <em>style</em>.
 for example let's look at my eds200 folder.</p>
-<div class="sourceCode" id="cb3" data-org-language="sh"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">.</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> eds200.org</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> homeworks</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> notes</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="ex">└──</span> odtuclass</span></code></pre></div>
+<pre><code>eds200
+├── eds200.org
+├── homeworks
+├── notes
+└── odtuclass
+</code></pre>
 <h2 id="eds200.org">eds200.org</h2>
 <p>Every class folder has an org file with that classes name. It houses
 information such as the instructor's name, email address and their
@@ -334,47 +339,47 @@ common text files.</p>
 <h1 id="sidenote">Sidenote</h1>
 <p>Creating this folder structure might be cumbersome, so I created this
 python script to ease the process.</p>
-<div class="sourceCode" id="cb4"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>class_list <span class="op">=</span> [<span class="st">&#39;ba100&#39;</span>,</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;hist2202&#39;</span>,</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;fle129&#39;</span>,</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;fle200&#39;</span>,</span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;fle280&#39;</span>,</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;fle480&#39;</span>,</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;turk104&#39;</span>,</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;eng102&#39;</span>]</span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>year <span class="op">=</span> <span class="st">&#39;first_year/&#39;</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>semester <span class="op">=</span> <span class="st">&#39;02/&#39;</span></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>system_path <span class="op">=</span> <span class="st">&#39;/Users/ismailefetop/uni/&#39;</span> <span class="op">+</span> year <span class="op">+</span> semester</span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="co"># overwriting an exisiting folder might create problems, so the code doesn&#39;t do anything if the wanted semester folder exist.</span></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> os.path.exists(system_path) <span class="op">==</span> <span class="va">True</span>:</span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;This directory already exists.&#39;</span>)</span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    quit()</span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>os.makedirs(system_path, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(system_path <span class="op">+</span> <span class="st">&#39;school.org&#39;</span>, <span class="st">&#39;w&#39;</span>) <span class="im">as</span> fp:</span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>    <span class="cf">pass</span></span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(system_path <span class="op">+</span> <span class="st">&#39;todo.org&#39;</span>, <span class="st">&#39;w&#39;</span>) <span class="im">as</span> fp:</span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">pass</span></span>
-<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> class_name <span class="kw">in</span> class_list:</span>
-<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>    class_name_folder <span class="op">=</span> system_path <span class="op">+</span> class_name <span class="op">+</span> <span class="st">&#39;/&#39;</span></span>
-<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>    os.makedirs(class_name_folder, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>    os.makedirs(class_name_folder <span class="op">+</span> <span class="st">&#39;odtuclass/&#39;</span>, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>    os.makedirs(class_name_folder <span class="op">+</span> <span class="st">&#39;odtuclass/misc/&#39;</span>, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>    os.makedirs(class_name_folder <span class="op">+</span> <span class="st">&#39;notes/&#39;</span>, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>    os.makedirs(class_name_folder <span class="op">+</span> <span class="st">&#39;homeworks/&#39;</span>, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span>(class_name_folder <span class="op">+</span> <span class="ss">f&#39;</span><span class="sc">{</span>class_name<span class="sc">}</span><span class="ss">.org&#39;</span>, <span class="st">&#39;w&#39;</span>) <span class="im">as</span> fp:</span>
-<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>        <span class="cf">pass</span></span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>class_list <span class="op">=</span> [<span class="st">&#39;ba100&#39;</span>,</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;hist2202&#39;</span>,</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;fle129&#39;</span>,</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;fle200&#39;</span>,</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;fle280&#39;</span>,</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;fle480&#39;</span>,</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;turk104&#39;</span>,</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>              <span class="st">&#39;eng102&#39;</span>]</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>year <span class="op">=</span> <span class="st">&#39;first_year/&#39;</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>semester <span class="op">=</span> <span class="st">&#39;02/&#39;</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>system_path <span class="op">=</span> <span class="st">&#39;/Users/ismailefetop/uni/&#39;</span> <span class="op">+</span> year <span class="op">+</span> semester</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a><span class="co"># overwriting an exisiting folder might create problems, so the code doesn&#39;t do anything if the wanted semester folder exist.</span></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> os.path.exists(system_path) <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;This directory already exists.&#39;</span>)</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>    quit()</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>os.makedirs(system_path, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(system_path <span class="op">+</span> <span class="st">&#39;school.org&#39;</span>, <span class="st">&#39;w&#39;</span>) <span class="im">as</span> fp:</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>    <span class="cf">pass</span></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(system_path <span class="op">+</span> <span class="st">&#39;todo.org&#39;</span>, <span class="st">&#39;w&#39;</span>) <span class="im">as</span> fp:</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">pass</span></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> class_name <span class="kw">in</span> class_list:</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>    class_name_folder <span class="op">=</span> system_path <span class="op">+</span> class_name <span class="op">+</span> <span class="st">&#39;/&#39;</span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>    os.makedirs(class_name_folder, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>    os.makedirs(class_name_folder <span class="op">+</span> <span class="st">&#39;odtuclass/&#39;</span>, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>    os.makedirs(class_name_folder <span class="op">+</span> <span class="st">&#39;odtuclass/misc/&#39;</span>, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>    os.makedirs(class_name_folder <span class="op">+</span> <span class="st">&#39;notes/&#39;</span>, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>    os.makedirs(class_name_folder <span class="op">+</span> <span class="st">&#39;homeworks/&#39;</span>, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span>(class_name_folder <span class="op">+</span> <span class="ss">f&#39;</span><span class="sc">{</span>class_name<span class="sc">}</span><span class="ss">.org&#39;</span>, <span class="st">&#39;w&#39;</span>) <span class="im">as</span> fp:</span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>        <span class="cf">pass</span></span></code></pre></div>
 <div class="bottom-header">
   <a class="bottom-header-link" href="/">Home</a>
   <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link"

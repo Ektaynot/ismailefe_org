@@ -1,5 +1,10 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); */
 
+:root {
+  --hyperlink-color: rgb(67, 133, 190);
+  --hyperlink-hover-color: rgb(209, 77, 65);
+}
+
 html {
   color: rgb(16, 15, 15);
   background-color: rgb(255, 252, 240);
@@ -24,7 +29,6 @@ body {
   font-kerning: normal;
 }
 
-/* for computers */
 p,
 li {
   font-size: 17pt;
@@ -32,20 +36,7 @@ li {
 q {
   font-size: 15pt;
 }
-/* for computers */
-#mailme {
-  text-align: center;
-  font-size: 20px;
-  margin-top: 10em;
-}
-/* for adding color to the return to site hyperlink */
-#return-to-site {
-  text-align: center;
-}
-#return-to-site a {
-  font-size: 20px;
-  color: rgb(255, 114, 101);
-}
+
 .bottom-header {
   margin-top: 8em;
   justify-content: space-evenly;
@@ -87,9 +78,6 @@ footer {
   .bottom-header-link {
     font-size: 16px;
   }
-  #return-to-site a {
-    font-size: 18px;
-  }
 }
 
 @media print {
@@ -123,11 +111,11 @@ a:visited {
   /* purple */
   /* color: #745B90; */
   /* flexoki theme blue */
-  color: rgb(67, 133, 190);
+  color: var(--hyperlink-color);
   text-decoration: none;
 }
 a:hover {
-  color: rgb(209, 77, 65);
+  color: var(--hyperlink-hover-color);
 }
 
 img {

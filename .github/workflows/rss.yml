@@ -23,4 +23,4 @@ jobs:
           pip install -r /home/runner/work/ismailefe_org/ismailefe_org/etc/rss_builder/requirements.txt
 
       - name: Run script
-        run: python /home/runner/work/ismailefe_org/ismailefe_org/etc/rss_builder/rss.py
+        run: python /home/runner/work/ismailefe_org/ismailefe_org/etc/rss_builder/rss_action.py

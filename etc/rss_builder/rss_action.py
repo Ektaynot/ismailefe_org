@@ -1,7 +1,7 @@
 from datetime import datetime
 from bs4 import BeautifulSoup
 
-system_header = "/home/runner/work/ismailefe_org/"
+system_header = "/home/runner/work/ismailefe_org/ismailefe_org"
 website_header= "https://ismailefe.org"
 blog_posts = ["/blog/my_edc/index.html",
               "/blog/eye_candy/index.html",
@@ -13,7 +13,7 @@ blog_posts = ["/blog/my_edc/index.html",
 
 update_time = str(datetime.now().strftime('%a, %d %b %Y %H:%M:%S'))+' +0300'
 
-feed_output = "/home/runner/work/ismailefe_org/feed.xml"
+feed_output = "/home/runner/work/ismailefe_org/ismailefe_org/feed.xml"
 xml_file = open(feed_output, "w")
 
 xml_file.write(

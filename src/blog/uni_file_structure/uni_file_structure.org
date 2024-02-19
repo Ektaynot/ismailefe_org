@@ -10,7 +10,7 @@
 I have a very structured file management system for my university life. I save almost everything and everything that I saved has a place. Let's start with the main folder.
 
 * Uni Folder
-I have a folder called 'uni' in my icloud drive. This folder sync between my macbook and iphone. This allows me to access my PDFs and docs with ease from either of my devices. I have shortcut to this folder on my ~(home) folder. Here is what this folder looks like on the first level.
+I have a folder called 'uni' in my icloud drive. This folder sync between my macbook and iphone. This allows me to access my PDFs and docs with ease from either of my devices. I have a shortcut to this folder on my ~(home) directory. Here is what this folder looks like on the first level.
 
 #+begin_src
 uni

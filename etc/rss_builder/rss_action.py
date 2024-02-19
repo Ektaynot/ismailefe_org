@@ -1,7 +1,7 @@
 from datetime import datetime
 from bs4 import BeautifulSoup
 
-system_header = "/home/runner/work/ismailefe_org/ismailefe_org"
+system_header = "/home/runner/work/ismailefe_org/"
 website_header= "https://ismailefe.org"
 blog_posts = ["/blog/my_edc/index.html",
               "/blog/eye_candy/index.html",

@@ -58,7 +58,7 @@ This file is my semester's guidebook. It houses my class schedule, the classroom
 I use [[https://orgmode.org/manual/Capture.html][org capture]], which allow me to write quick todo items when writing stuff in Emacs. These todo bits go into this file.
 
 * Class Folders
-These folders are the meat and bones of my setup. They hold everything about that particular class and they do it in /style/. for example let's look at my eds200 folder.
+These folders are the meat and bones of my setup. They hold everything about that particular class and they do it in /style/. For example let's look at my eds200 folder.
 
 #+begin_src
 eds200

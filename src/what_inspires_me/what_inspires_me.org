@@ -1,6 +1,9 @@
-#+title: Cool stuff
+#+title: Cool Stuff
 
+#+HTML_HEAD: <!-- the gallery library is made by lokesh https://github.com/lokesh/lightbox2/ -->
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/cool_stuff/cool_stuff.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/etc/lightbox2/dist/css/lightbox.css" />
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -9,7 +12,34 @@
 These are the collection of things that I find cool, these things inspire me and make me continue being creative.
 
 * Old Ads
-
+#+begin_export html
+    <div class="ads-container">
+      <a href="/cool_stuff/pics/apple_ad.png" data-lightbox="ads">
+        <img
+          data-lightbox="ads"
+          class="ads-image"
+          src="/cool_stuff/pics/apple_ad.png"
+      /></a>
+      <a href="/cool_stuff/pics/new_balance_ad.png" data-lightbox="ads">
+        <img
+          data-lightbox="ads"
+          class="ads-image"
+          src="/cool_stuff/pics/new_balance_ad.png"
+      /></a>
+      <a href="/cool_stuff/pics/rugrats_ad.png" data-lightbox="ads">
+        <img
+          data-lightbox="ads"
+          class="ads-image"
+          src="/cool_stuff/pics/rugrats_ad.png"
+      /></a>
+      <a href="/cool_stuff/pics/thinkpad_ad.png" data-lightbox="ads">
+        <img
+          data-lightbox="ads"
+          class="ads-image"
+          src="/cool_stuff/pics/thinkpad_ad.png"
+      /></a>
+    </div>
+#+end_export
 * Cool Websites
 ** [[https://drollery.org/][drollery.org]]
 This website might be my favorite personal website. It's simple, informative and fun. The current internet sadly lacks fun websites, so having a website like this that is full of fun easter eggs are really cool.
@@ -22,7 +52,9 @@ I advise you to check out this [[https://tonsky.me/blog/unicode/][article]].
 
 * Random Stuff
 ** My Analog Camera
-
+#+begin_export html
+<img src="/cool_stuff/pics/camera.png"/>
+#+end_export
 This was my dream camera, it's gotta be one of the most beautiful things I own.
 
 
@@ -33,4 +65,13 @@ This was my dream camera, it's gotta be one of the most beautiful things I own.
   <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
   <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
 </div>
+    <script src="/etc/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
+    <script>
+      lightbox.option({
+        resizeDuration: 0,
+        wrapAround: true,
+        fadeDuration: 0,
+        imageFadeDuration: 0,
+      });
+    </script>
 #+END_EXPORT

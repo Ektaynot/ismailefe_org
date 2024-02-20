@@ -14,29 +14,29 @@ These are the collection of things that I find cool, these things inspire me and
 * Old Ads
 #+begin_export html
     <div class="ads-container">
-      <a href="/cool_stuff/pics/apple_ad.png" data-lightbox="ads">
+      <a href="/cool_stuff/pics/apple.png" data-lightbox="old">
         <img
-          data-lightbox="ads"
+          data-lightbox="old"
           class="ads-image"
-          src="/cool_stuff/pics/apple_ad.png"
+          src="/cool_stuff/pics/apple.png"
       /></a>
-      <a href="/cool_stuff/pics/new_balance_ad.png" data-lightbox="ads">
+      <a href="/cool_stuff/pics/new_balance.png" data-lightbox="old">
         <img
-          data-lightbox="ads"
+          data-lightbox="old"
           class="ads-image"
-          src="/cool_stuff/pics/new_balance_ad.png"
+          src="/cool_stuff/pics/new_balance.png"
       /></a>
-      <a href="/cool_stuff/pics/rugrats_ad.png" data-lightbox="ads">
+      <a href="/cool_stuff/pics/rugrats.png" data-lightbox="old">
         <img
-          data-lightbox="ads"
+          data-lightbox="old"
           class="ads-image"
-          src="/cool_stuff/pics/rugrats_ad.png"
+          src="/cool_stuff/pics/rugrats.png"
       /></a>
-      <a href="/cool_stuff/pics/thinkpad_ad.png" data-lightbox="ads">
+      <a href="/cool_stuff/pics/thinkpad.png" data-lightbox="old">
         <img
-          data-lightbox="ads"
+          data-lightbox="old"
           class="ads-image"
-          src="/cool_stuff/pics/thinkpad_ad.png"
+          src="/cool_stuff/pics/thinkpad.png"
       /></a>
     </div>
 #+end_export

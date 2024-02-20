@@ -8,20 +8,16 @@
       content="width=device-width, initial-scale=1.0, user-scalable=yes"
     />
     <meta name="author" content="İsmail Efe Top" />
-    <title>Cool stuff</title>
-    <style>
-      .ads-container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); /* Three columns */
-        gap: 20px; /* Adjust the gap between images */
-        justify-content: center; /* Center content horizontally */
-      }
-      .ads-image {
-        max-width: 100%; /* Ensure images don't exceed container width */
-        height: auto; /* Maintain aspect ratio */
-      }
-    </style>
+    <title>Cool Stuff</title>
+    <style></style>
+    <!-- the gallery library is made by lokesh https://github.com/lokesh/lightbox2/ -->
     <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+    <link rel="stylesheet" type="text/css" href="/cool_stuff/cool_stuff.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/etc/lightbox2/dist/css/lightbox.css"
+    />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -43,7 +39,7 @@
   </head>
   <body>
     <header id="title-block-header">
-      <h1 class="title">Cool stuff</h1>
+      <h1 class="title">Cool Stuff</h1>
       <p class="author">İsmail Efe Top</p>
     </header>
     <p>
@@ -52,11 +48,32 @@
     </p>
     <h1 id="old-ads">Old Ads</h1>
     <div class="ads-container">
-        <img class="ads-image" src="/cool_stuff/pics/apple_ad.png" />
-        <img class="ads-image" src="/cool_stuff/pics/new_balance_ad.png" />
-        <img class="ads-image" src="/cool_stuff/pics/rugrats_ad.png" />
-        <img class="ads-image" src="/cool_stuff/pics/thinkpad_ad.png" />
+      <a href="/cool_stuff/pics/apple_ad.png" data-lightbox="ads">
+        <img
+          data-lightbox="ads"
+          class="ads-image"
+          src="/cool_stuff/pics/apple_ad.png"
+      /></a>
+      <a href="/cool_stuff/pics/new_balance_ad.png" data-lightbox="ads">
+        <img
+          data-lightbox="ads"
+          class="ads-image"
+          src="/cool_stuff/pics/new_balance_ad.png"
+      /></a>
+      <a href="/cool_stuff/pics/rugrats_ad.png" data-lightbox="ads">
+        <img
+          data-lightbox="ads"
+          class="ads-image"
+          src="/cool_stuff/pics/rugrats_ad.png"
+      /></a>
+      <a href="/cool_stuff/pics/thinkpad_ad.png" data-lightbox="ads">
+        <img
+          data-lightbox="ads"
+          class="ads-image"
+          src="/cool_stuff/pics/thinkpad_ad.png"
+      /></a>
     </div>
+
     <h1 id="cool-websites">Cool Websites</h1>
     <h2 id="drollery.org"><a href="https://drollery.org/">drollery.org</a></h2>
     <p>
@@ -84,7 +101,8 @@
     </p>
     <h1 id="random-stuff">Random Stuff</h1>
     <h2 id="my-analog-camera">My Analog Camera</h2>
-    <img src="/cool_stuff/pics/camera.png">
+    <img src="/cool_stuff/pics/camera.png" />
+
     <p>
       This was my dream camera, it's gotta be one of the most beautiful things I
       own.
@@ -102,5 +120,14 @@
         >Source</a
       >
     </div>
+    <script src="/etc/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
+    <script>
+      lightbox.option({
+        resizeDuration: 0,
+        wrapAround: true,
+        fadeDuration: 0,
+        imageFadeDuration: 0,
+      });
+    </script>
   </body>
 </html>

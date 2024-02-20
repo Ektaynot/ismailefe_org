@@ -1,9 +1,7 @@
 #+title: Cool Stuff
 
-#+HTML_HEAD: <!-- the gallery library is made by lokesh https://github.com/lokesh/lightbox2/ -->
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/cool_stuff/cool_stuff.css" />
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/etc/lightbox2/dist/css/lightbox.css" />
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -14,30 +12,10 @@ These are the collection of things that I find cool, these things inspire me and
 * Old Ads
 #+begin_export html
     <div class="ads-container">
-      <a href="/cool_stuff/pics/apple_ad.png" data-lightbox="ads">
-        <img
-          data-lightbox="ads"
-          class="ads-image"
-          src="/cool_stuff/pics/apple_ad.png"
-      /></a>
-      <a href="/cool_stuff/pics/new_balance_ad.png" data-lightbox="ads">
-        <img
-          data-lightbox="ads"
-          class="ads-image"
-          src="/cool_stuff/pics/new_balance_ad.png"
-      /></a>
-      <a href="/cool_stuff/pics/rugrats_ad.png" data-lightbox="ads">
-        <img
-          data-lightbox="ads"
-          class="ads-image"
-          src="/cool_stuff/pics/rugrats_ad.png"
-      /></a>
-      <a href="/cool_stuff/pics/thinkpad_ad.png" data-lightbox="ads">
-        <img
-          data-lightbox="ads"
-          class="ads-image"
-          src="/cool_stuff/pics/thinkpad_ad.png"
-      /></a>
+      <img class="ads-image" src="/cool_stuff/pics/apple_ad.png" />
+      <img class="ads-image" src="/cool_stuff/pics/new_balance_ad.png" />
+      <img class="ads-image" src="/cool_stuff/pics/rugrats_ad.png" />
+      <img class="ads-image" src="/cool_stuff/pics/thinkpad_ad.png" />
     </div>
 #+end_export
 * Cool Websites
@@ -65,13 +43,4 @@ This was my dream camera, it's gotta be one of the most beautiful things I own.
   <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
   <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
 </div>
-    <script src="/etc/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
-    <script>
-      lightbox.option({
-        resizeDuration: 0,
-        wrapAround: true,
-        fadeDuration: 0,
-        imageFadeDuration: 0,
-      });
-    </script>
 #+END_EXPORT

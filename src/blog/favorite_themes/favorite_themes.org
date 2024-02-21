@@ -40,4 +40,9 @@ I saved the best for last, this is an Emacs theme inspired by the colors of the 
     href="https://github.com/Ektaynot/ismailefe_org"
     target="_blank">Source</a>
 </div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
 #+END_EXPORT

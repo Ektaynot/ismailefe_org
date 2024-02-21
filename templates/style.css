@@ -36,7 +36,13 @@ li {
 q {
   font-size: 15pt;
 }
-
+.firechickenwebring {
+  padding: 30px;
+  justify-content: center;
+  display: flex;
+  color: rgb(209, 77, 65);
+  font-size: 20pt;
+} 
 .bottom-header {
   margin-top: 8em;
   justify-content: space-evenly;
@@ -78,6 +84,11 @@ footer {
   .bottom-header-link {
     font-size: 16px;
   }
+.firechickenwebring {
+  padding: 20px;
+  font-size: 16pt;
+} 
+
 }
 
 @media print {

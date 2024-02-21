@@ -77,6 +77,11 @@ This was my dream camera, it's gotta be one of the most beautiful things I own.
   <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
   <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
 </div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
     <script src="/etc/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
     <script>
       lightbox.option({

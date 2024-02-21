@@ -1,6 +1,6 @@
 * İsmail Efe's Blog Site
 
-Welcome to my second brain. I am planning to post my thoughts and class notes here.
+Welcome to my second brain. I post my thoughts here.
 /This site was fully made by me using [[https://orgmode.org/][org-mode]] and [[https://pandoc.org/][pandoc]]./
 
 ** Blog Posts:

@@ -35,4 +35,9 @@ If you don't know what a now page is, check out [[https://nownownow.com/about][t
     href="https://github.com/Ektaynot/ismailefe_org"
     target="_blank">Source</a>
 </div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
 #+END_EXPORT

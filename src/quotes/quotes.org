@@ -27,4 +27,9 @@ This page contains bits of information that I collected from various sources. It
     href="https://github.com/Ektaynot/ismailefe_org"
     target="_blank">Source</a>
 </div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
 #+END_EXPORT

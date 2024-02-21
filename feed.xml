@@ -5,7 +5,7 @@
 <link>https://ismailefe.org/</link>
 <description>İsmail Efe's Second Brain.</description>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 19 Feb 2024 13:07:08 +0300</lastBuildDate>
+<lastBuildDate>Wed, 21 Feb 2024 23:40:52 +0300</lastBuildDate>
 <item>
   <title>My EDC Essentials.</title>
   <description><![CDATA[<!DOCTYPE html>
@@ -119,6 +119,11 @@
 <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
 <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
 </div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
+</div>
 </body></html>]]></description>
   <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
   <link>https://ismailefe.org/blog/my_edc/index.html</link>
@@ -230,6 +235,11 @@ It is quite old but it suits my style.</p>
 <a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
 <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
 <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
 </div>
 </body></html>]]></description>
   <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
@@ -363,6 +373,11 @@ It is quite old but it suits my style.</p>
 <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
 <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
 </div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
+</div>
 </body></html>]]></description>
   <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
   <link>https://ismailefe.org/blog/best_albums_2023/index.html</link>
@@ -434,6 +449,11 @@ It is quite old but it suits my style.</p>
 <a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
 <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
 <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
 </div>
 </body></html>]]></description>
   <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
@@ -636,6 +656,11 @@ It is quite old but it suits my style.</p>
 <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
 <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
 </div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
+</div>
 </body></html>]]></description>
   <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
   <link>https://ismailefe.org/blog/rss/index.html</link>
@@ -652,15 +677,18 @@ It is quite old but it suits my style.</p>
 <p class="author">İsmail Efe Top</p>
 <p class="date">2024-02-18</p>
 </header>
-<p>I have a very structured file management system for my university
-life. I save almost everything and everything that I saved has a place.
-Let's start with the main folder.</p>
+<p>
+      I have a very structured file management system for my university life. I
+      save almost everything and everything that I saved has a place. Let's
+      start with the main folder.
+    </p>
 <h1 id="uni-folder">Uni Folder</h1>
-<p>I have a folder called 'uni' in my icloud drive. This folder sync
-between my macbook and iphone. This allows me to access my PDFs and docs
-with ease from either of my devices. I have a shortcut to this folder on
-my ~(home) directory. Here is what this folder looks like on the first
-level.</p>
+<p>
+      I have a folder called 'uni' in my icloud drive. This folder sync between
+      my macbook and iphone. This allows me to access my PDFs and docs with ease
+      from either of my devices. I have a shortcut to this folder on my ~(home)
+      directory. Here is what this folder looks like on the first level.
+    </p>
 <pre><code>uni
 ├── citation
 ├── current-course -&gt; /Users/ismailefetop/uni/first_year/02/
@@ -669,24 +697,35 @@ level.</p>
 └── prep
 </code></pre>
 <ul>
-<li>Citation folder houses my <a href="https://www.zotero.org/">zotero</a> bookmarks. I use an <a href="https://github.com/andras-simonyi/citeproc-el">Emacs extension</a>
-which allows me to cite those bookmarks.</li>
+<li>
+        Citation folder houses my
+        <a href="https://www.zotero.org/">zotero</a> bookmarks. I use an
+        <a href="https://github.com/andras-simonyi/citeproc-el">Emacs extension</a>
+        which allows me to cite those bookmarks.
+      </li>
 <li>Current course folder is a shortcut to my current semester.</li>
-<li>etc folder houses stuff that are necessary but aren't specific
-enough for a folder.</li>
-<li>first_year and prep are for categorizing years in my
-university life.</li>
+<li>
+        etc folder houses stuff that are necessary but aren't specific enough
+        for a folder.
+      </li>
+<li>
+        first_year and prep are for categorizing years in my university life.
+      </li>
 </ul>
 <h1 id="semester-folders">Semester folders</h1>
-<p>Every year houses 2 semester folders inside it. Because my classes
-changes every semester it is the easiest way to categorize my classes.
-<strong>For example:</strong></p>
+<p>
+      Every year houses 2 semester folders inside it. Because my classes changes
+      every semester it is the easiest way to categorize my classes.
+      <strong>For example:</strong>
+</p>
 <pre><code>first_year
 ├── 01
 └── 02
 </code></pre>
-<p>Let's look at the first semester of my first year. This is the first
-level.</p>
+<p>
+      Let's look at the first semester of my first year. This is the first
+      level.
+    </p>
 <pre><code>01
 ├── ceit100
 ├── eds200
@@ -698,20 +737,29 @@ level.</p>
 ├── todo.org
 └── turk103
 </code></pre>
-<p>Every class has it's own folder. I will talk about them more in the
-next section.</p>
+<p>
+      Every class has it's own folder. I will talk about them more in the next
+      section.
+    </p>
 <h2 id="school.org">school.org</h2>
-<p>This file is my semester's guidebook. It houses my class schedule,
-the classrooms, and shortcuts to class folders. It uses <a href="https://orgmode.org">org mode</a>, which is similar to <a href="https://www.markdownguide.org/">markdown</a> but more
-powerful.</p>
+<p>
+      This file is my semester's guidebook. It houses my class schedule, the
+      classrooms, and shortcuts to class folders. It uses
+      <a href="https://orgmode.org">org mode</a>, which is similar to
+      <a href="https://www.markdownguide.org/">markdown</a> but more powerful.
+    </p>
 <h2 id="todo.org">todo.org</h2>
-<p>I use <a href="https://orgmode.org/manual/Capture.html">org
-capture</a>, which allow me to write quick todo items when writing stuff
-in Emacs. These todo bits go into this file.</p>
+<p>
+      I use <a href="https://orgmode.org/manual/Capture.html">org capture</a>,
+      which allow me to write quick todo items when writing stuff in Emacs.
+      These todo bits go into this file.
+    </p>
 <h1 id="class-folders">Class Folders</h1>
-<p>These folders are the meat and bones of my setup. They hold
-everything about that particular class and they do it in <em>style</em>.
-For example let's look at my eds200 folder.</p>
+<p>
+      These folders are the meat and bones of my setup. They hold everything
+      about that particular class and they do it in <em>style</em>. For example
+      let's look at my eds200 folder.
+    </p>
 <pre><code>eds200
 ├── eds200.org
 ├── homeworks
@@ -719,31 +767,44 @@ For example let's look at my eds200 folder.</p>
 └── odtuclass
 </code></pre>
 <h2 id="eds200.org">eds200.org</h2>
-<p>Every class folder has an org file with that classes name. It houses
-information such as the instructor's name, email address and their
-office hours. It also have quick access to folders.</p>
+<p>
+      Every class folder has an org file with that classes name. It houses
+      information such as the instructor's name, email address and their office
+      hours. It also have quick access to folders.
+    </p>
 <h2 id="homeworks-folder">homeworks folder</h2>
-<p>Every homework related thing goes into this folder and every homework
-has it's own folder.</p>
+<p>
+      Every homework related thing goes into this folder and every homework has
+      it's own folder.
+    </p>
 <h2 id="notes-folder">notes folder</h2>
-<p>I divide homeworks by week. I write notes in org and these org files
-go into appropriate week folder.</p>
+<p>
+      I divide homeworks by week. I write notes in org and these org files go
+      into appropriate week folder.
+    </p>
 <h2 id="odtuclass-folder">odtuclass folder</h2>
-<p>My university uses it's own <a href="https://moodle.org/">moodle</a>.
-Our instructors communicate and give homework to us through there. It is
-also divided by week and the stuff our instructors upload goes into
-those folders.</p>
+<p>
+      My university uses it's own <a href="https://moodle.org/">moodle</a>. Our
+      instructors communicate and give homework to us through there. It is also
+      divided by week and the stuff our instructors upload goes into those
+      folders.
+    </p>
 <h1 id="conclusion">Conclusion</h1>
-<p>It might seem overly complicated at first, but once you get used to
-it, it's very easy to operate. It's definitely better than looking for
-that one file you downloaded weeks ago. And you don't need to know any
-complicated computer stuff to use this system. <u>Even though org files
-are plain text files.</u> You can just change the org files with more
-common text files.</p>
+<p>
+      It might seem overly complicated at first, but once you get used to it,
+      it's very easy to operate. It's definitely better than looking for that
+      one file you downloaded weeks ago. And you don't need to know any
+      complicated computer stuff to use this system.
+      <u>Even though org files are plain text files.</u> You can just change the
+      org files with more common text files.
+    </p>
 <h1 id="sidenote">Sidenote</h1>
-<p>Creating this folder structure might be cumbersome, so I created this
-python script to ease the process.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a aria-hidden="true" href="#cb5-1" tabindex="-1"></a><span class="im">import</span> os</span>
+<p>
+      Creating this folder structure might be cumbersome, so I created this
+      python script to ease the process.
+    </p>
+<div class="sourceCode" id="cb5">
+<pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a aria-hidden="true" href="#cb5-1" tabindex="-1"></a><span class="im">import</span> os</span>
 <span id="cb5-2"><a aria-hidden="true" href="#cb5-2" tabindex="-1"></a></span>
 <span id="cb5-3"><a aria-hidden="true" href="#cb5-3" tabindex="-1"></a>class_list <span class="op">=</span> [<span class="st">'ba100'</span>,</span>
 <span id="cb5-4"><a aria-hidden="true" href="#cb5-4" tabindex="-1"></a>              <span class="st">'hist2202'</span>,</span>
@@ -782,12 +843,18 @@ python script to ease the process.</p>
 <span id="cb5-37"><a aria-hidden="true" href="#cb5-37" tabindex="-1"></a>    os.makedirs(class_name_folder <span class="op">+</span> <span class="st">'homeworks/'</span>, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb5-38"><a aria-hidden="true" href="#cb5-38" tabindex="-1"></a></span>
 <span id="cb5-39"><a aria-hidden="true" href="#cb5-39" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span>(class_name_folder <span class="op">+</span> <span class="ss">f'</span><span class="sc">{</span>class_name<span class="sc">}</span><span class="ss">.org'</span>, <span class="st">'w'</span>) <span class="im">as</span> fp:</span>
-<span id="cb5-40"><a aria-hidden="true" href="#cb5-40" tabindex="-1"></a>        <span class="cf">pass</span></span></code></pre></div>
+<span id="cb5-40"><a aria-hidden="true" href="#cb5-40" tabindex="-1"></a>        <span class="cf">pass</span></span></code></pre>
+</div>
 <div class="bottom-header">
 <a class="bottom-header-link" href="/">Home</a>
 <a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
 <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
 <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
 </div>
 </body></html>]]></description>
   <author>ismailefetop@gmail.com (İsmail Efe Top)</author>

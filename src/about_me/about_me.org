@@ -32,7 +32,13 @@ I like discovering new places, programming and hacking the programs I use. Some 
 - [[https://arc.net/][Arc]] for web browsing.
 - My timezone is GMT+03:00.
 
-Other than that, I am a proud owner of a [[https://happyhackingkb.com/][HHKB]], my favorite drink is Ice Caramel Latte, I am a really good Tetris player and my favorite place is the METU campus.
+Couple of fun facts about me are...
+
+- I am a proud owner of a [[https://happyhackingkb.com/][HHKB]]
+- My favorite drink is Ice Caramel Latte
+- I am a really good tetris player
+- My favorite place is the METU campus
+- I am a member of the [[https://firechicken.club/][fire chicken webring]]
 
 #+BEGIN_EXPORT html
 <div class="bottom-header">

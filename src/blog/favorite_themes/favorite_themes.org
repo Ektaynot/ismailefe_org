@@ -10,21 +10,37 @@
 I use a lot of apps that allow me to use custom themes. While most people who are into customizing their setup like to choose one theme, I like different themes for different apps. Here are the themes I use.
 
 * Lighthaus
+#+begin_export html
+<img src="/blog/favorite_themes/pics/bear.png" alt="Image of Bear, my note-taking app." />
+#+end_export
+
  * [[https://lighthaustheme.com/][Lighthaus Website]]
 
 I use this theme for [[https://bear.app/][Bear]]. It's real easy on the eyes and complements the bear font.
 
 * Mountain
+#+begin_export html
+<img src="/blog/favorite_themes/pics/kitty.png" alt="Image of Kitty, my terminal emulator app." />
+#+end_export
+
  * [[https://github.com/mountain-theme/Mountain][Mountain Repo]]
 
 This theme is used for the [[https://sw.kovidgoyal.net/kitty/][kitty terminal]]. I've been trying different themes for kitty for about 4 years. Mountain is by far the best.
 
 * Rosé Pine
+#+begin_export html
+<img src="/blog/favorite_themes/pics/vscode.png" alt="Image of vs-code, my code editor app." />
+#+end_export
+
  * [[https://rosepinetheme.com/][Rosé Pine Website]]
 
 There are tons of options for [[https://code.visualstudio.com/][vs-code]]. Rosé Pine is really polished and looks great, nothing to complain.
 
 * Kanagawa
+#+begin_export html
+<img src="/blog/favorite_themes/pics/emacs.png" alt="Image of Emacs, my writing and reading app." />
+#+end_export
+
  * [[https://github.com/meritamen/emacs-kanagawa-theme/blob/master/kanagawa-theme.el][Kanagawa Repo]]
 
 I saved the best for last, this is an Emacs theme inspired by the colors of the famous painting by Katsushika Hokusai. I really love this theme, the colors are perfect for reading and writing. It might not work this well for programming but luckily I don't use Emacs for that.

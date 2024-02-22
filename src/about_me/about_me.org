@@ -31,7 +31,6 @@ I like discovering new places, programming and hacking the programs I use. Some 
 - [[https://bear.app][Bear]] for taking short notes.
 - [[https://www.zotero.org/][Zotero]] for collecting papers and making citations.
 - [[https://arc.net/][Arc]] for web browsing.
-- My timezone is GMT+03:00.
 
 Couple of fun facts about me are...
 
@@ -39,6 +38,7 @@ Couple of fun facts about me are...
 - My favorite drink is Ice Caramel Latte
 - I am a really good tetris player
 - My favorite place is the METU campus
+- My timezone is GMT+03:00.
 - I am a member of the [[https://firechicken.club/][fire chicken webring]]
 
 #+BEGIN_EXPORT html

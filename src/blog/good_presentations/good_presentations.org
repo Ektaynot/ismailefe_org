@@ -15,25 +15,25 @@ This guide will include tips about time management, physical environment, stylin
 My first tip would be to *always have an introduction*. Introductions are important because they help the listener have a short sense of what you are talking about. Diving into a subject without the proper introduction can lead to a sense of confusion in the listener.
 
 In your introduction you can talk about...
-- Headings and sections
+- General information about your subject
 - Why you chose that particular subject
 - Significance and relevance of the subject
-- Talk about the key takeaways listeners can expect by the end of the presentation
+- The key takeaways listeners can expect by the end of the presentation
 
-While it may seem obvious, thanking the listeners at the end is always important. We should remember that while we do spend time preparing, they also spend their time listening to us.
+While it may seem obvious, thanking the listeners at the end is very important. We should remember that while we do spend time preparing, they also spend their time listening to us.
 
 
 * Physical Environment
-If you are not giving a presentation in a space designed for it, going into there beforehand and removing any distractions is important. For example, if you are going to give a presentation in a class or a meeting room, adjusting the curtains and cleaning the whiteboard can help listeners not lose focus.
+If you are not giving a presentation in a space designed for it, going into there beforehand and removing any distractions can be helpful. For example, if you are going to give a presentation in a class or a meeting room, adjusting the curtains and cleaning the whiteboard can help listeners not lose focus.
 
-I see a lot of presenters hiding behind a podium. While it can help when you feel anxious, it can also lower your presence as a presenter. I would suggest not putting anything in front of you and trying to be as close as possible to the audience without going into their personal space. Maintaining good space and leaning closer when announcing a heading is a good strategy to stress the importance of the subject. Other than that, you should *never put your hands in your pocket*. Letting the audience see your hand fully is always a good idea.
+A lot of presenters hide behind a podium. While it can help when you feel anxious, it can also lower your presence as a presenter. I would suggest not putting anything in front of you and trying to be as close as possible to the audience without going into their personal space. Maintaining good space and leaning closer when announcing a heading is a good strategy to stress the importance of that portion. Other than that, you should *never put your hands in your pocket*. Letting the audience see your hand fully is always important.
 
 * Presentation Slides
-First of all any presentation software works. I use and recommend [[https://pitch.com][pitch]]. The most important thing when presenting a stylish slide is the font and simplicity. Let me explain more.
+First of all, any presentation software works. I use and recommend [[https://pitch.com][pitch]]. The most important thing when presenting a stylish slide is the font and simplicity. Let me explain more.
 
-Most people try to cram all the information they can into their slides. This leads to presentations that look like textbooks. I think thats the biggest sin you can commit. This is a big mistake because the presenter is the one giving information not the slide. Slides should complement you, not replace you. Another reason we shouldn't make slides with a lot of text is that they are distracting. While you try to talk about your subject, the audience will look and try to read whats on the slide. If you MUST put a lot of text or a big picture on your slide, you should give proper time for the audience to look at the slide properly.
+Most people try to cram all the information they can into their slides. This leads to presentations that look like textbooks. I think that is the biggest sin you can commit. This is a big mistake because the presenter is the one giving information not the slide. Slides should complement you, not replace you. Another reason we shouldn't make slides with a lot of text is that they are distracting. While you try to talk about your subject, the audience will look and try to read what is on the slide. If you MUST put a lot of text or a big picture, you should at least give proper time for the audience to look at the slide properly.
 
-Another mistake I see is that making your background too crowded, this makes it hard to read or see whats on the slide. I would suggest a single color background with small graphics that are away from the center. Another thing to note is the contrast between the color of your background and color of your text. If they don't have good contrast, the text might be too hard to read. Having good contrast is especially important because while your colors might look good on your fancy computer screen, they might blend together on the projector due to low color performance. So having a little bit more of a difference between colors can be a good idea.
+Another mistake I see is that making your background too crowded, this makes it hard to read or see whats on the slide. I would suggest a single color background with small graphics that are away from the center. Another thing to note is the contrast between the color of your background and the color of your text. If they don't have good contrast, the text might be too hard to read. Having good contrast is especially important because while your colors might look good on your fancy computer screen, they might blend together on the projector due to low color performance. So having a little bit more of a headroom can be a good idea.
 
 Lastly, using short and simple animations between your slides can be a good visual sign of professionalism.
 
@@ -45,7 +45,7 @@ Addition to this, I would suggest finishing your presentation a couple of minute
 * To conclude...
 - Do an introduction about the subject
 - Thank the audience for their time at the end
-- Declutter your environment
+- Declutter your presentation environment
 - Make your body and hands visible
 - I recommend using pitch for your slides
 - Do not cram text into slides

@@ -8,7 +8,8 @@ blog_posts = ["/blog/my_edc/index.html",
               "/blog/best_albums_2023/index.html",
               "/blog/favorite_themes/index.html",
               "/blog/rss/index.html",
-              "/blog/uni_file_structure/index.html"
+              "/blog/uni_file_structure/index.html",
+              "/blog/good_presentations/index.html"
               ]
 
 update_time = str(datetime.now().strftime('%a, %d %b %Y %H:%M:%S'))+' +0300'

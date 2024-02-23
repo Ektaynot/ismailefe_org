@@ -5,16 +5,14 @@
 <link>https://ismailefe.org/</link>
 <description>İsmail Efe's Second Brain.</description>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Wed, 21 Feb 2024 23:40:52 +0300</lastBuildDate>
+<lastBuildDate>Sat, 24 Feb 2024 00:32:28 +0300</lastBuildDate>
 <item>
   <title>My EDC Essentials.</title>
   <description><![CDATA[<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
 <header id="title-block-header">
 <h1 class="title">My EDC Essentials.</h1>
-<p class="author">
 <p class="author">İsmail Efe Top</p>
-</p>
 <p class="date">2024-01-14</p>
 </header>
 <h1 id="what-is-edc">What is EDC?</h1>
@@ -40,25 +38,25 @@
       I will mostly write about the interesting stuff and give only the bare
       minimum for the normal stuff.
     </p>
-<h2 id="emoji">📱</h2>
+<h2 class="emoji" id="section">📱</h2>
 <p>
       I am using an iPhone, while the operating system is quite locked I love
       the polished iOS experience and the great ecosystem which I am a part of.
     </p>
-<h2 id="emoji">🎧</h2>
+<h2 class="emoji" id="section-1">🎧</h2>
 <p>
       I am using the airpods pro 2nd gen. While expensive, they sound great and
       switching between my phone and my computer is stupid easy. Not having to
       deal with the unwanted small stuff and focusing on my creative projects is
       really important to me. Being in the apple ecosystem allows me to do that.
     </p>
-<h2 id="emoji">⌚️</h2>
+<h2 class="emoji" id="section-2">⌚️</h2>
 <p>
       I am using an old apple watch. I like tracking my sleep and exercises so
       that I can make adjustments. Also, seeing notifications without looking at
       my phone really comes in handy more than you might think.
     </p>
-<h2 id="emoji">🪪</h2>
+<h2 class="emoji" id="section-3">🪪</h2>
 <p>
       Like most people, I used a lot of different wallets. My biggest problem
       with my old wallets were they size. Because of my different circumstances
@@ -69,7 +67,7 @@
       the ones I frequently use in the front pockets. It really is the perfect
       wallet for me.
     </p>
-<h2 id="emoji">🔑</h2>
+<h2 class="emoji" id="section-4">🔑</h2>
 <p>I carry the keys for my dormitory, nothing special.</p>
 <h1 id="my-backpack">My Backpack</h1>
 <p>
@@ -77,14 +75,14 @@
       inside my bag. I have a computer case with a big zipper pocket, a travel
       pouch, and an umbrella.
     </p>
-<h2 id="emoji">🎒</h2>
+<h2 class="emoji" id="section-5">🎒</h2>
 <p>
       My backpack is a mid-size Herschel Little America. Because I carry my
       backpack everywhere, it needs to be light and comfortable. This bag is
       just that. It has no fancy trick. Just a light and small backpack. It's
       the perfect size for carry it everyday.
     </p>
-<h2 id="emoji">💻</h2>
+<h2 class="emoji" id="section-6">💻</h2>
 <p>
       This is probably the most important part of my life. I take notes for
       class, I program on it, I watch youtube. Basically most of my digital life
@@ -94,7 +92,7 @@
       MacOS has the hackability of linux and it is crazy stable. I can easily
       say that this laptop suits my needs perfectly.
     </p>
-<h2 id="emoji">💼</h2>
+<h2 class="emoji" id="section-7">💼</h2>
 <p>
       While the most important use-case of my computer case is protecting my
       computer, it also holds a lot of important accessory like:
@@ -107,7 +105,7 @@
 <li>a Baseus Presentation Remote</li>
 <li>a Generic Type-C Hub</li>
 </ul>
-<h2 id="emoji">👝</h2>
+<h2 class="emoji" id="section-8">👝</h2>
 <p>
       I also have a vintage travel pouch. On one side I have a usb power adapter
       and a 3 headed power cable and on the other I have a small notebook and
@@ -270,7 +268,7 @@ It is quite old but it suits my style.</p>
 <p><em>this listing is in no particular order.</em></p>
 <h1 id="scaring-the-hoes">1. SCARING THE HOES</h1>
 <div class="artwork">
-<img alt="The artwork of Scaring the Hoes." class="artwork" src="scaring.png"/>
+<img alt="The artwork of Scaring the Hoes." class="artwork" src="/blog/best_albums_2023/pics/scaring.png"/>
 </div>
 <div class="dogtag">
 <p class="dogtag">Genre: Hip hop</p>
@@ -292,7 +290,7 @@ It is quite old but it suits my style.</p>
     </p>
 <h1 id="lets-start-here.">2. Let's Start Here.</h1>
 <div class="artwork">
-<img alt="The artwork of Let's start here." class="artwork" src="lets.jpeg"/>
+<img alt="The artwork of Let's start here." class="artwork" src="/blog/best_albums_2023/pics/lets.jpeg"/>
 </div>
 <div class="dogtag">
 <p class="dogtag">Genre: Psychedelic rock</p>
@@ -311,7 +309,7 @@ It is quite old but it suits my style.</p>
     </p>
 <h1 id="utopia">3. UTOPIA</h1>
 <div class="artwork">
-<img alt="The artwork of UTOPIA." class="artwork" src="utopia.png"/>
+<img alt="The artwork of UTOPIA." class="artwork" src="/blog/best_albums_2023/pics/utopia.png"/>
 </div>
 <div class="dogtag">
 <p class="dogtag">Genre: Hip hop</p>
@@ -329,7 +327,7 @@ It is quite old but it suits my style.</p>
     </p>
 <h1 id="latin-virgin">4. LATIN VIRGIN</h1>
 <div class="artwork">
-<img alt="The artwork of LATIN VIRGIN." class="artwork" src="latin.png"/>
+<img alt="The artwork of LATIN VIRGIN." class="artwork" src="/blog/best_albums_2023/pics/latin.png"/>
 </div>
 <div class="dogtag">
 <p class="dogtag">Genre: Hip hop</p>
@@ -352,7 +350,7 @@ It is quite old but it suits my style.</p>
     </p>
 <h1 id="for-all-the-dogs">5. For All The Dogs</h1>
 <div class="artwork">
-<img alt="The artwork of For All The Dogs." class="artwork" src="dogs.png"/>
+<img alt="The artwork of For All The Dogs." class="artwork" src="/blog/best_albums_2023/pics/dogs.png"/>
 </div>
 <div class="dogtag">
 <p class="dogtag">Genre: Hip hop</p>
@@ -400,7 +398,7 @@ It is quite old but it suits my style.</p>
       different themes for different apps. Here are the themes I use.
     </p>
 <h1 id="lighthaus">Lighthaus</h1>
-<img alt="Image of Bear, my note-taking app." src="bear.png"/>
+<img alt="Image of Bear, my note-taking app." src="/blog/favorite_themes/pics/bear.png"/>
 <ul>
 <li><a href="https://lighthaustheme.com/">Lighthaus Website</a></li>
 </ul>
@@ -409,7 +407,7 @@ It is quite old but it suits my style.</p>
       on the eyes and complements the bear font.
     </p>
 <h1 id="mountain">Mountain</h1>
-<img alt="Image of Kitty, my terminal emulator app." src="kitty.png"/>
+<img alt="Image of Kitty, my terminal emulator app." src="/blog/favorite_themes/pics/kitty.png"/>
 <ul>
 <li>
 <a href="https://github.com/mountain-theme/Mountain">Mountain Repo</a>
@@ -422,7 +420,7 @@ It is quite old but it suits my style.</p>
       the best.
     </p>
 <h1 id="rosé-pine">Rosé Pine</h1>
-<img alt="Image of vs-code, my code editor app." src="vscode.png"/>
+<img alt="Image of vs-code, my code editor app." src="/blog/favorite_themes/pics/vscode.png"/>
 <ul>
 <li><a href="https://rosepinetheme.com/">Rosé Pine Website</a></li>
 </ul>
@@ -432,7 +430,7 @@ It is quite old but it suits my style.</p>
       polished and looks great, nothing to complain.
     </p>
 <h1 id="kanagawa">Kanagawa</h1>
-<img alt="Image of Emacs, my writing and reading app." src="emacs.png"/>
+<img alt="Image of Emacs, my writing and reading app." src="/blog/favorite_themes/pics/emacs.png"/>
 <ul>
 <li>
 <a href="https://github.com/meritamen/emacs-kanagawa-theme/blob/master/kanagawa-theme.el">Kanagawa Repo</a>
@@ -861,6 +859,152 @@ It is quite old but it suits my style.</p>
   <link>https://ismailefe.org/blog/uni_file_structure/index.html</link>
   <guid>https://ismailefe.org/blog/uni_file_structure/index.html</guid>
   <pubDate>Sun, 18 Feb 2024 00:00:00 +0300</pubDate>
+</item>
+
+<item>
+  <title>How to give good presentations</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
+<header id="title-block-header">
+<h1 class="title">How to give good presentations</h1>
+<p class="author">İsmail Efe Top</p>
+<p class="date">2024-02-23</p>
+</header>
+<p>
+      In my department we give a lot of presentations, so mastering the skill is
+      important for a student like me. I learned a lot in my last 2 years at
+      metu and I want to share what I learned.
+    </p>
+<p>
+      This guide will include tips about time management, physical environment,
+      styling of the slides and other general information.
+    </p>
+<h1 id="general">General</h1>
+<p>
+      My first tip would be to <strong>always have an introduction</strong>.
+      Introductions are important because they help the listener have a short
+      sense of what you are talking about. Diving into a subject without the
+      proper introduction can lead to a sense of confusion in the listener.
+    </p>
+<p>In your introduction you can talk about…</p>
+<ul>
+<li>Headings and sections</li>
+<li>Why you chose that particular subject</li>
+<li>Significance and relevance of the subject</li>
+<li>
+        Talk about the key takeaways listeners can expect by the end of the
+        presentation
+      </li>
+</ul>
+<p>
+      While it may seem obvious, thanking the listeners at the end is always
+      important. We should remember that while we do spend time preparing, they
+      also spend their time listening to us.
+    </p>
+<h1 id="physical-environment">Physical Environment</h1>
+<p>
+      If you are not giving a presentation in a space designed for it, going
+      into there beforehand and removing any distractions is important. For
+      example, if you are going to give a presentation in a class or a meeting
+      room, adjusting the curtains and cleaning the whiteboard can help
+      listeners not lose focus.
+    </p>
+<p>
+      I see a lot of presenters hiding behind a podium. While it can help when
+      you feel anxious, it can also lower your presence as a presenter. I would
+      suggest not putting anything in front of you and trying to be as close as
+      possible to the audience without going into their personal space.
+      Maintaining good space and leaning closer when announcing a heading is a
+      good strategy to stress the importance of the subject. Other than that,
+      you should <strong>never put your hands in your pocket</strong>. Letting
+      the audience see your hand fully is always a good idea.
+    </p>
+<h1 id="presentation-slides">Presentation Slides</h1>
+<p>
+      First of all any presentation software works. I use and recommend
+      <a href="https://pitch.com">pitch</a>. The most important thing when
+      presenting a stylish slide is the font and simplicity. Let me explain
+      more.
+    </p>
+<p>
+      Most people try to cram all the information they can into their slides.
+      This leads to presentations that look like textbooks. I think thats the
+      biggest sin you can commit. This is a big mistake because the presenter is
+      the one giving information not the slide. Slides should complement you,
+      not replace you. Another reason we shouldn't make slides with a lot of
+      text is that they are distracting. While you try to talk about your
+      subject, the audience will look and try to read whats on the slide. If you
+      MUST put a lot of text or a big picture on your slide, you should give
+      proper time for the audience to look at the slide properly.
+    </p>
+<p>
+      Another mistake I see is that making your background too crowded, this
+      makes it hard to read or see whats on the slide. I would suggest a single
+      color background with small graphics that are away from the center.
+      Another thing to note is the contrast between the color of your background
+      and color of your text. If they don't have good contrast, the text might
+      be too hard to read. Having good contrast is especially important because
+      while your colors might look good on your fancy computer screen, they
+      might blend together on the projector due to low color performance. So
+      having a little bit more of a difference between colors can be a good
+      idea.
+    </p>
+<p>
+      Lastly, using short and simple animations between your slides can be a
+      good visual sign of professionalism.
+    </p>
+<h1 id="time-usage">Time Usage</h1>
+<p>
+      To be honest, I think this is the most important part. The usage of your
+      time dictates how people remember your presentation. If it is too long,
+      people can get bored and stop listening to you. And if it is too short,
+      people might think that you were unprepared. One of my instructors has a
+      great advice on this, he says "When preparing for a presentation, aim for
+      the 9/10 of the time allocated to you.". It is a common practice to time
+      yourself when preparing. But if you try to make your presentation stretch
+      to the time given to you, you will see that it will always be longer when
+      doing the actual presentation. With this advice, you can make your speech
+      more to the point and easier to follow.
+    </p>
+<p>
+      Addition to this, I would suggest finishing your presentation a couple of
+      minutes early. In my opinion this can give a sense of professionalism and
+      competence. It is definitely better than finishing late. Just make sure
+      that it is no more than 5 minutes.
+    </p>
+<h1 id="to-conclude">To conclude…</h1>
+<ul>
+<li>Do an introduction about the subject</li>
+<li>Thank the audience for their time at the end</li>
+<li>Declutter your environment</li>
+<li>Make your body and hands visible</li>
+<li>I recommend using pitch for your slides</li>
+<li>Do not cram text into slides</li>
+<li>
+        Make your slide background simple, a single color background most of the
+        time perfect
+      </li>
+<li>Have good contrast between your background and text</li>
+<li>Use fast and simple transitions</li>
+<li>When preparing aim for the 9/10 of the time allocated to you</li>
+<li>Try to finish a couple of minutes early</li>
+</ul>
+<div class="bottom-header">
+<a class="bottom-header-link" href="/">Home</a>
+<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
+<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
+</div>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/good_presentations/index.html</link>
+  <guid>https://ismailefe.org/blog/good_presentations/index.html</guid>
+  <pubDate>Fri, 23 Feb 2024 00:00:00 +0300</pubDate>
 </item>
 
 </channel>

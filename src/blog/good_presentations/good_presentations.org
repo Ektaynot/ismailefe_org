@@ -49,7 +49,8 @@ Addition to this, I would suggest finishing your presentation a couple of minute
 - Make your body and hands visible
 - I recommend using pitch for your slides
 - Do not cram text into slides
-- Make your slide background simple, a single color background most of the time perfect
+- Make your slide backgrounds simple
+- Most of the time a single color background is perfect
 - Have good contrast between your background and text
 - Use fast and simple transitions
 - When preparing aim for the 9/10 of the time allocated to you

@@ -62,6 +62,14 @@ I love my website. I often find myself staring at it. I've truly put a lot of ef
 #+end_export
 I advise you to check out this [[https://tonsky.me/blog/unicode/][article]].
 
+** [[https://rauno.me/][rauno.me]]
+
+#+begin_export html
+    <img src="/cool_stuff/pics/rauno.png" />
+#+end_export
+
+This site is one of the most marvelous things I have ever seen. It really suits a person who works in [[https://vercel.com/][vercel]].
+
 * Random Stuff
 ** My Analog Camera
 #+begin_export html

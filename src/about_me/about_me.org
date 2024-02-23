@@ -31,6 +31,7 @@ I like discovering new places, programming and hacking the programs I use. Some 
 - [[https://bear.app][Bear]] for taking short notes.
 - [[https://www.zotero.org/][Zotero]] for collecting papers and making citations.
 - [[https://arc.net/][Arc]] for web browsing.
+- [[https://pitch.com/][Pitch]] for my presentation needs.
 
 Couple of fun facts about me are...
 

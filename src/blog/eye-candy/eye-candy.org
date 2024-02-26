@@ -1,6 +1,7 @@
 #+title: My Emacs Eye Candy
 #+AUTHOR: İsmail Efe Top
 #+DATE: 2024-01-14
+#+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">

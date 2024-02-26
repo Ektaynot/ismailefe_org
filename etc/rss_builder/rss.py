@@ -3,13 +3,13 @@ from bs4 import BeautifulSoup
 
 system_header = "/Users/ismailefetop/projects/org-blog/ismailefe_org"
 website_header= "https://ismailefe.org"
-blog_posts = ["/blog/my_edc/index.html",
+blog_posts = ["/blog/my-edc/index.html",
               "/blog/eye_candy/index.html",
-              "/blog/best_albums_2023/index.html",
-              "/blog/favorite_themes/index.html",
+              "/blog/best-albums-2023/index.html",
+              "/blog/favorite-themes/index.html",
               "/blog/rss/index.html",
-              "/blog/uni_file_structure/index.html",
-              "/blog/good_presentations/index.html"
+              "/blog/uni-file-structure/index.html",
+              "/blog/good-presentations/index.html"
               ]
 
 update_time = str(datetime.now().strftime('%a, %d %b %Y %H:%M:%S'))+' +0300'

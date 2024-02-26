@@ -24,6 +24,7 @@ f'''<?xml version="1.0" encoding="utf-8"?>
 <title>İsmail Efe's Blog Site</title>
 <link>https://ismailefe.org/</link>
 <description>İsmail Efe's Second Brain.</description>
+<language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>{update_time}</lastBuildDate>'''
 )

@@ -1,5 +1,6 @@
 #+title: Now
 
+#+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -9,31 +10,32 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * When did I last update this page
-- Feb 18, 2024
+- Feb 26, 2024
 
 * What am I working on
 - This Blog
-- Class schedule
+- FLE480 group project
 
 * What do I enjoy
-- Deciding on my site's layout
+- Tinkering with my site
 - Writing blog posts
 - Discovering good food
+- Drinking good coffee
+- Having dates with my friends
 
 * What are my goals
 - Writing a new blog post every week
-- Surviving add-drop week🙏
+- Have a good presentation for FLE480
+- Get familiar with my classes
+
+
 
 #+BEGIN_EXPORT html
 <div class="bottom-header">
   <a class="bottom-header-link" href="/">Home</a>
-  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link"
-    >Mail Me</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
   <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
-  <a
-    class="bottom-header-link"
-    href="https://github.com/Ektaynot/ismailefe_org"
-    target="_blank">Source</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
 </div>
 <div class="firechickenwebring">
   <a href="https://firechicken.club/efe/prev">←</a>

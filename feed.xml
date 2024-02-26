@@ -30,7 +30,7 @@
       videos. Those places can be a great starting point for people who want to
       give a little more effort to what they carry.
     </p>
-<h1 id="my-edc">My EDC</h1>
+<h1 id="my_edc">My EDC</h1>
 <p>
       While mine might seem a little lacking and boring, it has been by far the
       most efficient setup for me.
@@ -125,8 +125,8 @@
 </div>
 </body></html>]]></description>
   <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
-  <link>https://ismailefe.org/blog/my-edc/index.html</link>
-  <guid>https://ismailefe.org/blog/my-edc/index.html</guid>
+  <link>https://ismailefe.org/blog/my_edc/index.html</link>
+  <guid>https://ismailefe.org/blog/my_edc/index.html</guid>
   <pubDate>Sun, 14 Jan 2024 00:00:00 +0300</pubDate>
 </item>
 
@@ -269,7 +269,7 @@ It is quite old but it suits my style.</p>
 <p><em>this listing is in no particular order.</em></p>
 <h1 id="scaring-the-hoes">1. SCARING THE HOES</h1>
 <div class="artwork">
-<img alt="The artwork of Scaring the Hoes." class="artwork" src="/blog/best-albums-2023/pics/scaring.png"/>
+<img alt="The artwork of Scaring the Hoes." class="artwork" src="/blog/best_albums_2023/pics/scaring.png"/>
 </div>
 <div class="dogtag">
 <p class="dogtag">Genre: Hip hop</p>
@@ -291,7 +291,7 @@ It is quite old but it suits my style.</p>
     </p>
 <h1 id="lets-start-here.">2. Let's Start Here.</h1>
 <div class="artwork">
-<img alt="The artwork of Let's start here." class="artwork" src="/blog/best-albums-2023/pics/lets.jpeg"/>
+<img alt="The artwork of Let's start here." class="artwork" src="/blog/best_albums_2023/pics/lets.jpeg"/>
 </div>
 <div class="dogtag">
 <p class="dogtag">Genre: Psychedelic rock</p>
@@ -310,7 +310,7 @@ It is quite old but it suits my style.</p>
     </p>
 <h1 id="utopia">3. UTOPIA</h1>
 <div class="artwork">
-<img alt="The artwork of UTOPIA." class="artwork" src="/blog/best-albums-2023/pics/utopia.png"/>
+<img alt="The artwork of UTOPIA." class="artwork" src="/blog/best_albums_2023/pics/utopia.png"/>
 </div>
 <div class="dogtag">
 <p class="dogtag">Genre: Hip hop</p>
@@ -328,7 +328,7 @@ It is quite old but it suits my style.</p>
     </p>
 <h1 id="latin-virgin">4. LATIN VIRGIN</h1>
 <div class="artwork">
-<img alt="The artwork of LATIN VIRGIN." class="artwork" src="/blog/best-albums-2023/pics/latin.png"/>
+<img alt="The artwork of LATIN VIRGIN." class="artwork" src="/blog/best_albums_2023/pics/latin.png"/>
 </div>
 <div class="dogtag">
 <p class="dogtag">Genre: Hip hop</p>
@@ -351,7 +351,7 @@ It is quite old but it suits my style.</p>
     </p>
 <h1 id="for-all-the-dogs">5. For All The Dogs</h1>
 <div class="artwork">
-<img alt="The artwork of For All The Dogs." class="artwork" src="/blog/best-albums-2023/pics/dogs.png"/>
+<img alt="The artwork of For All The Dogs." class="artwork" src="/blog/best_albums_2023/pics/dogs.png"/>
 </div>
 <div class="dogtag">
 <p class="dogtag">Genre: Hip hop</p>
@@ -379,8 +379,8 @@ It is quite old but it suits my style.</p>
 </div>
 </body></html>]]></description>
   <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
-  <link>https://ismailefe.org/blog/best-albums-2023/index.html</link>
-  <guid>https://ismailefe.org/blog/best-albums-2023/index.html</guid>
+  <link>https://ismailefe.org/blog/best_albums_2023/index.html</link>
+  <guid>https://ismailefe.org/blog/best_albums_2023/index.html</guid>
   <pubDate>Thu, 18 Jan 2024 00:00:00 +0300</pubDate>
 </item>
 
@@ -399,7 +399,7 @@ It is quite old but it suits my style.</p>
       different themes for different apps. Here are the themes I use.
     </p>
 <h1 id="lighthaus">Lighthaus</h1>
-<img alt="Image of Bear, my note-taking app." src="/blog/favorite-themes/pics/bear.png"/>
+<img alt="Image of Bear, my note-taking app." src="/blog/favorite_themes/pics/bear.png"/>
 <ul>
 <li><a href="https://lighthaustheme.com/">Lighthaus Website</a></li>
 </ul>
@@ -408,7 +408,7 @@ It is quite old but it suits my style.</p>
       on the eyes and complements the bear font.
     </p>
 <h1 id="mountain">Mountain</h1>
-<img alt="Image of Kitty, my terminal emulator app." src="/blog/favorite-themes/pics/kitty.png"/>
+<img alt="Image of Kitty, my terminal emulator app." src="/blog/favorite_themes/pics/kitty.png"/>
 <ul>
 <li>
 <a href="https://github.com/mountain-theme/Mountain">Mountain Repo</a>
@@ -421,7 +421,7 @@ It is quite old but it suits my style.</p>
       the best.
     </p>
 <h1 id="rosé-pine">Rosé Pine</h1>
-<img alt="Image of vs-code, my code editor app." src="/blog/favorite-themes/pics/vscode.png"/>
+<img alt="Image of vs-code, my code editor app." src="/blog/favorite_themes/pics/vscode.png"/>
 <ul>
 <li><a href="https://rosepinetheme.com/">Rosé Pine Website</a></li>
 </ul>
@@ -431,7 +431,7 @@ It is quite old but it suits my style.</p>
       polished and looks great, nothing to complain.
     </p>
 <h1 id="kanagawa">Kanagawa</h1>
-<img alt="Image of Emacs, my writing and reading app." src="/blog/favorite-themes/pics/emacs.png"/>
+<img alt="Image of Emacs, my writing and reading app." src="/blog/favorite_themes/pics/emacs.png"/>
 <ul>
 <li>
 <a href="https://github.com/meritamen/emacs-kanagawa-theme/blob/master/kanagawa-theme.el">Kanagawa Repo</a>
@@ -456,8 +456,8 @@ It is quite old but it suits my style.</p>
 </div>
 </body></html>]]></description>
   <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
-  <link>https://ismailefe.org/blog/favorite-themes/index.html</link>
-  <guid>https://ismailefe.org/blog/favorite-themes/index.html</guid>
+  <link>https://ismailefe.org/blog/favorite_themes/index.html</link>
+  <guid>https://ismailefe.org/blog/favorite_themes/index.html</guid>
   <pubDate>Thu, 25 Jan 2024 00:00:00 +0300</pubDate>
 </item>
 
@@ -538,8 +538,8 @@ It is quite old but it suits my style.</p>
 <span id="cb3-4"><a aria-hidden="true" href="#cb3-4" tabindex="-1"></a><span class="bn">&lt;![CDATA[</span> &lt;!DOCTYPE html&gt; &lt;html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""&gt;&lt;body&gt;YOUR HTML CONTENT&lt;/body&gt;&lt;/html&gt; <span class="bn">]]&gt;</span></span>
 <span id="cb3-5"><a aria-hidden="true" href="#cb3-5" tabindex="-1"></a>&lt;/<span class="kw">description</span>&gt;</span>
 <span id="cb3-6"><a aria-hidden="true" href="#cb3-6" tabindex="-1"></a>&lt;<span class="kw">author</span>&gt;ismailefetop@gmail.com (İsmail Efe Top)&lt;/<span class="kw">author</span>&gt;</span>
-<span id="cb3-7"><a aria-hidden="true" href="#cb3-7" tabindex="-1"></a>&lt;<span class="kw">link</span>&gt;https://ismailefe.org/blog/my-edc/index.html&lt;/<span class="kw">link</span>&gt;</span>
-<span id="cb3-8"><a aria-hidden="true" href="#cb3-8" tabindex="-1"></a>&lt;<span class="kw">guid</span>&gt;https://ismailefe.org/blog/my-edc/index.html&lt;/<span class="kw">guid</span>&gt;</span>
+<span id="cb3-7"><a aria-hidden="true" href="#cb3-7" tabindex="-1"></a>&lt;<span class="kw">link</span>&gt;https://ismailefe.org/blog/my_edc/index.html&lt;/<span class="kw">link</span>&gt;</span>
+<span id="cb3-8"><a aria-hidden="true" href="#cb3-8" tabindex="-1"></a>&lt;<span class="kw">guid</span>&gt;https://ismailefe.org/blog/my_edc/index.html&lt;/<span class="kw">guid</span>&gt;</span>
 <span id="cb3-9"><a aria-hidden="true" href="#cb3-9" tabindex="-1"></a>&lt;<span class="kw">pubDate</span>&gt;Sun, 14 Jan 2024 00:00:00 +0300&lt;/<span class="kw">pubDate</span>&gt;</span>
 <span id="cb3-10"><a aria-hidden="true" href="#cb3-10" tabindex="-1"></a>&lt;/<span class="kw">item</span>&gt;</span></code></pre>
 </div>
@@ -560,10 +560,10 @@ It is quite old but it suits my style.</p>
 <span id="cb5-3"><a aria-hidden="true" href="#cb5-3" tabindex="-1"></a></span>
 <span id="cb5-4"><a aria-hidden="true" href="#cb5-4" tabindex="-1"></a>system_header <span class="op">=</span> <span class="st">"/Users/ismailefetop/projects/org-blog/ismailefe_org"</span></span>
 <span id="cb5-5"><a aria-hidden="true" href="#cb5-5" tabindex="-1"></a>website_header<span class="op">=</span> <span class="st">"https://ismailefe.org"</span></span>
-<span id="cb5-6"><a aria-hidden="true" href="#cb5-6" tabindex="-1"></a>blog_posts <span class="op">=</span> [<span class="st">"/blog/my-edc/index.html"</span>,</span>
+<span id="cb5-6"><a aria-hidden="true" href="#cb5-6" tabindex="-1"></a>blog_posts <span class="op">=</span> [<span class="st">"/blog/my_edc/index.html"</span>,</span>
 <span id="cb5-7"><a aria-hidden="true" href="#cb5-7" tabindex="-1"></a>              <span class="st">"/blog/eye_candy/index.html"</span>,</span>
-<span id="cb5-8"><a aria-hidden="true" href="#cb5-8" tabindex="-1"></a>              <span class="st">"/blog/best-albums-2023/index.html"</span>,</span>
-<span id="cb5-9"><a aria-hidden="true" href="#cb5-9" tabindex="-1"></a>              <span class="st">"/blog/favorite-themes/index.html"</span></span>
+<span id="cb5-8"><a aria-hidden="true" href="#cb5-8" tabindex="-1"></a>              <span class="st">"/blog/best_albums_2023/index.html"</span>,</span>
+<span id="cb5-9"><a aria-hidden="true" href="#cb5-9" tabindex="-1"></a>              <span class="st">"/blog/favorite_themes/index.html"</span></span>
 <span id="cb5-10"><a aria-hidden="true" href="#cb5-10" tabindex="-1"></a>              ]</span>
 <span id="cb5-11"><a aria-hidden="true" href="#cb5-11" tabindex="-1"></a></span>
 <span id="cb5-12"><a aria-hidden="true" href="#cb5-12" tabindex="-1"></a>update_time <span class="op">=</span> <span class="bu">str</span>(datetime.now().strftime(<span class="st">'%a, </span><span class="sc">%d</span><span class="st"> %b %Y %H:%M:%S'</span>))<span class="op">+</span><span class="st">' +0300'</span></span>
@@ -857,8 +857,8 @@ It is quite old but it suits my style.</p>
 </div>
 </body></html>]]></description>
   <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
-  <link>https://ismailefe.org/blog/uni-file-structure/index.html</link>
-  <guid>https://ismailefe.org/blog/uni-file-structure/index.html</guid>
+  <link>https://ismailefe.org/blog/uni_file_structure/index.html</link>
+  <guid>https://ismailefe.org/blog/uni_file_structure/index.html</guid>
   <pubDate>Sun, 18 Feb 2024 00:00:00 +0300</pubDate>
 </item>
 
@@ -999,8 +999,8 @@ It is quite old but it suits my style.</p>
 </div>
 </body></html>]]></description>
   <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
-  <link>https://ismailefe.org/blog/good-presentations/index.html</link>
-  <guid>https://ismailefe.org/blog/good-presentations/index.html</guid>
+  <link>https://ismailefe.org/blog/good_presentations/index.html</link>
+  <guid>https://ismailefe.org/blog/good_presentations/index.html</guid>
   <pubDate>Fri, 23 Feb 2024 00:00:00 +0300</pubDate>
 </item>
 

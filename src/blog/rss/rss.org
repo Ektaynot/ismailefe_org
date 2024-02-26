@@ -43,8 +43,8 @@ Now we can start giving it the key items. These are going to be your posts. I am
 <![CDATA[ <!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>YOUR HTML CONTENT</body></html> ]]>
 </description>
 <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
-<link>https://ismailefe.org/blog/my-edc/index.html</link>
-<guid>https://ismailefe.org/blog/my-edc/index.html</guid>
+<link>https://ismailefe.org/blog/my_edc/index.html</link>
+<guid>https://ismailefe.org/blog/my_edc/index.html</guid>
 <pubDate>Sun, 14 Jan 2024 00:00:00 +0300</pubDate>
 </item>
 #+end_src
@@ -64,10 +64,10 @@ from bs4 import BeautifulSoup
 
 system_header = "/Users/ismailefetop/projects/org-blog/ismailefe_org"
 website_header= "https://ismailefe.org"
-blog_posts = ["/blog/my-edc/index.html",
+blog_posts = ["/blog/my_edc/index.html",
               "/blog/eye_candy/index.html",
-              "/blog/best-albums-2023/index.html",
-              "/blog/favorite-themes/index.html"
+              "/blog/best_albums_2023/index.html",
+              "/blog/favorite_themes/index.html"
               ]
 
 update_time = str(datetime.now().strftime('%a, %d %b %Y %H:%M:%S'))+' +0300'

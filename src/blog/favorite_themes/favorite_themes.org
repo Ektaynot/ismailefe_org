@@ -12,7 +12,7 @@ I use a lot of apps that allow me to use custom themes. While most people who ar
 
 * Lighthaus
 #+begin_export html
-<img src="/blog/favorite-themes/pics/bear.png" alt="Image of Bear, my note-taking app." />
+<img src="/blog/favorite_themes/pics/bear.png" alt="Image of Bear, my note-taking app." />
 #+end_export
 
  * [[https://lighthaustheme.com/][Lighthaus Website]]
@@ -21,7 +21,7 @@ I use this theme for [[https://bear.app/][Bear]]. It's real easy on the eyes and
 
 * Mountain
 #+begin_export html
-<img src="/blog/favorite-themes/pics/kitty.png" alt="Image of Kitty, my terminal emulator app." />
+<img src="/blog/favorite_themes/pics/kitty.png" alt="Image of Kitty, my terminal emulator app." />
 #+end_export
 
  * [[https://github.com/mountain-theme/Mountain][Mountain Repo]]
@@ -30,7 +30,7 @@ This theme is used for the [[https://sw.kovidgoyal.net/kitty/][kitty terminal]].
 
 * Rosé Pine
 #+begin_export html
-<img src="/blog/favorite-themes/pics/vscode.png" alt="Image of vs-code, my code editor app." />
+<img src="/blog/favorite_themes/pics/vscode.png" alt="Image of vs-code, my code editor app." />
 #+end_export
 
  * [[https://rosepinetheme.com/][Rosé Pine Website]]
@@ -39,7 +39,7 @@ There are tons of options for [[https://code.visualstudio.com/][vs-code]]. Rosé
 
 * Kanagawa
 #+begin_export html
-<img src="/blog/favorite-themes/pics/emacs.png" alt="Image of Emacs, my writing and reading app." />
+<img src="/blog/favorite_themes/pics/emacs.png" alt="Image of Emacs, my writing and reading app." />
 #+end_export
 
  * [[https://github.com/meritamen/emacs-kanagawa-theme/blob/master/kanagawa-theme.el][Kanagawa Repo]]

@@ -33,7 +33,7 @@ I use [[https://pages.github.com/][github pages]] to publish my site, it is free
 - Variable media sizes
 
 * Trivia
-- I use times new roman for almost everything
+- I use Times New Roman for almost everything
 - Site's favicon is the [[https://openmoji.org/library/emoji-1F5FA/][open source world map emoji]]
 
 #+BEGIN_EXPORT html

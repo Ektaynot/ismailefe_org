@@ -42,7 +42,11 @@ q {
   display: flex;
   padding: 10px;
 }
-
+.center-an-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 footer {
   padding: 16pt;
   text-align: center;

@@ -22,6 +22,10 @@
     font-weight: 500;
   }
   @media (min-width: 700px) {
+    body {
+  max-width: 70em;
+         
+    }
     .folders {
       padding: 20px;
       display: grid;

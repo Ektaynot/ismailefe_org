@@ -1,0 +1,42 @@
+#+TITLE: Blogroll
+#+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/more/blogroll/blogroll.css" />
+#+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
+#+begin_export html
+<div class="center-an-image">
+<img  src="/more/blogroll/pics/pliny.jpg" alt="Woodcut illustration from an edition of Pliny the Elder's Naturalis Historia (1582)">
+</div>
+<br />
+<br />
+#+end_export
+
+I love blogrolls, they are a door to a whole different world. With each entry they make you feel like you've know a whole different person.
+
+I want to make a blogroll too, but with a little bit flavour. I am going to categorize my entries in two sections. Blogs and experiences. The blog parts will contain really good sites that have content about almost anything. And the experiences will contain multi-universes.
+
+* Experiences
+- [[https://robinrendle.com/][robinrendle.com]] made by Robin Rendle
+- [[https://drollery.org/][drollery.org]] made by Ian Pringle
+
+* Blogs
+- [[https://stephango.com/][stephango.com]] made by Steph Ango
+- [[https://arne.me/][arne.me]] made by Arne Bahlo
+- [[http://xenodium.com/][xenodium.com]] made by Álvaro Ramírez
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
+#+END_EXPORT

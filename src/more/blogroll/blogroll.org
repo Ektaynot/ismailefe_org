@@ -27,6 +27,8 @@ I want to make a blogroll too, but with a little bit flavour. I am going to cate
 - [[https://stephango.com/][stephango.com]] made by Steph Ango
 - [[https://arne.me/][arne.me]] made by Arne Bahlo
 - [[http://xenodium.com/][xenodium.com]] made by Álvaro Ramírez
+- [[https://batsov.com/][batsov.com]] made by Bozhidar Batsov
+
 #+BEGIN_EXPORT html
 <div class="bottom-header">
   <a class="bottom-header-link" href="/">Home</a>

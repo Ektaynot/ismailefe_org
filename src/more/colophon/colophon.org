@@ -35,7 +35,7 @@ I use [[https://pages.github.com/][github pages]] to publish my site, it is free
 * Trivia
 - I use Times New Roman for almost everything
 - Site's favicon is the [[https://openmoji.org/library/emoji-1F5FA/][open source world map emoji]]
-
+- My CV is optimized for computers and smartphones, it also supports printing
 #+BEGIN_EXPORT html
 <div class="bottom-header">
   <a class="bottom-header-link" href="/">Home</a>

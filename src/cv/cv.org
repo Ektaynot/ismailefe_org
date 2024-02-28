@@ -1,6 +1,6 @@
 #+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="cv.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/more/cv/cv.css" />
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -11,12 +11,12 @@
     <p class="name"> İsmail Efe Top
     <span class="pronoun">(He/Him)</span></p>
   </div>
-    <img class="pp" src="/about/pp.jpg">
+    <img class="pp" src="/etc/img/biyometrik-without-bg.png">
   </div>
 #+END_EXPORT
 
 * Education
-- *[2022 - ?]* 1st year Foreign Language Education in Middle East Technical University.
+- *[2022 - 202X]* First-year Foreign Language Education student at Middle East Technical University.
   #+begin_export html
 <p></p>
     #+end_export
@@ -25,17 +25,20 @@
 -----
 * Skills
 - *Languages*
+
   - Native in Turkish
   - Fluent in English
 #+begin_export html
-<p></p>
+<p></p><p></p>
 #+end_export
 - *Computer Skills*
+
   - Very knowledable about GNU/Linux, Git, Emacs
   - Comfortable in Microsoft Office programs
-  - Fluent in python and bash
+  - Fluent in Python, Bash, HTML, and CSS.
 -----
 * Interests
+- Personal blog sites (https://ismailefe.org)
 - Open-Source Software
 - Graphic Design
 - Capturing Culture

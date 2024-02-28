@@ -16,21 +16,24 @@
 #+END_EXPORT
 
 * Education
-- Started university in 2022, currently studying foreign language education in Middle East Technical University.
+- *[2022 - ?]* 1st year Foreign Language Education in Middle East Technical University.
+  #+begin_export html
+<p></p>
+    #+end_export
+- *[2018 - 2022]* Körfez Atatürk Anadolu High School
 
 -----
 * Skills
-- Leadership
-- Public Speaking
-- Problem Solving
-- Time and task managment
-** Languages
-- Native in Turkish
-- Fluent in English
-** Computer Skills
-- Very knowledable about GNU/Linux, Git, Emacs
-- Comfortable in Microsoft Office programs
-- Fluent in python and bash
+- *Languages*
+  - Native in Turkish
+  - Fluent in English
+#+begin_export html
+<p></p>
+#+end_export
+- *Computer Skills*
+  - Very knowledable about GNU/Linux, Git, Emacs
+  - Comfortable in Microsoft Office programs
+  - Fluent in python and bash
 -----
 * Interests
 - Open-Source Software

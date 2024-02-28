@@ -12,22 +12,22 @@ If you don't know what a colohpon is,
 
 "A colophon is a page or section, like a footer, of a site that describes how the site is made, with what tools, supporting what technologies." -[[https://indieweb.org/colophon#:~:text=A%20colophon%20is%20a%20page,%2Fwiki%2FColophon_(publishing)][indieweb.org]]
 
-* How do I /write/
+* /How do I write?/
 I use [[https://orgmode.org/][org-mode]] for all of my writing. I write unique html exports in my documents and then I use [[https://pandoc.org/][pandoc]] to export them to html. I also have a custom css. Here is what my site looks like:
 
 #+begin_export html
 <img src="/more/colophon/pics/ss.png" alt="An image of Emacs that displays the original form of this site.">
 #+end_export
 
-* How do I /edit/
+* /How do I edit?/
 I use [[https://code.visualstudio.com/][vscode]] to write and edit html & css. I use a live-server extension for live previewing my changes.
 
 After I am done, I run my RSS script and generate an updated RSS feed. I go more in depth about my RSS setup in my [[https://ismailefe.org/blog/rss/][blog post]].
 
-* How do I /publish/
+* /How do I publish?/
 I use [[https://pages.github.com/][github pages]] to publish my site, it is free and fast. It can give you a free domain but I choose to use my own. After I finnish editing my files I push them to my github repo and all is done.
 
-* What Technologies does my site support
+* What technologies does my site support?
 - RSS
 - [[https://indieweb.org/Webmention][Webmention]]
 - Variable media sizes

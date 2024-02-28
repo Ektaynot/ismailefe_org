@@ -12,8 +12,7 @@
 <div class="center-an-image">
 <img  src="/more/blogroll/pics/pliny.jpg" alt="Woodcut illustration from an edition of Pliny the Elder's Naturalis Historia (1582)">
 </div>
-<br />
-<br />
+<br><br>
 #+end_export
 
 I love blogrolls, they are a door to a whole different world. With each entry they make you feel like you've know a whole different person.

@@ -1,0 +1,55 @@
+#+title: Recommendations
+#+AUTHOR: İsmail Efe Top
+
+#+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
+
+
+#+begin_export html
+<div class="center-an-image">
+<img  src="/more/recommendations/pics/color-olivi.jpg" alt="Color Olivi (Invention of Oil Painting), plate 14 in the Nova Reperta (New Inventions of Modern Times)
+Stradanusca. 1596">
+</div>
+<br><br>
+#+end_export
+These are my general recommendations. Some of the things might not be my first choice but they should work for almost everyone.
+
+* Digital
+- For writing: [[https://obsidian.md/][obsidian]]
+- For managing and citing PDFs or websites: [[https://www.zotero.org/][zotero]]
+- For presentations: [[https://pitch.com/][pitch]]
+- For reading RSS feeds: [[https://netnewswire.com/][netnewswire]]
+- For starting a blog: [[https://gohugo.io/][hugo]]
+- For buying a domain: [[https://www.namecheap.com/][namecheap]]
+- For downloading torrents: [[https://www.qbittorrent.org/][qbittorrent]]
+
+* Physical
+- Computer: [[https://www.apple.com/shop/buy-mac/macbook-air/13-inch-m2][Macbook Air 2022]]
+  - Minimum 16 GB ram
+  - Minimum 512 GB storage
+- Computer (Second-hand): Macbook Pro 14 inch (2020)
+  - Base model is more than enough for most people
+- iPad: [[https://www.apple.com/ipad-air/][iPad Air 256GB]]
+- Wallet: [[https://www.amazon.com/Front-Pocket-Wallet-Zippers-Minimalist/dp/B0C77NS29R][OneTigris Zippered Wallet]]
+- Pen, for most use cases: [[https://us.bic.com/en_us/bic-cristal-xtra-smooth-black-ballpoint-pens-medium-point-1-0mm-500-count-pack.html][BIC Cristal]]
+- Pen, if you fly a lot: [[https://www.amazon.com/Fisher-Space-Pen-Bullet-400/dp/B000095K9D][Fisher Space Pen]]
+
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
+#+END_EXPORT

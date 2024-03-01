@@ -5,6 +5,7 @@
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 #+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
 #+BEGIN_EXPORT html
   <div class="ust-kısım">
   <div class="name">
@@ -18,9 +19,11 @@
 * Education
 - *[2022 - 202X]* First-year Foreign Language Education student at Middle East Technical University.
 *CumGPA: 3,55*
+
   #+begin_export html
 <p></p>
     #+end_export
+
 - *[2018 - 2022]* Körfez Atatürk Anadolu High School
 
 -----
@@ -29,9 +32,11 @@
 
   - Native in Turkish
   - Fluent in English
+
 #+begin_export html
 <p></p><p></p>
 #+end_export
+
 - *Computer Skills*
 
   - Very knowledable about GNU/Linux, Git, Emacs

@@ -17,6 +17,7 @@
 
 * Education
 - *[2022 - 202X]* First-year Foreign Language Education student at Middle East Technical University.
+*CumGPA: 3,55*
   #+begin_export html
 <p></p>
     #+end_export
@@ -41,7 +42,7 @@
 - Personal blog sites (https://ismailefe.org)
 - Open-Source Software
 - Graphic Design
-- Capturing Culture
+- Writing
 -----
 * How to contact
 - Phone: XXXXXXXXX

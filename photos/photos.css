@@ -23,10 +23,9 @@
   .vertical-container,
   .horizontal-container,
   .middle-vertical {
-    gap: 15px;
+    gap: 12px;
+    padding-bottom: 12px;
+
   }
-  .horizontal-container,
-  .middle-vertical {
-    padding-bottom: 15px;
-  }
+
 }

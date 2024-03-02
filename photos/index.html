@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="generator" content="pandoc" />
@@ -13,10 +13,39 @@
       href="https://webmention.io/ismailefe.org/webmention"
     />
     <title>Photos</title>
-    <style></style>
+    <style>
+      .vertical-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* two columns */
+        gap: 20px; /* Adjust the gap between images */
+        justify-content: center; /* Center content horizontally */
+        padding-bottom: 20px;
+      }
+      .horizontal-container,
+      .middle-vertical {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 20px;
+      }
+      .analog-image {
+        max-width: 100%; /* Ensure images don't exceed container width */
+        height: auto; /* Maintain aspect ratio */
+      }
+
+      @media (max-width: 600px) {
+        .vertical-container,
+        .horizontal-container,
+        .middle-vertical {
+          gap: 12px;
+          padding-bottom: 12px;
+        }
+      }
+    </style>
     <!-- the gallery library is made by lokesh https://github.com/lokesh/lightbox2/ -->
     <link rel="stylesheet" type="text/css" href="/templates/style.css" />
-    <link rel="stylesheet" type="text/css" href="/photos/photos.css" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -53,6 +82,7 @@
     <div class="vertical-container">
       <a href="/photos/pics/kodak200/fle-chair.JPG" data-lightbox="kodak200">
         <img
+          fetchpriority="high"
           data-lightbox="kodak200"
           class="analog-image"
           src="/photos/pics/kodak200/fle-chair.JPG"
@@ -62,6 +92,7 @@
         data-lightbox="kodak200"
       >
         <img
+          fetchpriority="high"
           data-lightbox="kodak200"
           class="analog-image"
           src="/photos/pics/kodak200/fle-mini-garden.JPG"
@@ -70,6 +101,7 @@
     <div class="horizontal-container">
       <a href="/photos/pics/kodak200/study-room.JPG" data-lightbox="kodak200">
         <img
+          fetchpriority="high"
           data-lightbox="kodak200"
           class="analog-image"
           src="/photos/pics/kodak200/study-room.JPG"
@@ -78,6 +110,7 @@
         <img
           data-lightbox="kodak200"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/kodak200/under-table.JPG"
       /></a>
     </div>
@@ -86,12 +119,14 @@
         <img
           data-lightbox="kodak200"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/kodak200/new-building.JPG"
       /></a>
       <a href="/photos/pics/kodak200/u3.JPG" data-lightbox="kodak200">
         <img
           data-lightbox="kodak200"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/kodak200/u3.JPG"
       /></a>
     </div>
@@ -103,12 +138,14 @@
         <img
           data-lightbox="kentmere"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/kentmere/baraka.JPG"
       /></a>
       <a href="/photos/pics/kentmere/jeoloji.JPG" data-lightbox="kentmere">
         <img
           data-lightbox="kentmere"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/kentmere/jeoloji.JPG"
       /></a>
     </div>
@@ -117,6 +154,7 @@
         <img
           data-lightbox="kentmere"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/kentmere/iki-dede.JPG"
       /></a>
     </div>
@@ -125,12 +163,14 @@
         <img
           data-lightbox="kentmere"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/kentmere/babam.JPG"
       /></a>
       <a href="/photos/pics/kentmere/ozlemim.JPG" data-lightbox="kentmere">
         <img
           data-lightbox="kentmere"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/kentmere/ozlemim.JPG"
       /></a>
     </div>
@@ -142,6 +182,7 @@
         <img
           data-lightbox="ilford"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/ilford/konuk-yatay.JPG"
       /></a>
     </div>
@@ -150,24 +191,28 @@
         <img
           data-lightbox="ilford"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/ilford/isa.JPG"
       /></a>
       <a href="/photos/pics/ilford/yangin.JPG" data-lightbox="ilford">
         <img
           data-lightbox="ilford"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/ilford/yangin.JPG"
       /></a>
       <a href="/photos/pics/ilford/yeni-bina.JPG" data-lightbox="ilford">
         <img
           data-lightbox="ilford"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/ilford/yeni-bina.JPG"
       /></a>
       <a href="/photos/pics/ilford/konuk.JPG" data-lightbox="ilford">
         <img
           data-lightbox="ilford"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/ilford/konuk.JPG"
       /></a>
     </div>
@@ -178,12 +223,14 @@
         <img
           data-lightbox="various"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/various/hallway.jpg"
       /></a>
       <a href="/photos/pics/various/residant.jpg" data-lightbox="various">
         <img
           data-lightbox="various"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/various/residant.jpg"
       /></a>
     </div>
@@ -192,6 +239,7 @@
         <img
           data-lightbox="various"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/various/study.jpg"
       /></a>
     </div>
@@ -200,6 +248,7 @@
         <img
           data-lightbox="various"
           class="analog-image"
+          fetchpriority="high"
           src="/photos/pics/various/ozlem-semsiye.JPG"
       /></a>
     </div>

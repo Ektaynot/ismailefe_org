@@ -1,4 +1,4 @@
-#+title: Create stuff that last (Plain Text)
+#+title: Create Files That Last
 #+AUTHOR: İsmail Efe Top
 #+DATE: 2024-03-03
 #+LANGUAGE: en

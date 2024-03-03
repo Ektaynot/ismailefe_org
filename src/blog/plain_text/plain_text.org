@@ -1,0 +1,155 @@
+#+title: Create stuff that last (Plain Text)
+#+AUTHOR: İsmail Efe Top
+#+DATE: 2024-03-03
+#+LANGUAGE: en
+#+DESCRIPTION: Create text that last.
+#+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
+As Steph Ango mentions in his [[https://stephango.com/file-over-app][article]], plain text files are more than files that have texts in them. They also symbolize a way of life. They make you face your technological habits, they make you more aware of the stuff you create and they encourage you to hold onto your creations.
+
+* Plain Text Files
+
+If you don't know what plain text files are, they are files that have human readable content in them.
+
+I am sure that at some point we all have opened up a notepad software in our computers and written simple stuff that don't have any fancy headings, colors and pictures. These notes would then be saved as *.txt* files.
+
+With the rise of note-taking apps such as [[https://www.notion.so/][notion]] and simple to-do apps, the need for these *.txt* files diminished. Now we live in a world that produces a new multi-million dollar silicon valley company that makes a /ground-breaking/ new note-taking app every month.
+
+But was the diminishing of these simple *.txt* files good for us. *Yes it was.* This was of course a system that was doomed to fail. It is important that we color our notes, make big titles and add pictures. They make things more easy and joyful. But there was a great thing about these *.txt* files. They were simple and could be open everywhere. You didn't need an app that was 5 dollar every month and only available for iPhones.
+
+Luckily we don't have to revive *.txt* files. We already have [[https://www.markdownguide.org/getting-started/#what-is-markdown][markdown]] (*.md*) and [[https://orgmode.org/][org]] (*.org*) files. While the latter is somewhat obscure, markdown is already used in a lot of places and have a thriving community.
+
+* Markdown
+Markdown is a markup language that lets you add formatting elements to plain text files. Markdown can add stuff like; different levels of heading, bullet lists, to-do lists, hyperlinks, pictures and many more. And you can do these awesome things without ever needing a mouse. When you want to have a big title you can start your sentence with #, or if you want to make your text bold you can put '**' sign to the beginning and the end of your text. Let's do a little demo.
+
+#+begin_src markdown
+# Learning Markdown
+
+# Level 1 Heading
+## Level 2 Heading
+### Level 3 Heading
+
+## Text Formatting
+
+**Bold Text**
+*Italic Text*
+~~Strikethrough Text~~
+
+## Lists
+
+### Ordered List
+1. Item 1
+2. Item 2
+3. Item 3
+
+### Unordered List
+- Item A
+- Item B
+- Item C
+
+### Todo List
+- [ ] Buy milk
+- [x] Write a post about plain text
+
+### Links and Images
+
+[Markdown Guide](https://www.markdownguide.org/)
+![Markdown Logo](https://markdown-here.com/img/icon256.png)
+
+### Code
+
+Also you can write code blocks with three backticks.
+
+```python
+def greet():
+    print("Hello, world!")
+#+end_src
+
+When we view this code in a markdown supported editor like [[https://obsidian.org][obsidian]], [[https://bear.app][bear]], [[https://notable.app/][notable]] or [[https://www.inkdrop.app/][inkdrop]]. It looks something like this:
+
+#+begin_export html
+<img src="/blog/plain_text/pics/bear1.webp" alt="Output of the above markdown code block part 1 of 2">
+<img src="/blog/plain_text/pics/bear2.webp" alt="Output of the above markdown code block part 2 of 2">
+#+end_export
+
+As you can see it is fundamentally not difficult. You just have to know the symbols that correspond to what you want. When you get used to markdown, you can write as fast as you can think with files that have proper formatting. For example if you are in a classroom or in a meeting. At the end, you can have a beautiful looking note file that you can convert to a pdf or a doc. The apps I mentioned above support converting these markdown documents to all kinds of useful formats. For example, I am writing this blog post with org. While org works a little differently they are similar in a lot of areas. You can check out this [[https://orgmode.org/#org-demo][interactive org example]].
+
+* Why bother
+
+Apart from the convenience, this makes you more aware of what you create. Having little symbols on an application that you have no control over is not something you want if you want to preserve your legacy. While apps like notion might seem like a good option because of their ease of use. These apps will certainly someday fail. But if you use plain text files and apps that support it, when the app you are using dies. You can just take your stuff and move to a different app. And an app dying isn't the only reason. The company behind the app can turn it to a monthly service, remove functionality that you regularly use and, can make all sorts of bad decisions. That is one of the reasons why I love open-source so much, but of course that is another topic. Having your creations as files you own will surely benefit you a whole lot.
+
+* Recommendations
+
+I am going to give two starter packs. The first one will be for most of the people, the second one will be for the people who want to go into a rabbit hole and change the way they look at note taking.
+
+** Starter pack
+- [[https://www.markdownguide.org/getting-started/#what-is-markdown][Markdown]] for the markup language
+  - Markdown is widely used and have a lot of guides for it
+  - Is a little bit limited but allows a wide variety of use cases
+- [[https://obsidian.md/][Obsidian]]
+  - Works great for writing, note-taking, to-do lists
+  - Open-source
+  - Available in all major platforms
+  - Syncs between these platforms
+  - Great collection of community plugins
+- If you are using an iPhone, you can use [[https://bear.app][bear]] for short to-do lists or notes
+
+** Advanced pack
+- [[https://orgmode.org][Org]] for the markup language
+  - Teaches you how to take logical notes
+  - Nested headings
+  - You can easily integrate meta-data
+  - Works great with [[https://pandoc.org/][pandoc]]
+  - Have native support for latex and live command blocks
+  - Great for literate programming
+  - Ability to use agenda and calendar with org-agenda
+  - Native support for tags
+  - Interconnected notes, better with [[https://www.orgroam.com/][org-roam]]
+  - Fantastic way of managing tables
+  - Great support for citation
+  - Probably the only piece of software that have perfect defaults
+  - Is a life-long journey that teaches you new things everyday
+  - Is weirdly not limited by imagination, I always find stuff that I would never be able to think on my own.
+
+- [[https://www.gnu.org/software/emacs/][Emacs]]
+  - The best way to use org is in Emacs
+  - Open-source
+  - Works properly on computers only, while it is possible to run it on Android I wouldn't recommend it
+  - Has endless customization options, check out this [[https://ismailefe.org/blog/eye_candy/][blog post]]
+
+- [[https://plainorg.com/][Plain-org]] for iOS
+  - Looks native
+  - While it lacks certain features it is still actively maintained
+  - Best option for viewing and editing org files in iOS
+
+- [[https://orgro.org/][Orgro]] for Android
+
+While I know started a rant when I mentioned org and Emacs but I assure you they are great if you have the proper free time, as it takes quite the time to get use to it. It took me around half a year to get to a place that I am comfortable in. But now I do %99 percent of my writing in Emacs and it saves me a lot of time. Learning Emacs and org was probably the best thing I have done for myself.
+
+* To conclude
+Make sure you own your files, so that you can preserve your creations. Use apps that support plain text so you can jump ships easily. Definitely check out the starter pack. If you like what you see in the starter pack, forget everything you have learned and use the things in the advanced pack. And send me an [[mailto:ismailefetop@gmail.com][email]] if you have any questions or recommendations.
+
+** Great articles on the subject
+- [[https://stephango.com/file-over-app][File over app]] by Steph Ango (CEO of obsidian)
+- [[https://jenson.org/files/][The future needs files]] by Scott Jenson
+- [[https://blog.jim-nielsen.com/2024/more-files-plz/][More files please]] by Jim Nielsen
+
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
+#+END_EXPORT

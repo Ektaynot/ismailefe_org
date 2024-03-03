@@ -1,6 +1,7 @@
 #+title: Cool Stuff
 
 #+HTML_HEAD: <!-- the gallery library is made by lokesh https://github.com/lokesh/lightbox2/ -->
+#+LANGUAGE: en
 #+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/cool_stuff/cool_stuff.css" />

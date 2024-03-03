@@ -6,7 +6,288 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 26 Feb 2024 21:01:04 +0300</lastBuildDate>
+<lastBuildDate>Sun, 03 Mar 2024 23:14:33 +0300</lastBuildDate>
+<item>
+  <title>Create stuff that last (Plain Text)</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
+<header id="title-block-header">
+<h1 class="title">Create stuff that last (Plain Text)</h1>
+<p class="author">İsmail Efe Top</p>
+<p class="date">2024-03-03</p>
+</header>
+<p>
+      As Steph Ango mentions in his
+      <a href="https://stephango.com/file-over-app">article</a>, plain text
+      files are more than files that have texts in them. They also symbolize a
+      way of life. They make you face your technological habits, they make you
+      more aware of the stuff you create and they encourage you to hold onto
+      your creations.
+    </p>
+<h1 id="plain-text-files">Plain Text Files</h1>
+<p>
+      If you don't know what plain text files are, they are files that have
+      human readable content in them.
+    </p>
+<p>
+      I am sure that at some point we all have opened up a notepad software in
+      our computers and written simple stuff that don't have any fancy headings,
+      colors and pictures. These notes would then be saved as
+      <strong>.txt</strong> files.
+    </p>
+<p>
+      With the rise of note-taking apps such as
+      <a href="https://www.notion.so/">notion</a> and simple to-do apps, the
+      need for these <strong>.txt</strong> files diminished. Now we live in a
+      world that produces a new multi-million dollar silicon valley company that
+      makes a <em>ground-breaking</em> new note-taking app every month.
+    </p>
+<p>
+      But was the diminishing of these simple <strong>.txt</strong> files good
+      for us. <strong>Yes it was.</strong> This was of course a system that was
+      doomed to fail. It is important that we color our notes, make big titles
+      and add pictures. They make things more easy and joyful. But there was a
+      great thing about these <strong>.txt</strong> files. They were simple and
+      could be open everywhere. You didn't need an app that was 5 dollar every
+      month and only available for iPhones.
+    </p>
+<p>
+      Luckily we don't have to revive <strong>.txt</strong> files. We already
+      have
+      <a href="https://www.markdownguide.org/getting-started/#what-is-markdown">markdown</a>
+      (<strong>.md</strong>) and
+      <a href="https://orgmode.org/">org</a> (<strong>.org</strong>) files.
+      While the latter is somewhat obscure, markdown is already used in a lot of
+      places and have a thriving community.
+    </p>
+<h1 id="markdown">Markdown</h1>
+<p>
+      Markdown is a markup language that lets you add formatting elements to
+      plain text files. Markdown can add stuff like; different levels of
+      heading, bullet lists, to-do lists, hyperlinks, pictures and many more.
+      And you can do these awesome things without ever needing a mouse. When you
+      want to have a big title you can start your sentence with #, or if you
+      want to make your text bold you can put '**' sign to the beginning and the
+      end of your text. Let's do a little demo.
+    </p>
+<div class="sourceCode" id="cb1">
+<pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb1-1"><a aria-hidden="true" href="#cb1-1" tabindex="-1"></a><span class="fu"># Learning Markdown</span></span>
+<span id="cb1-2"><a aria-hidden="true" href="#cb1-2" tabindex="-1"></a></span>
+<span id="cb1-3"><a aria-hidden="true" href="#cb1-3" tabindex="-1"></a><span class="fu"># Level 1 Heading</span></span>
+<span id="cb1-4"><a aria-hidden="true" href="#cb1-4" tabindex="-1"></a><span class="fu">## Level 2 Heading</span></span>
+<span id="cb1-5"><a aria-hidden="true" href="#cb1-5" tabindex="-1"></a><span class="fu">### Level 3 Heading</span></span>
+<span id="cb1-6"><a aria-hidden="true" href="#cb1-6" tabindex="-1"></a></span>
+<span id="cb1-7"><a aria-hidden="true" href="#cb1-7" tabindex="-1"></a><span class="fu">## Text Formatting</span></span>
+<span id="cb1-8"><a aria-hidden="true" href="#cb1-8" tabindex="-1"></a></span>
+<span id="cb1-9"><a aria-hidden="true" href="#cb1-9" tabindex="-1"></a>**Bold Text**</span>
+<span id="cb1-10"><a aria-hidden="true" href="#cb1-10" tabindex="-1"></a>*Italic Text*</span>
+<span id="cb1-11"><a aria-hidden="true" href="#cb1-11" tabindex="-1"></a>~~Strikethrough Text~~</span>
+<span id="cb1-12"><a aria-hidden="true" href="#cb1-12" tabindex="-1"></a></span>
+<span id="cb1-13"><a aria-hidden="true" href="#cb1-13" tabindex="-1"></a><span class="fu">## Lists</span></span>
+<span id="cb1-14"><a aria-hidden="true" href="#cb1-14" tabindex="-1"></a></span>
+<span id="cb1-15"><a aria-hidden="true" href="#cb1-15" tabindex="-1"></a><span class="fu">### Ordered List</span></span>
+<span id="cb1-16"><a aria-hidden="true" href="#cb1-16" tabindex="-1"></a><span class="ss">1. </span>Item 1</span>
+<span id="cb1-17"><a aria-hidden="true" href="#cb1-17" tabindex="-1"></a><span class="ss">2. </span>Item 2</span>
+<span id="cb1-18"><a aria-hidden="true" href="#cb1-18" tabindex="-1"></a><span class="ss">3. </span>Item 3</span>
+<span id="cb1-19"><a aria-hidden="true" href="#cb1-19" tabindex="-1"></a></span>
+<span id="cb1-20"><a aria-hidden="true" href="#cb1-20" tabindex="-1"></a><span class="fu">### Unordered List</span></span>
+<span id="cb1-21"><a aria-hidden="true" href="#cb1-21" tabindex="-1"></a><span class="ss">- </span>Item A</span>
+<span id="cb1-22"><a aria-hidden="true" href="#cb1-22" tabindex="-1"></a><span class="ss">- </span>Item B</span>
+<span id="cb1-23"><a aria-hidden="true" href="#cb1-23" tabindex="-1"></a><span class="ss">- </span>Item C</span>
+<span id="cb1-24"><a aria-hidden="true" href="#cb1-24" tabindex="-1"></a></span>
+<span id="cb1-25"><a aria-hidden="true" href="#cb1-25" tabindex="-1"></a><span class="fu">### Todo List</span></span>
+<span id="cb1-26"><a aria-hidden="true" href="#cb1-26" tabindex="-1"></a><span class="ss">- </span><span class="va">[ ]</span> Buy milk</span>
+<span id="cb1-27"><a aria-hidden="true" href="#cb1-27" tabindex="-1"></a><span class="ss">- </span><span class="va">[x]</span> Write a post about plain text</span>
+<span id="cb1-28"><a aria-hidden="true" href="#cb1-28" tabindex="-1"></a></span>
+<span id="cb1-29"><a aria-hidden="true" href="#cb1-29" tabindex="-1"></a><span class="fu">### Links and Images</span></span>
+<span id="cb1-30"><a aria-hidden="true" href="#cb1-30" tabindex="-1"></a></span>
+<span id="cb1-31"><a aria-hidden="true" href="#cb1-31" tabindex="-1"></a><span class="co">[</span><span class="ot">Markdown Guide</span><span class="co">](https://www.markdownguide.org/)</span></span>
+<span id="cb1-32"><a aria-hidden="true" href="#cb1-32" tabindex="-1"></a><span class="al">![Markdown Logo](https://markdown-here.com/img/icon256.png)</span></span>
+<span id="cb1-33"><a aria-hidden="true" href="#cb1-33" tabindex="-1"></a></span>
+<span id="cb1-34"><a aria-hidden="true" href="#cb1-34" tabindex="-1"></a><span class="fu">### Code</span></span>
+<span id="cb1-35"><a aria-hidden="true" href="#cb1-35" tabindex="-1"></a></span>
+<span id="cb1-36"><a aria-hidden="true" href="#cb1-36" tabindex="-1"></a>Also you can write code blocks with three backticks.</span>
+<span id="cb1-37"><a aria-hidden="true" href="#cb1-37" tabindex="-1"></a></span>
+<span id="cb1-38"><a aria-hidden="true" href="#cb1-38" tabindex="-1"></a><span class="in">```python</span></span>
+<span id="cb1-39"><a aria-hidden="true" href="#cb1-39" tabindex="-1"></a><span class="kw">def</span> greet():</span>
+<span id="cb1-40"><a aria-hidden="true" href="#cb1-40" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"Hello, world!"</span>)</span></code></pre>
+</div>
+<p>
+      When we view this code in a markdown supported editor like
+      <a href="https://obsidian.org">obsidian</a>,
+      <a href="https://bear.app">bear</a>,
+      <a href="https://notable.app/">notable</a> or
+      <a href="https://www.inkdrop.app/">inkdrop</a>. It looks something like
+      this:
+    </p>
+<img alt="Output of the above markdown code block part 1 of 2" src="/blog/plain_text/pics/bear1.webp"/>
+<img alt="Output of the above markdown code block part 2 of 2" src="/blog/plain_text/pics/bear2.webp"/>
+<p>
+      As you can see it is fundamentally not difficult. You just have to know
+      the symbols that correspond to what you want. When you get used to
+      markdown, you can write as fast as you can think with files that have
+      proper formatting. For example if you are in a classroom or in a meeting.
+      At the end, you can have a beautiful looking note file that you can
+      convert to a pdf or a doc. The apps I mentioned above support converting
+      these markdown documents to all kinds of useful formats. For example, I am
+      writing this blog post with org. While org works a little differently they
+      are similar in a lot of areas. You can check out this
+      <a href="https://orgmode.org/#org-demo">interactive org example</a>.
+    </p>
+<h1 id="why-bother">Why bother</h1>
+<p>
+      Apart from the convenience, this makes you more aware of what you create.
+      Having little symbols on an application that you have no control over is
+      not something you want if you want to preserve your legacy. While apps
+      like notion might seem like a good option because of their ease of use.
+      These apps will certainly someday fail. But if you use plain text files
+      and apps that support it, when the app you are using dies. You can just
+      take your stuff and move to a different app. And an app dying isn't the
+      only reason. The company behind the app can turn it to a monthly service,
+      remove functionality that you regularly use and, can make all sorts of bad
+      decisions. That is one of the reasons why I love open-source so much, but
+      of course that is another topic. Having your creations as files you own
+      will surely benefit you a whole lot.
+    </p>
+<h1 id="recommendations">Recommendations</h1>
+<p>
+      I am going to give two starter packs. The first one will be for most of
+      the people, the second one will be for the people who want to go into a
+      rabbit hole and change the way they look at note taking.
+    </p>
+<h2 id="starter-pack">Starter pack</h2>
+<ul>
+<li>
+<a href="https://www.markdownguide.org/getting-started/#what-is-markdown">Markdown</a>
+        for the markup language
+        <ul>
+<li>Markdown is widely used and have a lot of guides for it</li>
+<li>
+            Is a little bit limited but allows a wide variety of use cases
+          </li>
+</ul>
+</li>
+<li>
+<a href="https://obsidian.md/">Obsidian</a>
+<ul>
+<li>Works great for writing, note-taking, to-do lists</li>
+<li>Open-source</li>
+<li>Available in all major platforms</li>
+<li>Syncs between these platforms</li>
+<li>Great collection of community plugins</li>
+</ul>
+</li>
+<li>
+        If you are using an iPhone, you can use
+        <a href="https://bear.app">bear</a> for short to-do lists or notes
+      </li>
+</ul>
+<h2 id="advanced-pack">Advanced pack</h2>
+<ul>
+<li>
+<a href="https://orgmode.org">Org</a> for the markup language
+        <ul>
+<li>Teaches you how to take logical notes</li>
+<li>Nested headings</li>
+<li>You can easily integrate meta-data</li>
+<li>Works great with <a href="https://pandoc.org/">pandoc</a></li>
+<li>Have native support for latex and live command blocks</li>
+<li>Great for literate programming</li>
+<li>Ability to use agenda and calendar with org-agenda</li>
+<li>Native support for tags</li>
+<li>
+            Interconnected notes, better with
+            <a href="https://www.orgroam.com/">org-roam</a>
+</li>
+<li>Fantastic way of managing tables</li>
+<li>Great support for citation</li>
+<li>
+            Probably the only piece of software that have perfect defaults
+          </li>
+<li>Is a life-long journey that teaches you new things everyday</li>
+<li>
+            Is weirdly not limited by imagination, I always find stuff that I
+            would never be able to think on my own.
+          </li>
+</ul>
+</li>
+<li>
+<a href="https://www.gnu.org/software/emacs/">Emacs</a>
+<ul>
+<li>The best way to use org is in Emacs</li>
+<li>Open-source</li>
+<li>
+            Works properly on computers only, while it is possible to run it on
+            Android I wouldn't recommend it
+          </li>
+<li>
+            Has endless customization options, check out this
+            <a href="https://ismailefe.org/blog/eye_candy/">blog post</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="https://plainorg.com/">Plain-org</a> for iOS
+        <ul>
+<li>Looks native</li>
+<li>
+            While it lacks certain features it is still actively maintained
+          </li>
+<li>Best option for viewing and editing org files in iOS</li>
+</ul>
+</li>
+<li><a href="https://orgro.org/">Orgro</a> for Android</li>
+</ul>
+<p>
+      While I know started a rant when I mentioned org and Emacs but I assure
+      you they are great if you have the proper free time, as it takes quite the
+      time to get use to it. It took me around half a year to get to a place
+      that I am comfortable in. But now I do %99 percent of my writing in Emacs
+      and it saves me a lot of time. Learning Emacs and org was probably the
+      best thing I have done for myself.
+    </p>
+<h1 id="to-conclude">To conclude</h1>
+<p>
+      Make sure you own your files, so that you can preserve your creations. Use
+      apps that support plain text so you can jump ships easily. Definitely
+      check out the starter pack. If you like what you see in the starter pack,
+      forget everything you have learned and use the things in the advanced
+      pack. And send me an <a href="mailto:ismailefetop@gmail.com">email</a> if
+      you have any questions or recommendations.
+    </p>
+<h2 id="great-articles-on-the-subject">Great articles on the subject</h2>
+<ul>
+<li>
+<a href="https://stephango.com/file-over-app">File over app</a> by Steph
+        Ango (CEO of obsidian)
+      </li>
+<li>
+<a href="https://jenson.org/files/">The future needs files</a> by Scott
+        Jenson
+      </li>
+<li>
+<a href="https://blog.jim-nielsen.com/2024/more-files-plz/">More files please</a>
+        by Jim Nielsen
+      </li>
+</ul>
+<div class="bottom-header">
+<a class="bottom-header-link" href="/">Home</a>
+<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
+<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
+</div>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/plain_text/index.html</link>
+  <guid>https://ismailefe.org/blog/plain_text/index.html</guid>
+  <pubDate>Sun, 03 Mar 2024 00:00:00 +0300</pubDate>
+</item>
+
 <item>
   <title>My EDC Essentials.</title>
   <description><![CDATA[<!DOCTYPE html>

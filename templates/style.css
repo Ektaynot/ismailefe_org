@@ -40,7 +40,12 @@ q {
   display: flex;
   color: rgb(209, 77, 65);
   font-size: 20pt;
-} 
+  
+}
+
+.firechickenwebring a {
+  margin-right: 10px;
+}
 .bottom-header {
   margin-top: 8em;
   justify-content: space-evenly;

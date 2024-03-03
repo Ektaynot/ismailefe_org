@@ -3,6 +3,7 @@
 #+DATE: 2024-01-15
 
 #+LANGUAGE: en
+#+HTML_HEAD: <meta name="description" content="Learn about me." />
 #+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/about/about.css" />
@@ -13,7 +14,7 @@
 
 #+BEGIN_EXPORT html
 <div class="pp">
-<img class="pp-image" alt="taken by my beautiful partner." src="pp.jpg" >
+<img class="pp-image" alt="taken by my beautiful partner." src="/about/pp.jpg" >
 </div>
 <div class="quote">
   <q><b>Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.</b></q>

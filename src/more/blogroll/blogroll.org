@@ -1,5 +1,6 @@
 #+TITLE: Blogroll
 
+#+LANGUAGE: en
 #+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/more/blogroll/blogroll.css" />
@@ -22,6 +23,7 @@ I want to make a blogroll too, but with a little bit flavour. I am going to cate
 * Experiences
 - [[https://robinrendle.com/][robinrendle.com]] made by Robin Rendle
 - [[https://drollery.org/][drollery.org]] made by Ian Pringle
+- [[https://julian.digital][julian.digital]] made by Julian Lehr
 
 * Blogs
 - [[https://stephango.com/][stephango.com]] made by Steph Ango

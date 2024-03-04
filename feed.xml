@@ -6,7 +6,7 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 03 Mar 2024 23:18:02 +0300</lastBuildDate>
+<lastBuildDate>Mon, 04 Mar 2024 08:32:46 +0300</lastBuildDate>
 <item>
   <title>Create Files That Last</title>
   <description><![CDATA[<!DOCTYPE html>
@@ -20,9 +20,9 @@
       As Steph Ango mentions in his
       <a href="https://stephango.com/file-over-app">article</a>, plain text
       files are more than files that have texts in them. They also symbolize a
-      way of life. They make you face your technological habits, they make you
-      more aware of the stuff you create and they encourage you to hold onto
-      your creations.
+      way of life. They make you face your technological habits, make you more
+      aware of the stuff you create and encourage you to hold onto your
+      creations.
     </p>
 <h1 id="plain-text-files">Plain Text Files</h1>
 <p>
@@ -32,7 +32,7 @@
 <p>
       I am sure that at some point we all have opened up a notepad software in
       our computers and written simple stuff that don't have any fancy headings,
-      colors and pictures. These notes would then be saved as
+      colors or pictures. These notes would then be saved as
       <strong>.txt</strong> files.
     </p>
 <p>
@@ -127,9 +127,9 @@
       the symbols that correspond to what you want. When you get used to
       markdown, you can write as fast as you can think with files that have
       proper formatting. For example if you are in a classroom or in a meeting.
-      At the end, you can have a beautiful looking note file that you can
-      convert to a pdf or a doc. The apps I mentioned above support converting
-      these markdown documents to all kinds of useful formats. For example, I am
+      At the end, you can have a beautiful looking note file out of the box. The
+      apps I mentioned above also support converting these markdown documents to
+      all kinds of useful formats like PDFs, docs and HTMLs. For example, I am
       writing this blog post with org. While org works a little differently they
       are similar in a lot of areas. You can check out this
       <a href="https://orgmode.org/#org-demo">interactive org example</a>.
@@ -141,7 +141,7 @@
       not something you want if you want to preserve your legacy. While apps
       like notion might seem like a good option because of their ease of use.
       These apps will certainly someday fail. But if you use plain text files
-      and apps that support it, when the app you are using dies. You can just
+      and apps that support it, when the app you are using dies, you can just
       take your stuff and move to a different app. And an app dying isn't the
       only reason. The company behind the app can turn it to a monthly service,
       remove functionality that you regularly use and, can make all sorts of bad
@@ -242,9 +242,9 @@
       While I know started a rant when I mentioned org and Emacs but I assure
       you they are great if you have the proper free time, as it takes quite the
       time to get use to it. It took me around half a year to get to a place
-      that I am comfortable in. But now I do %99 percent of my writing in Emacs
-      and it saves me a lot of time. Learning Emacs and org was probably the
-      best thing I have done for myself.
+      that I am comfortable in. But now I do 99% of my writing in Emacs and it
+      saves me a lot of time. Learning Emacs and org was probably the best thing
+      I have done for myself.
     </p>
 <h1 id="to-conclude">To conclude</h1>
 <p>

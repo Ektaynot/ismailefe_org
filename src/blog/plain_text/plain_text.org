@@ -10,13 +10,13 @@
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 #+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
 
-As Steph Ango mentions in his [[https://stephango.com/file-over-app][article]], plain text files are more than files that have texts in them. They also symbolize a way of life. They make you face your technological habits, they make you more aware of the stuff you create and they encourage you to hold onto your creations.
+As Steph Ango mentions in his [[https://stephango.com/file-over-app][article]], plain text files are more than files that have texts in them. They also symbolize a way of life. They make you face your technological habits, make you more aware of the stuff you create and encourage you to hold onto your creations.
 
 * Plain Text Files
 
 If you don't know what plain text files are, they are files that have human readable content in them.
 
-I am sure that at some point we all have opened up a notepad software in our computers and written simple stuff that don't have any fancy headings, colors and pictures. These notes would then be saved as *.txt* files.
+I am sure that at some point we all have opened up a notepad software in our computers and written simple stuff that don't have any fancy headings, colors or pictures. These notes would then be saved as *.txt* files.
 
 With the rise of note-taking apps such as [[https://www.notion.so/][notion]] and simple to-do apps, the need for these *.txt* files diminished. Now we live in a world that produces a new multi-million dollar silicon valley company that makes a /ground-breaking/ new note-taking app every month.
 
@@ -77,11 +77,11 @@ When we view this code in a markdown supported editor like [[https://obsidian.or
 <img src="/blog/plain_text/pics/bear2.webp" alt="Output of the above markdown code block part 2 of 2">
 #+end_export
 
-As you can see it is fundamentally not difficult. You just have to know the symbols that correspond to what you want. When you get used to markdown, you can write as fast as you can think with files that have proper formatting. For example if you are in a classroom or in a meeting. At the end, you can have a beautiful looking note file that you can convert to a pdf or a doc. The apps I mentioned above support converting these markdown documents to all kinds of useful formats. For example, I am writing this blog post with org. While org works a little differently they are similar in a lot of areas. You can check out this [[https://orgmode.org/#org-demo][interactive org example]].
+As you can see it is fundamentally not difficult. You just have to know the symbols that correspond to what you want. When you get used to markdown, you can write as fast as you can think with files that have proper formatting. For example if you are in a classroom or in a meeting. At the end, you can have a beautiful looking note file out of the box. The apps I mentioned above also support converting these markdown documents to all kinds of useful formats like PDFs, docs and HTMLs. For example, I am writing this blog post with org. While org works a little differently they are similar in a lot of areas. You can check out this [[https://orgmode.org/#org-demo][interactive org example]].
 
 * Why bother
 
-Apart from the convenience, this makes you more aware of what you create. Having little symbols on an application that you have no control over is not something you want if you want to preserve your legacy. While apps like notion might seem like a good option because of their ease of use. These apps will certainly someday fail. But if you use plain text files and apps that support it, when the app you are using dies. You can just take your stuff and move to a different app. And an app dying isn't the only reason. The company behind the app can turn it to a monthly service, remove functionality that you regularly use and, can make all sorts of bad decisions. That is one of the reasons why I love open-source so much, but of course that is another topic. Having your creations as files you own will surely benefit you a whole lot.
+Apart from the convenience, this makes you more aware of what you create. Having little symbols on an application that you have no control over is not something you want if you want to preserve your legacy. While apps like notion might seem like a good option because of their ease of use. These apps will certainly someday fail. But if you use plain text files and apps that support it, when the app you are using dies, you can just take your stuff and move to a different app. And an app dying isn't the only reason. The company behind the app can turn it to a monthly service, remove functionality that you regularly use and, can make all sorts of bad decisions. That is one of the reasons why I love open-source so much, but of course that is another topic. Having your creations as files you own will surely benefit you a whole lot.
 
 * Recommendations
 
@@ -129,7 +129,7 @@ I am going to give two starter packs. The first one will be for most of the peop
 
 - [[https://orgro.org/][Orgro]] for Android
 
-While I know started a rant when I mentioned org and Emacs but I assure you they are great if you have the proper free time, as it takes quite the time to get use to it. It took me around half a year to get to a place that I am comfortable in. But now I do %99 percent of my writing in Emacs and it saves me a lot of time. Learning Emacs and org was probably the best thing I have done for myself.
+While I know started a rant when I mentioned org and Emacs but I assure you they are great if you have the proper free time, as it takes quite the time to get use to it. It took me around half a year to get to a place that I am comfortable in. But now I do 99% of my writing in Emacs and it saves me a lot of time. Learning Emacs and org was probably the best thing I have done for myself.
 
 * To conclude
 Make sure you own your files, so that you can preserve your creations. Use apps that support plain text so you can jump ships easily. Definitely check out the starter pack. If you like what you see in the starter pack, forget everything you have learned and use the things in the advanced pack. And send me an [[mailto:ismailefetop@gmail.com][email]] if you have any questions or recommendations.

@@ -14,7 +14,7 @@
 
 #+BEGIN_EXPORT html
 <div class="pp">
-<img class="pp-image" alt="taken by my beautiful partner." src="/about/pp.jpg" >
+<img class="pp-image" alt="taken by my beautiful partner." src="/about/pp.webp" >
 </div>
 <div class="quote">
   <q><b>Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.</b></q>

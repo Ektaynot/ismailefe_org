@@ -49,20 +49,15 @@ As the name suggests, this command inserts different templates to your file. I u
 
 Currently, I am taking an introduction to literature class and learning a lot of words that I didn't know before. I best learn using different sources, so my first step is almost always searching it on Google.
 
-Whenever our instructor introduces a new term, I put it in my org file. Then when I want to write a definition for that word, I need Google to help me. So, I wanted a function that takes the current word my cursor is on and searches it on Google. I looked for a package to do that for me and [[https://github.com/Malabarba/emacs-google-this][there was one]]. But sadly, it wouldn't work on my system. So, with the help of chatgpt, I was able to create a function that works for windows, macos and, linux. /Feel free to correct me!/
+Whenever our instructor introduces a new term, I put it in my org file. Then when I want to write a definition for that word, I need Google to help me. So, I wanted a function that takes the current word my cursor is on and searches it on Google. I looked for a package to do that for me and [[https://github.com/Malabarba/emacs-google-this][there was one]]. But sadly, it wouldn't work on my system. So, with the help of u/Aminumbra, I was able to create a function that does exactly what I want.
 
 #+begin_src emacs-lisp
 (defun google-current-word ()
-  "Search the current word on Google using the appropriate command."
+  "Search the current word on Google using browse-url."
   (interactive)
   (let ((word (thing-at-point 'word)))
     (if word
-        (cond ((eq system-type 'darwin) ; macOS
-               (shell-command (concat "open https://www.google.com/search?q=" word)))
-              ((eq system-type 'gnu/linux) ; Linux
-               (shell-command (concat "xdg-open https://www.google.com/search?q=" word)))
-              ((eq system-type 'windows-nt) ; Windows
-               (shell-command (concat "start https://www.google.com/search?q=" word))))
+        (browse-url (concat "https://www.google.com/search?q=" word))
       (message "No word found at point."))))
 #+end_src
 

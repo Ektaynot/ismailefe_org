@@ -505,25 +505,20 @@
       help me. So, I wanted a function that takes the current word my cursor is
       on and searches it on Google. I looked for a package to do that for me and
       <a href="https://github.com/Malabarba/emacs-google-this">there was one</a
-      >. But sadly, it wouldn't work on my system. So, with the help of chatgpt,
-      I was able to create a function that works for windows, macos and, linux.
-      <em>Feel free to correct me!</em>
+      >. But sadly, it wouldn't work on my system. So, with the help of
+      u/Aminumbra, I was able to create a function that does exactly what I
+      want.
     </p>
     <div class="sourceCode" id="cb1" data-org-language="emacs-lisp">
       <pre
         class="sourceCode commonlisp"
       ><code class="sourceCode commonlisp"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> google-current-word </span>()</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;Search the current word on Google using the appropriate command.&quot;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;Search the current word on Google using browse-url.&quot;</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  (interactive)</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">let</span> ((word (thing-at-point <span class="dt">&#39;word</span>)))</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    (<span class="kw">if</span> word</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>        (<span class="kw">cond</span> ((<span class="kw">eq</span> system-type <span class="dt">&#39;darwin</span>) <span class="co">; macOS</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>               (shell-command (concat <span class="st">&quot;open https://www.google.com/search?q=&quot;</span> word)))</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>              ((<span class="kw">eq</span> system-type <span class="dt">&#39;gnu/linux</span>) <span class="co">; Linux</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>               (shell-command (concat <span class="st">&quot;xdg-open https://www.google.com/search?q=&quot;</span> word)))</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>              ((<span class="kw">eq</span> system-type <span class="dt">&#39;windows-nt</span>) <span class="co">; Windows</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>               (shell-command (concat <span class="st">&quot;start https://www.google.com/search?q=&quot;</span> word))))</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>      (message <span class="st">&quot;No word found at point.&quot;</span>))))</span></code></pre>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>        (browse-url (concat <span class="st">&quot;https://www.google.com/search?q=&quot;</span> word))</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>      (message <span class="st">&quot;No word found at point.&quot;</span>))))</span></code></pre>
     </div>
     <h1 id="conclusion">Conclusion</h1>
     <p>

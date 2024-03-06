@@ -6,11 +6,148 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 04 Mar 2024 08:32:46 +0300</lastBuildDate>
+<lastBuildDate>Wed, 06 Mar 2024 16:27:27 +0300</lastBuildDate>
+<item>
+  <title>My Must Emacs Functions</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
+<header id="title-block-header">
+<h1 class="title">My Must Emacs Functions</h1>
+<p class="author">İsmail Efe Top</p>
+<p class="date">2024-03-06</p>
+</header>
+<p>
+      I love Emacs because the possibilities are endless. What makes it so
+      capable is definitely
+      <a href="https://en.wikipedia.org/wiki/Emacs_Lisp">Emacs Lisp</a>. Thanks
+      to this language, countless functions have been created to meet the needs
+      of us users.
+    </p>
+<p>
+      As a student who uses Emacs everyday for writing, there are several and
+      functions that I depend on. Here are some of them.
+    </p>
+<h1 id="view-echo-area-messages">view-echo-area-messages</h1>
+<p>
+      I remember when I first started configuring Emacs, I would get a lot of
+      error messages. And the worst part would be that these message would fade
+      after few seconds. I would try to take pictures of the error messages so
+      that I could Google it.
+    </p>
+<p>
+      One day I was having too many errors and decided to find a way to see
+      those messages. That's when I came across 'view-echo-area-messages'.
+    </p>
+<p>
+      This opens a <strong><strong>messages</strong></strong> buffer and shows a
+      history of the things that was in your
+      <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Echo-Area.html">echo area</a>.
+    </p>
+<h1 id="describe-function-and-describe-variable">
+      describe-function and describe-variable
+    </h1>
+<p>
+      By no means is Emacs an undocumented text editor, but accessing
+      documentation when you are a beginner can be hard. A lot of users are
+      looking for information online and blaming the community when they can't
+      find it.
+    </p>
+<p>
+      Most of the time, documentation of the thing you are looking for is
+      already inside of Emacs! If you are searching for a particular function or
+      want to know what a function does, you can use the 'describe-function'
+      command. And if you can't find what you are looking for you can always
+      write your own function.
+    </p>
+<p>
+      When you are writing a function that builds upon what Emacs already offers
+      (this is the case most of the time!), you can use the 'describe-variable'
+      command. This command tells you more about what that variable does and how
+      you can use it. Both of these commands can also tell you their global and
+      local states and much more.
+    </p>
+<h1 id="ispell">ispell</h1>
+<p>
+      I am definitely a fast writer, but not an accurate one. I always mess up
+      words when I am writing my thoughts. So a good spellchecker is a must for
+      me. A spellchecker should be fast, lightweight and customizable. So it
+      shouldn't slow down my system when I am spellchecking and I should be able
+      to add words to my dictionary easily. While I did spend some time using
+      other spellcheckers I liked using ispell the most. It is built-in,
+      lightning fast and easy to use. It is probably my most used command. I
+      usually use 'ispell-word' for correcting words that I know are wrong. And
+      use 'ispell' to correct all the words that I forgot to correct at the end
+      of my writing.
+    </p>
+<p>I know ispell is even older than Emacs but it still works for me.</p>
+<h1 id="org-insert-structure-template">org-insert-structure-template</h1>
+<p>
+      As the name suggests, this command inserts different templates to your
+      file. I used this a lot when I was writing my
+      <a href="https://en.wikipedia.org/wiki/Literate_programming">literate config</a>. With this command, you can insert code blocks, html export blocks,
+      quote blocks and much more. It is easily customizable and definitely a
+      time saver.
+    </p>
+<img alt="Image of an Emacs window with the command 'org-insert-structure-template running'" src="/blog/emacs_functions/img/insert.webp"/>
+<h1 id="google-current-word">google-current-word</h1>
+<p>
+      Currently, I am taking an introduction to literature class and learning a
+      lot of words that I didn't know before. I best learn using different
+      sources, so my first step is almost always searching it on Google.
+    </p>
+<p>
+      Whenever our instructor introduces a new term, I put it in my org file.
+      Then when I want to write a definition for that word, I need Google to
+      help me. So, I wanted a function that takes the current word my cursor is
+      on and searches it on Google. I looked for a package to do that for me and
+      <a href="https://github.com/Malabarba/emacs-google-this">there was one</a>. But sadly, it wouldn't work on my system. So, with the help of chatgpt,
+      I was able to create a function that works for windows, macos and, linux.
+      <em>Feel free to correct me!</em>
+</p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb1">
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb1-1"><a aria-hidden="true" href="#cb1-1" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> google-current-word </span>()</span>
+<span id="cb1-2"><a aria-hidden="true" href="#cb1-2" tabindex="-1"></a>  <span class="st">"Search the current word on Google using the appropriate command."</span></span>
+<span id="cb1-3"><a aria-hidden="true" href="#cb1-3" tabindex="-1"></a>  (interactive)</span>
+<span id="cb1-4"><a aria-hidden="true" href="#cb1-4" tabindex="-1"></a>  (<span class="kw">let</span> ((word (thing-at-point <span class="dt">'word</span>)))</span>
+<span id="cb1-5"><a aria-hidden="true" href="#cb1-5" tabindex="-1"></a>    (<span class="kw">if</span> word</span>
+<span id="cb1-6"><a aria-hidden="true" href="#cb1-6" tabindex="-1"></a>        (<span class="kw">cond</span> ((<span class="kw">eq</span> system-type <span class="dt">'darwin</span>) <span class="co">; macOS</span></span>
+<span id="cb1-7"><a aria-hidden="true" href="#cb1-7" tabindex="-1"></a>               (shell-command (concat <span class="st">"open https://www.google.com/search?q="</span> word)))</span>
+<span id="cb1-8"><a aria-hidden="true" href="#cb1-8" tabindex="-1"></a>              ((<span class="kw">eq</span> system-type <span class="dt">'gnu/linux</span>) <span class="co">; Linux</span></span>
+<span id="cb1-9"><a aria-hidden="true" href="#cb1-9" tabindex="-1"></a>               (shell-command (concat <span class="st">"xdg-open https://www.google.com/search?q="</span> word)))</span>
+<span id="cb1-10"><a aria-hidden="true" href="#cb1-10" tabindex="-1"></a>              ((<span class="kw">eq</span> system-type <span class="dt">'windows-nt</span>) <span class="co">; Windows</span></span>
+<span id="cb1-11"><a aria-hidden="true" href="#cb1-11" tabindex="-1"></a>               (shell-command (concat <span class="st">"start https://www.google.com/search?q="</span> word))))</span>
+<span id="cb1-12"><a aria-hidden="true" href="#cb1-12" tabindex="-1"></a>      (message <span class="st">"No word found at point."</span>))))</span></code></pre>
+</div>
+<h1 id="conclusion">Conclusion</h1>
+<p>
+      I hope you find some of my recommendation useful. These functions may be
+      commonplace for some but I am sure that there are a lot of people who
+      might benefit from these. If you have any critisims or advice, please
+      reach me on
+      <a href="mailto:ismailefetop@gmail.com">ismailefetop@gmail.com</a>
+</p>
+<div class="bottom-header">
+<a class="bottom-header-link" href="/">Home</a>
+<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
+<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
+</div>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/emacs_functions/index.html</link>
+  <guid>https://ismailefe.org/blog/emacs_functions/index.html</guid>
+  <pubDate>Wed, 06 Mar 2024 00:00:00 +0300</pubDate>
+</item>
+
 <item>
   <title>Create Files That Last</title>
   <description><![CDATA[<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
 <header id="title-block-header">
 <h1 class="title">Create Files That Last</h1>
 <p class="author">İsmail Efe Top</p>
@@ -291,7 +428,7 @@
 <item>
   <title>My EDC Essentials.</title>
   <description><![CDATA[<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
 <header id="title-block-header">
 <h1 class="title">My EDC Essentials.</h1>
 <p class="author">İsmail Efe Top</p>
@@ -414,7 +551,7 @@
 <item>
   <title>My Emacs Eye Candy</title>
   <description><![CDATA[<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
 <header id="title-block-header">
 <h1 class="title">My Emacs Eye Candy</h1>
 <p class="author">İsmail Efe Top</p>
@@ -531,7 +668,7 @@ It is quite old but it suits my style.</p>
 <item>
   <title>My Top Album Picks For 2023</title>
   <description><![CDATA[<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
 <header id="title-block-header">
 <h1 class="title">My Top Album Picks For 2023</h1>
 <p class="author">İsmail Efe Top</p>
@@ -550,7 +687,7 @@ It is quite old but it suits my style.</p>
 <p><em>this listing is in no particular order.</em></p>
 <h1 id="scaring-the-hoes">1. SCARING THE HOES</h1>
 <div class="artwork">
-<img alt="The artwork of Scaring the Hoes." class="artwork" src="/blog/best_albums_2023/pics/scaring.png"/>
+<img alt="The artwork of Scaring the Hoes." class="artwork" src="/blog/best_albums_2023/pics/scaring.webp"/>
 </div>
 <div class="dogtag">
 <p class="dogtag">Genre: Hip hop</p>
@@ -572,7 +709,7 @@ It is quite old but it suits my style.</p>
     </p>
 <h1 id="lets-start-here.">2. Let's Start Here.</h1>
 <div class="artwork">
-<img alt="The artwork of Let's start here." class="artwork" src="/blog/best_albums_2023/pics/lets.jpeg"/>
+<img alt="The artwork of Let's start here." class="artwork" src="/blog/best_albums_2023/pics/lets.webp"/>
 </div>
 <div class="dogtag">
 <p class="dogtag">Genre: Psychedelic rock</p>
@@ -591,7 +728,7 @@ It is quite old but it suits my style.</p>
     </p>
 <h1 id="utopia">3. UTOPIA</h1>
 <div class="artwork">
-<img alt="The artwork of UTOPIA." class="artwork" src="/blog/best_albums_2023/pics/utopia.png"/>
+<img alt="The artwork of UTOPIA." class="artwork" src="/blog/best_albums_2023/pics/utopia.webp"/>
 </div>
 <div class="dogtag">
 <p class="dogtag">Genre: Hip hop</p>
@@ -609,7 +746,7 @@ It is quite old but it suits my style.</p>
     </p>
 <h1 id="latin-virgin">4. LATIN VIRGIN</h1>
 <div class="artwork">
-<img alt="The artwork of LATIN VIRGIN." class="artwork" src="/blog/best_albums_2023/pics/latin.png"/>
+<img alt="The artwork of LATIN VIRGIN." class="artwork" src="/blog/best_albums_2023/pics/latin.webp"/>
 </div>
 <div class="dogtag">
 <p class="dogtag">Genre: Hip hop</p>
@@ -632,7 +769,7 @@ It is quite old but it suits my style.</p>
     </p>
 <h1 id="for-all-the-dogs">5. For All The Dogs</h1>
 <div class="artwork">
-<img alt="The artwork of For All The Dogs." class="artwork" src="/blog/best_albums_2023/pics/dogs.png"/>
+<img alt="The artwork of For All The Dogs." class="artwork" src="/blog/best_albums_2023/pics/dogs.webp"/>
 </div>
 <div class="dogtag">
 <p class="dogtag">Genre: Hip hop</p>
@@ -668,7 +805,7 @@ It is quite old but it suits my style.</p>
 <item>
   <title>My Favorite Themes</title>
   <description><![CDATA[<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
 <header id="title-block-header">
 <h1 class="title">My Favorite Themes</h1>
 <p class="author">İsmail Efe Top</p>
@@ -745,7 +882,7 @@ It is quite old but it suits my style.</p>
 <item>
   <title>RSS Solutions</title>
   <description><![CDATA[<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
 <header id="title-block-header">
 <h1 class="title">RSS Solutions</h1>
 <p class="author">
@@ -951,7 +1088,7 @@ It is quite old but it suits my style.</p>
 <item>
   <title>University File Structure</title>
   <description><![CDATA[<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
 <header id="title-block-header">
 <h1 class="title">University File Structure</h1>
 <p class="author">İsmail Efe Top</p>
@@ -1146,7 +1283,7 @@ It is quite old but it suits my style.</p>
 <item>
   <title>How to give good presentations</title>
   <description><![CDATA[<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><body>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
 <header id="title-block-header">
 <h1 class="title">How to give good presentations</h1>
 <p class="author">İsmail Efe Top</p>

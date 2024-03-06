@@ -1,0 +1,85 @@
+#+title: My Must Emacs Functions
+#+AUTHOR: İsmail Efe Top
+#+DATE: 2024-03-06
+#+LANGUAGE: en
+#+DESCRIPTION: Emacs functions that I use everyday.
+#+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+#+HTML_HEAD: <style>img {border-radius: 10px;}</style>
+
+I love Emacs because the possibilities are endless. What makes it so capable is definitely [[https://en.wikipedia.org/wiki/Emacs_Lisp][Emacs Lisp]]. Thanks to this language, countless functions have been created to meet the needs of us users.
+
+As a student who uses Emacs everyday for writing, there are several and functions that I depend on. Here are some of them.
+
+* view-echo-area-messages
+
+I remember when I first started configuring Emacs, I would get a lot of error messages. And the worst part would be that these message would fade after few seconds. I would try to take pictures of the error messages so that I could Google it.
+
+One day I was having too many errors and decided to find a way to see those messages. That's when I came across 'view-echo-area-messages'.
+
+This opens a **messages** buffer and shows a history of the things that was in your [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Echo-Area.html][echo area]].
+
+* describe-function and describe-variable
+
+By no means is Emacs an undocumented text editor, but accessing documentation when you are a beginner can be hard. A lot of users are looking for information online and blaming the community when they can't find it.
+
+Most of the time, documentation of the thing you are looking for is already inside of Emacs! If you are searching for a particular function or want to know what a function does, you can use the 'describe-function' command. And if you can't find what you are looking for you can always write your own function.
+
+When you are writing a function that builds upon what Emacs already offers (this is the case most of the time!), you can use the 'describe-variable' command. This command tells you more about what that variable does and how you can use it. Both of these commands can also tell you their global and local states and much more.
+
+* ispell
+
+I am definitely a fast writer, but not an accurate one. I always mess up words when I am writing my thoughts. So a good spellchecker is a must for me. A spellchecker should be fast, lightweight and customizable. So it shouldn't slow down my system when I am spellchecking and I should be able to add words to my dictionary easily. While I did spend some time using other spellcheckers I liked using ispell the most. It is built-in, lightning fast and easy to use. It is probably my most used command. I usually use 'ispell-word' for correcting words that I know are wrong. And use 'ispell' to correct all the words that I forgot to correct at the end of my writing.
+
+I know ispell is even older than Emacs but it still works for me.
+
+* org-insert-structure-template
+
+As the name suggests, this command inserts different templates to your file. I used this a lot when I was writing my [[https://en.wikipedia.org/wiki/Literate_programming][literate config]]. With this command, you can insert code blocks, html export blocks, quote blocks and much more. It is easily customizable and definitely a time saver.
+
+#+begin_export html
+<img src="/blog/emacs_functions/img/insert.webp" alt="Image of an Emacs window with the command 'org-insert-structure-template running'">
+#+end_export
+
+* google-current-word
+
+Currently, I am taking an introduction to literature class and learning a lot of words that I didn't know before. I best learn using different sources, so my first step is almost always searching it on Google.
+
+Whenever our instructor introduces a new term, I put it in my org file. Then when I want to write a definition for that word, I need Google to help me. So, I wanted a function that takes the current word my cursor is on and searches it on Google. I looked for a package to do that for me and [[https://github.com/Malabarba/emacs-google-this][there was one]]. But sadly, it wouldn't work on my system. So, with the help of chatgpt, I was able to create a function that works for windows, macos and, linux. /Feel free to correct me!/
+
+#+begin_src emacs-lisp
+(defun google-current-word ()
+  "Search the current word on Google using the appropriate command."
+  (interactive)
+  (let ((word (thing-at-point 'word)))
+    (if word
+        (cond ((eq system-type 'darwin) ; macOS
+               (shell-command (concat "open https://www.google.com/search?q=" word)))
+              ((eq system-type 'gnu/linux) ; Linux
+               (shell-command (concat "xdg-open https://www.google.com/search?q=" word)))
+              ((eq system-type 'windows-nt) ; Windows
+               (shell-command (concat "start https://www.google.com/search?q=" word))))
+      (message "No word found at point."))))
+#+end_src
+
+* Conclusion
+I hope you find some of my recommendation useful. These functions may be commonplace for some but I am sure that there are a lot of people who might benefit from these. If you have any critisims or advice, please reach me on [[mailto:ismailefetop@gmail.com][ismailefetop@gmail.com]]
+
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
+#+END_EXPORT

@@ -1,21 +1,21 @@
 from datetime import datetime
 from bs4 import BeautifulSoup
 
-system_header = "/Users/ismailefetop/projects/org-blog/ismailefe_org"
+system_header = "/Users/ismailefetop/ismailefe_org"
 website_header= "https://ismailefe.org"
-blog_posts = ["/blog/plain_text/index.html",
-              "/blog/my_edc/index.html",
-              "/blog/eye_candy/index.html",
-              "/blog/best_albums_2023/index.html",
-              "/blog/favorite_themes/index.html",
-              "/blog/rss/index.html",
-              "/blog/uni_file_structure/index.html",
-              "/blog/good_presentations/index.html"
-              ]
+blog_posts = ["/blog/emacs_functions/index.html",
+            "/blog/plain_text/index.html",
+            "/blog/my_edc/index.html",
+            "/blog/eye_candy/index.html",
+            "/blog/best_albums_2023/index.html",
+            "/blog/favorite_themes/index.html",
+            "/blog/rss/index.html",
+            "/blog/uni_file_structure/index.html",
+            "/blog/good_presentations/index.html"]
 
 update_time = str(datetime.now().strftime('%a, %d %b %Y %H:%M:%S'))+' +0300'
 
-feed_output = "/Users/ismailefetop/projects/org-blog/ismailefe_org/feed.xml"
+feed_output = system_header + "/feed.xml"
 xml_file = open(feed_output, "w")
 
 xml_file.write(
@@ -74,7 +74,7 @@ for post in blog_posts:
 <item>
   <title>{post_dictionary["title"]}</title>
   <description><![CDATA[<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">{post_dictionary["body_html"]}</html>]]></description>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">{post_dictionary["body_html"]}</html>]]></description>
   <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
   <link>{website_header+post}</link>
   <guid>{website_header+post}</guid>

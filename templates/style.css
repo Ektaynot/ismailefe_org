@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 :root {
   --hyperlink-color: rgb(64, 119, 183);
@@ -11,7 +11,9 @@ html {
   font-family: "Times New Roman", Times, serif;
 }
 
-h1, h2 {
+h1,
+h2,
+summary {
   font-family: "Playfair Display", "Times New Roman", Times, serif;
   letter-spacing: 0.5px;
 }
@@ -30,7 +32,8 @@ body {
 }
 
 p,
-li {
+li,
+summary {
   font-size: 17pt;
 }
 q {
@@ -42,7 +45,6 @@ q {
   display: flex;
   color: rgb(209, 77, 65);
   font-size: 20pt;
-  
 }
 
 .firechickenwebring a {
@@ -81,7 +83,8 @@ footer {
   }
 
   p,
-  li {
+  li,
+  summary {
     font-size: 14pt;
   }
   q {
@@ -93,11 +96,10 @@ footer {
   .bottom-header-link {
     font-size: 16px;
   }
-.firechickenwebring {
-  padding: 20px;
-  font-size: 16pt;
-} 
-
+  .firechickenwebring {
+    padding: 20px;
+    font-size: 16pt;
+  }
 }
 
 @media print {

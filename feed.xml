@@ -555,7 +555,7 @@
 <p>First of all, this post is directly inspired by <a href="https://xenodium.com/my-emacs-eye-candy/">Álvaro's</a> work. I
 love his stuff and he has been a great inspiration for me. I suggest
 everyone to check out his stuff.</p>
-<img src="eye_candy.png"/>
+<img src="eye-candy.webp"/>
 <p>In this post I am planning to walk you through my visual <a href="https://www.gnu.org/software/emacs/">Emacs</a> setup, I will use
 the <a href="https://github.com/doomemacs/doomemacs">Doom Framework</a>.
 I am planning on making a detail blog post about Emacs, <a href="https://orgmode.org/">org-mode</a> and how I use them, because of

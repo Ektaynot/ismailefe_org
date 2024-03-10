@@ -50,6 +50,11 @@ q {
 .firechickenwebring a {
   margin-right: 10px;
 }
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .bottom-header {
   margin-top: 8em;
   justify-content: space-evenly;

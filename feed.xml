@@ -6,7 +6,117 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 07 Mar 2024 00:55:59 +0300</lastBuildDate>
+<lastBuildDate>Sun, 10 Mar 2024 11:29:59 +0300</lastBuildDate>
+<item>
+  <title>The story of my Rotring 500</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
+<header id="title-block-header">
+<h1 class="title">The story of my Rotring 500</h1>
+<p class="author">İsmail Efe Top</p>
+<p class="date">2024-03-10</p>
+</header>
+<br/><br/>
+<img alt="Picture of my rotring 500" class="centered-image" src="/blog/rotring500/rotring.webp" style="width: 600px"/>
+<br/><br/>
+<p>
+      I wasn't always a good student, classes didn't interest me until I started
+      university. Before university, every school year would go the same. I
+      would tell myself that I only had to pass my exams and tough it out until
+      the summer vacation. Then the whole loop would start again. I would
+      daydream during classes and study exams the night before. While I had a
+      goal, studying computer science, I wouldn't work properly to achieve it.
+    </p>
+<p>
+      Because I wanted to study computer science, I had chosen the math and
+      science major. For context, in turkey, there are 4 different kinds of high
+      school majors and we have to select a major in second semester of 10th
+      grade. Every university major falls into one of these 4 high school majors
+      and you have to take the proper exam according to the university major you
+      want to study. These high school majors are…
+    </p>
+<ol>
+<li>Math and science</li>
+<li>Math and social sciences</li>
+<li>Foreign Language</li>
+<li>Turkish social sciences and literature</li>
+</ol>
+<p>
+<em>While these might not be the correct translations, you get the
+        point.</em>
+</p>
+<p>
+      For example, if you want to study computer science you have to take the
+      math and science exam or if you want to study economics you have to take
+      the math and social sciences exam. <em>Now let's get to our story…</em>
+</p>
+<p>
+      Even though I knew I hated the science part (chemistry, biology, and
+      physics) of my major, I thought I would just stick with it for 2 years.
+      And this made me hate my classes more. In my last year of high school, I
+      started to sway to the foreign language section of the university exam
+      because of my love for the English language.
+      <em>Also the fact that I almost aced the language part of the university
+        exam helped a lot.</em>
+</p>
+<p>
+      While I was researching my options, I came across foreign language
+      education at metu. Ever since I was little, I admired people who studied
+      there. In my mind metu was a university that only geniuses could go and I
+      couldn't even imagine myself there. I thought I wasn't smart enough. While
+      this opinion changed when I learned that I could get into it, metu always
+      stayed my favorite university.
+    </p>
+<p>
+      While my test scores at that moment wasn't enough to get me there, I knew
+      I could get in if I studied enough. And that was my motivation. I wrote
+      'METU' in large letters on a paper and taped it to my TV. I started
+      sleeping at 9 pm and waking up at 5 am. This way I could study before
+      school and get the necessary sleep. I bought tons of practice exams and I
+      was ready. Except for one thing, <strong>a mechanical pencil</strong>.
+    </p>
+<p>
+      The morning I started this routine my favorite pencil broke. I didn't
+      think much of it, after all it was a cheap pencil. My plan was to go to
+      the stationery store before school and get the same pencil. So, I got into
+      the stationery, picked my regular pen and just before I was about to pay I
+      saw something behind the counter. There was a mechanical pencil that cost
+      ten times more. Out of curiosity, I asked if I could look at it. The man
+      took the pencil out of the display case and started to look at it
+      carefully, it was clear that he admired the pen too. Then he gave that pen
+      to me, I was shocked. It felt light and well-made at the same time.
+      Nothing like the pencils I held before, it was clear that it was a machine
+      that was purposely built for writing. I started doing the math in my head,
+      "If I use the money from my savings, I can buy it. But I tried so hard to
+      save that money". Then a thought came to my mind, "The only way this
+      purchase can be justifiable is if this pen gets me into metu". With
+      determination, I bought the pen and put it in my pocket for safekeeping.
+      That year, I solved thousands of questions and studied hundreds of hours
+      with it. And in the end, this pen made me achieve my dreams.
+    </p>
+<p>
+      I am currently studying my dream major and I am doing it with the people I
+      cherish. While I have no use for a mechanical pencil now, I still carry it
+      with me almost everywhere I go.
+    </p>
+<div class="bottom-header">
+<a class="bottom-header-link" href="/">Home</a>
+<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
+<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
+</div>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/rotring500/index.html</link>
+  <guid>https://ismailefe.org/blog/rotring500/index.html</guid>
+  <pubDate>Sun, 10 Mar 2024 00:00:00 +0300</pubDate>
+</item>
+
 <item>
   <title>My Must Emacs Functions</title>
   <description><![CDATA[<!DOCTYPE html>

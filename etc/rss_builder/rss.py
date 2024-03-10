@@ -3,7 +3,8 @@ from bs4 import BeautifulSoup
 
 system_header = "/Users/ismailefetop/ismailefe_org"
 website_header= "https://ismailefe.org"
-blog_posts = ["/blog/emacs_functions/index.html",
+blog_posts = ["/blog/rotring500/index.html",
+            "/blog/emacs_functions/index.html",
             "/blog/plain_text/index.html",
             "/blog/my_edc/index.html",
             "/blog/eye_candy/index.html",

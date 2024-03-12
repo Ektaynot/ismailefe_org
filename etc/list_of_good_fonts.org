@@ -1,0 +1,9 @@
+#+title: list_of_good_fonts
+#+AUTHOR: İsmail Efe Top
+#+DATE: 2024-03-12
+#+LANGUAGE: en
+#+DESCRIPTION:
+
+https://fonts.google.com/specimen/DM+Serif+Display
+
+https://fonts.google.com/specimen/Playfair+Display

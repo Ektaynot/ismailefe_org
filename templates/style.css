@@ -9,9 +9,6 @@ html {
   font-family: "Times New Roman", Times, serif;
 }
 
-h1, h2, h3, summary, .author, .date {
-  color: rgb(141, 109, 109);
-}
 
 body {
   margin: 0 auto;

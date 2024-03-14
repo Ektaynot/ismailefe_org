@@ -165,6 +165,10 @@ h6 {
   font-weight: normal;
 }
 
+summary {
+  cursor: pointer; /* Change cursor to pointer when hovering over summary */
+}
+
 ol,
 ul {
   padding-left: 1.7em;

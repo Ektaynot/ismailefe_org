@@ -4,10 +4,41 @@
 #+LANGUAGE: en
 #+DESCRIPTION: Thoughts about low-risk, low-reward situations.
 
+#+LANGUAGE: en
+#+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
 Two days ago, at midnight, I found myself in a low-risk, low-reward situation. While walking to my dormitory, I spotted a fully opened ladder on the outside of a short building that was surrounded by long trees. Because I walk that road quite often, I knew the ladder was normally folded and could only be opened with a key.
 
 This building wasn't in a particularly beautiful area, it was a place that was design to house various classes and workshops. My first thought after seeing the ladder was, of course, to climb it but after seeing how much there was little risk and how much little reward, I decided to think more. There weren't any signs that said the ladder couldn't be climbed, there wasn't any direct cameras looking there. Also, the ladder didn't look hard to climb. It was definitely something I could climb. But should I?
 
 After a bit more looking it felt like an unnecessary endeavor. Like I said, this building does not look at a landscape. It is an area full of buildings. But I felt like after all this thought process, I was ought to climb it.
 
-I climbed the first bars to get a feel and got down to assess again. It was definitely something climable, as the latter was quite sturdy. But then another thought came to my mind. Why was I doing this? Doing something
+I climbed the first bars to get a feel and got down to assess again. It was definitely something climable, as the latter was quite sturdy. But then another thought came to my mind. Why was I doing this? At that moment, doing something just for the sake of doing it felt so wrong.
+
+I decided to continue my walk, I then thought about the reason behind trying stuff. I am all for trying stuff. After all, that's how you find new things to enjoy! But should everything be tried. Should we try rock climbing? Should we try every type of coffee? Should our life goal be to try everything?
+
+Regret is a big factor in trying out new things. When people try dangrous things, they usually say stuff like: "When I am 80 years old, I don't want to look behind at my life and regret not having done this". Would I regret not climbing that latter? While it I do think it doesn't have a good scenery at the top, I can't know exactly without going there.
+
+As you can see, this has become much more than a ladder. I was either going to take a stance and not climb it. Proving that I have control over my life and I live my life in a way that I don't take stupid risks for the sake of taking them. Or, I was going to stop rationalizing my fears and do a stupid stunt to feed my curiorsity.
+
+For now, I didn't climbed the ladder. My thoughts are still clashing.
+
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
+#+END_EXPORT

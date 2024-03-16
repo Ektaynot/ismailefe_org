@@ -28,12 +28,16 @@ After I am done, I run my RSS script and generate an updated RSS feed. I go more
 * /How do I publish?/
 I use [[https://pages.github.com/][github pages]] to publish my site, it is free and fast. It can give you a free domain but I choose to use my own. After I finnish editing my files I push them to my github repo and all is done.
 
-* What technologies does my site support?
+* /What technologies does my site support?/
 - RSS
 - [[https://indieweb.org/Webmention][Webmention]]
-- Variable media sizes
 
-* Trivia
+* /What is the licence of this site?/
+#+begin_export html
+<p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+#+end_export
+
+* /Trivia/
 - I use Times New Roman for almost everything
 - Site's favicon is the [[https://openmoji.org/library/emoji-1F5FA/][open source world map emoji]]
 - My CV is optimized for computers and smartphones, it also supports printing

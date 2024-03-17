@@ -20,7 +20,7 @@ My memory is not that good, I need to do a lot of practice to memorize. So, a fl
 My problem is that I don't know how I can turn my org notes into Anki flash cards.
 
 * What I Want
-When I have a class that introduce lots of terms, I usually put a 'terms' heading on the beginning of my file. When we are introduced to a new term, I put it there. It looks something like this.
+When I have a class that introduce lots of terms, I usually put a 'terms' heading on the beginning of my file. When we are introduced to a new term, I put it there. My lecture notes look something like this.
 
 #+begin_export html
 <img src="/blog/org-awk-anki/pics/emacs_org.webp" alt="The image of my lecture note, written in org-mode.">

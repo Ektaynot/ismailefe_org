@@ -1,0 +1,126 @@
+#+title: Org, AWK and, Anki
+#+AUTHOR: İsmail Efe Top
+#+DATE: 2024-03-17
+#+LANGUAGE: en
+#+DESCRIPTION: Turning org files into Anki flash cards with AWK.
+
+#+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
+*Disclaimer: This blog post requires you to know what org-mode, Anki, and AWK are.*
+
+I use org-mode a lot for taking notes in my lectures. There are not many classes that introduce a lot of new terms. But this semester we are taking a class called introduction to literature and as you can imagine there are tons of new terms.
+
+My memory is not that good, I need to do a lot of practice to memorize. So, a flash card software like [[https://apps.ankiweb.net/][Anki]] comes handy.
+
+My problem is that I don't know how I can turn my org notes into Anki flash cards.
+
+* What I Want
+When I have a class that introduce lots of terms, I usually put a 'terms' heading on the beginning of my file. When we are introduced to a new term, I put it there. It looks something like this.
+
+#+begin_export html
+<img src="/blog/org-awk-anki/pics/emacs_org.webp" alt="The image of my lecture note, written in org-mode.">
+#+end_export
+
+I need this system to also work for Anki. So, after a bit of thought, I decided that I want something that can turn lines containing terms into Anki flash cards.
+
+/Let's search for solutions.../
+
+* First Solution: Search Google
+I found two projects that try to connect org-mode and Anki. These were [[https://github.com/louietan/anki-editor][anki-editor]] and [[https://github.com/eyeinsky/org-anki][org-anki]]. But after looking into it a bit more, I found that they have their own way of working and wouldn't be great for my basic use-case.
+
+But if they interest you, I found a great [[https://yiufung.net/post/anki-org/][blog post]] talking about them.
+
+* Second Solution: Make Your Own
+Because I don't need anything complex, I think I can do something on my own. I know that Anki supports basic csv files. So, let's go with that.
+
+A csv with two columns should be sufficient (One for the front and one for the back). First column should be the name of the term and the second should be what that term means. So, the resulting file should look something like this:
+
+#+begin_src csv
+term_name;term_meaning
+term_name;term_meaning
+term_name;term_meaning
+term_name;term_meaning
+#+end_src
+
+To turn my above class note into a csv file that looks like that I need to do a few things.
+
+- I need to find lines that contain bullet points ('+' or '-')
+- I need to clean those bullet points
+- And lastly, I need to replace ': ' with ';'
+
+In plain-text, my org note looks like this:
+
+#+begin_export html
+<img src="/blog/org-awk-anki/pics/emacs_plain.webp" alt="The image of my lecture note, written in org-mode and turned into a plain text file.">
+#+end_export
+
+Now that we have everything we need, let's get to work.
+
+I normally would use python for this but I thought AWK would work better. I would strongly recommend that you watch [[https://www.youtube.com/watch?v=FbSpuZVb164][this video]] to learn about AWK. Let's start writing an AWK script to turn org files into csv files. We start with...
+
+- 'BEGIN { FS=": " }': This sets the field separator as ': ', that means that AWK will split the lines according to the field separator. For example, '- term: term meaning' will be '- term' and 'term meaning'.
+
+#+begin_export html
+<ul><li>'/^[[:space:]]*[-+]/': This is a condition to check if the line starts with one or more whitespace followed with '+' or '-'.</li></ul>
+#+end_export
+- '&& index($0, ": ")': With this the check is complete. The index part checks if there is ': ' in the line.
+
+#+begin_export html
+<ul><li>'{ sub(/[-+]/, "");': This removes the bullet point characters ('+' or '-').</li></ul>
+#+end_export
+
+#+begin_export html
+<ul><li>'sub(/^[[:space:]]+/, "")': This removes any whitespace in the beginning of the line.</li></ul>
+#+end_export
+
+- 'printf "%s;", $1': This prints the first field and adds ';'.
+
+- 'print $2': This prints the second field.
+
+
+In the end, our command should look something like this.
+
+#+begin_src sh
+awk 'BEGIN { FS=": " } /^[[:space:]]*[-+]/ && index($0, ": ") { sub(/[-+]/, ""); sub(/^[[:space:]]+/, ""); printf "%s;", $1; print $2 }'
+#+end_src
+
+When I feed my lecture file into this command, it spits out this:
+
+#+begin_src csv
+Subject;What a text is about, usually short and general
+Theme;What the text tells us about the subject. Goes more into the subject
+End-stopped line;A metrical line containing a complete phrase or sentence, or a poetic line ending with punctuation
+Run-on line (enjambment);When the end of the line is not marked by punctuation, and the sentence or clause carries on over into the next line
+Personification;Talking about a non-human as a person
+The poetic persona/speaker;The word writer isn't used in poems, instead poetic persona or speaker is used
+Simile;Likening something to something else. For example, like a thunderbolt he falls
+Sonnet;A fourteen-line poem
+Quatrain;A stanza of four lines
+Couplet;Two lines of poetry at the end of a sonnet, that have the same length and rhyme pattern
+#+end_src
+
+When I give this file to Anki, it creates all the needed flash cards.
+
+* Conclusion
+I am happy about how this came out. I learned a lot about AWK and I now have a easy way to turn my org lecture notes into Anki flash cards.
+
+My AWK script could definitely use some polish. So, if you want to give me any tips, I would gladly take them.
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
+#+END_EXPORT

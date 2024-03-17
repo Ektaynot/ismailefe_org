@@ -6,7 +6,7 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 17 Mar 2024 21:38:25 +0300</lastBuildDate>
+<lastBuildDate>Sun, 17 Mar 2024 23:45:24 +0300</lastBuildDate>
 <item>
   <title>Org, AWK, and Anki</title>
   <description><![CDATA[<!DOCTYPE html>
@@ -21,13 +21,13 @@
         and AWK are.</strong>
 </p>
 <p>
-      I use org-mode a lot for taking notes in my lectures. There are not many
-      classes that introduce a lot of new terms. But this semester we are taking
-      a class called introduction to literature and as you can imagine there are
-      tons of new terms.
+      I use org-mode a lot for taking notes in my classes. There are not many
+      classes that introduce a lot of new terms. But this semester, we are
+      taking a class called 'introduction to literature' and as you can imagine
+      there are tons of new terms.
     </p>
 <p>
-      My memory is not that good, I need to do a lot of practice to memorize.
+      My memory is not that good and I need to do a lot of practice to memorize.
       So, a flash card software like
       <a href="https://apps.ankiweb.net/">Anki</a> comes handy.
     </p>
@@ -39,9 +39,10 @@
 <p>
       When I have a class that introduce lots of terms, I usually put a 'terms'
       heading on the beginning of my file. When we are introduced to a new term,
-      I put it there. My lecture notes look something like this.
+      I put that there.
     </p>
-<img alt="The image of my lecture note, written in org-mode." src="/blog/org-awk-anki/pics/emacs_org.webp"/>
+<p>My org class notes look something like this:</p>
+<img alt="The image of my org class note, written in org-mode." src="/blog/org-awk-anki/pics/emacs_org.webp"/>
 <p>
       I need this system to also work for Anki. So, after a bit of thought, I
       decided I want something that can turn lines containing terms into Anki
@@ -53,7 +54,7 @@
       I found two projects that try to connect org-mode and Anki. These were
       <a href="https://github.com/louietan/anki-editor">anki-editor</a> and
       <a href="https://github.com/eyeinsky/org-anki">org-anki</a>. But after
-      looking into it a bit more, I found that they have their own way of
+      looking into them a bit more, I found that they have their own way of
       working and wouldn't be great for my basic use-case.
     </p>
 <p>
@@ -67,9 +68,9 @@
       own. I know that Anki supports basic csv files. So, let's go with that.
     </p>
 <p>
-      A csv with two columns should be sufficient (One for the front and one for
-      the back). First column should be the name of the term and the second
-      should be what that term means. So, the resulting file should look
+      Because I only need a term and a meaning, a csv file with two columns
+      should be sufficient. First column should be the name of the term and the
+      second should be what that term means. So, the resulting file should look
       something like this:
     </p>
 <pre class="csv"><code>term_name;term_meaning
@@ -78,23 +79,23 @@ term_name;term_meaning
 term_name;term_meaning
 </code></pre>
 <p>
-      To turn my above class note into a csv file that looks like that I need to
-      do a few things.
+      To turn my above org class note into a csv file that looks like that, I
+      need to do a few things.
     </p>
 <ul>
 <li>I need to find lines that contain bullet points ('+' or '-')</li>
 <li>I need to clean those bullet points</li>
 <li>And lastly, I need to replace ': ' with ';'</li>
 </ul>
-<p>In plain-text, my org note looks like this:</p>
-<img alt="The image of my lecture note, written in org-mode and turned into a plain text file." src="/blog/org-awk-anki/pics/emacs_plain.webp"/>
+<p>In plain-text, my org class note looks like this:</p>
+<img alt="The image of my org class note, written in org-mode and turned into a plain text file." src="/blog/org-awk-anki/pics/emacs_plain.webp"/>
 <p>Now that we have everything we need, let's get to work.</p>
 <p>
       I normally would use python for this but I thought AWK would work better.
       I would strongly recommend that you watch
       <a href="https://www.youtube.com/watch?v=FbSpuZVb164">this video</a> to
-      learn about AWK. Let's start writing an AWK script to turn org files into
-      csv files. We start with…
+      learn more. Let's start writing an AWK script to turn org files into csv
+      files. We will start with…
     </p>
 <ul>
 <li>
@@ -105,14 +106,9 @@ term_name;term_meaning
 </ul>
 <ul>
 <li>
-        '/^[[:space:]]*[-+]/': This is a condition to check if the line starts
-        with one or more whitespace followed with '+' or '-'.
-      </li>
-</ul>
-<ul>
-<li>
-        '&amp;&amp; index($0, ": ")': With this the check is complete. The index
-        part checks if there is ': ' in the line.
+        '/^[[:space:]]*[-+]/ &amp;&amp; index($0, ": ")': The first part is a condition
+        to check if the line starts with zero or more whitespace's that follow
+        with '+' or '-'. The index part checks if there is ': ' in the line
       </li>
 </ul>
 <ul>
@@ -137,7 +133,7 @@ term_name;term_meaning
 <div class="sourceCode" data-org-language="sh" id="cb2">
 <pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a aria-hidden="true" href="#cb2-1" tabindex="-1"></a><span class="fu">awk</span> <span class="st">'BEGIN { FS=": " } /^[[:space:]]*[-+]/ &amp;&amp; index($0, ": ") { sub(/[-+]/, ""); sub(/^[[:space:]]+/, ""); printf "%s;", $1; print $2 }'</span></span></code></pre>
 </div>
-<p>When I feed my lecture file into this command, it spits out this:</p>
+<p>When I feed my class file into this command, it spits out this:</p>
 <pre class="csv"><code>Subject;What a text is about, usually short and general
 Theme;What the text tells us about the subject. Goes more into the subject
 End-stopped line;A metrical line containing a complete phrase or sentence, or a poetic line ending with punctuation
@@ -152,12 +148,12 @@ Couplet;Two lines of poetry at the end of a sonnet, that have the same length an
 <p>When I give this file to Anki, it creates all the needed flash cards.</p>
 <h1 id="conclusion">Conclusion</h1>
 <p>
-      I am happy about how this came out. I learned a lot about AWK and I now
-      have a easy way to turn my org lecture notes into Anki flash cards.
+      I am really happy with the outcome. I learned a lot about AWK and I now
+      have a easy way to turn my org notes into Anki flash cards.
     </p>
 <p>
       My AWK script could definitely use some polish. So, if you want to give me
-      any tips, I would gladly take them.
+      any tips, I will gladly take them.
     </p>
 <div class="bottom-header">
 <a class="bottom-header-link" href="/">Home</a>

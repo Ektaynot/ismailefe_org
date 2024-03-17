@@ -26,7 +26,7 @@ When I have a class that introduce lots of terms, I usually put a 'terms' headin
 <img src="/blog/org-awk-anki/pics/emacs_org.webp" alt="The image of my lecture note, written in org-mode.">
 #+end_export
 
-I need this system to also work for Anki. So, after a bit of thought, I decided that I want something that can turn lines containing terms into Anki flash cards.
+I need this system to also work for Anki. So, after a bit of thought, I decided I want something that can turn lines containing terms into Anki flash cards.
 
 /Let's search for solutions.../
 

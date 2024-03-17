@@ -1,4 +1,4 @@
-#+title: Org, AWK and, Anki
+#+title: Org, AWK, and Anki
 #+AUTHOR: İsmail Efe Top
 #+DATE: 2024-03-17
 #+LANGUAGE: en

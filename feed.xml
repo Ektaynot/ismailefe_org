@@ -6,7 +6,177 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 10 Mar 2024 11:29:59 +0300</lastBuildDate>
+<lastBuildDate>Sun, 17 Mar 2024 21:33:16 +0300</lastBuildDate>
+<item>
+  <title>Org, AWK and, Anki</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
+<header id="title-block-header">
+<h1 class="title">Org, AWK and, Anki</h1>
+<p class="author">İsmail Efe Top</p>
+<p class="date">2024-03-17</p>
+</header>
+<p>
+<strong>Disclaimer: This blog post requires you to know what org-mode, Anki,
+        and AWK are.</strong>
+</p>
+<p>
+      I use org-mode a lot for taking notes in my lectures. There are not many
+      classes that introduce a lot of new terms. But this semester we are taking
+      a class called introduction to literature and as you can imagine there are
+      tons of new terms.
+    </p>
+<p>
+      My memory is not that good, I need to do a lot of practice to memorize.
+      So, a flash card software like
+      <a href="https://apps.ankiweb.net/">Anki</a> comes handy.
+    </p>
+<p>
+      My problem is that I don't know how I can turn my org notes into Anki
+      flash cards.
+    </p>
+<h1 id="what-i-want">What I Want</h1>
+<p>
+      When I have a class that introduce lots of terms, I usually put a 'terms'
+      heading on the beginning of my file. When we are introduced to a new term,
+      I put it there. It looks something like this.
+    </p>
+<img alt="The image of my lecture note, written in org-mode." src="/blog/org-awk-anki/pics/emacs_org.webp"/>
+<p>
+      I need this system to also work for Anki. So, after a bit of thought, I
+      decided that I want something that can turn lines containing terms into
+      Anki flash cards.
+    </p>
+<p><em>Let's search for solutions…</em></p>
+<h1 id="first-solution-search-google">First Solution: Search Google</h1>
+<p>
+      I found two projects that try to connect org-mode and Anki. These were
+      <a href="https://github.com/louietan/anki-editor">anki-editor</a> and
+      <a href="https://github.com/eyeinsky/org-anki">org-anki</a>. But after
+      looking into it a bit more, I found that they have their own way of
+      working and wouldn't be great for my basic use-case.
+    </p>
+<p>
+      But if they interest you, I found a great
+      <a href="https://yiufung.net/post/anki-org/">blog post</a> talking about
+      them.
+    </p>
+<h1 id="second-solution-make-your-own">Second Solution: Make Your Own</h1>
+<p>
+      Because I don't need anything complex, I think I can do something on my
+      own. I know that Anki supports basic csv files. So, let's go with that.
+    </p>
+<p>
+      A csv with two columns should be sufficient (One for the front and one for
+      the back). First column should be the name of the term and the second
+      should be what that term means. So, the resulting file should look
+      something like this:
+    </p>
+<pre class="csv"><code>term_name;term_meaning
+term_name;term_meaning
+term_name;term_meaning
+term_name;term_meaning
+</code></pre>
+<p>
+      To turn my above class note into a csv file that looks like that I need to
+      do a few things.
+    </p>
+<ul>
+<li>I need to find lines that contain bullet points ('+' or '-')</li>
+<li>I need to clean those bullet points</li>
+<li>And lastly, I need to replace ': ' with ';'</li>
+</ul>
+<p>In plain-text, my org note looks like this:</p>
+<img alt="The image of my lecture note, written in org-mode and turned into a plain text file." src="/blog/org-awk-anki/pics/emacs_plain.webp"/>
+<p>Now that we have everything we need, let's get to work.</p>
+<p>
+      I normally would use python for this but I thought AWK would work better.
+      I would strongly recommend that you watch
+      <a href="https://www.youtube.com/watch?v=FbSpuZVb164">this video</a> to
+      learn about AWK. Let's start writing an AWK script to turn org files into
+      csv files. We start with…
+    </p>
+<ul>
+<li>
+        'BEGIN { FS=": " }': This sets the field separator as ': ', that means
+        that AWK will split the lines according to the field separator. For
+        example, '- term: term meaning' will be '- term' and 'term meaning'.
+      </li>
+</ul>
+<ul>
+<li>
+        '/^[[:space:]]*[-+]/': This is a condition to check if the line starts
+        with one or more whitespace followed with '+' or '-'.
+      </li>
+</ul>
+<ul>
+<li>
+        '&amp;&amp; index($0, ": ")': With this the check is complete. The index
+        part checks if there is ': ' in the line.
+      </li>
+</ul>
+<ul>
+<li>
+        '{ sub(/[-+]/, "");': This removes the bullet point characters ('+' or
+        '-').
+      </li>
+</ul>
+<ul>
+<li>
+        'sub(/^[[:space:]]+/, "")': This removes any whitespace in the beginning
+        of the line.
+      </li>
+</ul>
+<ul>
+<li>
+<p>'printf "%s;", $1': This prints the first field and adds ';'.</p>
+</li>
+<li><p>'print $2': This prints the second field.</p></li>
+</ul>
+<p>In the end, our command should look something like this.</p>
+<div class="sourceCode" data-org-language="sh" id="cb2">
+<pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a aria-hidden="true" href="#cb2-1" tabindex="-1"></a><span class="fu">awk</span> <span class="st">'BEGIN { FS=": " } /^[[:space:]]*[-+]/ &amp;&amp; index($0, ": ") { sub(/[-+]/, ""); sub(/^[[:space:]]+/, ""); printf "%s;", $1; print $2 }'</span></span></code></pre>
+</div>
+<p>When I feed my lecture file into this command, it spits out this:</p>
+<pre class="csv"><code>Subject;What a text is about, usually short and general
+Theme;What the text tells us about the subject. Goes more into the subject
+End-stopped line;A metrical line containing a complete phrase or sentence, or a poetic line ending with punctuation
+Run-on line (enjambment);When the end of the line is not marked by punctuation, and the sentence or clause carries on over into the next line
+Personification;Talking about a non-human as a person
+The poetic persona/speaker;The word writer isn't used in poems, instead poetic persona or speaker is used
+Simile;Likening something to something else. For example, like a thunderbolt he falls
+Sonnet;A fourteen-line poem
+Quatrain;A stanza of four lines
+Couplet;Two lines of poetry at the end of a sonnet, that have the same length and rhyme pattern
+</code></pre>
+<p>When I give this file to Anki, it creates all the needed flash cards.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>
+      I am happy about how this came out. I learned a lot about AWK and I now
+      have a easy way to turn my org lecture notes into Anki flash cards.
+    </p>
+<p>
+      My AWK script could definitely use some polish. So, if you want to give me
+      any tips, I would gladly take them.
+    </p>
+<div class="bottom-header">
+<a class="bottom-header-link" href="/">Home</a>
+<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
+<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
+</div>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/org-awk-anki/index.html</link>
+  <guid>https://ismailefe.org/blog/org-awk-anki/index.html</guid>
+  <pubDate>Sun, 17 Mar 2024 00:00:00 +0300</pubDate>
+</item>
+
 <item>
   <title>The Story of My Rotring 500</title>
   <description><![CDATA[<!DOCTYPE html>
@@ -61,11 +231,12 @@
 </p>
 <p>
       While I was researching my options, I came across foreign language
-      education at metu. Ever since I was little, I admired people who studied
-      there. In my mind metu was a university that only geniuses could go and I
-      couldn't even imagine myself there. I thought I wasn't smart enough. While
-      this opinion changed when I learned that I could get into it, metu always
-      stayed my favorite university.
+      education at <a href="https://www.metu.edu.tr/">metu</a>. Ever (Newport
+      2019)since I was little, I admired people who studied there. In my mind
+      metu was a university that only geniuses could go and I couldn't even
+      imagine myself there. I thought I wasn't smart enough. While this opinion
+      changed when I learned that I could get into it, metu always stayed my
+      favorite university.
     </p>
 <p>
       While my test scores at that moment wasn't enough to get me there, I knew

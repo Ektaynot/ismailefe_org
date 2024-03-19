@@ -111,6 +111,28 @@ When I give this file to Anki, it creates all the needed flash cards.
 I am really happy with the outcome. I learned a lot about AWK and I now have a easy way to turn my org notes into Anki flash cards.
 
 My AWK script could definitely use some polish. So, if you want to give me any tips, I will gladly take them.
+#+begin_export html
+<br><br>
+#+end_export
+*Edit:* [[https://www.reddit.com/user/cottasteel/][u/cottasteel]] wrote my AWK command in elisp. It works great! Here is the code snippet:
+#+begin_src emacs-lisp
+(defun anki/export-notes-to-csv (file)
+  (interactive "FExport notes to: ")
+  (let ((regex (rx bol (in "+-") " " (group (1+ nonl)) ": " (group (1+ nonl))))
+        (buf (find-file-noselect file))
+        (output ""))
+    (save-excursion
+      (goto-char (point-min))
+      (while (re-search-forward regex nil t)
+        (setq output (concat output (format "%s;%s\n" (match-string 1)
+                                            (match-string 2)))))
+      (with-current-buffer buf
+        (erase-buffer)
+        (insert output)
+        (save-buffer))
+      (kill-buffer buf)
+      (message "Export done."))))
+#+end_src
 
 #+BEGIN_EXPORT html
 <div class="bottom-header">

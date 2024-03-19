@@ -566,6 +566,33 @@ Couplet;Two lines of poetry at the end of a sonnet, that have the same length an
       My AWK script could definitely use some polish. So, if you want to give me
       any tips, I will gladly take them.
     </p>
+    <br /><br />
+
+    <p>
+      <strong>Edit:</strong>
+      <a href="https://www.reddit.com/user/cottasteel/">u/cottasteel</a> wrote
+      my AWK command in elisp. It works great! Here is the code snippet:
+    </p>
+    <div class="sourceCode" id="cb4" data-org-language="emacs-lisp">
+      <pre
+        class="sourceCode commonlisp"
+      ><code class="sourceCode commonlisp"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> anki/export-notes-to-csv </span>(file)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  (interactive <span class="st">&quot;FExport notes to: &quot;</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">let</span> ((regex (rx bol (in <span class="st">&quot;+-&quot;</span>) <span class="st">&quot; &quot;</span> (group (<span class="op">1+</span> nonl)) <span class="st">&quot;: &quot;</span> (group (<span class="op">1+</span> nonl))))</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>        (buf (find-file-noselect file))</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>        (output <span class="st">&quot;&quot;</span>))</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    (save-excursion</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>      (goto-char (point-min))</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>      (while (re-search-forward regex <span class="kw">nil</span> <span class="kw">t</span>)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>        (<span class="kw">setq</span> output (concat output (<span class="kw">format</span> <span class="st">&quot;%s;%s</span><span class="sc">\n</span><span class="st">&quot;</span> (match-string <span class="dv">1</span>)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>                                            (match-string <span class="dv">2</span>)))))</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>      (with-current-buffer buf</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>        (erase-buffer)</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>        (insert output)</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>        (save-buffer))</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>      (kill-buffer buf)</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>      (message <span class="st">&quot;Export done.&quot;</span>))))</span></code></pre>
+    </div>
     <div class="bottom-header">
       <a class="bottom-header-link" href="/">Home</a>
       <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link"

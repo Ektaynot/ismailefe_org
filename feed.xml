@@ -6,7 +6,7 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 17 Mar 2024 23:45:24 +0300</lastBuildDate>
+<lastBuildDate>Tue, 19 Mar 2024 18:41:18 +0300</lastBuildDate>
 <item>
   <title>Org, AWK, and Anki</title>
   <description><![CDATA[<!DOCTYPE html>
@@ -155,6 +155,30 @@ Couplet;Two lines of poetry at the end of a sonnet, that have the same length an
       My AWK script could definitely use some polish. So, if you want to give me
       any tips, I will gladly take them.
     </p>
+<br/><br/>
+<p>
+<strong>Edit:</strong>
+<a href="https://www.reddit.com/user/cottasteel/">u/cottasteel</a> wrote
+      my AWK command in elisp. It works great! Here is the code snippet:
+    </p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb4">
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb4-1"><a aria-hidden="true" href="#cb4-1" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> anki/export-notes-to-csv </span>(file)</span>
+<span id="cb4-2"><a aria-hidden="true" href="#cb4-2" tabindex="-1"></a>  (interactive <span class="st">"FExport notes to: "</span>)</span>
+<span id="cb4-3"><a aria-hidden="true" href="#cb4-3" tabindex="-1"></a>  (<span class="kw">let</span> ((regex (rx bol (in <span class="st">"+-"</span>) <span class="st">" "</span> (group (<span class="op">1+</span> nonl)) <span class="st">": "</span> (group (<span class="op">1+</span> nonl))))</span>
+<span id="cb4-4"><a aria-hidden="true" href="#cb4-4" tabindex="-1"></a>        (buf (find-file-noselect file))</span>
+<span id="cb4-5"><a aria-hidden="true" href="#cb4-5" tabindex="-1"></a>        (output <span class="st">""</span>))</span>
+<span id="cb4-6"><a aria-hidden="true" href="#cb4-6" tabindex="-1"></a>    (save-excursion</span>
+<span id="cb4-7"><a aria-hidden="true" href="#cb4-7" tabindex="-1"></a>      (goto-char (point-min))</span>
+<span id="cb4-8"><a aria-hidden="true" href="#cb4-8" tabindex="-1"></a>      (while (re-search-forward regex <span class="kw">nil</span> <span class="kw">t</span>)</span>
+<span id="cb4-9"><a aria-hidden="true" href="#cb4-9" tabindex="-1"></a>        (<span class="kw">setq</span> output (concat output (<span class="kw">format</span> <span class="st">"%s;%s</span><span class="sc">\n</span><span class="st">"</span> (match-string <span class="dv">1</span>)</span>
+<span id="cb4-10"><a aria-hidden="true" href="#cb4-10" tabindex="-1"></a>                                            (match-string <span class="dv">2</span>)))))</span>
+<span id="cb4-11"><a aria-hidden="true" href="#cb4-11" tabindex="-1"></a>      (with-current-buffer buf</span>
+<span id="cb4-12"><a aria-hidden="true" href="#cb4-12" tabindex="-1"></a>        (erase-buffer)</span>
+<span id="cb4-13"><a aria-hidden="true" href="#cb4-13" tabindex="-1"></a>        (insert output)</span>
+<span id="cb4-14"><a aria-hidden="true" href="#cb4-14" tabindex="-1"></a>        (save-buffer))</span>
+<span id="cb4-15"><a aria-hidden="true" href="#cb4-15" tabindex="-1"></a>      (kill-buffer buf)</span>
+<span id="cb4-16"><a aria-hidden="true" href="#cb4-16" tabindex="-1"></a>      (message <span class="st">"Export done."</span>))))</span></code></pre>
+</div>
 <div class="bottom-header">
 <a class="bottom-header-link" href="/">Home</a>
 <a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>

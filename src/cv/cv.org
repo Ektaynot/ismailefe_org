@@ -20,7 +20,7 @@
 
 * Education
 - *[2022 - ?]* First-year Foreign Language Education student at Middle East Technical University.
-*CumGPA: 3,55*
+*CumGPA: 3.55*
 
   #+begin_export html
 <p></p>

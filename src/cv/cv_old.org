@@ -11,11 +11,11 @@
   <div class="ust-kısım">
   <div class="name">
     <p class="name"> İsmail Efe Top
+    <span class="pronoun">(He/Him)</span></p>
   </div>
+    <img class="pp" src="/etc/img/biyometrik-without-bg.png">
   </div>
 #+END_EXPORT
-
-*Email*: [[mailto:ismailefetop@gmail.com][ismailefetop@gmail.com]]
 
 * Education
 - *[2022 - 202X]* First-year Foreign Language Education student at Middle East Technical University.
@@ -45,7 +45,11 @@
   - Fluent in Python, Bash, HTML, and CSS.
 -----
 * Interests
-- Personal Blog Site (https://ismailefe.org)
+- Personal blog sites (https://ismailefe.org)
 - Open-Source Software
 - Graphic Design
 - Writing
+-----
+* How to contact
+- Phone: XXXXXXXXX
+- Mail: [[mailto:ismailefetop@gmail.com][ismailefetop@gmail.com]]

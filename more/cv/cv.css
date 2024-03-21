@@ -5,10 +5,11 @@
 }
 .name {
   font-size: 40pt;
-  text-align: left;
+  /* text-align: left; */
+  text-align: center;
   flex: 1;
 }
-.pp {
+/* .pp {
   text-align: right;
   width: 200px;
   padding-top: 1rem;
@@ -17,15 +18,15 @@
 .pronoun {
     color: grey;
     font-size: 25pt;
-}
+} */
 @media (max-width: 600px) {
   .name {
     font-size: 25pt;
   }
-  .pp {
+  /* .pp {
     width: 100px;
   }
   .pronoun {
     font-size: 20pt;
-  }
+  } */
 }

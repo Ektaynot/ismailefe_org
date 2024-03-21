@@ -16,10 +16,15 @@
   </div>
 #+END_EXPORT
 
-*Email*: [[mailto:ismailefetop@gmail.com][ismailefetop@gmail.com]]
+#+BEGIN_EXPORT html
+<div class="contact">
+  <p>Email: <a href="mailto:ismailefetop@gmail.com">ismailefetop@gmail.com</a></p>
+  <p>Location: Ankara/Turkey</p>
+</div>
+#+END_EXPORT
 
 * Education
-- *[2022 - ?]* First-year Foreign Language Education student at Middle East Technical University
+- *[2022 - Continuing]* Middle East Technical University - Foreign Language Education (First Year)
 *CumGPA: 3.55*
 
   #+begin_export html

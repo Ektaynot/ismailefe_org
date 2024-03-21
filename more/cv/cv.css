@@ -4,7 +4,7 @@
   padding-bottom: 1rem;
 }
 .name {
-  font-size: 40pt;
+  font-size: 36pt;
   /* text-align: left; */
   text-align: center;
   flex: 1;
@@ -21,7 +21,7 @@
 } */
 @media (max-width: 600px) {
   .name {
-    font-size: 25pt;
+    font-size: 24pt;
   }
   /* .pp {
     width: 100px;

@@ -6,6 +6,7 @@
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 #+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+#+HTML_HEAD: <title>CV</title>
 
 #+BEGIN_EXPORT html
   <div class="ust-kısım">
@@ -31,8 +32,8 @@
 * Skills
 - *Languages*
 
-  - Native in Turkish
-  - Fluent in English
+  - Turkish - Native Tongue
+  - English - C2
 
 #+begin_export html
 <p></p><p></p>
@@ -40,9 +41,9 @@
 
 - *Computer Skills*
 
-  - Very knowledable about GNU/Linux, Git, Emacs
-  - Comfortable in Microsoft Office programs
-  - Fluent in Python, Bash, HTML, and CSS.
+  - GNU/Linux, Git, Emacs
+  - Microsoft Office programs
+  - Python, Bash, HTML, and CSS.
 -----
 * Interests
 - Personal Blog Site (https://ismailefe.org)

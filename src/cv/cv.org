@@ -19,7 +19,7 @@
 *Email*: [[mailto:ismailefetop@gmail.com][ismailefetop@gmail.com]]
 
 * Education
-- *[2022 - 202X]* First-year Foreign Language Education student at Middle East Technical University.
+- *[2022 - ?]* First-year Foreign Language Education student at Middle East Technical University.
 *CumGPA: 3,55*
 
   #+begin_export html

@@ -24,7 +24,7 @@
 #+END_EXPORT
 
 * Education
-- *[2022 - Continuing]* Middle East Technical University - Foreign Language Education (First Year)
+- *[2022 - Present]* Middle East Technical University - Foreign Language Education (First Year)
 *CumGPA: 3.55*
 
   #+begin_export html
@@ -33,6 +33,12 @@
 
 - *[2018 - 2022]* Körfez Atatürk Anadolu High School
 
+-----
+
+* Experiences
+- *[2024 - Present]* Middle East Technical University - Foreign Language Department Official Social Media Account Managment
+
+  - *Job Description:* Responsible for creating short videos and announcement posts for social media as the head of media creation.
 -----
 * Skills
 - *Languages*
@@ -55,3 +61,4 @@
 - Open-Source Software
 - Graphic Design
 - Writing
+-----

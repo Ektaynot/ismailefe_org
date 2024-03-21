@@ -10,6 +10,10 @@
   flex: 1;
 }
 
+hr {
+  margin-top: 2rem;
+}
+
 .contact {
   justify-content: space-evenly;
   display: flex;

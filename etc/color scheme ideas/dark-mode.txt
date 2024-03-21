@@ -1,0 +1,28 @@
+I got this color scheme from https://github.com/dybdeskarphet/dotfiles/blob/main/alacritty/alacritty.toml
+
+
+:root {
+  --hyperlink-color: #ce98c0;
+  --hyperlink-hover-color: #e1aa5d;
+}
+
+html {
+  color: #d7d0c7;
+  background-color: #151515;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+[colors.normal]
+black=   '#101010'
+red=     '#e84f4f'
+green=   '#b8d68c'
+yellow=  '#e1aa5d'
+blue=    '#7dc1cf'
+magenta= '#ce98c0'
+cyan=    '#6d878d'
+white=   '#dddddd'
+
+[colors.primary]
+background= '#151515'
+foreground= '#d7d0c7'

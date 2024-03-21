@@ -43,7 +43,7 @@
 
   - GNU/Linux, Git, Emacs
   - Microsoft Office programs
-  - Python, Bash, HTML, and CSS.
+  - Python, Bash, HTML, and CSS
 -----
 * Interests
 - Personal Blog Site (https://ismailefe.org)

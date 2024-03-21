@@ -1,7 +1,7 @@
 .ust-kısım {
   display: flex;
   align-items: center;
-  padding-bottom: 1rem;
+  padding-bottom: 0.2rem;
 }
 .name {
   font-size: 36pt;
@@ -9,6 +9,12 @@
   text-align: center;
   flex: 1;
 }
+
+.contact {
+  justify-content: space-evenly;
+  display: flex;
+}
+
 /* .pp {
   text-align: right;
   width: 200px;

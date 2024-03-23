@@ -33,7 +33,7 @@ I like discovering new places, programming and hacking the programs I use. Some 
 - [[https://sw.kovidgoyal.net/kitty/][Kitty]] for terminal emulation.
 - [[https://bear.app][Bear]] for taking short notes.
 - [[https://www.zotero.org/][Zotero]] for collecting papers and making citations.
-- [[https://arc.net/][Arc]] for web browsing.
+- [[https://www.mozilla.org/tr/firefox/new/][Firefox]] for web browsing.
 - [[https://pitch.com/][Pitch]] for my presentation needs.
 - [[https://netnewswire.com/][NetNewsWire]] for reeding RSS feeds.
 

@@ -1,0 +1,60 @@
+#+title: Arc and Firefox
+#+AUTHOR: İsmail Efe Top
+#+DATE: 2024-03-24
+#+LANGUAGE: en
+#+DESCRIPTION: The history of my Firefox usage, how I met Arc, and how I came back to Firefox.
+
+#+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
+I started using Firefox in 2015, I installed it because the logo looked really cool. Of course, my reasoning did not stayed the same. A few years later, I became really interested in open-source software and migrated to Linux. In Linux, there are not many viable browser options if you want something open-source. The best option at the time was Firefox, so I kept using it.
+
+I installed a bunch of [[https://firefoxcss-store.github.io/][css themes]] and a ton of unnecessary extensions. I had a system that worked. I kept moving my Firefox profiles throughout my Linux journey. Then, one last time to macOS.
+
+I got my MacBook two years ago. Before than, I had never used any Apple products. While it was similar to Linux in some aspects, it also felt alien. When I installed Firefox and migrated my profiles, I encountered a bunch of problems with zero solutions. That's when I started looking at other alternatives. The first browser I wanted to try was Safari, I heard how Apple's own apps were the best ones a thousand time.
+
+Safari did not stick with me, it was really hard to customize and installing extensions were unfathomably hard. The only good part was how fast it was. But in the end, I decided to stick with Firefox. I had solved a big portion of my problems and came to peace with the ones I wasn't able to solve.
+
+Then, on March 7th 2023, I watched my first [[https://youtu.be/p_5QSsNpWmE?si=-utipZg-TBwPl3zw][video]] about the [[https://arc.net/][Arc Browser]]. The video was a clip from the Waveform podcast, they were talking about the products they loved and one of them talked about the Arc Browser. This made me curious and I decided to do some research. It was apparently a browser made by a small team in New York. Then, thanks to my school being an accepted campus in Arc, I was able to join the beta and install Arc.
+
+If I had to describe my first impressions in one word, it would be *young*. But not in a bad way. Yes, Arc was slow and there was a ton of missing features but using it felt like a new experience. It was colorful and unapologetically new.
+
+It become my default browser really fast. While sometimes I missed using Firefox, the excitement of using Arc made me not want to go back. There were new updates every week and frequent Youtube videos. They also added a bunch of cool stuff like [[https://arc.net/boosts][boosts]] and using different sites as search engines.
+
+Everything was going great until the [[https://youtu.be/WIeJF3kL5ng?si=E2k23oKW3oqVWa7Z][act II of Arc]] came. They introduced a 'new way to browse', you would type what you wanted and an AI would visit different sites and compile a web page for you. Their motto was don't bother to search the internet; let us search it for you. Watching that made me worry about the Arc's future. Were they trying to make everything AI? Then, I thought about how Arc was going to profit. How were they able to get a ton of funding without taking any steps to make profit? Then, the popular phrase came to my mind, "If you aren't paying for the product, you are the product". While the thought of leaving stayed in my mind, I kept using Arc for a while. Then, when I saw that they got millions of dollars in funding again and also added more AI stuff, I knew it was time to leave.
+
+I decided to  return to my old friend. I opened Firefox, removed my old profiles and themes, and started clean.
+
+The first thing I noticed was how fast Firefox was compared to Arc. I had became so used to the slowness of Arc that I got really suprised when I came back to using Firefox. With the excitement of returning to my roots, I began searching for themes and extensions. I tried to be as minimal as I could. I settled on [[https://github.com/d0sse/macFox-theme][this theme]], and these extensions:
+
+- [[https://www.zotero.org/download/connectors][Zotero Connector]] for saving important articles to Zotero
+- [[https://addons.mozilla.org/en-US/firefox/addon/youtube-search-engine/][Youtube Search Engine]] for searching youtube in the search bar
+- [[https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/][Vivium]] for having vim controls on websites
+- [[https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/][uBlock Origin]] for blocking ads
+- [[https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/][I still don't care about cookies]] for blocking cookie warnings
+- [[https://addons.mozilla.org/tr/firefox/addon/cliget/][cliget]] for having the option to install stuff on the command line via aria2c
+
+* Conclusion
+
+I love fun software but hate capitalism. A company that currently has no way to profit, getting hundreds of millions of dollars in funding, doesn't make any sense. Also, them pushing AI so much makes me much more suspicious.
+
+While it has been a fun ride with Arc, I am glad to be back on Firefox.
+
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
+#+END_EXPORT

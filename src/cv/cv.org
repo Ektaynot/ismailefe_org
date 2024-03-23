@@ -18,8 +18,8 @@
 
 #+BEGIN_EXPORT html
 <div class="contact">
-  <p class="contact-p">Email: <a href="mailto:ismailefetop@gmail.com">ismailefetop@gmail.com</a></p>
-  <p class="contact-p">Location: Ankara/Turkey</p>
+  <p>Email: <a href="mailto:ismailefetop@gmail.com">ismailefetop@gmail.com</a></p>
+  <p>Location: Ankara/Turkey</p>
 </div>
 #+END_EXPORT
 

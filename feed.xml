@@ -6,7 +6,151 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 19 Mar 2024 18:41:18 +0300</lastBuildDate>
+<lastBuildDate>Sun, 24 Mar 2024 00:09:24 +0300</lastBuildDate>
+<item>
+  <title>Arc and Firefox</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
+<header id="title-block-header">
+<h1 class="title">Arc and Firefox</h1>
+<p class="author">İsmail Efe Top</p>
+<p class="date">2024-03-24</p>
+</header>
+<p>
+      I started using Firefox in 2015, I installed it because the logo looked
+      really cool. Of course, my reasoning did not stayed the same. A few years
+      later, I became really interested in open-source software and migrated to
+      Linux. In Linux, there are not many viable browser options if you want
+      something open-source. The best option at the time was Firefox, so I kept
+      using it.
+    </p>
+<p>
+      I installed a bunch of
+      <a href="https://firefoxcss-store.github.io/">css themes</a> and a ton of
+      unnecessary extensions. I had a system that worked. I kept moving my
+      Firefox profiles throughout my Linux journey. Then, one last time to
+      macOS.
+    </p>
+<p>
+      I got my MacBook two years ago. Before than, I had never used any Apple
+      products. While it was similar to Linux in some aspects, it also felt
+      alien. When I installed Firefox and migrated my profiles, I encountered a
+      bunch of problems with zero solutions. That's when I started looking at
+      other alternatives. The first browser I wanted to try was Safari, I heard
+      how Apple's own apps were the best ones a thousand time.
+    </p>
+<p>
+      Safari did not stick with me, it was really hard to customize and
+      installing extensions were unfathomably hard. The only good part was how
+      fast it was. But in the end, I decided to stick with Firefox. I had solved
+      a big portion of my problems and came to peace with the ones I wasn't able
+      to solve.
+    </p>
+<p>
+      Then, on March 7th 2023, I watched my first
+      <a href="https://youtu.be/p_5QSsNpWmE?si=-utipZg-TBwPl3zw">video</a> about
+      the <a href="https://arc.net/">Arc Browser</a>. The video was a clip from
+      the Waveform podcast, they were talking about the products they loved and
+      one of them talked about the Arc Browser. This made me curious and I
+      decided to do some research. It was apparently a browser made by a small
+      team in New York. Then, thanks to my school being an accepted campus in
+      Arc, I was able to join the beta and install Arc.
+    </p>
+<p>
+      If I had to describe my first impressions in one word, it would be
+      <strong>young</strong>. But not in a bad way. Yes, Arc was slow and there
+      was a ton of missing features but using it felt like a new experience. It
+      was colorful and unapologetically new.
+    </p>
+<p>
+      It become my default browser really fast. While sometimes I missed using
+      Firefox, the excitement of using Arc made me not want to go back. There
+      were new updates every week and frequent Youtube videos. They also added a
+      bunch of cool stuff like <a href="https://arc.net/boosts">boosts</a> and
+      using different sites as search engines.
+    </p>
+<p>
+      Everything was going great until the
+      <a href="https://youtu.be/WIeJF3kL5ng?si=E2k23oKW3oqVWa7Z">act II of Arc</a>
+      came. They introduced a 'new way to browse', you would type what you
+      wanted and an AI would visit different sites and compile a web page for
+      you. Their motto was don't bother to search the internet; let us search it
+      for you. Watching that made me worry about the Arc's future. Were they
+      trying to make everything AI? Then, I thought about how Arc was going to
+      profit. How were they able to get a ton of funding without taking any
+      steps to make profit? Then, the popular phrase came to my mind, "If you
+      aren't paying for the product, you are the product". While the thought of
+      leaving stayed in my mind, I kept using Arc for a while. Then, when I saw
+      that they got millions of dollars in funding again and also added more AI
+      stuff, I knew it was time to leave.
+    </p>
+<p>
+      I decided to return to my old friend. I opened Firefox, removed my old
+      profiles and themes, and started clean.
+    </p>
+<p>
+      The first thing I noticed was how fast Firefox was compared to Arc. I had
+      became so used to the slowness of Arc that I got really suprised when I
+      came back to using Firefox. With the excitement of returning to my roots,
+      I began searching for themes and extensions. I tried to be as minimal as I
+      could. I settled on
+      <a href="https://github.com/d0sse/macFox-theme">this theme</a>, and these
+      extensions:
+    </p>
+<ul>
+<li>
+<a href="https://www.zotero.org/download/connectors">Zotero Connector</a>
+        for saving important articles to Zotero
+      </li>
+<li>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/youtube-search-engine/">Youtube Search Engine</a>
+        for searching youtube in the search bar
+      </li>
+<li>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/">Vivium</a>
+        for having vim controls on websites
+      </li>
+<li>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">uBlock Origin</a>
+        for blocking ads
+      </li>
+<li>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/">I still don't care about cookies</a>
+        for blocking cookie warnings
+      </li>
+<li>
+<a href="https://addons.mozilla.org/tr/firefox/addon/cliget/">cliget</a>
+        for having the option to install stuff on the command line via aria2c
+      </li>
+</ul>
+<h1 id="conclusion">Conclusion</h1>
+<p>
+      I love fun software but hate capitalism. A company that currently has no
+      way to profit, getting hundreds of millions of dollars in funding, doesn't
+      make any sense. Also, them pushing AI so much makes me much more
+      suspicious.
+    </p>
+<p>
+      While it has been a fun ride with Arc, I am glad to be back on Firefox.
+    </p>
+<div class="bottom-header">
+<a class="bottom-header-link" href="/">Home</a>
+<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
+<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
+</div>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/arc_and_firefox/index.html</link>
+  <guid>https://ismailefe.org/blog/arc_and_firefox/index.html</guid>
+  <pubDate>Sun, 24 Mar 2024 00:00:00 +0300</pubDate>
+</item>
+
 <item>
   <title>Org, AWK, and Anki</title>
   <description><![CDATA[<!DOCTYPE html>
@@ -853,96 +997,158 @@ Couplet;Two lines of poetry at the end of a sonnet, that have the same length an
 <p class="author">İsmail Efe Top</p>
 <p class="date">2024-01-14</p>
 </header>
-<p>First of all, this post is directly inspired by <a href="https://xenodium.com/my-emacs-eye-candy/">Álvaro's</a> work. I
-love his stuff and he has been a great inspiration for me. I suggest
-everyone to check out his stuff.</p>
-<img src="eye-candy.webp"/>
-<p>In this post I am planning to walk you through my visual <a href="https://www.gnu.org/software/emacs/">Emacs</a> setup, I will use
-the <a href="https://github.com/doomemacs/doomemacs">Doom Framework</a>.
-I am planning on making a detail blog post about Emacs, <a href="https://orgmode.org/">org-mode</a> and how I use them, because of
-this I will not go into explanation of what Emacs is. There are great
-sources about Emacs and org-mode on youtube. Until I make that post, you
-can explore the Emacs world freely.</p>
+<p>
+      First of all, this post is directly inspired by
+      <a href="https://xenodium.com/my-emacs-eye-candy/">Álvaro's</a> work. I
+      love his stuff and he has been a great inspiration for me. I suggest
+      everyone to check out his stuff.
+    </p>
+<img alt="Image of my Emacs window" src="eye-candy.webp"/>
+<p>
+      In this post I am planning to walk you through my visual
+      <a href="https://www.gnu.org/software/emacs/">Emacs</a> setup, I will use
+      the <a href="https://github.com/doomemacs/doomemacs">Doom Framework</a>. I
+      am planning on making a detail blog post about Emacs,
+      <a href="https://orgmode.org/">org-mode</a> and how I use them, because of
+      this I will not go into explanation of what Emacs is. There are great
+      sources about Emacs and org-mode on youtube. Until I make that post, you
+      can explore the Emacs world freely.
+    </p>
 <p><strong>Let's Start</strong></p>
 <h1 id="install-brew">Installing Homebrew</h1>
-<p>I will be using <a href="https://brew.sh/">Homebrew</a> to install Emacs
-and it's dependencies.</p>
-<div class="sourceCode" data-org-language="sh" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a aria-hidden="true" href="#cb1-1" tabindex="-1"></a><span class="ex">/bin/bash</span> <span class="at">-c</span> <span class="st">"</span><span class="va">$(</span><span class="ex">curl</span> <span class="at">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="va">)</span><span class="st">"</span></span></code></pre></div>
+<p>
+      I will be using <a href="https://brew.sh/">Homebrew</a> to install Emacs
+      and it's dependencies.
+    </p>
+<div class="sourceCode" data-org-language="sh" id="cb1">
+<pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a aria-hidden="true" href="#cb1-1" tabindex="-1"></a><span class="ex">/bin/bash</span> <span class="at">-c</span> <span class="st">"</span><span class="va">$(</span><span class="ex">curl</span> <span class="at">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="va">)</span><span class="st">"</span></span></code></pre>
+</div>
 <h1 id="install-emacs">Installing Emacs</h1>
-<p>I am choosing the default cask for Emacs. I tried several different forks of
-mac Emacs but all of them gave me poor performance on my m2 macbook.</p>
-<div class="sourceCode" data-org-language="sh" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a aria-hidden="true" href="#cb2-1" tabindex="-1"></a><span class="ex">brew</span> install <span class="at">--cask</span> emacs</span></code></pre></div>
-<p><strong>After installing do not start Emacs.</strong> Starting Emacs
-will create a profile, which will conflict with your doom
-profile.</p>
+<p>
+      I am choosing the default cask for Emacs. I tried several different forks
+      of mac Emacs but all of them gave me poor performance on my m2 macbook.
+    </p>
+<div class="sourceCode" data-org-language="sh" id="cb2">
+<pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a aria-hidden="true" href="#cb2-1" tabindex="-1"></a><span class="ex">brew</span> install <span class="at">--cask</span> emacs</span></code></pre>
+</div>
+<p>
+<strong>After installing do not start Emacs.</strong> Starting Emacs will
+      create a profile, which will conflict with your doom profile.
+    </p>
 <h1 id="install-doom">Installing Doom</h1>
-<p>Doom is a stable framework for Emacs. You can considered like a base
-config file. It really makes Emacs usable out-of-box.</p>
-<div class="sourceCode" data-org-language="sh" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a aria-hidden="true" href="#cb3-1" tabindex="-1"></a><span class="fu">git</span> clone <span class="at">--depth</span> 1 https://github.com/doomemacs/doomemacs ~/.config/emacs</span>
-<span id="cb3-2"><a aria-hidden="true" href="#cb3-2" tabindex="-1"></a><span class="ex">~/.config/emacs/bin/doom</span> install</span></code></pre></div>
+<p>
+      Doom is a stable framework for Emacs. You can considered like a base
+      config file. It really makes Emacs usable out-of-box.
+    </p>
+<div class="sourceCode" data-org-language="sh" id="cb3">
+<pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a aria-hidden="true" href="#cb3-1" tabindex="-1"></a><span class="fu">git</span> clone <span class="at">--depth</span> 1 https://github.com/doomemacs/doomemacs ~/.config/emacs</span>
+<span id="cb3-2"><a aria-hidden="true" href="#cb3-2" tabindex="-1"></a><span class="ex">~/.config/emacs/bin/doom</span> install</span></code></pre>
+</div>
 <p>And now we are ready to hack our Emacs.</p>
 <h1 id="changing-the-theme">Changing the theme</h1>
-<p>I used to use the doom-dracula theme. But nowadays my favorite is the
-<a href="https://github.com/meritamen/emacs-kanagawa-theme">kanagawa
-theme</a>.</p>
+<p>
+      I used to use the doom-dracula theme. But nowadays my favorite is the
+      <a href="https://github.com/meritamen/emacs-kanagawa-theme">kanagawa theme</a>.
+    </p>
 <p>Add the below line to ~/.config/doom/package.el</p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb4"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb4-1"><a aria-hidden="true" href="#cb4-1" tabindex="-1"></a>(package! kanagawa-theme)</span></code></pre></div>
-<p>Then set your theme to kanagawa, for this put the below line in your config file ~/.config/doom/config.el</p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb5"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb5-1"><a aria-hidden="true" href="#cb5-1" tabindex="-1"></a>(<span class="kw">setq</span> doom-theme <span class="dt">'kanagawa</span>)</span></code></pre></div>
-<p><b>Note:</b> From now on all the code should go into your config file.</p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb4">
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb4-1"><a aria-hidden="true" href="#cb4-1" tabindex="-1"></a>(package! kanagawa-theme)</span></code></pre>
+</div>
+<p>
+      Then set your theme to kanagawa, for this put the below line in your
+      config file ~/.config/doom/config.el
+    </p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb5">
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb5-1"><a aria-hidden="true" href="#cb5-1" tabindex="-1"></a>(<span class="kw">setq</span> doom-theme <span class="dt">'kanagawa</span>)</span></code></pre>
+</div>
+<p>
+<b>Note:</b> From now on all the code should go into your config file.
+    </p>
 <h1 id="changing-the-font">Changing the font</h1>
-<p>I like using the <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a>.</p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb6"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb6-1"><a aria-hidden="true" href="#cb6-1" tabindex="-1"></a>(<span class="kw">setq</span> doom-font (font-spec :family <span class="st">"JetBrains Mono"</span> :size <span class="dv">22</span>))</span></code></pre></div>
+<p>
+      I like using the
+      <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a>.
+    </p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb6">
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb6-1"><a aria-hidden="true" href="#cb6-1" tabindex="-1"></a>(<span class="kw">setq</span> doom-font (font-spec :family <span class="st">"JetBrains Mono"</span> :size <span class="dv">22</span>))</span></code></pre>
+</div>
 <h1 id="enable-word-count">Enabling Word Count</h1>
 <p>This puts a word count in the modeline.</p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb7"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb7-1"><a aria-hidden="true" href="#cb7-1" tabindex="-1"></a>(<span class="kw">setq</span> doom-modeline-enable-word-count <span class="kw">t</span>)</span></code></pre></div>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb7">
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb7-1"><a aria-hidden="true" href="#cb7-1" tabindex="-1"></a>(<span class="kw">setq</span> doom-modeline-enable-word-count <span class="kw">t</span>)</span></code></pre>
+</div>
 <h1 id="disable-hl-line-mode">Disabling hl-line-mode</h1>
-<p>'hl-line' makes the current line a different color. I don't like
-it.</p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb8"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb8-1"><a aria-hidden="true" href="#cb8-1" tabindex="-1"></a>(remove-hook <span class="dt">'doom-first-buffer-hook</span> <span class="op">#'</span>global-hl-line-mode)</span></code></pre></div>
+<p>'hl-line' makes the current line a different color. I don't like it.</p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb8">
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb8-1"><a aria-hidden="true" href="#cb8-1" tabindex="-1"></a>(remove-hook <span class="dt">'doom-first-buffer-hook</span> <span class="op">#'</span>global-hl-line-mode)</span></code></pre>
+</div>
 <h1 id="the-title-bar">The title bar</h1>
-<p>I like the look of an empty unified title-bar, so this removes the
-text. <strong>Only works for mac.</strong></p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb9"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb9-1"><a aria-hidden="true" href="#cb9-1" tabindex="-1"></a>(<span class="kw">setq</span> ns-use-proxy-icon <span class="kw">nil</span>)</span>
-<span id="cb9-2"><a aria-hidden="true" href="#cb9-2" tabindex="-1"></a>(<span class="kw">setq</span> frame-title-format <span class="kw">nil</span>)</span></code></pre></div>
+<p>
+      I like the look of an empty unified title-bar, so this removes the text.
+      <strong>Only works for mac.</strong>
+</p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb9">
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb9-1"><a aria-hidden="true" href="#cb9-1" tabindex="-1"></a>(<span class="kw">setq</span> ns-use-proxy-icon <span class="kw">nil</span>)</span>
+<span id="cb9-2"><a aria-hidden="true" href="#cb9-2" tabindex="-1"></a>(<span class="kw">setq</span> frame-title-format <span class="kw">nil</span>)</span></code></pre>
+</div>
 <h1 id="remove-the-tilde-signs">Removing the tilde signs</h1>
-<p>There is an ugly tilde sign on empty lines by default. I really don't
-like it. You can remove it by commenting out the 'vi-tilde-fringe' line
-in ~/.config/doom/init.el</p>
+<p>
+      There is an ugly tilde sign on empty lines by default. I really don't like
+      it. You can remove it by commenting out the 'vi-tilde-fringe' line in
+      ~/.config/doom/init.el
+    </p>
 <h1 id="olivetti-mode">Olivetti Mode</h1>
-<p>There is a melpa package called <a href="https://github.com/rnkn/olivetti">olivetti</a>. This package
-provides a good look for writing/reading by decreasing the width of the
-buffer.</p>
-<p>You can install Olivetti by adding the below line to
-~/.config/doom/package.el</p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb10"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb10-1"><a aria-hidden="true" href="#cb10-1" tabindex="-1"></a>(package! olivetti)</span></code></pre></div>
+<p>
+      There is a melpa package called
+      <a href="https://github.com/rnkn/olivetti">olivetti</a>. This package
+      provides a good look for writing/reading by decreasing the width of the
+      buffer.
+    </p>
+<p>
+      You can install Olivetti by adding the below line to
+      ~/.config/doom/package.el
+    </p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb10">
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb10-1"><a aria-hidden="true" href="#cb10-1" tabindex="-1"></a>(package! olivetti)</span></code></pre>
+</div>
 <p>You can adjust the width like this</p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb11"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb11-1"><a aria-hidden="true" href="#cb11-1" tabindex="-1"></a>(<span class="kw">setq</span> olivetti-body-width <span class="dv">94</span>)</span></code></pre></div>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb11">
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb11-1"><a aria-hidden="true" href="#cb11-1" tabindex="-1"></a>(<span class="kw">setq</span> olivetti-body-width <span class="dv">94</span>)</span></code></pre>
+</div>
 <h1 id="reading-mode">Reading Mode</h1>
-<p>When writing or reading I like a couple of things different. I like
-to open up olivetti, disable the line numbers and the modeline. This
-function allows me to change these settings in one go. Also I have an
-undo function. I have them set to 'ö' and 'ç' as those keys are not used
-for any commands.</p>
+<p>
+      When writing or reading I like a couple of things different. I like to
+      open up olivetti, disable the line numbers and the modeline. This function
+      allows me to change these settings in one go. Also I have an undo
+      function. I have them set to 'ö' and 'ç' as those keys are not used for
+      any commands.
+    </p>
 <p><strong>Reading Function:</strong></p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb12"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb12-1"><a aria-hidden="true" href="#cb12-1" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> efe/reading-mode </span>()</span>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb12">
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb12-1"><a aria-hidden="true" href="#cb12-1" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> efe/reading-mode </span>()</span>
 <span id="cb12-2"><a aria-hidden="true" href="#cb12-2" tabindex="-1"></a>  <span class="st">"Toggle reading mode."</span></span>
 <span id="cb12-3"><a aria-hidden="true" href="#cb12-3" tabindex="-1"></a>  (interactive)</span>
 <span id="cb12-4"><a aria-hidden="true" href="#cb12-4" tabindex="-1"></a>  (hide-mode-line-mode +1)</span>
 <span id="cb12-5"><a aria-hidden="true" href="#cb12-5" tabindex="-1"></a>  (olivetti-mode)</span>
 <span id="cb12-6"><a aria-hidden="true" href="#cb12-6" tabindex="-1"></a>  (menu-bar--display-line-numbers-mode-none))</span>
-<span id="cb12-7"><a aria-hidden="true" href="#cb12-7" tabindex="-1"></a>(global-set-key (kbd <span class="st">"C-ö"</span>) <span class="dt">'efe/reading-mode</span>)</span></code></pre></div>
+<span id="cb12-7"><a aria-hidden="true" href="#cb12-7" tabindex="-1"></a>(global-set-key (kbd <span class="st">"C-ö"</span>) <span class="dt">'efe/reading-mode</span>)</span></code></pre>
+</div>
 <p><strong>Undo Function:</strong></p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb13"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb13-1"><a aria-hidden="true" href="#cb13-1" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> efe/undo-reading-mode </span>()</span>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb13">
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb13-1"><a aria-hidden="true" href="#cb13-1" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> efe/undo-reading-mode </span>()</span>
 <span id="cb13-2"><a aria-hidden="true" href="#cb13-2" tabindex="-1"></a>  <span class="st">"undo reading mode."</span></span>
 <span id="cb13-3"><a aria-hidden="true" href="#cb13-3" tabindex="-1"></a>  (interactive)</span>
 <span id="cb13-4"><a aria-hidden="true" href="#cb13-4" tabindex="-1"></a>  (hide-mode-line-mode <span class="op">-</span><span class="dv">1</span>)</span>
 <span id="cb13-5"><a aria-hidden="true" href="#cb13-5" tabindex="-1"></a>  (<span class="kw">setq</span> olivetti-mode <span class="kw">nil</span>)</span>
 <span id="cb13-6"><a aria-hidden="true" href="#cb13-6" tabindex="-1"></a>  (menu-bar--display-line-numbers-mode-absolute))</span>
-<span id="cb13-7"><a aria-hidden="true" href="#cb13-7" tabindex="-1"></a>(global-set-key (kbd <span class="st">"C-ç"</span>) <span class="dt">'efe/undo-reading-mode</span>)</span></code></pre></div>
+<span id="cb13-7"><a aria-hidden="true" href="#cb13-7" tabindex="-1"></a>(global-set-key (kbd <span class="st">"C-ç"</span>) <span class="dt">'efe/undo-reading-mode</span>)</span></code></pre>
+</div>
 <h1 id="changing-the-icon">Changing the Icon</h1>
-<p>Lastly, I like to use this <a href="https://commons.wikimedia.org/wiki/File:Emacs-logo.svg">Icon</a>.
-It is quite old but it suits my style.</p>
+<p>
+      Lastly, I like to use this
+      <a href="https://commons.wikimedia.org/wiki/File:Emacs-logo.svg">Icon</a>.
+      It is quite old but it suits my style.
+    </p>
 <div class="bottom-header">
 <a class="bottom-header-link" href="/">Home</a>
 <a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>

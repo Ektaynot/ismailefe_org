@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <meta name="author" content="İsmail Efe Top" />
+    <meta name="dcterms.date" content="2024-03-24" />
+    <meta
+      name="description"
+      content="The history of my Firefox usage, how I met Arc, and how I came back to Firefox."
+    />
+    <title>Arc and Firefox</title>
+    <style>
+      html {
+        color: #1a1a1a;
+        background-color: #fdfdfd;
+      }
+      body {
+        margin: 0 auto;
+        max-width: 36em;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        hyphens: auto;
+        overflow-wrap: break-word;
+        text-rendering: optimizeLegibility;
+        font-kerning: normal;
+      }
+      @media (max-width: 600px) {
+        body {
+          font-size: 0.9em;
+          padding: 12px;
+        }
+        h1 {
+          font-size: 1.8em;
+        }
+      }
+      @media print {
+        html {
+          background-color: white;
+        }
+        body {
+          background-color: transparent;
+          color: black;
+          font-size: 12pt;
+        }
+        p,
+        h2,
+        h3 {
+          orphans: 3;
+          widows: 3;
+        }
+        h2,
+        h3,
+        h4 {
+          page-break-after: avoid;
+        }
+      }
+      p {
+        margin: 1em 0;
+      }
+      a {
+        color: #1a1a1a;
+      }
+      a:visited {
+        color: #1a1a1a;
+      }
+      img {
+        max-width: 100%;
+      }
+      svg {
+        height: auto;
+        max-width: 100%;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin-top: 1.4em;
+      }
+      h5,
+      h6 {
+        font-size: 1em;
+        font-style: italic;
+      }
+      h6 {
+        font-weight: normal;
+      }
+      ol,
+      ul {
+        padding-left: 1.7em;
+        margin-top: 1em;
+      }
+      li > ol,
+      li > ul {
+        margin-top: 0;
+      }
+      blockquote {
+        margin: 1em 0 1em 1.7em;
+        padding-left: 1em;
+        border-left: 2px solid #e6e6e6;
+        color: #606060;
+      }
+      code {
+        font-family: Menlo, Monaco, Consolas, "Lucida Console", monospace;
+        font-size: 85%;
+        margin: 0;
+        hyphens: manual;
+      }
+      pre {
+        margin: 1em 0;
+        overflow: auto;
+      }
+      pre code {
+        padding: 0;
+        overflow: visible;
+        overflow-wrap: normal;
+      }
+      .sourceCode {
+        background-color: transparent;
+        overflow: visible;
+      }
+      hr {
+        background-color: #1a1a1a;
+        border: none;
+        height: 1px;
+        margin: 1em 0;
+      }
+      table {
+        margin: 1em 0;
+        border-collapse: collapse;
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+        font-variant-numeric: lining-nums tabular-nums;
+      }
+      table caption {
+        margin-bottom: 0.75em;
+      }
+      tbody {
+        margin-top: 0.5em;
+        border-top: 1px solid #1a1a1a;
+        border-bottom: 1px solid #1a1a1a;
+      }
+      th {
+        border-top: 1px solid #1a1a1a;
+        padding: 0.25em 0.5em 0.25em 0.5em;
+      }
+      td {
+        padding: 0.125em 0.5em 0.25em 0.5em;
+      }
+      header {
+        margin-bottom: 4em;
+        text-align: center;
+      }
+      #TOC li {
+        list-style: none;
+      }
+      #TOC ul {
+        padding-left: 1.3em;
+      }
+      #TOC > ul {
+        padding-left: 0;
+      }
+      #TOC a:not(:hover) {
+        text-decoration: none;
+      }
+      code {
+        white-space: pre-wrap;
+      }
+      span.smallcaps {
+        font-variant: small-caps;
+      }
+      div.columns {
+        display: flex;
+        gap: min(4vw, 1.5em);
+      }
+      div.column {
+        flex: auto;
+        overflow-x: auto;
+      }
+      div.hanging-indent {
+        margin-left: 1.5em;
+        text-indent: -1.5em;
+      }
+      /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+      ul.task-list[class] {
+        list-style: none;
+      }
+      ul.task-list li input[type="checkbox"] {
+        font-size: inherit;
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1.6em;
+        vertical-align: middle;
+      }
+    </style>
+    <link
+      rel="webmention"
+      href="https://webmention.io/ismailefe.org/webmention"
+    />
+    <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+  </head>
+  <body>
+    <header id="title-block-header">
+      <h1 class="title">Arc and Firefox</h1>
+      <p class="author">İsmail Efe Top</p>
+      <p class="date">2024-03-24</p>
+    </header>
+    <p>
+      I started using Firefox in 2015, I installed it because the logo looked
+      really cool. Of course, my reasoning did not stayed the same. A few years
+      later, I became really interested in open-source software and migrated to
+      Linux. In Linux, there are not many viable browser options if you want
+      something open-source. The best option at the time was Firefox, so I kept
+      using it.
+    </p>
+    <p>
+      I installed a bunch of
+      <a href="https://firefoxcss-store.github.io/">css themes</a> and a ton of
+      unnecessary extensions. I had a system that worked. I kept moving my
+      Firefox profiles throughout my Linux journey. Then, one last time to
+      macOS.
+    </p>
+    <p>
+      I got my MacBook two years ago. Before than, I had never used any Apple
+      products. While it was similar to Linux in some aspects, it also felt
+      alien. When I installed Firefox and migrated my profiles, I encountered a
+      bunch of problems with zero solutions. That's when I started looking at
+      other alternatives. The first browser I wanted to try was Safari, I heard
+      how Apple's own apps were the best ones a thousand time.
+    </p>
+    <p>
+      Safari did not stick with me, it was really hard to customize and
+      installing extensions were unfathomably hard. The only good part was how
+      fast it was. But in the end, I decided to stick with Firefox. I had solved
+      a big portion of my problems and came to peace with the ones I wasn't able
+      to solve.
+    </p>
+    <p>
+      Then, on March 7th 2023, I watched my first
+      <a href="https://youtu.be/p_5QSsNpWmE?si=-utipZg-TBwPl3zw">video</a> about
+      the <a href="https://arc.net/">Arc Browser</a>. The video was a clip from
+      the Waveform podcast, they were talking about the products they loved and
+      one of them talked about the Arc Browser. This made me curious and I
+      decided to do some research. It was apparently a browser made by a small
+      team in New York. Then, thanks to my school being an accepted campus in
+      Arc, I was able to join the beta and install Arc.
+    </p>
+    <p>
+      If I had to describe my first impressions in one word, it would be
+      <strong>young</strong>. But not in a bad way. Yes, Arc was slow and there
+      was a ton of missing features but using it felt like a new experience. It
+      was colorful and unapologetically new.
+    </p>
+    <p>
+      It become my default browser really fast. While sometimes I missed using
+      Firefox, the excitement of using Arc made me not want to go back. There
+      were new updates every week and frequent Youtube videos. They also added a
+      bunch of cool stuff like <a href="https://arc.net/boosts">boosts</a> and
+      using different sites as search engines.
+    </p>
+    <p>
+      Everything was going great until the
+      <a href="https://youtu.be/WIeJF3kL5ng?si=E2k23oKW3oqVWa7Z"
+        >act II of Arc</a
+      >
+      came. They introduced a 'new way to browse', you would type what you
+      wanted and an AI would visit different sites and compile a web page for
+      you. Their motto was don't bother to search the internet; let us search it
+      for you. Watching that made me worry about the Arc's future. Were they
+      trying to make everything AI? Then, I thought about how Arc was going to
+      profit. How were they able to get a ton of funding without taking any
+      steps to make profit? Then, the popular phrase came to my mind, "If you
+      aren't paying for the product, you are the product". While the thought of
+      leaving stayed in my mind, I kept using Arc for a while. Then, when I saw
+      that they got millions of dollars in funding again and also added more AI
+      stuff, I knew it was time to leave.
+    </p>
+    <p>
+      I decided to return to my old friend. I opened Firefox, removed my old
+      profiles and themes, and started clean.
+    </p>
+    <p>
+      The first thing I noticed was how fast Firefox was compared to Arc. I had
+      became so used to the slowness of Arc that I got really suprised when I
+      came back to using Firefox. With the excitement of returning to my roots,
+      I began searching for themes and extensions. I tried to be as minimal as I
+      could. I settled on
+      <a href="https://github.com/d0sse/macFox-theme">this theme</a>, and these
+      extensions:
+    </p>
+    <ul>
+      <li>
+        <a href="https://www.zotero.org/download/connectors"
+          >Zotero Connector</a
+        >
+        for saving important articles to Zotero
+      </li>
+      <li>
+        <a
+          href="https://addons.mozilla.org/en-US/firefox/addon/youtube-search-engine/"
+          >Youtube Search Engine</a
+        >
+        for searching youtube in the search bar
+      </li>
+      <li>
+        <a href="https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/"
+          >Vivium</a
+        >
+        for having vim controls on websites
+      </li>
+      <li>
+        <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/"
+          >uBlock Origin</a
+        >
+        for blocking ads
+      </li>
+      <li>
+        <a
+          href="https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/"
+          >I still don't care about cookies</a
+        >
+        for blocking cookie warnings
+      </li>
+      <li>
+        <a href="https://addons.mozilla.org/tr/firefox/addon/cliget/">cliget</a>
+        for having the option to install stuff on the command line via aria2c
+      </li>
+    </ul>
+    <h1 id="conclusion">Conclusion</h1>
+    <p>
+      I love fun software but hate capitalism. A company that currently has no
+      way to profit, getting hundreds of millions of dollars in funding, doesn't
+      make any sense. Also, them pushing AI so much makes me much more
+      suspicious.
+    </p>
+    <p>
+      While it has been a fun ride with Arc, I am glad to be back on Firefox.
+    </p>
+    <div class="bottom-header">
+      <a class="bottom-header-link" href="/">Home</a>
+      <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link"
+        >Mail Me</a
+      >
+      <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+      <a
+        class="bottom-header-link"
+        href="https://github.com/Ektaynot/ismailefe_org"
+        target="_blank"
+        >Source</a
+      >
+    </div>
+    <div class="firechickenwebring">
+      <a href="https://firechicken.club/efe/prev">←</a>
+      <a href="https://firechicken.club">🔥⁠🐓</a>
+      <a href="https://firechicken.club/efe/next">→</a>
+    </div>
+  </body>
+</html>

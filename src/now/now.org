@@ -29,6 +29,11 @@ If you don't know what a now page is, check out [[https://nownownow.com/about][t
 - Getting a good grade on my recite homework and eng102 socratic seminar
 - Reaching more people and engaging with them.
 
+* Archive
+#+begin_export html
+<p>I also have a page dedicated to my old Now pages. You can check it out <a href="/now/archive/">here</a>.</p>
+#+end_export
+
 #+BEGIN_EXPORT html
 <div class="bottom-header">
   <a class="bottom-header-link" href="/">Home</a>

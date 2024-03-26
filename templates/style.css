@@ -21,6 +21,8 @@ body {
   overflow-wrap: break-word;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 p,

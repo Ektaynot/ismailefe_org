@@ -6,7 +6,7 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 29 Mar 2024 13:49:02 +0300</lastBuildDate>
+<lastBuildDate>Fri, 29 Mar 2024 21:58:21 +0300</lastBuildDate>
 <item>
   <title>My Org+Pandoc Workflow</title>
   <description><![CDATA[<!DOCTYPE html>
@@ -79,8 +79,8 @@
       and change it however you like. Put it in somewhere safe and note the
       file-path.
     </p>
-<h2 id="install-pandoc-and-the-pandoc-mode-package">
-      Install Pandoc and the pandoc-mode package
+<h2 id="install-pandoc-the-pandoc-mode-package-and-the-ox-pandoc-package">
+      Install Pandoc, the pandoc-mode package and the ox-pandoc package
     </h2>
 <p>
       For pandoc, you can use <a href="https://brew.sh">homebrew</a> or any
@@ -88,8 +88,12 @@
     </p>
 <p>
       For pandoc-mode, you can install the package with
-      <a href="https://melpa.org/">melpa</a>. You can also read more
+      <a href="https://melpa.org/">melpa</a> and read more
       <a href="http://joostkremers.github.io/pandoc-mode/">here</a>.
+    </p>
+<p>
+      For ox-pandoc, you can install the package with melpa and read more
+      <a href="https://github.com/kawabata/ox-pandoc">here</a>.
     </p>
 <h2 id="set-the-pandoc-binary-location">Set the pandoc binary location</h2>
 <div class="sourceCode" data-org-language="emacs-lisp" id="cb2">
@@ -118,9 +122,8 @@
     </p>
 <p>
       As an example or a starting point, you can download my docx.pandoc file
-      <a href="https://ismailefe.org/blog/my_org_pandoc_workflow/etc/docx.pandoc">here</a>. Don't
-      forget to change the path of the reference docx file (reference-doc) to
-      the one you noted at the beginning.
+      <a href="https://ismailefe.org/blog/my_org_pandoc_workflow/etc/docx.pandoc">here</a>. Don't forget to change the path of the reference docx file
+      (reference-doc) to the one you noted at the beginning.
     </p>
 <h2 id="custom-function">Custom Function</h2>
 <div class="sourceCode" data-org-language="emacs-lisp" id="cb4">
@@ -204,8 +207,9 @@
 </div>
 <p>
       With these snippets added, all I have to do is run the
-      'org-pandoc-export-to-html5' function in Emacs. This creates a html file
-      with the same name as the original file.
+      'org-pandoc-export-to-html5' function in Emacs (this function comes with
+      ox-pandoc). This creates a html file with the same name as the original
+      file.
     </p>
 <h1 id="conclusion">Conclusion</h1>
 <p>

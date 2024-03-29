@@ -38,10 +38,12 @@ I use a function to achieve this, here is what you have to do to use my function
 ** Prepare a reference docx file
 You can [[https://ismailefe.org/blog/my_org_pandoc_workflow/etc/custom-reference.docx][download mine]] and change it however you like. Put it in somewhere safe and note the file-path.
 
-** Install Pandoc and the pandoc-mode package
+** Install Pandoc, the pandoc-mode package and the ox-pandoc package
 For pandoc, you can use [[https://brew.sh][homebrew]] or any other package manager.
 
-For pandoc-mode, you can install the package with [[https://melpa.org/][melpa]]. You can also read more [[http://joostkremers.github.io/pandoc-mode/][here]].
+For pandoc-mode, you can install the package with [[https://melpa.org/][melpa]] and read more [[http://joostkremers.github.io/pandoc-mode/][here]].
+
+For ox-pandoc, you can install the package with melpa and read more [[https://github.com/kawabata/ox-pandoc][here]].
 
 ** Set the pandoc binary location
 #+begin_src emacs-lisp
@@ -142,7 +144,7 @@ And adds this on the end of the document
 </div>
 #+end_src
 
-With these snippets added, all I have to do is run the 'org-pandoc-export-to-html5' function in Emacs. This creates a html file with the same name as the original file.
+With these snippets added, all I have to do is run the 'org-pandoc-export-to-html5' function in Emacs (this function comes with ox-pandoc). This creates a html file with the same name as the original file.
 
 * Conclusion
 As you see, pandoc is a must for me when using org mode. While I invested a great time to learn these tools, they more than paid for themselves. I recommend everyone to follow a similiar path.

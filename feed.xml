@@ -6,7 +6,232 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 24 Mar 2024 00:09:24 +0300</lastBuildDate>
+<lastBuildDate>Fri, 29 Mar 2024 13:49:02 +0300</lastBuildDate>
+<item>
+  <title>My Org+Pandoc Workflow</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
+<header id="title-block-header">
+<h1 class="title">My Org+Pandoc Workflow</h1>
+<p class="author">İsmail Efe Top</p>
+<p class="date">2024-03-29</p>
+</header>
+<p>
+<strong>Disclaimer: <a href="https://www.gnu.org/software/emacs/">Emacs</a> is
+        necessary for being able to do the things shown below.</strong>
+</p>
+<p>
+      Excluding chats, %99 of what I write is written in
+      <a href="https://orgmode.org">org mode</a>. I love org mode that much, but
+      of course there are downsides. For example, while they are easy to access
+      on my mac, if I want to view them on my iPhone, I have to jump through a
+      bunch of hoops. And this is not the only obstacle I have to overcome. If I
+      want to share my notes with my friends, good luck to me.
+    </p>
+<p>
+      This would be my life if they weren't a handy program called
+      <a href="https://pandoc.org/">pandoc</a>. With pandoc, I can convert my
+      documents into great-looking, properly edited word and html documents. For
+      example, the blog post you are reading right now is completely written in
+      org mode and converted with pandoc. Let's see how I achieve this workflow.
+    </p>
+<h1 id="setting-metadata">1. Setting Metadata</h1>
+<p>
+      While it isn't always necessary, setting metadata is important for bunch
+      of reasons like searchability and giving the general idea about the
+      document. For example, here is the basic metadata for this document.
+    </p>
+<div class="sourceCode" id="cb1">
+<pre class="sourceCode org"><code class="sourceCode orgmode"><span id="cb1-1"><a aria-hidden="true" href="#cb1-1" tabindex="-1"></a><span class="pp">#+TITLE: My Org+Pandoc Workflow</span></span>
+<span id="cb1-2"><a aria-hidden="true" href="#cb1-2" tabindex="-1"></a><span class="pp">#+AUTHOR: İsmail Efe Top</span></span>
+<span id="cb1-3"><a aria-hidden="true" href="#cb1-3" tabindex="-1"></a><span class="pp">#+DATE: 2024-03-29</span></span>
+<span id="cb1-4"><a aria-hidden="true" href="#cb1-4" tabindex="-1"></a><span class="pp">#+LANGUAGE: en</span></span>
+<span id="cb1-5"><a aria-hidden="true" href="#cb1-5" tabindex="-1"></a><span class="pp">#+DESCRIPTION: How I use pandoc to transform my org documents to beautiful looking word documents and websites!</span></span></code></pre>
+</div>
+<h1 id="pandoc-configuration-for-word-documents">
+      2. Pandoc Configuration for Word Documents
+    </h1>
+<p>
+      Normally, turning a org document into a word document is easy if you have
+      the
+      <a href="http://joostkremers.github.io/pandoc-mode/">pandoc package</a>.
+      But I use a thing called reference template. In this use-case, I have a
+      document called
+      <a href="https://ismailefe.org/blog/mopw/etc/custom-reference.docx">custom-reference.docx</a>. This documents has all the changes I made to the default font-size,
+      heading fonts, colors etc. When I tell pandoc to use that document as a
+      reference. It turns my org documents into the perfect docx file. Figuring
+      out how to use and automate this took a really long time but I am really
+      glad I done the necessary work.
+    </p>
+<p>
+      I use this automation everyday to turn my notes into a docx file and then
+      a pdf. It is really useful when I want to summit a homework or share my
+      class notes with a friend.
+    </p>
+<p>
+      I use a function to achieve this, here is what you have to do to use my
+      function.
+    </p>
+<h2 id="prepare-a-reference-docx-file">Prepare a reference docx file</h2>
+<p>
+      You can
+      <a href="https://ismailefe.org/blog/mopw/etc/custom-reference.docx">download mine</a>
+      and change it however you like. Put it in somewhere safe and note the
+      file-path.
+    </p>
+<h2 id="install-pandoc-and-the-pandoc-mode-package">
+      Install Pandoc and the pandoc-mode package
+    </h2>
+<p>
+      For pandoc, you can use <a href="https://brew.sh">homebrew</a> or any
+      other package manager.
+    </p>
+<p>
+      For pandoc-mode, you can install the package with
+      <a href="https://melpa.org/">melpa</a>. You can also read more
+      <a href="http://joostkremers.github.io/pandoc-mode/">here</a>.
+    </p>
+<h2 id="set-the-pandoc-binary-location">Set the pandoc binary location</h2>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb2">
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb2-1"><a aria-hidden="true" href="#cb2-1" tabindex="-1"></a><span class="co">;; put this on your init.el or config.el</span></span>
+<span id="cb2-2"><a aria-hidden="true" href="#cb2-2" tabindex="-1"></a>(<span class="kw">setq</span> pandoc-binary <span class="st">"/opt/homebrew/bin/pandoc"</span>)</span></code></pre>
+</div>
+<p>
+      I installed pandoc with homebrew, if you don't know where your pandoc
+      binary is located you can run 'whereis pandoc' in your terminal.
+    </p>
+<h2 id="set-the-data-directory-for-pandoc">
+      Set the data directory for pandoc
+    </h2>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb3">
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb3-1"><a aria-hidden="true" href="#cb3-1" tabindex="-1"></a><span class="co">;; put this on your init.el or config.el</span></span>
+<span id="cb3-2"><a aria-hidden="true" href="#cb3-2" tabindex="-1"></a>(<span class="kw">setq</span> pandoc-data-dir <span class="st">"/Users/example_user/.config/doom/etc/pandoc/"</span>)</span></code></pre>
+</div>
+<p>You can set this directory to wherever you like.</p>
+<h2 id="prepare-a-docx.pandoc-configuration-file">
+      Prepare a docx.pandoc configuration file
+    </h2>
+<p>This file goes into your pandoc data directory.</p>
+<p>
+      It is really important to use a proper configuration file, this file is
+      what makes pandoc recognize the reference docx document.
+    </p>
+<p>
+      As an example or a starting point, you can download my docx.pandoc file
+      <a href="https://ismailefe.org/blog/mopw/etc/docx.pandoc">here</a>. Don't
+      forget to change the path of the reference docx file (reference-doc) to
+      the one you noted at the beginning.
+    </p>
+<h2 id="custom-function">Custom Function</h2>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb4">
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb4-1"><a aria-hidden="true" href="#cb4-1" tabindex="-1"></a><span class="co">;; put this on your init.el or config.el</span></span>
+<span id="cb4-2"><a aria-hidden="true" href="#cb4-2" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> efe/export-to-docx </span>()</span>
+<span id="cb4-3"><a aria-hidden="true" href="#cb4-3" tabindex="-1"></a>  <span class="st">"Output to docx using pandoc-mode"</span></span>
+<span id="cb4-4"><a aria-hidden="true" href="#cb4-4" tabindex="-1"></a>  (interactive)</span>
+<span id="cb4-5"><a aria-hidden="true" href="#cb4-5" tabindex="-1"></a>  (pandoc-mode)</span>
+<span id="cb4-6"><a aria-hidden="true" href="#cb4-6" tabindex="-1"></a>  (execute-kbd-macro (kbd <span class="st">"C-c / O W d b b r"</span>))</span>
+<span id="cb4-7"><a aria-hidden="true" href="#cb4-7" tabindex="-1"></a>  (<span class="kw">setq</span> pandoc-mode <span class="kw">nil</span>)</span>
+<span id="cb4-8"><a aria-hidden="true" href="#cb4-8" tabindex="-1"></a>  )</span></code></pre>
+</div>
+<p>
+      When you run this function, it creates a docx file with the same name as
+      your original file.
+    </p>
+<h1 id="turn-org-documents-into-beautiful-sites">
+      3. Turn Org Documents into Beautiful Sites
+    </h1>
+<p>
+      Here is how I turn my org documents into blog posts. Firstly, before
+      exporting my org documents I run a function that adds the necessary html
+      heads and bottom headers.
+    </p>
+<div class="sourceCode" data-org-language="emacs-lisp" id="cb5">
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb5-1"><a aria-hidden="true" href="#cb5-1" tabindex="-1"></a><span class="co">;; put this on your init.el or config.el</span></span>
+<span id="cb5-2"><a aria-hidden="true" href="#cb5-2" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> insert-html-blog-template </span>()</span>
+<span id="cb5-3"><a aria-hidden="true" href="#cb5-3" tabindex="-1"></a>  <span class="st">"Inserts HTML_HEAD lines at the first empty line and html code at the end of the buffer."</span></span>
+<span id="cb5-4"><a aria-hidden="true" href="#cb5-4" tabindex="-1"></a>  (interactive)</span>
+<span id="cb5-5"><a aria-hidden="true" href="#cb5-5" tabindex="-1"></a>  (save-excursion</span>
+<span id="cb5-6"><a aria-hidden="true" href="#cb5-6" tabindex="-1"></a>    (goto-char (point-min))</span>
+<span id="cb5-7"><a aria-hidden="true" href="#cb5-7" tabindex="-1"></a>    (<span class="kw">let</span> ((empty-line (<span class="kw">progn</span> (re-search-forward <span class="st">"^$"</span> <span class="kw">nil</span> <span class="kw">t</span>) (point))))</span>
+<span id="cb5-8"><a aria-hidden="true" href="#cb5-8" tabindex="-1"></a>      (goto-char empty-line)</span>
+<span id="cb5-9"><a aria-hidden="true" href="#cb5-9" tabindex="-1"></a>      (insert <span class="st">"</span><span class="sc">\n</span><span class="st">#+HTML_HEAD: &lt;link rel=</span><span class="sc">\"</span><span class="st">webmention</span><span class="sc">\"</span><span class="st"> href=</span><span class="sc">\"</span><span class="st">https://webmention.io/ismailefe.org/webmention</span><span class="sc">\"</span><span class="st"> /&gt;</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-10"><a aria-hidden="true" href="#cb5-10" tabindex="-1"></a>      (insert <span class="st">"#+HTML_HEAD: &lt;link rel=</span><span class="sc">\"</span><span class="st">stylesheet</span><span class="sc">\"</span><span class="st"> type=</span><span class="sc">\"</span><span class="st">text/css</span><span class="sc">\"</span><span class="st"> href=</span><span class="sc">\"</span><span class="st">/templates/style.css</span><span class="sc">\"</span><span class="st"> /&gt;</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-11"><a aria-hidden="true" href="#cb5-11" tabindex="-1"></a>      (insert <span class="st">"#+HTML_HEAD: &lt;link rel=</span><span class="sc">\"</span><span class="st">apple-touch-icon</span><span class="sc">\"</span><span class="st"> sizes=</span><span class="sc">\"</span><span class="st">180x180</span><span class="sc">\"</span><span class="st"> href=</span><span class="sc">\"</span><span class="st">/favicon/apple-touch-icon.png</span><span class="sc">\"</span><span class="st">&gt;</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-12"><a aria-hidden="true" href="#cb5-12" tabindex="-1"></a>      (insert <span class="st">"#+HTML_HEAD: &lt;link rel=</span><span class="sc">\"</span><span class="st">icon</span><span class="sc">\"</span><span class="st"> type=</span><span class="sc">\"</span><span class="st">image/png</span><span class="sc">\"</span><span class="st"> sizes=</span><span class="sc">\"</span><span class="st">32x32</span><span class="sc">\"</span><span class="st"> href=</span><span class="sc">\"</span><span class="st">/favicon/favicon-32x32.png</span><span class="sc">\"</span><span class="st">&gt;</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-13"><a aria-hidden="true" href="#cb5-13" tabindex="-1"></a>      (insert <span class="st">"#+HTML_HEAD: &lt;link rel=</span><span class="sc">\"</span><span class="st">icon</span><span class="sc">\"</span><span class="st"> type=</span><span class="sc">\"</span><span class="st">image/png</span><span class="sc">\"</span><span class="st"> sizes=</span><span class="sc">\"</span><span class="st">16x16</span><span class="sc">\"</span><span class="st"> href=</span><span class="sc">\"</span><span class="st">/favicon/favicon-16x16.png</span><span class="sc">\"</span><span class="st">&gt;</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-14"><a aria-hidden="true" href="#cb5-14" tabindex="-1"></a>      (insert <span class="st">"#+HTML_HEAD: &lt;link rel=</span><span class="sc">\"</span><span class="st">manifest</span><span class="sc">\"</span><span class="st"> href=</span><span class="sc">\"</span><span class="st">/favicon/site.webmanifest</span><span class="sc">\"</span><span class="st">&gt;</span><span class="sc">\n</span><span class="st">"</span>)))</span>
+<span id="cb5-15"><a aria-hidden="true" href="#cb5-15" tabindex="-1"></a>  (goto-char (point-max))</span>
+<span id="cb5-16"><a aria-hidden="true" href="#cb5-16" tabindex="-1"></a>  (insert <span class="st">"</span><span class="sc">\n\n</span><span class="st">"</span>)</span>
+<span id="cb5-17"><a aria-hidden="true" href="#cb5-17" tabindex="-1"></a>  (insert <span class="st">"#+BEGIN_EXPORT html</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-18"><a aria-hidden="true" href="#cb5-18" tabindex="-1"></a>  (insert <span class="st">"&lt;div class=</span><span class="sc">\"</span><span class="st">bottom-header</span><span class="sc">\"</span><span class="st">&gt;</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-19"><a aria-hidden="true" href="#cb5-19" tabindex="-1"></a>  (insert <span class="st">"  &lt;a class=</span><span class="sc">\"</span><span class="st">bottom-header-link</span><span class="sc">\"</span><span class="st"> href=</span><span class="sc">\"</span><span class="st">/</span><span class="sc">\"</span><span class="st">&gt;Home&lt;/a&gt;</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-20"><a aria-hidden="true" href="#cb5-20" tabindex="-1"></a>  (insert <span class="st">"  &lt;a href=</span><span class="sc">\"</span><span class="st">mailto:ismailefetop@gmail.com</span><span class="sc">\"</span><span class="st"> class=</span><span class="sc">\"</span><span class="st">bottom-header-link</span><span class="sc">\"</span><span class="st">&gt;Mail Me&lt;/a&gt;</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-21"><a aria-hidden="true" href="#cb5-21" tabindex="-1"></a>  (insert <span class="st">"  &lt;a class=</span><span class="sc">\"</span><span class="st">bottom-header-link</span><span class="sc">\"</span><span class="st"> href=</span><span class="sc">\"</span><span class="st">/feed.xml</span><span class="sc">\"</span><span class="st"> target=</span><span class="sc">\"</span><span class="st">_blank</span><span class="sc">\"</span><span class="st">&gt;RSS&lt;/a&gt;</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-22"><a aria-hidden="true" href="#cb5-22" tabindex="-1"></a>  (insert <span class="st">"  &lt;a class=</span><span class="sc">\"</span><span class="st">bottom-header-link</span><span class="sc">\"</span><span class="st"> href=</span><span class="sc">\"</span><span class="st">https://github.com/Ektaynot/ismailefe_org</span><span class="sc">\"</span><span class="st"> target=</span><span class="sc">\"</span><span class="st">_blank</span><span class="sc">\"</span><span class="st">&gt;Source&lt;/a&gt;</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-23"><a aria-hidden="true" href="#cb5-23" tabindex="-1"></a>  (insert <span class="st">"&lt;/div&gt;</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-24"><a aria-hidden="true" href="#cb5-24" tabindex="-1"></a>  (insert <span class="st">"&lt;div class=</span><span class="sc">\"</span><span class="st">firechickenwebring</span><span class="sc">\"</span><span class="st">&gt;</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-25"><a aria-hidden="true" href="#cb5-25" tabindex="-1"></a>  (insert <span class="st">"  &lt;a href=</span><span class="sc">\"</span><span class="st">https://firechicken.club/efe/prev</span><span class="sc">\"</span><span class="st">&gt;←&lt;/a&gt;</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-26"><a aria-hidden="true" href="#cb5-26" tabindex="-1"></a>  (insert <span class="st">"  &lt;a href=</span><span class="sc">\"</span><span class="st">https://firechicken.club</span><span class="sc">\"</span><span class="st">&gt;🔥⁠🐓&lt;/a&gt;</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-27"><a aria-hidden="true" href="#cb5-27" tabindex="-1"></a>  (insert <span class="st">"  &lt;a href=</span><span class="sc">\"</span><span class="st">https://firechicken.club/efe/next</span><span class="sc">\"</span><span class="st">&gt;→&lt;/a&gt;</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-28"><a aria-hidden="true" href="#cb5-28" tabindex="-1"></a>  (insert <span class="st">"&lt;/div&gt;</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-29"><a aria-hidden="true" href="#cb5-29" tabindex="-1"></a>  (insert <span class="st">"#+END_EXPORT</span><span class="sc">\n</span><span class="st">"</span>))</span></code></pre>
+</div>
+<p>
+      This function adds this on the top of the document (you can find my
+      stylesheet <a href="https://ismailefe.org/templates/style.css">here</a>)
+    </p>
+<div class="sourceCode" id="cb6">
+<pre class="sourceCode html"><code class="sourceCode html"><span id="cb6-1"><a aria-hidden="true" href="#cb6-1" tabindex="-1"></a>#+HTML_HEAD: <span class="dt">&lt;</span><span class="kw">link</span><span class="ot"> rel</span><span class="op">=</span><span class="st">"webmention"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://webmention.io/ismailefe.org/webmention"</span><span class="ot"> </span><span class="dt">/&gt;</span></span>
+<span id="cb6-2"><a aria-hidden="true" href="#cb6-2" tabindex="-1"></a>#+HTML_HEAD: <span class="dt">&lt;</span><span class="kw">link</span><span class="ot"> rel</span><span class="op">=</span><span class="st">"stylesheet"</span><span class="ot"> type</span><span class="op">=</span><span class="st">"text/css"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"/templates/style.css"</span><span class="ot"> </span><span class="dt">/&gt;</span></span>
+<span id="cb6-3"><a aria-hidden="true" href="#cb6-3" tabindex="-1"></a>#+HTML_HEAD: <span class="dt">&lt;</span><span class="kw">link</span><span class="ot"> rel</span><span class="op">=</span><span class="st">"apple-touch-icon"</span><span class="ot"> sizes</span><span class="op">=</span><span class="st">"180x180"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"/favicon/apple-touch-icon.png"</span><span class="dt">&gt;</span></span>
+<span id="cb6-4"><a aria-hidden="true" href="#cb6-4" tabindex="-1"></a>#+HTML_HEAD: <span class="dt">&lt;</span><span class="kw">link</span><span class="ot"> rel</span><span class="op">=</span><span class="st">"icon"</span><span class="ot"> type</span><span class="op">=</span><span class="st">"image/png"</span><span class="ot"> sizes</span><span class="op">=</span><span class="st">"32x32"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"/favicon/favicon-32x32.png"</span><span class="dt">&gt;</span></span>
+<span id="cb6-5"><a aria-hidden="true" href="#cb6-5" tabindex="-1"></a>#+HTML_HEAD: <span class="dt">&lt;</span><span class="kw">link</span><span class="ot"> rel</span><span class="op">=</span><span class="st">"icon"</span><span class="ot"> type</span><span class="op">=</span><span class="st">"image/png"</span><span class="ot"> sizes</span><span class="op">=</span><span class="st">"16x16"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"/favicon/favicon-16x16.png"</span><span class="dt">&gt;</span></span>
+<span id="cb6-6"><a aria-hidden="true" href="#cb6-6" tabindex="-1"></a>#+HTML_HEAD: <span class="dt">&lt;</span><span class="kw">link</span><span class="ot"> rel</span><span class="op">=</span><span class="st">"manifest"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"/favicon/site.webmanifest"</span><span class="dt">&gt;</span></span></code></pre>
+</div>
+<p>And adds this on the end of the document</p>
+<div class="sourceCode" id="cb7">
+<pre class="sourceCode html"><code class="sourceCode html"><span id="cb7-1"><a aria-hidden="true" href="#cb7-1" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"bottom-header"</span><span class="dt">&gt;</span></span>
+<span id="cb7-2"><a aria-hidden="true" href="#cb7-2" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> class</span><span class="op">=</span><span class="st">"bottom-header-link"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"/"</span><span class="dt">&gt;</span>Home<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb7-3"><a aria-hidden="true" href="#cb7-3" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"mailto:ismailefetop@gmail.com"</span><span class="ot"> class</span><span class="op">=</span><span class="st">"bottom-header-link"</span><span class="dt">&gt;</span>Mail Me<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb7-4"><a aria-hidden="true" href="#cb7-4" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> class</span><span class="op">=</span><span class="st">"bottom-header-link"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"/feed.xml"</span><span class="ot"> target</span><span class="op">=</span><span class="st">"_blank"</span><span class="dt">&gt;</span>RSS<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb7-5"><a aria-hidden="true" href="#cb7-5" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> class</span><span class="op">=</span><span class="st">"bottom-header-link"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://github.com/Ektaynot/ismailefe_org"</span><span class="ot"> target</span><span class="op">=</span><span class="st">"_blank"</span><span class="dt">&gt;</span>Source<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb7-6"><a aria-hidden="true" href="#cb7-6" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb7-7"><a aria-hidden="true" href="#cb7-7" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">"firechickenwebring"</span><span class="dt">&gt;</span></span>
+<span id="cb7-8"><a aria-hidden="true" href="#cb7-8" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://firechicken.club/efe/prev"</span><span class="dt">&gt;</span>←<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb7-9"><a aria-hidden="true" href="#cb7-9" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://firechicken.club"</span><span class="dt">&gt;</span>🔥⁠🐓<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb7-10"><a aria-hidden="true" href="#cb7-10" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://firechicken.club/efe/next"</span><span class="dt">&gt;</span>→<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb7-11"><a aria-hidden="true" href="#cb7-11" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span></code></pre>
+</div>
+<p>
+      With these snippets added, all I have to do is run the
+      'org-pandoc-export-to-html5' function in Emacs. This creates a html file
+      with the same name as the original file.
+    </p>
+<h1 id="conclusion">Conclusion</h1>
+<p>
+      As you see, pandoc is a must for me when using org mode. While I invested
+      a great time to learn these tools, they more than paid for themselves. I
+      recommend everyone to follow a similiar path.
+    </p>
+<p>If you have questions or feedback, feel free to email me!</p>
+<div class="bottom-header">
+<a class="bottom-header-link" href="/">Home</a>
+<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
+<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
+</div>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/mopw/index.html</link>
+  <guid>https://ismailefe.org/blog/mopw/index.html</guid>
+  <pubDate>Fri, 29 Mar 2024 00:00:00 +0300</pubDate>
+</item>
+
 <item>
   <title>Arc and Firefox</title>
   <description><![CDATA[<!DOCTYPE html>
@@ -103,20 +328,12 @@
         for saving important articles to Zotero
       </li>
 <li>
-<a href="https://addons.mozilla.org/en-US/firefox/addon/youtube-search-engine/">Youtube Search Engine</a>
-        for searching youtube in the search bar
-      </li>
-<li>
 <a href="https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/">Vivium</a>
         for having vim controls on websites
       </li>
 <li>
 <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">uBlock Origin</a>
-        for blocking ads
-      </li>
-<li>
-<a href="https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/">I still don't care about cookies</a>
-        for blocking cookie warnings
+        for blocking ads and cookies warnings
       </li>
 <li>
 <a href="https://addons.mozilla.org/tr/firefox/addon/cliget/">cliget</a>

@@ -1,0 +1,165 @@
+#+title: My Org+Pandoc Workflow
+#+AUTHOR: İsmail Efe Top
+#+DATE: 2024-03-29
+#+LANGUAGE: en
+#+DESCRIPTION: How I use pandoc to transform my org documents to beautiful looking word documents and websites!
+
+#+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
+*Disclaimer: [[https://www.gnu.org/software/emacs/][Emacs]] is necessary for being able to do the things shown below.*
+
+Excluding chats, %99 of what I write is written in [[https://orgmode.org][org mode]]. I love org mode that much, but of course there are downsides. For example, while they are easy to access on my mac, if I want to view them on my iPhone, I have to jump through a bunch of hoops. And this is not the only obstacle I have to overcome. If I want to share my notes with my friends, good luck to me.
+
+This would be my life if they weren't a handy program called [[https://pandoc.org/][pandoc]]. With pandoc, I can convert my documents into great-looking, properly edited word and html documents. For example, the blog post you are reading right now is completely written in org mode and converted with pandoc. Let's see how I achieve this workflow.
+
+* 1. Setting Metadata
+While it isn't always necessary, setting metadata is important for bunch of reasons like searchability and giving the general idea about the document. For example, here is the basic metadata for this document.
+
+#+begin_src org
+#+TITLE: My Org+Pandoc Workflow
+#+AUTHOR: İsmail Efe Top
+#+DATE: 2024-03-29
+#+LANGUAGE: en
+#+DESCRIPTION: How I use pandoc to transform my org documents to beautiful looking word documents and websites!
+#+end_src
+
+* 2. Pandoc Configuration for Word Documents
+Normally, turning a org document into a word document is easy if you have the [[http://joostkremers.github.io/pandoc-mode/][pandoc package]]. But I use a thing called reference template. In this use-case, I have a document called [[https://ismailefe.org/blog/mopw/etc/custom-reference.docx][custom-reference.docx]]. This documents has all the changes I made to the default font-size, heading fonts, colors etc. When I tell pandoc to use that document as a reference. It turns my org documents into the perfect docx file. Figuring out how to use and automate this took a really long time but I am really glad I done the necessary work.
+
+I use this automation everyday to turn my notes into a docx file and then a pdf. It is really useful when I want to summit a homework or share my class notes with a friend.
+
+I use a function to achieve this, here is what you have to do to use my function.
+
+** Prepare a reference docx file
+You can [[https://ismailefe.org/blog/mopw/etc/custom-reference.docx][download mine]] and change it however you like. Put it in somewhere safe and note the file-path.
+
+** Install Pandoc and the pandoc-mode package
+For pandoc, you can use [[https://brew.sh][homebrew]] or any other package manager.
+
+For pandoc-mode, you can install the package with [[https://melpa.org/][melpa]]. You can also read more [[http://joostkremers.github.io/pandoc-mode/][here]].
+
+** Set the pandoc binary location
+#+begin_src emacs-lisp
+;; put this on your init.el or config.el
+(setq pandoc-binary "/opt/homebrew/bin/pandoc")
+#+end_src
+
+I installed pandoc with homebrew, if you don't know where your pandoc binary is located you can run 'whereis pandoc' in your terminal.
+
+** Set the data directory for pandoc
+#+begin_src emacs-lisp
+;; put this on your init.el or config.el
+(setq pandoc-data-dir "/Users/example_user/.config/doom/etc/pandoc/")
+#+end_src
+
+You can set this directory to wherever you like.
+
+** Prepare a docx.pandoc configuration file
+This file goes into your pandoc data directory.
+
+It is really important to use a proper configuration file, this file is what makes pandoc recognize the reference docx document.
+
+As an example or a starting point, you can download my docx.pandoc file [[https://ismailefe.org/blog/mopw/etc/docx.pandoc][here]]. Don't forget to change the path of the reference docx file (reference-doc) to the one you noted at the beginning.
+
+** Custom Function
+#+begin_src emacs-lisp
+;; put this on your init.el or config.el
+(defun efe/export-to-docx ()
+  "Output to docx using pandoc-mode"
+  (interactive)
+  (pandoc-mode)
+  (execute-kbd-macro (kbd "C-c / O W d b b r"))
+  (setq pandoc-mode nil)
+  )
+#+end_src
+
+When you run this function, it creates a docx file with the same name as your original file.
+
+
+* 3. Turn Org Documents into Beautiful Sites
+Here is how I turn my org documents into blog posts. Firstly, before exporting my org documents I run a function that adds the necessary html heads and bottom headers.
+#+begin_src emacs-lisp
+;; put this on your init.el or config.el
+(defun insert-html-blog-template ()
+  "Inserts HTML_HEAD lines at the first empty line and html code at the end of the buffer."
+  (interactive)
+  (save-excursion
+    (goto-char (point-min))
+    (let ((empty-line (progn (re-search-forward "^$" nil t) (point))))
+      (goto-char empty-line)
+      (insert "\n#+HTML_HEAD: <link rel=\"webmention\" href=\"https://webmention.io/ismailefe.org/webmention\" />\n")
+      (insert "#+HTML_HEAD: <link rel=\"stylesheet\" type=\"text/css\" href=\"/templates/style.css\" />\n")
+      (insert "#+HTML_HEAD: <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/favicon/apple-touch-icon.png\">\n")
+      (insert "#+HTML_HEAD: <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon/favicon-32x32.png\">\n")
+      (insert "#+HTML_HEAD: <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon/favicon-16x16.png\">\n")
+      (insert "#+HTML_HEAD: <link rel=\"manifest\" href=\"/favicon/site.webmanifest\">\n")))
+  (goto-char (point-max))
+  (insert "\n\n")
+  (insert "#+BEGIN_EXPORT html\n")
+  (insert "<div class=\"bottom-header\">\n")
+  (insert "  <a class=\"bottom-header-link\" href=\"/\">Home</a>\n")
+  (insert "  <a href=\"mailto:ismailefetop@gmail.com\" class=\"bottom-header-link\">Mail Me</a>\n")
+  (insert "  <a class=\"bottom-header-link\" href=\"/feed.xml\" target=\"_blank\">RSS</a>\n")
+  (insert "  <a class=\"bottom-header-link\" href=\"https://github.com/Ektaynot/ismailefe_org\" target=\"_blank\">Source</a>\n")
+  (insert "</div>\n")
+  (insert "<div class=\"firechickenwebring\">\n")
+  (insert "  <a href=\"https://firechicken.club/efe/prev\">←</a>\n")
+  (insert "  <a href=\"https://firechicken.club\">🔥⁠🐓</a>\n")
+  (insert "  <a href=\"https://firechicken.club/efe/next\">→</a>\n")
+  (insert "</div>\n")
+  (insert "#+END_EXPORT\n"))
+
+#+end_src
+
+
+This function adds this on the top of the document (you can find my stylesheet [[https://ismailefe.org/templates/style.css][here]])
+#+begin_src html
+#+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+#+end_src
+
+And adds this on the end of the document
+#+begin_src html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
+#+end_src
+
+With these snippets added, all I have to do is run the 'org-pandoc-export-to-html5' function in Emacs. This creates a html file with the same name as the original file.
+
+* Conclusion
+As you see, pandoc is a must for me when using org mode. While I invested a great time to learn these tools, they more than paid for themselves. I recommend everyone to follow a similiar path.
+
+If you have questions or feedback, feel free to email me!
+
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
+#+END_EXPORT

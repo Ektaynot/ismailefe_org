@@ -25,11 +25,11 @@
 
 * Education
 - *[2022 - Present]* Middle East Technical University - Foreign Language Education (First Year)
-*CumGPA: 3.55*
+  - *CumGPA: 3.55*
 
-  #+begin_export html
-<p></p>
-    #+end_export
+    #+begin_export html
+  <p></p>
+      #+end_export
 
 - *[2018 - 2022]* Körfez Atatürk Anadolu High School
 
@@ -55,9 +55,14 @@
   - GNU/Linux, Git, Emacs
   - Microsoft Office programs
   - Python, Bash, HTML, and CSS
+  - Photoshop and Lightroom
 -----
 * Interests
 - Personal Blog Site (https://ismailefe.org)
-- Open-Source Software
-- Graphic Design
-- Writing
+  - Open-Source Software (https://github.com/Ektaynot/)
+  - Graphic Design (Frontend Web Desing and General Photoshop Usage)
+  - Writing (Technology and Everyday Life)
+#+begin_export html
+<p></p>
+#+end_export
+- Photography ([[https://ismailefe.org/photos][https://ismailefe.org/photos]])

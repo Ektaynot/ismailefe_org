@@ -29,14 +29,14 @@ While it isn't always necessary, setting metadata is important for bunch of reas
 #+end_src
 
 * 2. Pandoc Configuration for Word Documents
-Normally, turning a org document into a word document is easy if you have the [[http://joostkremers.github.io/pandoc-mode/][pandoc package]]. But I use a thing called reference template. In this use-case, I have a document called [[https://ismailefe.org/blog/mopw/etc/custom-reference.docx][custom-reference.docx]]. This documents has all the changes I made to the default font-size, heading fonts, colors etc. When I tell pandoc to use that document as a reference. It turns my org documents into the perfect docx file. Figuring out how to use and automate this took a really long time but I am really glad I done the necessary work.
+Normally, turning a org document into a word document is easy if you have the [[http://joostkremers.github.io/pandoc-mode/][pandoc package]]. But I use a thing called reference template. In this use-case, I have a document called [[https://ismailefe.org/blog/my_org_pandoc_workflow/etc/custom-reference.docx][custom-reference.docx]]. This documents has all the changes I made to the default font-size, heading fonts, colors etc. When I tell pandoc to use that document as a reference. It turns my org documents into the perfect docx file. Figuring out how to use and automate this took a really long time but I am really glad I done the necessary work.
 
 I use this automation everyday to turn my notes into a docx file and then a pdf. It is really useful when I want to summit a homework or share my class notes with a friend.
 
 I use a function to achieve this, here is what you have to do to use my function.
 
 ** Prepare a reference docx file
-You can [[https://ismailefe.org/blog/mopw/etc/custom-reference.docx][download mine]] and change it however you like. Put it in somewhere safe and note the file-path.
+You can [[https://ismailefe.org/blog/my_org_pandoc_workflow/etc/custom-reference.docx][download mine]] and change it however you like. Put it in somewhere safe and note the file-path.
 
 ** Install Pandoc and the pandoc-mode package
 For pandoc, you can use [[https://brew.sh][homebrew]] or any other package manager.
@@ -64,7 +64,7 @@ This file goes into your pandoc data directory.
 
 It is really important to use a proper configuration file, this file is what makes pandoc recognize the reference docx document.
 
-As an example or a starting point, you can download my docx.pandoc file [[https://ismailefe.org/blog/mopw/etc/docx.pandoc][here]]. Don't forget to change the path of the reference docx file (reference-doc) to the one you noted at the beginning.
+As an example or a starting point, you can download my docx.pandoc file [[https://ismailefe.org/blog/my_org_pandoc_workflow/etc/docx.pandoc][here]]. Don't forget to change the path of the reference docx file (reference-doc) to the one you noted at the beginning.
 
 ** Custom Function
 #+begin_src emacs-lisp

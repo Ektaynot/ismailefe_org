@@ -58,10 +58,10 @@
   - Photoshop and Lightroom
 -----
 * Interests
-- Personal Blog Site (https://ismailefe.org)
-  - Open-Source Software (https://github.com/Ektaynot/)
-  - Graphic Design (Frontend Web Desing and General Photoshop Usage)
-  - Writing (Technology and Everyday Life)
+- Personal Blog Site | https://ismailefe.org
+  - Open-Source Software | https://github.com/Ektaynot/
+  - Graphic Design | Frontend Web Desing and General Photoshop Usage
+  - Writing | Technology and Everyday Life
 #+begin_export html
 <p></p>
 #+end_export

@@ -2,6 +2,7 @@
 
 #+LANGUAGE: en
 #+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
+#+HTML_HEAD: <meta name="description" content="Learn about what I am doing" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -31,7 +32,7 @@ If you don't know what a now page is, check out [[https://nownownow.com/about][t
 
 * Archive
 #+begin_export html
-<p>I also have a page dedicated to my old Now pages. You can check it out <a href="/now/archive/">here</a>.</p>
+<p>I also have a page dedicated to my old Now pages. You can check it out here, <a href="/now/archive/">Now Archive Page</a>.</p>
 #+end_export
 
 #+BEGIN_EXPORT html

@@ -9,6 +9,8 @@
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 #+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+#+HTML_HEAD: <meta name="description" content="How I manage, organize, and backup my university files and folders. " />
+
 I have a very structured file management system for my university life. I save almost everything and everything that I saved has a place. Let's start with the main folder.
 
 * Uni Folder

@@ -9,6 +9,8 @@
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 #+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+#+HTML_HEAD: <meta name="description" content="Things I've been through while looking for a RSS solutions." />
+
 * My problem
 I love reading personal blogs, since I love them so much I decided to make one myself a couple of weeks ago.
 

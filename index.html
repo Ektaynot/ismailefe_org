@@ -21,6 +21,7 @@
     />
     <link href="https://github.com/ektaynot" rel="me" />
     <link rel="stylesheet" href="/templates/style.css" />
+    <link rel="stylesheet" href="/templates/index.css" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -42,24 +43,6 @@
 
     <title>Welcome!</title>
     <style>
-      #ismail-efes-blog-site {
-        font-size: 34pt;
-      }
-      #blog-posts,
-      #meet-efe {
-        font-size: 26pt;
-      }
-
-      .post-date {
-        color: rgb(103, 103, 103);
-        font-size: 12pt;
-        font-weight: bold;
-      }
-      @media (max-width: 600px) {
-        .post-date {
-          font-size: 10pt;
-        }
-      }
     </style>
   </head>
   <body>
@@ -73,93 +56,106 @@
       >
     </p>
 
-    <h2 id="blog-posts">Blog Posts</h2>
-    <ul>
-      <li>
-        <p>
-          <a href="/blog/my_org_pandoc_workflow/">My Org+Pandoc Workflow</a>
-          <span class="post-date">March 29, 2024</span>
-        </p>
-      </li>
-      <li>
-        <p>
-          <a href="/blog/arc_and_firefox/">Arc and Firefox</a>
-          <span class="post-date">March 24, 2024</span>
-        </p>
-      </li>
-      <li>
-        <p>
-          <a href="/blog/org-awk-anki/">Org, AWK, and Anki</a>
-          <span class="post-date">March 17, 2024</span>
-        </p>
-      </li>
-      <li>
-        <p>
-          <a href="/blog/rotring500/">The Story of My Rotring 500</a>
-          <span class="post-date">March 10, 2024</span>
-        </p>
-      </li>
-      <li>
-        <p>
-          <a href="/blog/emacs_functions/">My Must Emacs Functions</a>
-          <span class="post-date">March 6, 2024</span>
-        </p>
-      </li>
-      <li>
-        <p>
-          <a href="/blog/plain_text/">Create Files That Last</a>
-          <span class="post-date">March 3, 2024</span>
-        </p>
-      </li>
-      <li>
-        <p>
-          <a href="/blog/good_presentations/">How to Give Good Presentations</a>
-          <span class="post-date">Feb 23, 2024</span>
-        </p>
-      </li>
-      <li>
-        <p>
-          <a href="/blog/uni_file_structure/">University File Structure</a>
-          <span class="post-date">Feb 18, 2024</span>
-        </p>
-      </li>
-    </ul>
-    <details>
-      <summary><b>Read More</b></summary>
-      <ul>
-        <li>
-          <p>
-            <a href="/blog/rss/">RSS Solutions</a>
-            <span class="post-date">Feb 1, 2024</span>
-          </p>
-        </li>
-        <li>
-          <p>
-            <a href="/blog/favorite_themes/">My Favorite Themes</a>
-            <span class="post-date">Jan 25, 2024</span>
-          </p>
-        </li>
-        <li>
-          <p>
-            <a href="/blog/best_albums_2023/">My Top Album Picks For 2023</a>
-            <span class="post-date">Jan 18, 2024</span>
-          </p>
-        </li>
-        <li>
-          <p>
-            <a href="/blog/eye_candy/">My Emacs Eye Candy</a>
-            <span class="post-date">Jan 14, 2024</span>
-          </p>
-        </li>
-        <li>
-          <p>
-            <a href="/blog/my_edc/">My EDC Essentials</a>
-            <span class="post-date">Jan 14, 2024</span>
-          </p>
-        </li>
-      </ul>
-    </details>
+    <div class="row">
+      <div class="column">
+        <h2 id="blog-posts">Blog Posts</h2>
+        <ul>
+          <li>
+            <p>
+              <a href="/blog/arc_and_firefox/">Arc and Firefox</a>
+              <span class="post-date">March 24, 2024</span>
+            </p>
+          </li>
 
+          <li>
+            <p>
+              <a href="/blog/rotring500/">The Story of My Rotring 500</a>
+              <span class="post-date">March 10, 2024</span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="/blog/plain_text/">Create Files That Last</a>
+              <span class="post-date">March 3, 2024</span>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <a href="/blog/good_presentations/"
+                >How to Give Good Presentations</a
+              >
+              <span class="post-date">Feb 23, 2024</span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="/blog/uni_file_structure/">University File Structure</a>
+              <span class="post-date">Feb 18, 2024</span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="/blog/favorite_themes/">My Favorite Themes</a>
+              <span class="post-date">Jan 25, 2024</span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="/blog/best_albums_2023/">My Top Album Picks For 2023</a>
+              <span class="post-date">Jan 18, 2024</span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="/blog/eye_candy/">My Emacs Eye Candy</a>
+              <span class="post-date">Jan 14, 2024</span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="/blog/my_edc/">My EDC Essentials</a>
+              <span class="post-date">Jan 14, 2024</span>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="column">
+        <h2 id="technical-posts">Technical Posts</h2>
+        <ul>
+          <li>
+            <p>
+              <a href="/blog/my_org_pandoc_workflow/">My Org+Pandoc Workflow</a>
+              <span class="post-date">March 29, 2024</span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="/blog/org-awk-anki/">Org, AWK, and Anki</a>
+              <span class="post-date">March 17, 2024</span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="/blog/emacs_functions/">My Must Emacs Functions</a>
+              <span class="post-date">March 6, 2024</span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="/blog/rss/">RSS Solutions</a>
+              <span class="post-date">Feb 1, 2024</span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="/blog/eye_candy/">My Emacs Eye Candy</a>
+              <span class="post-date">Jan 14, 2024</span>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
     <h2 id="meet-efe">Meet Efe</h2>
     <ul>
       <li>
@@ -183,7 +179,6 @@
         </p>
       </li>
     </ul>
-
     <div class="bottom-header">
       <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link"
         >Mail Me</a

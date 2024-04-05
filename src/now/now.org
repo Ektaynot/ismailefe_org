@@ -12,23 +12,23 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * /When did I last update this page/
-- March 24, 2024
+- April 5, 2024
 
 * /What am I working on/
 - This Blog
-- ENG102 Socratic Seminar
-- Making a World English's poster
-- Running the social media account of my department
+- Preparing my belongings for holiday
+- My 480 task
+- A personal webcrawler for tureng
+- An updated landing page for this site
 
 * /What am I excited for/
 - Writing new blog posts
-- I bought some new pants, they came but didn't fit me. Bought the same pants in different size. I am excited to get my pants. It's been almost a month.
-- The weather is getting warmer in Ankara. Excited to make good fits and wander around the city.
-- I bought a new keyboard, I am excited to type on this keyboard extensively.
+- Traveling to my hometown
+- Seeing my relatives
 
 * /What are my goals/
-- Getting a good grade on my recite homework and eng102 socratic seminar
-- Reaching more people and engaging with them.
+- Having a calm holiday
+- Eating lots of homemade foots
 
 * Archive
 #+begin_export html

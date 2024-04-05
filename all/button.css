@@ -1,10 +1,9 @@
-/* CSS */
 .button-74 {
   background-color: #fbeee0;
-  border: 2px solid #422800;
+  border: 2px solid rgb(16, 15, 15);
   border-radius: 30px;
-  box-shadow: #422800 4px 4px 0 0;
-  color: #422800;
+  box-shadow: rgb(16, 15, 15) 4px 4px 0 0;
+  color: rgb(16, 15, 15);
   cursor: pointer;
   display: inline-block;
   font-weight: 650;
@@ -23,14 +22,14 @@
 }
 
 .button-74:active {
-  box-shadow: #422800 2px 2px 0 0;
+  box-shadow: rgb(16, 15, 15) 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
 @media (max-width: 600px) {
   .button-74 {
     font-size: 13px;
-  line-height: 45px;
+    line-height: 45px;
     min-width: 120px;
     padding: 0 25px;
   }

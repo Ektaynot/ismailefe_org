@@ -129,9 +129,6 @@ p {
 
 a,
 a:visited {
-  /* purple */
-  /* color: #745B90; */
-  /* flexoki theme blue */
   color: var(--hyperlink-color);
   text-decoration: none;
 }

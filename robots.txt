@@ -3,5 +3,8 @@ Disallow: /nogooglebot/
 
 User-agent: *
 Allow: /
+Disallow: /now/archive/
+Disallow: /etc/
+Disallow: /src/
 
 Sitemap: https://ismailefe.org/sitemap.xml

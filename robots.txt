@@ -6,5 +6,8 @@ Allow: /
 Disallow: /now/archive/
 Disallow: /etc/
 Disallow: /src/
+Disallow: *.docx
+Disallow: *.pdf
+Disallow: *.doc
 
 Sitemap: https://ismailefe.org/sitemap.xml

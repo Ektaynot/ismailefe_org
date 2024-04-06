@@ -21,7 +21,6 @@
     />
     <link href="https://github.com/ektaynot" rel="me" />
     <link rel="stylesheet" href="/templates/style.css" />
-    <link rel="stylesheet" href="/all/button.css" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -63,6 +62,40 @@
         .post-date {
           font-size: 10pt;
         }
+        .all-posts-button {
+          font-size: 13px;
+          line-height: 45px;
+          min-width: 120px;
+          padding: 0 25px;
+        }
+      }
+      .all-posts-button {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #fbeee0;
+        border: 2px solid rgb(16, 15, 15);
+        border-radius: 30px;
+        box-shadow: rgb(16, 15, 15) 4px 4px 0 0;
+        color: rgb(16, 15, 15);
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 650;
+        font-size: 16px;
+        padding: 0 18px;
+        line-height: 50px;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+
+      .all-posts-button:hover {
+        background-color: #fff;
+      }
+
+      .all-posts-button:active {
+        box-shadow: rgb(16, 15, 15) 2px 2px 0 0;
+        transform: translate(2px, 2px);
       }
     </style>
   </head>
@@ -112,8 +145,8 @@
     </ul>
     <!-- this design is not my, all credit goes to UIForms -->
     <a href="/all/">
-    <button class="all-posts-button">View All Posts</button>
-  </a>
+      <button class="all-posts-button">View All Posts</button>
+    </a>
     <h2 id="meet-efe">Meet Efe</h2>
     <ul>
       <li>

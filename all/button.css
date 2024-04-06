@@ -1,4 +1,4 @@
-.button-74 {
+.all-posts-button {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #fbeee0;
   border: 2px solid rgb(16, 15, 15);
@@ -18,17 +18,17 @@
   touch-action: manipulation;
 }
 
-.button-74:hover {
+.all-posts-button:hover {
   background-color: #fff;
 }
 
-.button-74:active {
+.all-posts-button:active {
   box-shadow: rgb(16, 15, 15) 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
 @media (max-width: 600px) {
-  .button-74 {
+  .all-posts-button {
     font-size: 13px;
     line-height: 45px;
     min-width: 120px;

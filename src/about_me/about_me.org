@@ -4,7 +4,7 @@
 
 #+LANGUAGE: en
 #+HTML_HEAD: <meta name="description" content="Learn about me." />
-#+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
+
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/about/about.css" />
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">

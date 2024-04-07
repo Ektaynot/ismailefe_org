@@ -4,7 +4,7 @@
 #+LANGUAGE: en
 #+DESCRIPTION: How I use pandoc to transform my org documents to beautiful looking word documents and websites!
 
-#+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
+
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -121,7 +121,7 @@ Here is how I turn my org documents into blog posts. Firstly, before exporting m
 
 This function adds this on the top of the document (you can find my stylesheet [[https://ismailefe.org/templates/style.css][here]])
 #+begin_src html
-#+HTML_HEAD: <link rel="webmention" href="https://webmention.io/ismailefe.org/webmention" />
+
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">

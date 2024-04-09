@@ -31,6 +31,10 @@ I want to make a blogroll too, but with a little bit flavour. I am going to cate
 - [[https://arne.me/][arne.me]] made by Arne Bahlo
 - [[http://xenodium.com/][xenodium.com]] made by Álvaro Ramírez
 - [[https://batsov.com/][batsov.com]] made by Bozhidar Batsov
+- [[https://karthinks.com/][karthinks.com]] made by Karthik Chikmagalur
+- [[https://blog.jim-nielsen.com/][blog.jim-nielsen.com]] made by Jim Nielsen
+- [[https://marcel.io/][marcel.io]] made by Marcel Wichmann
+- [[https://catskull.net/][catskull.net]]
 
 #+BEGIN_EXPORT html
 <div class="bottom-header">

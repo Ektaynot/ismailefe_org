@@ -5,10 +5,21 @@
 
 html {
   color: rgb(16, 15, 15);
-  background-color: rgb(255, 252, 240);
+  background-color: #fffcf0;
   font-family: "Times New Roman", Times, serif;
 }
 
+/* .title {
+  color: rgb(16, 15, 15);
+} */
+
+h1 {
+  color: #4f6f52;
+}
+
+/* h2 {
+  color: #153448;
+} */
 
 body {
   margin: 0 auto;

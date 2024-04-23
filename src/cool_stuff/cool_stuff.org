@@ -15,7 +15,7 @@ These are the collection of things that I find cool, these things inspire me and
 
 * Old Ads
 #+begin_export html
-    <div class="ads-container">
+    <div class="old-container">
       <a href="/cool_stuff/pics/apple.png" data-lightbox="old">
         <img
           data-lightbox="old"

@@ -6,7 +6,131 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 29 Mar 2024 21:58:21 +0300</lastBuildDate>
+<lastBuildDate>Tue, 23 Apr 2024 15:35:15 +0300</lastBuildDate>
+<item>
+  <title>Hobbies</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
+<header id="title-block-header">
+<h1 class="title">Hobbies</h1>
+<p class="author">İsmail Efe Top</p>
+<p class="date">2024-04-23</p>
+</header>
+<p>
+      I recently found myself juggling a lot of hobbies. They take up almost all
+      of my free time and I want to talk about them. I will mention the
+      interesting ones as I don't want to talk about “How I like to take walks”
+      or “How I like to discover new restaurants”.
+    </p>
+<h1 id="graphic-design">Graphic Design</h1>
+<p>
+      While I am not a professional, I did my fair share of design work. I
+      designed and wrote my high school newspaper, I did Instagram posts for my
+      department, and I did a lot of restoration work for my personal enjoyment.
+    </p>
+<p>
+      I love minimalist design, there is something in it that speaks to me.
+      Those neutral colors, big popping fonts and an inviting aura. When I
+      approach a task I try to take away as much as I can. Only the needed
+      should remain. In my opinion, the quote that best describes minimalist
+      design is
+      <strong>“Perfection is achieved, not when there is nothing more to add, but
+        when there is nothing left to take away.”</strong>
+      by Antoine de Saint-Exupéry.
+    </p>
+<h1 id="maintaining-a-website">Maintaining a Website</h1>
+<p>
+      Whenever I look at a personal website that I've never seen before, I try
+      to look for different approaches the site owner took. Like is there a
+      navbar, is there a table of contents, what color did they used, is there
+      javascript, etc. That is something that I never done before I had my own
+      site. This results in a constant cycle of inspiration and evolution.
+    </p>
+<p>
+      Because I don't use a generator in general sense, I have to do a lot of
+      things by hand. Like generating RSS, generating a sitemap, optimizing
+      pictures, SEO optimizations, fixing errors made by the
+      <a href="https://pandoc.org">org to html converter</a>, etc. While this
+      takes manual labor, I love it. Some people enjoy writing blog posts and
+      some enjoy making websites, I enjoy both!
+    </p>
+<p>
+      Also, if I used a blog generator, I wouldn't have learned how
+      <a href="https://ismailefe.org/blog/rss/">RSS</a>, sitemaps, and SEO
+      worked. I recommend everyone to learn the basics of html and css, and then
+      host their own blog with a free service like GitHub pages!
+    </p>
+<h1 id="visiting-flea-markets">Visiting Flea Markets</h1>
+<p>
+      I love wandering around flea markets, there are tons of great stuff that
+      are dirt cheap. Old technologies that still work great, old clothes that
+      can be made new with a quick trip to a dry cleaner, cool desk accessories,
+      35mm films, camera gears, and many many more.
+    </p>
+<p>
+      Seeing things that were revolutionary when they first came out and talking
+      with the people that sell them is a joy I get to experience every month.
+      While there is a lot of good flea markets that I visit, the one I like the
+      most is Çayyolu Antika Pazarı. I like Çayyolu because it is not as crowded
+      as others and the things they sell are more high quality. Also most of the
+      sellers are there to make friends and get to know new people, I like those
+      kinds of sellers the most. Because their main goal is not to profit the
+      most they can, their main goal is to have a good time!
+    </p>
+<p>
+      While I do buy a lot of unnecessary stuff, the joy I get from talking with
+      these people and seeing literal history makes visiting flea markets an
+      irreplaceable hobby.
+    </p>
+<h1 id="configuring-emacs">Configuring Emacs</h1>
+<p>
+      I spent so much time configuring this program that I could even say Emacs
+      is my part-time job. I definitely
+      <strong>spend more time sharpening than cutting.</strong>
+</p>
+<p>
+      But Emacs has become such an efficient tool that I think it
+      <strong>cuts</strong> the time I spent on homework in half. It formats,
+      converts, spellchecks, gives synonyms, translates, it manages and inserts
+      citations, prints references, and much more. And like maintaining a site,
+      I enjoy working on my config. Even if I didn't, I would think of it as an
+      investment because it is a tool that I will surely be using for a really
+      long time.
+    </p>
+<h1 id="shooting-analog">Shooting Analog</h1>
+<p>
+      I got into the analog world thanks to my girlfriend more than a year ago.
+      While I did make some mistakes that resulted in burned films, I think I
+      learned my lesson.
+    </p>
+<p>
+      I like shooting in color. My favorite film is Kodak Gold 200, the way that
+      it captures the sunlight mesmerizes me. You can see some of the pictures I
+      took at my <a href="https://ismailefe.org/photos/">photos page</a>.
+    </p>
+<p>
+      Other than that I use a Agfa Optima as my main film camera. I like compact
+      analog cameras. For me, having a big lens that you have to adjust every
+      time defeats the purpose.
+    </p>
+<div class="bottom-header">
+<a class="bottom-header-link" href="/">Home</a>
+<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
+<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
+</div>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/hobbies/index.html</link>
+  <guid>https://ismailefe.org/blog/hobbies/index.html</guid>
+  <pubDate>Tue, 23 Apr 2024 00:00:00 +0300</pubDate>
+</item>
+
 <item>
   <title>My Org+Pandoc Workflow</title>
   <description><![CDATA[<!DOCTYPE html>

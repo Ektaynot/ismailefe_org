@@ -1,4 +1,4 @@
-.ads-container {
+.old-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three columns */
     gap: 20px; /* Adjust the gap between images */

@@ -12,23 +12,21 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * /When did I last update this page/
-- April 5, 2024
+- April 23, 2024
 
 * /What am I working on/
 - This Blog
-- Preparing my belongings for holiday
-- My 480 task
-- A personal webcrawler for tureng
-- An updated landing page for this site
+- Preparing for my literature exam
+- Preparing for my turk104 and fle200 presentations
 
 * /What am I excited for/
 - Writing new blog posts
-- Traveling to my hometown
-- Seeing my relatives
+- Eating vegan lahmacun at Junk Vegan
+- I bought a midi, I am excited to try it out and making some music
 
 * /What are my goals/
-- Having a calm holiday
-- Eating lots of homemade foods
+- Getting good grades
+- Finding inspiration for new blog posts
 
 * Archive
 #+begin_export html

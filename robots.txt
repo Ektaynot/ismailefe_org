@@ -3,7 +3,7 @@ Disallow: /nogooglebot/
 
 User-agent: *
 Allow: /
-Disallow: /now/archive/
+Disallow: /now/archive/*
 Disallow: /etc/
 Disallow: /src/
 Disallow: *.docx

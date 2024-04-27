@@ -9,7 +9,7 @@
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
 
 First of all, this post is directly inspired by [[https://xenodium.com/my-emacs-eye-candy/][Álvaro's]] work. I love his stuff and he has been a great inspiration for me. I suggest everyone to check out his stuff.
 

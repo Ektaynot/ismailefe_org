@@ -8,7 +8,7 @@
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
 #+HTML_HEAD: <style>img {border-radius: 10px;}</style>
 
 I love Emacs because the possibilities are endless. What makes it so capable is definitely [[https://en.wikipedia.org/wiki/Emacs_Lisp][Emacs Lisp]]. Thanks to this language, countless functions have been created to meet the needs of us users.

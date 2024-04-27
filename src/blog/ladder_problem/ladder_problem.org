@@ -10,7 +10,7 @@
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
 
 Two days ago, at midnight, I found myself in a low-risk, low-reward situation. While walking to my dormitory, I spotted a fully opened ladder on the outside of a short building that was surrounded by long trees. Because I walk that road quite often, I knew the ladder was normally folded and could only be opened with a key.
 

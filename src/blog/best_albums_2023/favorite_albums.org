@@ -7,7 +7,7 @@
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
 2023 might be my busiest year yet. As a first-year in my major, I'm discovering a new city, giving tons of presentations, and balancing my relationships. As a result, I've had less time to discover and enjoy new music.
 
 In spite of this I found lots of good record to listen to. Here are my top picks of 2023.

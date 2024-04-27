@@ -9,7 +9,7 @@
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
 #+HTML_HEAD: <style> li {padding-bottom: 6px;} </style>
 
 In my department we give a lot of presentations, so mastering the skill is important for a student like me. I learned a lot in my last 2 years at metu and I want to share what I learned.

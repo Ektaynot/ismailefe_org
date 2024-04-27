@@ -8,7 +8,7 @@
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
 
 I recently found myself juggling a lot of hobbies. They take up almost all of my free time and I want to talk about them. I will mention the interesting ones as I don't want to talk about “How I like to take walks” or “How I like to discover new restaurants”.
 

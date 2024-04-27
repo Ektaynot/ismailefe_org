@@ -8,7 +8,7 @@
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
 
 As Steph Ango mentions in his [[https://stephango.com/file-over-app][article]], plain text files are more than files that have texts in them. They also symbolize a way of life. They make you face your technological habits, make you more aware of the stuff you create and encourage you to hold onto your creations.
 

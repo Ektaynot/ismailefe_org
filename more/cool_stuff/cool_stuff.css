@@ -4,7 +4,7 @@
     gap: 20px; /* Adjust the gap between images */
     justify-content: center; /* Center content horizontally */
   }
-  .ads-image {
+.posters-image {
     max-width: 100%; /* Ensure images don't exceed container width */
     height: auto; /* Maintain aspect ratio */
   }

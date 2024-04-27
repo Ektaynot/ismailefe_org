@@ -1,263 +1,335 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="İsmail Efe Top" />
-  <title>Cool Stuff</title>
-  <style>
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 12px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <meta name="author" content="İsmail Efe Top" />
+    <title>Cool Stuff</title>
+    <style>
       html {
-        background-color: white;
+        color: #1a1a1a;
+        background-color: #fdfdfd;
       }
       body {
+        margin: 0 auto;
+        max-width: 36em;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        hyphens: auto;
+        overflow-wrap: break-word;
+        text-rendering: optimizeLegibility;
+        font-kerning: normal;
+      }
+      @media (max-width: 600px) {
+        body {
+          font-size: 0.9em;
+          padding: 12px;
+        }
+        h1 {
+          font-size: 1.8em;
+        }
+      }
+      @media print {
+        html {
+          background-color: white;
+        }
+        body {
+          background-color: transparent;
+          color: black;
+          font-size: 12pt;
+        }
+        p,
+        h2,
+        h3 {
+          orphans: 3;
+          widows: 3;
+        }
+        h2,
+        h3,
+        h4 {
+          page-break-after: avoid;
+        }
+      }
+      p {
+        margin: 1em 0;
+      }
+      a {
+        color: #1a1a1a;
+      }
+      a:visited {
+        color: #1a1a1a;
+      }
+      img {
+        max-width: 100%;
+      }
+      svg {
+        height: auto;
+        max-width: 100%;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin-top: 1.4em;
+      }
+      h5,
+      h6 {
+        font-size: 1em;
+        font-style: italic;
+      }
+      h6 {
+        font-weight: normal;
+      }
+      ol,
+      ul {
+        padding-left: 1.7em;
+        margin-top: 1em;
+      }
+      li > ol,
+      li > ul {
+        margin-top: 0;
+      }
+      blockquote {
+        margin: 1em 0 1em 1.7em;
+        padding-left: 1em;
+        border-left: 2px solid #e6e6e6;
+        color: #606060;
+      }
+      code {
+        font-family: Menlo, Monaco, Consolas, "Lucida Console", monospace;
+        font-size: 85%;
+        margin: 0;
+        hyphens: manual;
+      }
+      pre {
+        margin: 1em 0;
+        overflow: auto;
+      }
+      pre code {
+        padding: 0;
+        overflow: visible;
+        overflow-wrap: normal;
+      }
+      .sourceCode {
         background-color: transparent;
-        color: black;
-        font-size: 12pt;
+        overflow: visible;
       }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
+      hr {
+        background-color: #1a1a1a;
+        border: none;
+        height: 1px;
+        margin: 1em 0;
       }
-      h2, h3, h4 {
-        page-break-after: avoid;
+      table {
+        margin: 1em 0;
+        border-collapse: collapse;
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+        font-variant-numeric: lining-nums tabular-nums;
       }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    svg {
-      height: auto;
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-      font-size: 85%;
-      margin: 0;
-      hyphens: manual;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
+      table caption {
+        margin-bottom: 0.75em;
+      }
+      tbody {
+        margin-top: 0.5em;
+        border-top: 1px solid #1a1a1a;
+        border-bottom: 1px solid #1a1a1a;
+      }
+      th {
+        border-top: 1px solid #1a1a1a;
+        padding: 0.25em 0.5em 0.25em 0.5em;
+      }
+      td {
+        padding: 0.125em 0.5em 0.25em 0.5em;
+      }
+      header {
+        margin-bottom: 4em;
+        text-align: center;
+      }
+      #TOC li {
+        list-style: none;
+      }
+      #TOC ul {
+        padding-left: 1.3em;
+      }
+      #TOC > ul {
+        padding-left: 0;
+      }
+      #TOC a:not(:hover) {
+        text-decoration: none;
+      }
+      code {
+        white-space: pre-wrap;
+      }
+      span.smallcaps {
+        font-variant: small-caps;
+      }
+      div.columns {
+        display: flex;
+        gap: min(4vw, 1.5em);
+      }
+      div.column {
+        flex: auto;
+        overflow-x: auto;
+      }
+      div.hanging-indent {
+        margin-left: 1.5em;
+        text-indent: -1.5em;
+      }
+      /* The extra [class] is a hack that increases specificity enough to
        override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-  </style>
-  <!-- the gallery library is made by lokesh https://github.com/lokesh/lightbox2/ -->
-  <link rel="stylesheet" type="text/css" href="/templates/style.css" />
-  <link rel="stylesheet" type="text/css" href="/more/cool_stuff/cool_stuff.css" />
-  <link rel="stylesheet" type="text/css" href="/etc/lightbox2/dist/css/lightbox.css" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-</head>
-<body>
-<header id="title-block-header">
-<h1 class="title">Cool Stuff</h1>
-<p class="author">İsmail Efe Top</p>
-</header>
-<p>These are the collection of things that I find cool, these things
-inspire me and make me continue being creative.</p>
-<h1 id="old-posters">Old Posters</h1>
-<div class="old-container">
-  <a href="/more/cool_stuff/pics/apple.png" data-lightbox="old">
-    <img
-      data-lightbox="old"
-      class="ads-image"
-      src="/more/cool_stuff/pics/apple.png"
-  /></a>
-  <a href="/more/cool_stuff/pics/new_balance.png" data-lightbox="old">
-    <img
-      data-lightbox="old"
-      class="ads-image"
-      src="/more/cool_stuff/pics/new_balance.png"
-  /></a>
-  <a href="/more/cool_stuff/pics/rugrats.png" data-lightbox="old">
-    <img
-      data-lightbox="old"
-      class="ads-image"
-      src="/more/cool_stuff/pics/rugrats.png"
-  /></a>
-  <a href="/more/cool_stuff/pics/thinkpad.png" data-lightbox="old">
-    <img
-      data-lightbox="old"
-      class="ads-image"
-      src="/more/cool_stuff/pics/thinkpad.png"
-  /></a>
-</div>
+      ul.task-list[class] {
+        list-style: none;
+      }
+      ul.task-list li input[type="checkbox"] {
+        font-size: inherit;
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1.6em;
+        vertical-align: middle;
+      }
+    </style>
+    <!-- the gallery library is made by lokesh https://github.com/lokesh/lightbox2/ -->
+    <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/more/cool_stuff/cool_stuff.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/etc/lightbox2/dist/css/lightbox.css"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+  </head>
+  <body>
+    <header id="title-block-header">
+      <h1 class="title">Cool Stuff</h1>
+      <p class="author">İsmail Efe Top</p>
+    </header>
+    <p>
+      These are the collection of things that I find cool, these things inspire
+      me and make me continue being creative.
+    </p>
+    <h1 id="old-posters">Old Posters</h1>
+    <div class="old-container">
+      <a href="/more/cool_stuff/pics/apple.png" data-lightbox="old">
+        <img
+          data-lightbox="old"
+          class="posters-image"
+          src="/more/cool_stuff/pics/apple.png"
+      /></a>
+      <a href="/more/cool_stuff/pics/new_balance.png" data-lightbox="old">
+        <img
+          data-lightbox="old"
+          class="posters-image"
+          src="/more/cool_stuff/pics/new_balance.png"
+      /></a>
+      <a href="/more/cool_stuff/pics/rugrats.png" data-lightbox="old">
+        <img
+          data-lightbox="old"
+          class="posters-image"
+          src="/more/cool_stuff/pics/rugrats.png"
+      /></a>
+      <a href="/more/cool_stuff/pics/thinkpad.png" data-lightbox="old">
+        <img
+          data-lightbox="old"
+          class="posters-image"
+          src="/more/cool_stuff/pics/thinkpad.png"
+      /></a>
+    </div>
 
-<h1 id="cool-websites">Cool Websites</h1>
-<h2 id="drollery.org"><a
-href="https://drollery.org/">drollery.org</a></h2>
-<img src="/more/cool_stuff/pics/drollery.png" />
+    <h1 id="cool-websites">Cool Websites</h1>
+    <h2 id="drollery.org"><a href="https://drollery.org/">drollery.org</a></h2>
+    <img src="/more/cool_stuff/pics/drollery.png" />
 
-<p>This website might be my favorite personal website. It's simple,
-informative and fun. The current internet sadly lacks fun websites, so
-having a website like this that is full of fun easter eggs are really
-cool.</p>
-<h2 id="once.com"><a href="https://once.com">once.com</a></h2>
-<img src="/more/cool_stuff/pics/once.png" />
+    <p>
+      This website might be my favorite personal website. It's simple,
+      informative and fun. The current internet sadly lacks fun websites, so
+      having a website like this that is full of fun easter eggs are really
+      cool.
+    </p>
+    <h2 id="once.com"><a href="https://once.com">once.com</a></h2>
+    <img src="/more/cool_stuff/pics/once.png" />
 
-<p>The color, the font, and the beautiful layout inspires my every time
-I see it. That's it.</p>
-<h2 id="ismailefe.org"><a
-href="https://ismailefe.org">ismailefe.org</a></h2>
-<img src="/more/cool_stuff/pics/ismailefe.png" />
+    <p>
+      The color, the font, and the beautiful layout inspires my every time I see
+      it. That's it.
+    </p>
+    <h2 id="ismailefe.org">
+      <a href="https://ismailefe.org">ismailefe.org</a>
+    </h2>
+    <img src="/more/cool_stuff/pics/ismailefe.png" />
 
-<p>I love my website. I often find myself staring at it. I've truly put
-a lot of effort into it, and I'd say it has paid off.</p>
-<h2 id="tonsky.me"><a href="https://tonsky.me/">tonsky.me</a></h2>
-<img src="/more/cool_stuff/pics/tonsky.png" />
+    <p>
+      I love my website. I often find myself staring at it. I've truly put a lot
+      of effort into it, and I'd say it has paid off.
+    </p>
+    <h2 id="tonsky.me"><a href="https://tonsky.me/">tonsky.me</a></h2>
+    <img src="/more/cool_stuff/pics/tonsky.png" />
 
-<p>I advise you to check out this <a
-href="https://tonsky.me/blog/unicode/">article</a>.</p>
-<h2 id="rauno.me"><a href="https://rauno.me/">rauno.me</a></h2>
-<img src="/more/cool_stuff/pics/rauno.png" />
+    <p>
+      I advise you to check out this
+      <a href="https://tonsky.me/blog/unicode/">article</a>.
+    </p>
+    <h2 id="rauno.me"><a href="https://rauno.me/">rauno.me</a></h2>
+    <img src="/more/cool_stuff/pics/rauno.png" />
 
-<p>This site is one of the most marvelous things I have ever seen. It
-really suits a person who works in <a
-href="https://vercel.com/">vercel</a>.</p>
-<h1 id="random-stuff">Random Stuff</h1>
-<h2 id="my-analog-camera">My Analog Camera</h2>
-<img src="/more/cool_stuff/pics/camera.png"/>
+    <p>
+      This site is one of the most marvelous things I have ever seen. It really
+      suits a person who works in <a href="https://vercel.com/">vercel</a>.
+    </p>
+    <h1 id="random-stuff">Random Stuff</h1>
+    <h2 id="my-analog-camera">My Analog Camera</h2>
+    <img src="/more/cool_stuff/pics/camera.png" />
 
-<p>This was my dream camera, it's gotta be one of the most beautiful
-things I own.</p>
-<div class="bottom-header">
-  <a class="bottom-header-link" href="/">Home</a>
-  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
-  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
-  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
-</div>
-<div class="firechickenwebring">
-  <a href="https://firechicken.club/efe/prev">←</a>
-  <a href="https://firechicken.club">🔥⁠🐓</a>
-  <a href="https://firechicken.club/efe/next">→</a>
-</div>
+    <p>
+      This was my dream camera, it's gotta be one of the most beautiful things I
+      own.
+    </p>
+    <div class="bottom-header">
+      <a class="bottom-header-link" href="/">Home</a>
+      <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link"
+        >Mail Me</a
+      >
+      <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+      <a
+        class="bottom-header-link"
+        href="https://github.com/Ektaynot/ismailefe_org"
+        target="_blank"
+        >Source</a
+      >
+    </div>
+    <div class="firechickenwebring">
+      <a href="https://firechicken.club/efe/prev">←</a>
+      <a href="https://firechicken.club">🔥⁠🐓</a>
+      <a href="https://firechicken.club/efe/next">→</a>
+    </div>
     <script src="/etc/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
     <script>
       lightbox.option({
@@ -267,5 +339,5 @@ things I own.</p>
         imageFadeDuration: 0,
       });
     </script>
-</body>
+  </body>
 </html>

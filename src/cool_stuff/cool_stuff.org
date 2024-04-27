@@ -18,25 +18,25 @@ These are the collection of things that I find cool, these things inspire me and
       <a href="/more/cool_stuff/pics/apple.png" data-lightbox="old">
         <img
           data-lightbox="old"
-          class="ads-image"
+          class="posters-image"
           src="/more/cool_stuff/pics/apple.png"
       /></a>
       <a href="/more/cool_stuff/pics/new_balance.png" data-lightbox="old">
         <img
           data-lightbox="old"
-          class="ads-image"
+          class="posters-image"
           src="/more/cool_stuff/pics/new_balance.png"
       /></a>
       <a href="/more/cool_stuff/pics/rugrats.png" data-lightbox="old">
         <img
           data-lightbox="old"
-          class="ads-image"
+          class="posters-image"
           src="/more/cool_stuff/pics/rugrats.png"
       /></a>
       <a href="/more/cool_stuff/pics/thinkpad.png" data-lightbox="old">
         <img
           data-lightbox="old"
-          class="ads-image"
+          class="posters-image"
           src="/more/cool_stuff/pics/thinkpad.png"
       /></a>
     </div>

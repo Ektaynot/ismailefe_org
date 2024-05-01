@@ -38,6 +38,11 @@ body {
   /* text-justify: inter-word; */
 }
 
+::selection {
+  background-color: #FFCBCB;
+}
+
+
 ul {
   list-style-type: circle;
 }

@@ -36,10 +36,24 @@
 -----
 
 * Experiences
-- *[2024 - Present]* Middle East Technical University - Foreign Language Department Official Social Media Account Managment
+- *[2024 - Present]* Middle East Technical University - Foreign Language Department Official Social Media Account Management
 
   - *Job Description:* Responsible for creating short videos and announcement posts for social media as the head of media creation.
+
+- *[2023 - Present]* Translation for Open-Source Apps
+
+  - *Job Description:* Translated apps such as OBS, IINA, Ryujinx, and Whisky from English to Turkish via Crowdin.
+
 -----
+
+#+begin_export html
+<div class="skillsandinterest">
+#+end_export
+
+#+begin_export html
+<div class="skills">
+#+end_export
+
 * Skills
 - *Languages*
 
@@ -56,13 +70,30 @@
   - Microsoft Office programs
   - Python, Bash, HTML, and CSS
   - Photoshop and Lightroom
------
+
+#+begin_export html
+</div>
+#+end_export
+
+#+begin_export html
+<div class="skills">
+#+end_export
+
 * Interests
-- Personal Blog Site | https://ismailefe.org
-  - Open-Source Software | https://github.com/Ektaynot/
+- Personal Blog Site | [[https://ismailefe.org][ismailefe.org]]
+  - Open-Source Software | [[https://github.com/Ektaynot/][github.com/Ektaynot]]
   - Graphic Design | Frontend Web Desing and General Photoshop Usage
-  - Writing | Technology and Everyday Life
+  - Writing | [[https://ismailefe.org/all][ismailefe.org/all]]
 #+begin_export html
 <p></p>
 #+end_export
-- Photography ([[https://ismailefe.org/photos][https://ismailefe.org/photos]])
+- Photography | [[https://ismailefe.org/photos][ismailefe.org/photos]]
+
+#+begin_export html
+</div>
+#+end_export
+
+#+begin_export html
+</div>
+#+end_export
+-----

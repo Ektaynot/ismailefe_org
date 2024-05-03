@@ -42,7 +42,7 @@
 
 - *[2023 - Present]* Translation for Open-Source Apps
 
-  - *Job Description:* Translated apps such as OBS, IINA, Ryujinx, and Whisky from English to Turkish via Crowdin.
+  - *Job Description:* Translated apps such as [[https://obsproject.com/][OBS]], [[https://iina.io/][IINA]], [[https://ryujinx.org/][Ryujinx]], and [[https://getwhisky.app/][Whisky]] from English to Turkish via [[https://crowdin.com/][Crowdin]].
 
 -----
 

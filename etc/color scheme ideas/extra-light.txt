@@ -1,0 +1,2 @@
+background: #ffffff
+text: #48494d

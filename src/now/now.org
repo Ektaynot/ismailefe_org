@@ -12,21 +12,22 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * When did I last update this page
-- April 23, 2024
+- May 18, 2024
 
 * What am I working on
 - This Blog
-- Preparing for my literature exam
-- Preparing for my turk104 and fle200 presentations
+- Preparing for my eng102 socratic seminar and fle480 presentations
+- A minecraft world for my fle200 presentation
+- Learning Logic Pro
 
 * What am I excited for
 - Writing new blog posts
-- Eating vegan lahmacun at Junk Vegan
-- I bought a midi, I am excited to try it out and making some music
+- Eating a veggie burger at haymatlos
 
 * What are my goals
-- Getting good grades
+- Finishing my semester successfully
 - Finding inspiration for new blog posts
+- Doing all the things I love at Ankara at least once before leaving for the summer vacation
 
 * Archive
 #+begin_export html

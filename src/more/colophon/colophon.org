@@ -41,6 +41,24 @@ I use [[https://pages.github.com/][github pages]] to publish my site, it is free
 - I use Times New Roman for almost everything
 - Site's favicon is the [[https://openmoji.org/library/emoji-1F5FA/][open source world map emoji]]
 - My CV is optimized for computers and smartphones, it also supports printing
+
+#+begin_export html
+<br><br>
+<div style="grid-gap: 10px; grid-template-columns: repeat(4,1fr); margin-bottom: 20px; display: grid;">
+<a href="https://emacs.org/">
+  <img src="/more/colophon/pics/made_with_emacs.svg" style="height: 2.5rem">
+</a>
+<a href="https://ismailefe.org/feed.xml">
+  <img src="/more/colophon/pics/valid-rss.png" style="height: 2.5rem">
+</a>
+<a href="https://buymeacoffee.com/ismailefetop">
+  <img src="/more/colophon/pics/buymeacoffee.png" style="height: 2.5rem">
+</a>
+<img src="/more/colophon/pics/valid-html5.gif" style="height: 2.5rem">
+
+</div>
+#+end_export
+
 #+BEGIN_EXPORT html
 <div class="bottom-header">
   <a class="bottom-header-link" href="/">Home</a>

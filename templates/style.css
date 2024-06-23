@@ -11,6 +11,17 @@ html {
   font-family: "Times New Roman", Times, serif;
 }
 
+h1::before {
+  font-size: 20pt;
+  color: #ff5d62;
+  content: "* ";
+}
+
+h2::before {
+  font-size: 14pt;
+  color: #9cabca;
+  content: "** ";
+}
 
 h1, h2 {
   font-family: "EB Garamond", serif;
@@ -102,7 +113,9 @@ footer {
   h1 {
     font-size: 1.8em;
   }
-
+  h1::before {
+    font-size: 16pt;
+  }
   p,
   li,
   summary {

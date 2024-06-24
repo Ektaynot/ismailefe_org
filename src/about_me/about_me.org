@@ -1,4 +1,4 @@
-#+title: About Me.
+#+title: About Me
 #+AUTHOR: İsmail Efe Top
 #+DATE: 2024-01-15
 

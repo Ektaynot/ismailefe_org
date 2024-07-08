@@ -1,5 +1,10 @@
 body {
   max-width: 45em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1::before, h2::before {
+  content: none;
 }
 
 h1, h2 {

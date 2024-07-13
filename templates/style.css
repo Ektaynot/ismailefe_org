@@ -68,10 +68,10 @@ ul {
 p,
 li,
 summary {
-  font-size: 17pt;
+  font-size: 18pt;
 }
 q {
-  font-size: 15pt;
+  font-size: 16pt;
 }
 .firechickenwebring {
   padding: 30px;
@@ -111,6 +111,7 @@ footer {
 /* for phones */
 @media (max-width: 600px) {
   body {
+    font-family: "Times New Roman", Times, serif; 
     font-size: 0.9em;
     padding-left: 24px;
     padding-right: 24px;

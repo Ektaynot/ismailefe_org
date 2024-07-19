@@ -25,7 +25,7 @@
 #+END_EXPORT
 
 * Education
-- *[2022 - Present]* Middle East Technical University - Foreign Language Education (First Year)
+- *[2022 - Present]* Middle East Technical University - Foreign Language Education (Second Year)
   - *CumGPA: 3.55*
 
     #+begin_export html
@@ -44,6 +44,8 @@
 - *[2023 - Present]* Translation for Open-Source Apps
 
   - *Job Description:* Translated apps such as [[https://obsproject.com/][OBS]], [[https://iina.io/][IINA]], [[https://ryujinx.org/][Ryujinx]], and [[https://getwhisky.app/][Whisky]] from English to Turkish via [[https://crowdin.com/][Crowdin]].
+
+    I am also a part of the [[https://localize.proton.me/][Proton Localization Community]]. In this community, I am responsible for translating all of the [[https://proton.me/][Proton Suite]] to Turkish.
 
 -----
 

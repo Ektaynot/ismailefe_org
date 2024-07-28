@@ -1,24 +1,28 @@
+#!/usr/bin/env python3
+
 import glob
 import os
 
-home_dir = os.path.expanduser("~")
-project_dir = "ismailefe_org/"
+full_project_dir = os.path.expanduser("~/ismailefe_org/")
 
 website_url = "https://ismailefe.org/"
 
 sitemap_list = []
-excluded = ["etc/","src/"]
 
-# included: *.html, feed.xml
-for name in glob.glob('/Users/ismailefetop/ismailefe_org/**/*.html', recursive = True): 
-    name = name.replace(f'{home_dir}/{project_dir}',website_url)
-    if f"{website_url}etc/" not in name and f"{website_url}src/" not in name and "index.html" in name:
-        sitemap_list.append(name[0:name.rindex("/")+1])
+# included: **/index.html, feed.xml
+for name in glob.glob(full_project_dir + "**/index.html", recursive=True):
 
-sitemap_list.append(website_url+"feed.xml")        
+    name = name.replace(full_project_dir, website_url)
 
-with open(f"{home_dir}/{project_dir}sitemap.txt", "w") as file:
+    if (website_url + "etc/") not in name and (website_url + "src/") not in name:
+        sitemap_list.append(name[0 : name.rindex("/") + 1])
+
+
+sitemap_list.append(website_url + "feed.xml")
+
+with open(full_project_dir + "sitemap.txt", "w") as file:
     for i in sitemap_list:
-        file.write(i+"\n")
+        file.write(i + "\n")
 
-print(sitemap_list)
+# print(sitemap_list)
+

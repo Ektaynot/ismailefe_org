@@ -1,13 +1,13 @@
+Sitemap: https://ismailefe.org/sitemap.txt
+
 User-agent: Googlebot
 Disallow: /nogooglebot/
 
 User-agent: *
-Allow: /
+Allow: *.html
 Disallow: /now/archive/*
 Disallow: /etc/
 Disallow: /src/
 Disallow: *.docx
 Disallow: *.pdf
 Disallow: *.doc
-
-Sitemap: https://ismailefe.org/sitemap.xml

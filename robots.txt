@@ -11,3 +11,12 @@ Disallow: /src/
 Disallow: *.docx
 Disallow: *.pdf
 Disallow: *.doc
+Disallow: *.png
+Disallow: *.jpeg
+Disallow: *.jpg
+Disallow: *.PNG
+Disallow: *.JPEG
+Disallow: *.JPG
+Disallow: *.gif
+Disallow: *.mp4
+Disallow: *.mkv

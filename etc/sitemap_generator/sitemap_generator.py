@@ -9,7 +9,6 @@ website_url = "https://ismailefe.org/"
 
 sitemap_list = []
 
-# included: **/index.html, feed.xml
 for name in glob.glob(full_project_dir + "**/index.html", recursive=True):
 
     name = name.replace(full_project_dir, website_url)
@@ -23,6 +22,3 @@ sitemap_list.append(website_url + "feed.xml")
 with open(full_project_dir + "sitemap.txt", "w") as file:
     for i in sitemap_list:
         file.write(i + "\n")
-
-# print(sitemap_list)
-

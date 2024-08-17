@@ -1,0 +1,86 @@
+#+TITLE: Why Use Emacs?
+#+AUTHOR: İsmail Efe Top
+#+DATE: 2024-07-14
+#+LANGUAGE: en
+#+DESCRIPTION: A deep dive into my use-case for Emacs and it's limitations.
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <meta name="theme-color" content="#fffcf0">
+#+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
+This article is about the my relationship with Emacs. Emacs is a 48 year old text editor. It still gets updated regularly and has a thriving community that continuously grows. It's main selling point is how extensible it is. You can change any of it's part using [[https://en.wikipedia.org/wiki/Emacs_Lisp?useskin=vector][Emacs Lisp]]. That is all you need to know to read this article as I will talk about all of this in detail.
+
+#+begin_export html
+<div style="max-width: fit-content; margin-left: auto; margin-right: auto">
+      <img src="ivy.png" width="250px" />
+    </div>
+#+end_export
+
+I envy people who can just pick up a tool and start using it right away without the constant need to perfect it. Small imperfections distract me, and my mind sways away to solve it. This usually prevents me from getting work done.
+
+Up until 2022, I would start writing something in a random text editor, notice a behavior I wanted to change or disable, search it for a few minutes on how to change it, change it (if it were possible), and repeat this cycle every 20 minutes. A couple days later, I would find an unchangeable behavior that is a deal-breaker and try to find a new text editor.
+
+This continued until I started considering Emacs as a serious solution to my needs. I learned the existence of Emacs in 2019 thanks to a [[https://www.youtube.com/watch?v=Y8koAgkBEnM][DistroTube video]]. After a few months, I tried Doom Emacs, a kind of a starter-pack config, and couldn't see the point of using it as I didn't need anything other than a simple code editor at the time.
+
+In 2022, for reasons I sadly do not remember, I gave Doom Emacs another try. This time was a lot better. My university lessons were getting serious and I needed a way to take notes efficiently and distribute them as I needed. As an added bonus I was really deep into vim motions and Doom Emacs was built around [[https://github.com/emacs-evil/evil][evil-mode]], which "emulates the main features of Vim".
+
+It took me around a year to get completely comfortable and I no longer feel the need to tweak [[https://github.com/ektaynot/doom][my config]] frequently. But I should note that learning Emacs is a journey with no end. Every day I learn something new about Emacs.
+
+Firstly, I want to give a brief explanation to what Emacs is for me, then talk about the limitations, and finally list the reasons why I like it so much.
+
+For me, Emacs is a text editor that is infinitely extendable, keyboard-driven, modular, and immortal. It's basically a bunch of elisp file taped together. The best part is you can tape your own elisp code easily and it works as though it was always there. There is no "Emacs talks to your elisp code", your code is Emacs.
+
+Emacs can easily be the best text editor, coding environment, or a Frankenstein that adapts to your workflow. For example, I turned Emacs into the ultimate writing environment that spellchecks, organizes, and converts my notes into beautiful word documents with custom styling or functional sites with html and css code bundled.
+
+* Limitations
+
+Before I get into more about the reasons I use it, I want to talk about it's limitations so that you can see if there are any deal-breakers.
+
+** Learning curve
+
+For most people, Emacs won't be perfect out of the box. There will be tons of stuff that won't work for you. And to change those things you will need to read a lot of documentations, discussions, and github issues. Lisp is a foreign language for most people under 40 (no offense). And learning such a alien language for customizing a text editor might be too much. Even if you don't mind tackling a new language, investing such a big time might be a deal-breaker for you.
+
+There are a lot of good videos, documentation etc. But the main issue is how much it takes time to perfect it. Because the options are limitless, there are a lot of cool stuff you can do and you find yourself taken away by your creativity to execute those ideas. I have lots of cool functions that do bunch of useful things -I will talk about them in a bit-.
+
+Don't get me wrong, it definitely pays of exponentially. But if you are in the middle of a busy school year or you are working a really busy job, I would recommend you to start learning it when you have a time off.
+
+** Things breaking
+
+Things sadly break a lot when you are a beginner. Most of the time it turns out the be your fault and you have a general idea of how to solve it. The worst is when an update breaks things. There are times when you don't know what caused to issue and there are times that even if you know what caused the issue, you don't know how to fix it. This rarely happens but, it really sucks when it happens.
+
+A lot of the breakage goes away or becomes really minor when you have experience. But sadly, even the most seasoned among us experience these things.
+
+** Not great to use on mobile
+
+While nobody codes on their phone seriously, a lot of people take notes on their phone. Emacs has a wonderful mode called [[https://orgmode.org/][Org]]. Org-mode is awesome for note-taking, schedule managing, and literate programming. I will get into more detail later.
+
+Wanting to access your shopping list or any other note is important. And accessing them from your phone is not the best. While there are tons of org-mode apps for android and a couple for iOS, you can only do so much. Creating a system that works for you with small stuff is possible if you invest enough time but I personally gave up and use [[https://bear.app][Bear]] for quick notes and to-do's.
+
+* Why use it
+
+Now comes the fun part. Talking about the positives and what makes Emacs unique.
+
+** Flexibility
+
+You can change a lot of things and I am not talking about changing appearance or ability to add extensions. Almost everything in Emacs is a function in an Elisp file.
+
+There are also major and minor modes that activate according to the buffer you are on. You can combine modes together and create powerful workflows.
+
+You can write functions or packages that talks to core Emacs functions and write anything you can imagine.
+
+When using Vim or Neovim there are some restriction that come from your terminal emulator. But because Emacs is a GUI application you can change the frame without a problem.
+
+In most editors, to change a core functionality, you have to write a package that suppose to follow a large set of guidelines and need to have bunch of formalities. In Emacs you only need an elisp file and load that file at startup. Nothing else.
+
+** Org
+
+Org mode is *"A GNU Emacs major mode for keeping notes, authoring documents, computational notebooks, literate programming, maintaining to-do lists, planning projects, and more — in a fast and effective plain text system."* -[[https://orgmode.org][orgmode.org]]
+
+This is a good definition but I think I can expand more upon this.
+
+Org documents are plain-text files that end with '.org'. Org can be used as a markup language like [[https://www.markdownguide.org/getting-started/][Markdown]], but using it just as a markup language would be a bit narrow. Because Org can help you organize your life with [[https://www.youtube.com/watch?v=8BOiRmjw5aU][org-agenda]], can be an interactive programing notebook like [[https://jupyter.org/][Jupyter]], can help you do literate programming with org blocks, and can replace apps such as Microsoft Word, Microsoft Powerpoint, Mail, Calendar, and much more.
+
+Now that we have a general explanation, I can talk about my personal use-case for Org.

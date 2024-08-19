@@ -26,7 +26,21 @@ h2::before {
   content: "** ";
 }
 
-h1, h2, .author, .date {
+h3::before {
+  font-size: 14pt;
+  color: #76792B;
+  content: "*** ";
+}
+
+h2 {
+  font-size: 24pt;
+}
+
+h3 {
+  font-size: 20pt;
+}
+
+h1, h2, h3, .author, .date {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -123,6 +137,18 @@ footer {
   }
   h1::before {
     font-size: 16pt;
+  }
+  h2 {
+    font-size: 20pt;
+  }
+  h2::before {
+    font-size: 12pt;
+  }
+  h3 {
+    font-size: 18pt;
+  }
+  h3::before {
+    font-size: 12pt;
   }
   p,
   li,

@@ -14,6 +14,7 @@ https://ismailefe.org/blog/plain_text/
 https://ismailefe.org/blog/favorite_themes/
 https://ismailefe.org/blog/good_presentations/
 https://ismailefe.org/blog/rss/
+https://ismailefe.org/blog/why_emacs/
 https://ismailefe.org/blog/best_albums_2023/
 https://ismailefe.org/blog/emacs_functions/
 https://ismailefe.org/blog/writing_tools/

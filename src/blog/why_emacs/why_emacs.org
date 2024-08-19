@@ -1,6 +1,6 @@
 #+TITLE: Why Use Emacs?
 #+AUTHOR: İsmail Efe Top
-#+DATE: 2024-07-14
+#+DATE: 2024-08-19
 #+LANGUAGE: en
 #+DESCRIPTION: A deep dive into my use-case for Emacs and it's limitations.
 
@@ -15,7 +15,7 @@ This article is about the my relationship with Emacs. Emacs is a 48 year old tex
 
 #+begin_export html
 <div style="max-width: fit-content; margin-left: auto; margin-right: auto">
-      <img src="ivy.png" width="250px" />
+      <img src="/blog/why_emacs/ivy.png" width="250px" />
     </div>
 #+end_export
 
@@ -37,19 +37,19 @@ Emacs can easily be the best text editor, coding environment, or a Frankenstein 
 
 * Limitations
 
-Before I get into more about the reasons I use it, I want to talk about it's limitations so that you can see if there are any deal-breakers.
+Before I get into more about the reasons I use it, I want to talk about it's limitations.
 
 ** Learning curve
 
-For most people, Emacs won't be perfect out of the box. There will be tons of stuff that won't work for you. And to change those things you will need to read a lot of documentations, discussions, and github issues. Lisp is a foreign language for most people under 40 (no offense). And learning such a alien language for customizing a text editor might be too much. Even if you don't mind tackling a new language, investing such a big time might be a deal-breaker for you.
+For most people, Emacs won't be perfect out of the box. There will be tons of stuff that won't work for you. And to change those things you will need to read a lot of documentations, discussions, and github issues. Lisp is a foreign language for most people under 40 (no offense). And learning such a alien language for customizing a text editor might be too much. Even if you don't mind tackling a new language, investing such a big time might be a deal-breaker for some.
 
-There are a lot of good videos, documentation etc. But the main issue is how much it takes time to perfect it. Because the options are limitless, there are a lot of cool stuff you can do and you find yourself taken away by your creativity to execute those ideas. I have lots of cool functions that do bunch of useful things -I will talk about them in a bit-.
+There are a lot of good videos, documentation, etc. But the main issue is how much time it takes to perfect it. Because the options are endless, there are a lot of cool stuff you can do and you find yourself taken away by your creativity to execute those ideas. I have lots of cool functions that do bunch of useful things, which I will talk about them in the end.
 
 Don't get me wrong, it definitely pays of exponentially. But if you are in the middle of a busy school year or you are working a really busy job, I would recommend you to start learning it when you have a time off.
 
 ** Things breaking
 
-Things sadly break a lot when you are a beginner. Most of the time it turns out the be your fault and you have a general idea of how to solve it. The worst is when an update breaks things. There are times when you don't know what caused to issue and there are times that even if you know what caused the issue, you don't know how to fix it. This rarely happens but, it really sucks when it happens.
+Things sadly break a lot when you are a beginner. Most of the time it turns out the be your fault and you have a general idea of how to solve it. The worst is when an update breaks things. There are times when you don't know what caused to issue and there are times that even if you know what caused the issue, you don't know how to fix it. This rarely happens, but really sucks when it does.
 
 A lot of the breakage goes away or becomes really minor when you have experience. But sadly, even the most seasoned among us experience these things.
 
@@ -58,6 +58,8 @@ A lot of the breakage goes away or becomes really minor when you have experience
 While nobody codes on their phone seriously, a lot of people take notes on their phone. Emacs has a wonderful mode called [[https://orgmode.org/][Org]]. Org-mode is awesome for note-taking, schedule managing, and literate programming. I will get into more detail later.
 
 Wanting to access your shopping list or any other note is important. And accessing them from your phone is not the best. While there are tons of org-mode apps for android and a couple for iOS, you can only do so much. Creating a system that works for you with small stuff is possible if you invest enough time but I personally gave up and use [[https://bear.app][Bear]] for quick notes and to-do's.
+
+If you want to try using org notes in mobile, I would recommend [[https://www.orgzly.com/][orgzly]] for Android and [[https://plainorg.com/][Plain Org]] for iOS.
 
 * Why use it
 
@@ -71,16 +73,85 @@ There are also major and minor modes that activate according to the buffer you a
 
 You can write functions or packages that talks to core Emacs functions and write anything you can imagine.
 
-When using Vim or Neovim there are some restriction that come from your terminal emulator. But because Emacs is a GUI application you can change the frame without a problem.
+When using Vim or Neovim, there are some restriction that come from your terminal emulator. But because Emacs is a GUI application, you can have a greater control.
 
-In most editors, to change a core functionality, you have to write a package that suppose to follow a large set of guidelines and need to have bunch of formalities. In Emacs you only need an elisp file and load that file at startup. Nothing else.
+In most editors, to change a core functionality, you have to write a package that needs to follow a large set of guidelines and have bunch of formalities. In Emacs you only need an elisp file and load that file at startup. Nothing else.
 
 ** Org
 
 Org mode is *"A GNU Emacs major mode for keeping notes, authoring documents, computational notebooks, literate programming, maintaining to-do lists, planning projects, and more — in a fast and effective plain text system."* -[[https://orgmode.org][orgmode.org]]
 
-This is a good definition but I think I can expand more upon this.
+This is a good introduction but I think I can expand more upon this.
 
-Org documents are plain-text files that end with '.org'. Org can be used as a markup language like [[https://www.markdownguide.org/getting-started/][Markdown]], but using it just as a markup language would be a bit narrow. Because Org can help you organize your life with [[https://www.youtube.com/watch?v=8BOiRmjw5aU][org-agenda]], can be an interactive programing notebook like [[https://jupyter.org/][Jupyter]], can help you do literate programming with org blocks, and can replace apps such as Microsoft Word, Microsoft Powerpoint, Mail, Calendar, and much more.
+Org documents are plain-text files that end with '.org'. Org can be used as a markup language like [[https://www.markdownguide.org/getting-started/][Markdown]], but using it just as a markup language would be a bit wasteful. Org can help you organize your life with [[https://www.youtube.com/watch?v=8BOiRmjw5aU][org-agenda]], can be an interactive programming notebook like [[https://jupyter.org/][Jupyter]], can help you do literate programming with org blocks, and can replace apps such as Microsoft Word, Microsoft PowerPoint, Mail, Calendar, and much more.
 
 Now that we have a general explanation, I can talk about my personal use-case for Org.
+
+*** Writing class notes and blog posts
+
+Org has the habit of gently pushing you the way of correct note-taking. I know that there is not a single correct way to take notes but I think the default Org behaviors are a pretty general guideline to how you should take notes.
+
+I took notes in Org for two semesters. These two semesters I had tons of different classes and mostly used Org in two ways: taking notes while the teacher speaks and writing long essays about different topics at home.
+
+Thanks to how Org forces you to act in a certain way, the notes I take during classes comes out nicely structured and has no need to do post-cleaning.
+
+And thanks to my Org related functions, I am able to write long essays without leaving Emacs.
+
+*** Exporting
+
+The ability to turn your .org files into .docx, .pdf, and .html files effortlessly might be my favorite functionality. If you give a little bit more effort, you can even export with a custom style-sheet. I have a [[https://ismailefe.org/blog/my_org_pandoc_workflow/][whole post]] talking about this.
+
+*** Literate Programming
+
+While I love the idea of [[https://en.wikipedia.org/wiki/Literate_programming][Literate Programming]], I don't practice it except for one occasion; my [[https://github.com/ektaynot/doom][Doom Emacs config]]. Having a config that explains itself is a godsend for both other people and future you.
+
+You can write notes, add links, and create test areas in an Org file and make it tangle to a proper config file automatically at every save.
+
+*** Packages I use for Org
+
+- I use [[https://github.com/kawabata/ox-pandoc][ox-pandoc]], [[https://github.com/joostkremers/pandoc-mode][pandoc-mode]], and [[https://github.com/tecosaur/org-pandoc-import][org-pandoc-import]] for exporting.
+
+- I use [[https://github.com/andras-simonyi/citeproc-el][citeproc]] and [[https://github.com/jkitchin/org-ref][org-ref]] for biblio. I configured [[https://www.zotero.org/][zotero]] to auto export my bib files and these packages read from those file. So, I can easily add citations and end-texts to my Org documents.
+
+- I use [[https://github.com/yilkalargaw/org-auto-tangle][org-auto-tangle]] for tangling my config.org file.
+
+** Evil-mode
+
+I mentioned evil-mode in the beginning but I can't emphasize how important it is for me. I have the complete power of vim inside Emacs. I can create macros and use all of the keybindings without any configuration thanks to [[https://github.com/doomemacs/doomemacs][Doom Emacs]]. Without evil-mode, I would have probably give up learning Emacs.
+
+** My custom functions
+
+I have tons of functions that are mostly written by me and ChatGPT. Emacs community doesn't really condone the use of AI in general but I recommend the use of AI to beginners with the condition that they should question and research the output. AI can be dumb and give you bad code. Always ask for it to break down the output and validate the end result yourself while looking at documentation. After a certain point you should be able to write small functions and then you don't have to ask AI for a whole function but just help with small parts. I think this is the best way to approach learning elisp to configure Emacs. Here is a list of my most-used functions. -You can see the code in [[https://github.com/Ektaynot/doom/blob/master/config.org#functions][my config.org]] under the functions heading.-
+
+- *efe/google-current-word:* This is a function that googles the word at point and opens it in your default browser. I use this when I encounter a new concept or when I misspell a word so hard that only Google knows what I mean.
+
+- *efe/first-result-url:* Gives the word at point to a script called [[https://gist.github.com/Ektaynot/46681539aa1c030b3a58986e7f3df397][firstresult]]. This in turn copies the first result from a google search. Really useful when you want to create a hyperlink and need a link to the github repo or the official website without opening your browser.
+
+- *efe/tureng-(turkish/english):* [[https://tureng.com/tr/turkce-ingilizce][Tureng]] is a community driven dictionary. I use this function to look at different meanings of a word. It displays 10 different meanings in the echo area and goes away when you press anything. Sadly, I can't share how I get the results as it may or may not breach the user agreement.
+
+- *efe/open(-project)-in-vscode:* Pretty self-explanatory, either opens the file or the project in VS Code. It uses the doom-modeline--project-root variable, so the function might not work in vanilla Emacs.
+
+There are more functions in my config.org, feel free to check it out.
+
+* Closing Words
+
+Thanks for reading my Emacs propaganda. I love this program so much that I feel the constant need to talk about it.
+
+I really feel like everyone can benefit from using Emacs. It just takes time a long time to be efficient in it.
+
+Feel free to reach to me about anything via email.
+
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
+#+END_EXPORT

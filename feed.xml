@@ -6,7 +6,362 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 12 Jul 2024 22:12:30 +0300</lastBuildDate>
+<lastBuildDate>Mon, 19 Aug 2024 15:55:32 +0300</lastBuildDate>
+<item>
+  <title>Why Use Emacs?</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
+<header id="title-block-header">
+<h1 class="title">Why Use Emacs?</h1>
+<p class="author">İsmail Efe Top</p>
+<p class="date">2024-08-19</p>
+</header>
+<p>
+      This article is about the my relationship with Emacs. Emacs is a 48 year
+      old text editor. It still gets updated regularly and has a thriving
+      community that continuously grows. It's main selling point is how
+      extensible it is. You can change any of it's part using
+      <a href="https://en.wikipedia.org/wiki/Emacs_Lisp?useskin=vector">Emacs Lisp</a>. That is all you need to know to read this article as I will talk about
+      all of this in detail.
+    </p>
+<div style="max-width: fit-content; margin-left: auto; margin-right: auto">
+<img src="/blog/why_emacs/ivy.png" width="250px"/>
+</div>
+<p>
+      I envy people who can just pick up a tool and start using it right away
+      without the constant need to perfect it. Small imperfections distract me,
+      and my mind sways away to solve it. This usually prevents me from getting
+      work done.
+    </p>
+<p>
+      Up until 2022, I would start writing something in a random text editor,
+      notice a behavior I wanted to change or disable, search it for a few
+      minutes on how to change it, change it (if it were possible), and repeat
+      this cycle every 20 minutes. A couple days later, I would find an
+      unchangeable behavior that is a deal-breaker and try to find a new text
+      editor.
+    </p>
+<p>
+      This continued until I started considering Emacs as a serious solution to
+      my needs. I learned the existence of Emacs in 2019 thanks to a
+      <a href="https://www.youtube.com/watch?v=Y8koAgkBEnM">DistroTube video</a>. After a few months, I tried Doom Emacs, a kind of a starter-pack
+      config, and couldn't see the point of using it as I didn't need anything
+      other than a simple code editor at the time.
+    </p>
+<p>
+      In 2022, for reasons I sadly do not remember, I gave Doom Emacs another
+      try. This time was a lot better. My university lessons were getting
+      serious and I needed a way to take notes efficiently and distribute them
+      as I needed. As an added bonus I was really deep into vim motions and Doom
+      Emacs was built around
+      <a href="https://github.com/emacs-evil/evil">evil-mode</a>, which
+      "emulates the main features of Vim".
+    </p>
+<p>
+      It took me around a year to get completely comfortable and I no longer
+      feel the need to tweak
+      <a href="https://github.com/ektaynot/doom">my config</a> frequently. But I
+      should note that learning Emacs is a journey with no end. Every day I
+      learn something new about Emacs.
+    </p>
+<p>
+      Firstly, I want to give a brief explanation to what Emacs is for me, then
+      talk about the limitations, and finally list the reasons why I like it so
+      much.
+    </p>
+<p>
+      For me, Emacs is a text editor that is infinitely extendable,
+      keyboard-driven, modular, and immortal. It's basically a bunch of elisp
+      file taped together. The best part is you can tape your own elisp code
+      easily and it works as though it was always there. There is no "Emacs
+      talks to your elisp code", your code is Emacs.
+    </p>
+<p>
+      Emacs can easily be the best text editor, coding environment, or a
+      Frankenstein that adapts to your workflow. For example, I turned Emacs
+      into the ultimate writing environment that spellchecks, organizes, and
+      converts my notes into beautiful word documents with custom styling or
+      functional sites with html and css code bundled.
+    </p>
+<h1 id="limitations">Limitations</h1>
+<p>
+      Before I get into more about the reasons I use it, I want to talk about
+      it's limitations.
+    </p>
+<h2 id="learning-curve">Learning curve</h2>
+<p>
+      For most people, Emacs won't be perfect out of the box. There will be tons
+      of stuff that won't work for you. And to change those things you will need
+      to read a lot of documentations, discussions, and github issues. Lisp is a
+      foreign language for most people under 40 (no offense). And learning such
+      a alien language for customizing a text editor might be too much. Even if
+      you don't mind tackling a new language, investing such a big time might be
+      a deal-breaker for some.
+    </p>
+<p>
+      There are a lot of good videos, documentation, etc. But the main issue is
+      how much time it takes to perfect it. Because the options are endless,
+      there are a lot of cool stuff you can do and you find yourself taken away
+      by your creativity to execute those ideas. I have lots of cool functions
+      that do bunch of useful things, which I will talk about them in the end.
+    </p>
+<p>
+      Don't get me wrong, it definitely pays of exponentially. But if you are in
+      the middle of a busy school year or you are working a really busy job, I
+      would recommend you to start learning it when you have a time off.
+    </p>
+<h2 id="things-breaking">Things breaking</h2>
+<p>
+      Things sadly break a lot when you are a beginner. Most of the time it
+      turns out the be your fault and you have a general idea of how to solve
+      it. The worst is when an update breaks things. There are times when you
+      don't know what caused to issue and there are times that even if you know
+      what caused the issue, you don't know how to fix it. This rarely happens,
+      but really sucks when it does.
+    </p>
+<p>
+      A lot of the breakage goes away or becomes really minor when you have
+      experience. But sadly, even the most seasoned among us experience these
+      things.
+    </p>
+<h2 id="not-great-to-use-on-mobile">Not great to use on mobile</h2>
+<p>
+      While nobody codes on their phone seriously, a lot of people take notes on
+      their phone. Emacs has a wonderful mode called
+      <a href="https://orgmode.org/">Org</a>. Org-mode is awesome for
+      note-taking, schedule managing, and literate programming. I will get into
+      more detail later.
+    </p>
+<p>
+      Wanting to access your shopping list or any other note is important. And
+      accessing them from your phone is not the best. While there are tons of
+      org-mode apps for android and a couple for iOS, you can only do so much.
+      Creating a system that works for you with small stuff is possible if you
+      invest enough time but I personally gave up and use
+      <a href="https://bear.app">Bear</a> for quick notes and to-do's.
+    </p>
+<p>
+      If you want to try using org notes in mobile, I would recommend
+      <a href="https://www.orgzly.com/">orgzly</a> for Android and
+      <a href="https://plainorg.com/">Plain Org</a> for iOS.
+    </p>
+<h1 id="why-use-it">Why use it</h1>
+<p>
+      Now comes the fun part. Talking about the positives and what makes Emacs
+      unique.
+    </p>
+<h2 id="flexibility">Flexibility</h2>
+<p>
+      You can change a lot of things and I am not talking about changing
+      appearance or ability to add extensions. Almost everything in Emacs is a
+      function in an Elisp file.
+    </p>
+<p>
+      There are also major and minor modes that activate according to the buffer
+      you are on. You can combine modes together and create powerful workflows.
+    </p>
+<p>
+      You can write functions or packages that talks to core Emacs functions and
+      write anything you can imagine.
+    </p>
+<p>
+      When using Vim or Neovim, there are some restriction that come from your
+      terminal emulator. But because Emacs is a GUI application, you can have a
+      greater control.
+    </p>
+<p>
+      In most editors, to change a core functionality, you have to write a
+      package that needs to follow a large set of guidelines and have bunch of
+      formalities. In Emacs you only need an elisp file and load that file at
+      startup. Nothing else.
+    </p>
+<h2 id="org">Org</h2>
+<p>
+      Org mode is
+      <strong>"A GNU Emacs major mode for keeping notes, authoring documents,
+        computational notebooks, literate programming, maintaining to-do lists,
+        planning projects, and more — in a fast and effective plain text
+        system."</strong>
+      -<a href="https://orgmode.org">orgmode.org</a>
+</p>
+<p>This is a good introduction but I think I can expand more upon this.</p>
+<p>
+      Org documents are plain-text files that end with '.org'. Org can be used
+      as a markup language like
+      <a href="https://www.markdownguide.org/getting-started/">Markdown</a>, but
+      using it just as a markup language would be a bit wasteful. Org can help
+      you organize your life with
+      <a href="https://www.youtube.com/watch?v=8BOiRmjw5aU">org-agenda</a>, can
+      be an interactive programming notebook like
+      <a href="https://jupyter.org/">Jupyter</a>, can help you do literate
+      programming with org blocks, and can replace apps such as Microsoft Word,
+      Microsoft PowerPoint, Mail, Calendar, and much more.
+    </p>
+<p>
+      Now that we have a general explanation, I can talk about my personal
+      use-case for Org.
+    </p>
+<h3 id="writing-class-notes-and-blog-posts">
+      Writing class notes and blog posts
+    </h3>
+<p>
+      Org has the habit of gently pushing you the way of correct note-taking. I
+      know that there is not a single correct way to take notes but I think the
+      default Org behaviors are a pretty general guideline to how you should
+      take notes.
+    </p>
+<p>
+      I took notes in Org for two semesters. These two semesters I had tons of
+      different classes and mostly used Org in two ways: taking notes while the
+      teacher speaks and writing long essays about different topics at home.
+    </p>
+<p>
+      Thanks to how Org forces you to act in a certain way, the notes I take
+      during classes comes out nicely structured and has no need to do
+      post-cleaning.
+    </p>
+<p>
+      And thanks to my Org related functions, I am able to write long essays
+      without leaving Emacs.
+    </p>
+<h3 id="exporting">Exporting</h3>
+<p>
+      The ability to turn your .org files into .docx, .pdf, and .html files
+      effortlessly might be my favorite functionality. If you give a little bit
+      more effort, you can even export with a custom style-sheet. I have a
+      <a href="https://ismailefe.org/blog/my_org_pandoc_workflow/">whole post</a>
+      talking about this.
+    </p>
+<h3 id="literate-programming">Literate Programming</h3>
+<p>
+      While I love the idea of
+      <a href="https://en.wikipedia.org/wiki/Literate_programming">Literate Programming</a>, I don't practice it except for one occasion; my
+      <a href="https://github.com/ektaynot/doom">Doom Emacs config</a>. Having a
+      config that explains itself is a godsend for both other people and future
+      you.
+    </p>
+<p>
+      You can write notes, add links, and create test areas in an Org file and
+      make it tangle to a proper config file automatically at every save.
+    </p>
+<h3 id="packages-i-use-for-org">Packages I use for Org</h3>
+<ul>
+<li>
+<p>
+          I use <a href="https://github.com/kawabata/ox-pandoc">ox-pandoc</a>,
+          <a href="https://github.com/joostkremers/pandoc-mode">pandoc-mode</a>,
+          and
+          <a href="https://github.com/tecosaur/org-pandoc-import">org-pandoc-import</a>
+          for exporting.
+        </p>
+</li>
+<li>
+<p>
+          I use
+          <a href="https://github.com/andras-simonyi/citeproc-el">citeproc</a>
+          and <a href="https://github.com/jkitchin/org-ref">org-ref</a> for
+          biblio. I configured <a href="https://www.zotero.org/">zotero</a> to
+          auto export my bib files and these packages read from those file. So,
+          I can easily add citations and end-texts to my Org documents.
+        </p>
+</li>
+<li>
+<p>
+          I use
+          <a href="https://github.com/yilkalargaw/org-auto-tangle">org-auto-tangle</a>
+          for tangling my config.org file.
+        </p>
+</li>
+</ul>
+<h2 id="evil-mode">Evil-mode</h2>
+<p>
+      I mentioned evil-mode in the beginning but I can't emphasize how important
+      it is for me. I have the complete power of vim inside Emacs. I can create
+      macros and use all of the keybindings without any configuration thanks to
+      <a href="https://github.com/doomemacs/doomemacs">Doom Emacs</a>. Without
+      evil-mode, I would have probably give up learning Emacs.
+    </p>
+<h2 id="my-custom-functions">My custom functions</h2>
+<p>
+      I have tons of functions that are mostly written by me and ChatGPT. Emacs
+      community doesn't really condone the use of AI in general but I recommend
+      the use of AI to beginners with the condition that they should question
+      and research the output. AI can be dumb and give you bad code. Always ask
+      for it to break down the output and validate the end result yourself while
+      looking at documentation. After a certain point you should be able to
+      write small functions and then you don't have to ask AI for a whole
+      function but just help with small parts. I think this is the best way to
+      approach learning elisp to configure Emacs. Here is a list of my most-used
+      functions. -You can see the code in
+      <a href="https://github.com/Ektaynot/doom/blob/master/config.org#functions">my config.org</a>
+      under the functions heading.-
+    </p>
+<ul>
+<li>
+<p>
+<strong>efe/google-current-word:</strong> This is a function that
+          googles the word at point and opens it in your default browser. I use
+          this when I encounter a new concept or when I misspell a word so hard
+          that only Google knows what I mean.
+        </p>
+</li>
+<li>
+<p>
+<strong>efe/first-result-url:</strong> Gives the word at point to a
+          script called
+          <a href="https://gist.github.com/Ektaynot/46681539aa1c030b3a58986e7f3df397">firstresult</a>. This in turn copies the first result from a google search. Really
+          useful when you want to create a hyperlink and need a link to the
+          github repo or the official website without opening your browser.
+        </p>
+</li>
+<li>
+<p>
+<strong>efe/tureng-(turkish/english):</strong>
+<a href="https://tureng.com/tr/turkce-ingilizce">Tureng</a> is a
+          community driven dictionary. I use this function to look at different
+          meanings of a word. It displays 10 different meanings in the echo area
+          and goes away when you press anything. Sadly, I can't share how I get
+          the results as it may or may not breach the user agreement.
+        </p>
+</li>
+<li>
+<p>
+<strong>efe/open(-project)-in-vscode:</strong> Pretty
+          self-explanatory, either opens the file or the project in VS Code. It
+          uses the doom-modeline–project-root variable, so the function might
+          not work in vanilla Emacs.
+        </p>
+</li>
+</ul>
+<p>There are more functions in my config.org, feel free to check it out.</p>
+<h1 id="closing-words">Closing Words</h1>
+<p>
+      Thanks for reading my Emacs propaganda. I love this program so much that I
+      feel the constant need to talk about it.
+    </p>
+<p>
+      I really feel like everyone can benefit from using Emacs. It just takes
+      time a long time to be efficient in it.
+    </p>
+<p>Feel free to reach to me about anything via email.</p>
+<div class="bottom-header">
+<a class="bottom-header-link" href="/">Home</a>
+<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
+<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
+</div>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/why_emacs/index.html</link>
+  <guid>https://ismailefe.org/blog/why_emacs/index.html</guid>
+  <pubDate>Mon, 19 Aug 2024 00:00:00 +0300</pubDate>
+</item>
+
 <item>
   <title>My Writing Tools</title>
   <description><![CDATA[<!DOCTYPE html>

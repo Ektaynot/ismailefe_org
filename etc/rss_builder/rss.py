@@ -5,7 +5,8 @@ from bs4 import BeautifulSoup
 
 system_header = "/Users/ismailefetop/ismailefe_org"
 website_header= "https://ismailefe.org"
-blog_posts = ["/blog/writing_tools/index.html",
+blog_posts = ["/blog/why_emacs/index.html",
+            "/blog/writing_tools/index.html",
             "/blog/hobbies/index.html",
             "/blog/my_org_pandoc_workflow/index.html",
             "/blog/arc_and_firefox/index.html",

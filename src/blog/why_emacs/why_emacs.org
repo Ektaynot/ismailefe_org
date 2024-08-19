@@ -11,7 +11,7 @@
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 #+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
 
-This article is about the my relationship with Emacs. Emacs is a 48 year old text editor. It still gets updated regularly and has a thriving community that continuously grows. It's main selling point is how extensible it is. You can change any of it's part using [[https://en.wikipedia.org/wiki/Emacs_Lisp?useskin=vector][Emacs Lisp]]. That is all you need to know to read this article as I will talk about all of this in detail.
+This article is about my relationship with Emacs as a 20 year old college student. First of all, Emacs is a text editor that has been around for a really long time, 48 years to be exact. It still gets updated regularly and has a thriving community that continuously grows. The main selling point of Emacs is how extensible it is. You can change any of it's part using [[https://en.wikipedia.org/wiki/Emacs_Lisp?useskin=vector][Emacs Lisp]]. That is all you need to know to read this article as I will talk about all of this in detail.
 
 #+begin_export html
 <div style="max-width: fit-content; margin-left: auto; margin-right: auto">
@@ -41,7 +41,7 @@ Before I get into more about the reasons I use it, I want to talk about it's lim
 
 ** Learning curve
 
-For most people, Emacs won't be perfect out of the box. There will be tons of stuff that won't work for you. And to change those things you will need to read a lot of documentations, discussions, and github issues. Lisp is a foreign language for most people under 40 (no offense). And learning such a alien language for customizing a text editor might be too much. Even if you don't mind tackling a new language, investing such a big time might be a deal-breaker for some.
+For most people, Emacs won't be perfect out of the box. There will be tons of stuff that won't work for you. And to change those things you will need to read a lot of documentations, discussions, and github issues. Lisp is a foreign language for most people and learning such a alien language for customizing a text editor might be too much. Even if you don't mind tackling a new language, investing such a big time might be a deal-breaker for some.
 
 There are a lot of good videos, documentation, etc. But the main issue is how much time it takes to perfect it. Because the options are endless, there are a lot of cool stuff you can do and you find yourself taken away by your creativity to execute those ideas. I have lots of cool functions that do bunch of useful things, which I will talk about them in the end.
 
@@ -49,7 +49,7 @@ Don't get me wrong, it definitely pays of exponentially. But if you are in the m
 
 ** Things breaking
 
-Things sadly break a lot when you are a beginner. Most of the time it turns out the be your fault and you have a general idea of how to solve it. The worst is when an update breaks things. There are times when you don't know what caused to issue and there are times that even if you know what caused the issue, you don't know how to fix it. This rarely happens, but really sucks when it does.
+Things sadly break a lot when you are a beginner. Most of the time it turns out the be your fault and you have a general idea of how to solve it. The worst is when an update breaks things. This usually happens when you install a lot of third-party packages. There are times when you don't know what caused the issue and there are times that even if you know what caused the issue, you don't know how to fix it. This rarely happens, but really sucks when it does.
 
 A lot of the breakage goes away or becomes really minor when you have experience. But sadly, even the most seasoned among us experience these things.
 
@@ -73,7 +73,13 @@ There are also major and minor modes that activate according to the buffer you a
 
 You can write functions or packages that talks to core Emacs functions and write anything you can imagine.
 
-When using Vim or Neovim, there are some restriction that come from your terminal emulator. But because Emacs is a GUI application, you can have a greater control.
+When using Vim or Neovim, there are some restriction that come from your terminal emulator. But because Emacs is a GUI application, you can have a greater control. For example, I like my text editor to look minimalistic as much as possible. To achieve this, I disabled line numbers, titlebar decoration, highlighting of the current line, and much more.
+
+Here is the final result:
+
+#+begin_export html
+<img src="/blog/why_use_emacs/emacs.png"/>
+#+end_export
 
 In most editors, to change a core functionality, you have to write a package that needs to follow a large set of guidelines and have bunch of formalities. In Emacs you only need an elisp file and load that file at startup. Nothing else.
 

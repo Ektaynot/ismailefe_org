@@ -6,7 +6,7 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 19 Aug 2024 15:55:32 +0300</lastBuildDate>
+<lastBuildDate>Mon, 19 Aug 2024 16:04:49 +0300</lastBuildDate>
 <item>
   <title>Why Use Emacs?</title>
   <description><![CDATA[<!DOCTYPE html>
@@ -25,7 +25,7 @@
       all of this in detail.
     </p>
 <div style="max-width: fit-content; margin-left: auto; margin-right: auto">
-<img src="/blog/why_emacs/ivy.png" width="250px"/>
+<img src="/blog/why_use_emacs/ivy.png" width="250px"/>
 </div>
 <p>
       I envy people who can just pick up a tool and start using it right away
@@ -357,8 +357,8 @@
 </div>
 </body></html>]]></description>
   <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
-  <link>https://ismailefe.org/blog/why_emacs/index.html</link>
-  <guid>https://ismailefe.org/blog/why_emacs/index.html</guid>
+  <link>https://ismailefe.org/blog/why_use_emacs/index.html</link>
+  <guid>https://ismailefe.org/blog/why_use_emacs/index.html</guid>
   <pubDate>Mon, 19 Aug 2024 00:00:00 +0300</pubDate>
 </item>
 

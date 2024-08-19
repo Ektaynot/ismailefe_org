@@ -6,7 +6,7 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 19 Aug 2024 18:52:52 +0300</lastBuildDate>
+<lastBuildDate>Mon, 19 Aug 2024 22:22:53 +0300</lastBuildDate>
 <item>
   <title>Why Use Emacs?</title>
   <description><![CDATA[<!DOCTYPE html>
@@ -46,9 +46,10 @@
 <p>
       This continued until I started considering Emacs as a serious solution to
       my needs. I learned the existence of Emacs in 2019 thanks to a
-      <a href="https://www.youtube.com/watch?v=Y8koAgkBEnM">DistroTube video</a>. After a few months, I tried Doom Emacs, a kind of a starter-pack
-      config, and couldn't see the point of using it as I didn't need anything
-      other than a simple code editor at the time.
+      <a href="https://www.youtube.com/watch?v=Y8koAgkBEnM">DistroTube video</a>. After a few months, I tried
+      <a href="https://github.com/doomemacs/doomemacs">Doom Emacs</a>, a kind of
+      a starter-pack config, and couldn't see the point of using it as I didn't
+      need anything other than a simple code editor at the time.
     </p>
 <p>
       In 2022, for reasons I sadly do not remember, I gave Doom Emacs another
@@ -95,7 +96,7 @@
       For most people, Emacs won't be perfect out of the box. There will be tons
       of stuff that won't work for you. And to change those things you will need
       to read a lot of documentations, discussions, and github issues. Lisp is a
-      foreign language for most people and learning such a alien language for
+      foreign language for most people and learning such an alien language for
       customizing a text editor might be too much. Even if you don't mind
       tackling a new language, investing such a big time might be a deal-breaker
       for some.

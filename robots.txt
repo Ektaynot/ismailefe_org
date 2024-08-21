@@ -4,7 +4,6 @@ User-agent: Googlebot
 Disallow: /nogooglebot/
 
 User-agent: *
-Allow: *.html
 Disallow: /now/archive/*
 Disallow: /etc/
 Disallow: /src/

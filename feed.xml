@@ -6,7 +6,7 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 19 Aug 2024 22:22:53 +0300</lastBuildDate>
+<lastBuildDate>Wed, 21 Aug 2024 13:04:16 +0300</lastBuildDate>
 <item>
   <title>Why Use Emacs?</title>
   <description><![CDATA[<!DOCTYPE html>
@@ -23,9 +23,13 @@
       and has a thriving community that continuously grows. The main selling
       point of Emacs is how extensible it is. You can change any of it's part
       using
-      <a href="https://en.wikipedia.org/wiki/Emacs_Lisp?useskin=vector">Emacs Lisp</a>. That is all you need to know to read this article as I will talk about
-      all of this in detail.
+      <a href="https://en.wikipedia.org/wiki/Emacs_Lisp?useskin=vector">Emacs Lisp</a>.
     </p>
+<p>
+      That is all you need to know to read this article as I will talk about all
+      of this in detail.
+    </p>
+<br/>
 <div style="max-width: fit-content; margin-left: auto; margin-right: auto">
 <img src="/blog/why_use_emacs/ivy.png" width="250px"/>
 </div>

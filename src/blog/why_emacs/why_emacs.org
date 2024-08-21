@@ -11,9 +11,12 @@
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 #+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
 
-This article is about my relationship with Emacs as a 20 year old college student. First of all, Emacs is a text editor that has been around for a really long time, 48 years to be exact. It still gets updated regularly and has a thriving community that continuously grows. The main selling point of Emacs is how extensible it is. You can change any of it's part using [[https://en.wikipedia.org/wiki/Emacs_Lisp?useskin=vector][Emacs Lisp]]. That is all you need to know to read this article as I will talk about all of this in detail.
+This article is about my relationship with Emacs as a 20 year old college student. First of all, Emacs is a text editor that has been around for a really long time, 48 years to be exact. It still gets updated regularly and has a thriving community that continuously grows. The main selling point of Emacs is how extensible it is. You can change any of it's part using [[https://en.wikipedia.org/wiki/Emacs_Lisp?useskin=vector][Emacs Lisp]].
+
+That is all you need to know to read this article as I will talk about all of this in detail.
 
 #+begin_export html
+<br>
 <div style="max-width: fit-content; margin-left: auto; margin-right: auto">
       <img src="/blog/why_use_emacs/ivy.png" width="250px" />
     </div>

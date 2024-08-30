@@ -6,6 +6,7 @@
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
 
 This page contains bits of information that I collected from various sources. It's going to keep evolving over time.
 
@@ -19,16 +20,15 @@ This page contains bits of information that I collected from various sources. It
 
 + "Kindness without honesty is manipulative, inauthentic, disconnecting. Honesty without kindness is cruel, arrogant, disconnecting." - Bryan Reeves
 
++ "Still water smells." - Erman Çağlar
+
+
 #+BEGIN_EXPORT html
 <div class="bottom-header">
   <a class="bottom-header-link" href="/">Home</a>
-  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link"
-    >Mail Me</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
   <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
-  <a
-    class="bottom-header-link"
-    href="https://github.com/Ektaynot/ismailefe_org"
-    target="_blank">Source</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
 </div>
 <div class="firechickenwebring">
   <a href="https://firechicken.club/efe/prev">←</a>

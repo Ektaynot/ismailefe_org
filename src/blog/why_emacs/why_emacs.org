@@ -18,7 +18,7 @@ That is all you need to know to read this article as I will talk about all of th
 #+begin_export html
 <br>
 <div style="max-width: fit-content; margin-left: auto; margin-right: auto">
-      <img src="/blog/why_use_emacs/ivy.png" width="250px" />
+      <img src="/blog/why_use_emacs/ivy.png" width="250px" alt="A drawing of an ivy." />
     </div>
 #+end_export
 
@@ -81,7 +81,7 @@ When using Vim or Neovim, there are some restriction that come from your termina
 Here is the final result:
 
 #+begin_export html
-<img src="/blog/why_use_emacs/emacs.webp"/>
+<img src="/blog/why_use_emacs/emacs.webp" alt="An image of my Emacs window."/>
 #+end_export
 
 In most editors, to change a core functionality, you have to write a package that needs to follow a large set of guidelines and have bunch of formalities. In Emacs you only need an elisp file and load that file at startup. Nothing else.

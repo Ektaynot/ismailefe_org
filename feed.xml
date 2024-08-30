@@ -180,7 +180,7 @@
       decoration, highlighting of the current line, and much more.
     </p>
 <p>Here is the final result:</p>
-<img src="/blog/why_use_emacs/emacs.png"/>
+<img src="/blog/why_use_emacs/emacs.webp"/>
 <p>
       In most editors, to change a core functionality, you have to write a
       package that needs to follow a large set of guidelines and have bunch of
@@ -2242,7 +2242,7 @@ Couplet;Two lines of poetry at the end of a sonnet, that have the same length an
       polished and looks great, nothing to complain.
     </p>
 <h1 id="kanagawa">Kanagawa</h1>
-<img alt="Image of Emacs, my writing and reading app." src="/blog/favorite_themes/pics/emacs.png"/>
+<img alt="Image of Emacs, my writing and reading app." src="/blog/favorite_themes/pics/emacs.webp"/>
 <ul>
 <li>
 <a href="https://github.com/meritamen/emacs-kanagawa-theme/blob/master/kanagawa-theme.el">Kanagawa Repo</a>

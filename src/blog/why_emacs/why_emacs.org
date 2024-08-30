@@ -81,7 +81,7 @@ When using Vim or Neovim, there are some restriction that come from your termina
 Here is the final result:
 
 #+begin_export html
-<img src="/blog/why_use_emacs/emacs.png"/>
+<img src="/blog/why_use_emacs/emacs.webp"/>
 #+end_export
 
 In most editors, to change a core functionality, you have to write a package that needs to follow a large set of guidelines and have bunch of formalities. In Emacs you only need an elisp file and load that file at startup. Nothing else.

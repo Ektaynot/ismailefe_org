@@ -56,12 +56,12 @@
 }
 
 :root {
-  --hyperlink-color: rgb(64, 119, 183);
-  --hyperlink-hover-color: rgb(203, 72, 64);
+  --hyperlink-color: #0C58A0;
+  --hyperlink-hover-color: #cb4840;
 }
 
 html {
-  color: rgb(16, 15, 15);
+  color: #100f0f;
   background-color: #fffcf0;
   font-family: "Gentium Plus", serif;
   font-weight: 400;

@@ -1,5 +1,12 @@
 * İsmail Efe's Blog Site
 
-This site is for my enjoyment, I plan to release various creative content such as blog posts, class notes, and in the future the pictures I took.
+This site is the representation of myself on the internet. I post my thoughts and experiments on here. My main goals are making useful/educational content and putting my thoughts into the world.
+-----
+
+I avoid using javascript as much as possible. That's why I only have javascript [[https://ismailefe.org/photos/][on my Photos Page]], which only adds the ability to expand the photos. The site works perfectly fine without it.
+
+The main css file is in /templates/style.css, I occasionally use extra css files which are mostly on the same page as the index file.
+
+src/ directory contains .org files which are the original files I write to. The .org files get exported to html and then get manually placed to the corresponding folders.
 
 Feel free to explore to your heart's content and if you have any questions reach out to me at [[mailto:ismailefetop@gmail.com][ismailefetop@gmail.com]].

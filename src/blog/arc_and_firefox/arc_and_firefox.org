@@ -33,7 +33,7 @@ I decided to return to my old friend Firefox. I opened it, removed my old profil
 The first thing I noticed was how fast Firefox was compared to Arc. I had became so used to the slowness of Arc that I got really surprised when I switched back. With the excitement of returning to my roots, I began searching for good extensions. Some extensions may really slow down your system and introduce security vulnerabilities. So I tried to be minimal as possible.
 
 - [[https://www.zotero.org/download/connectors][Zotero Connector]] for saving important articles to Zotero
-- [[https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/][Vivium]] for having vim controls on websites
+- [[https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/][Vimium]] for having vim controls on websites
 - [[https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/][uBlock Origin]] for blocking ads and cookies warnings
 - [[https://addons.mozilla.org/tr/firefox/addon/cliget/][cliget]] for having the option to install stuff on the command line via aria2c
 

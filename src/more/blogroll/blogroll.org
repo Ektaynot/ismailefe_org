@@ -4,7 +4,6 @@
 #+HTML_HEAD: <meta name="description" content="Blogs that I recommend" />
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/more/blogroll/blogroll.css" />
 #+HTML_HEAD: <meta name="theme-color" content="#fffcf0">
 #+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -26,6 +25,7 @@ I want to make a blogroll too, but with a little bit flavour. I am going to cate
 - [[https://robinrendle.com/][robinrendle.com]] made by Robin Rendle
 - [[https://drollery.org/][drollery.org]] made by Ian Pringle
 - [[https://julian.digital][julian.digital]] made by Julian Lehr
+- [[https://simone.computer/][simone.computer]] made Simone Marzulli
 
 * Blogs
 - [[https://stephango.com/][stephango.com]] made by Steph Ango
@@ -36,7 +36,7 @@ I want to make a blogroll too, but with a little bit flavour. I am going to cate
 - [[https://blog.jim-nielsen.com/][blog.jim-nielsen.com]] made by Jim Nielsen
 - [[https://marcel.io/][marcel.io]] made by Marcel Wichmann
 - [[https://rknight.me/][rknight.me]] made by Robb Knight
-- [[https://catskull.net/][catskull.net]]
+- [[https://catskull.net/][catskull.net]] made by Dave DeGraw
 
 #+BEGIN_EXPORT html
 <div class="bottom-header">

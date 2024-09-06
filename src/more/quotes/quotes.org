@@ -22,6 +22,7 @@ This page contains bits of information that I collected from various sources. It
 
 + "Still water smells." - Erman Çağlar
 
++ “Everyone is 95% the same, but the last 5% is so unique that it makes everyone distinctly different.” - İsmail Efe Top (That's me👋)
 
 #+BEGIN_EXPORT html
 <div class="bottom-header">

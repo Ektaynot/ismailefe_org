@@ -7,8 +7,6 @@
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 
-#+HTML_HEAD: <title>CV</title>
-
 #+BEGIN_EXPORT html
   <div class="ust-kısım">
   <div class="name">
@@ -26,11 +24,9 @@
 
 * Education
 - *[2022 - Present]* Middle East Technical University - Foreign Language Education (Second Year)
+  #+HTML: <p></p>
   - *CumGPA: 3.55*
 
-    #+begin_export html
-  <p></p>
-      #+end_export
 
 - *[2018 - 2022]* Körfez Atatürk Anadolu High School
 
@@ -49,13 +45,8 @@
 
 -----
 
-#+begin_export html
-<div class="skillsandinterest">
-#+end_export
-
-#+begin_export html
-<div class="skills">
-#+end_export
+#+HTML: <div class="skillsandinterest">
+#+HTML: <div class="skills">
 
 * Skills
 - *Languages*
@@ -63,9 +54,7 @@
   - Turkish - Native Tongue
   - English - C2
 
-#+begin_export html
-<p></p><p></p>
-#+end_export
+#+HTML: <p></p><p></p>
 
 - *Computer Skills*
 
@@ -74,29 +63,26 @@
   - Python, Bash, HTML, and CSS
   - Photoshop and Lightroom
 
-#+begin_export html
-</div>
-#+end_export
-
-#+begin_export html
-<div class="skills">
-#+end_export
+#+HTML: </div>
+#+HTML: <div class="skills">
 
 * Interests
 - Personal Blog Site | [[https://ismailefe.org][ismailefe.org]]
-  - Open-Source Software | [[https://github.com/Ektaynot/][github.com/Ektaynot]]
-  - Graphic Design | Frontend Web Desing and General Photoshop Usage
-  - Writing | [[https://ismailefe.org/all][ismailefe.org/all]]
-#+begin_export html
-<p></p>
-#+end_export
+#+HTML: <p></p>
+
+- Open-Source Software | [[https://github.com/Ektaynot/][github.com/Ektaynot]]
+#+HTML: <p></p>
+
+- Graphic Design | Frontend Web Desing and General Photoshop Usage
+#+HTML: <p></p>
+
+- Writing | [[https://ismailefe.org/all][ismailefe.org/all]]
+#+HTML: <p></p>
+
 - Photography | [[https://ismailefe.org/photos][ismailefe.org/photos]]
 
-#+begin_export html
-</div>
-#+end_export
+#+HTML: </div>
 
-#+begin_export html
-</div>
-#+end_export
+#+HTML: </div>
+
 -----

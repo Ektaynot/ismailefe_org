@@ -9,4 +9,6 @@ The main css file is in /templates/style.css, I occasionally use extra css files
 
 src/ directory contains .org files which are the original files I write to. The .org files get exported to html and then get manually placed to the corresponding folders.
 
+[[file:./etc/img/ss.png]]
+
 Feel free to explore to your heart's content and if you have any questions reach out to me at [[mailto:ismailefetop@gmail.com][ismailefetop@gmail.com]].

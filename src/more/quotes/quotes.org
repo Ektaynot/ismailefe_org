@@ -24,6 +24,10 @@ This page contains bits of information that I collected from various sources. It
 
 + “Everyone is 95% the same, but the last 5% is so unique that it makes everyone distinctly different.” - İsmail Efe Top (That's me👋)
 
++ “If you want to make God laugh, tell Him about your plans.” - Woody Allen
+
++ “Society grows great when old men plant trees whose shade they know they shall never sit in.” - Anonymous Greek Proverb
+
 #+BEGIN_EXPORT html
 <div class="bottom-header">
   <a class="bottom-header-link" href="/">Home</a>

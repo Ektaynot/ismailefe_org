@@ -13,21 +13,19 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * When did I last update this page
-- Sep 6, 2024
+- Sep 27, 2024
 
 * What am I doing?
-- Experimenting, writing, tweaking, and generally working on my site
-- Nerding about coffee
-- Watching 2000s teen comedies
-- Spending time with family
 - Reading
-  - [[https://www.goodreads.com/book/show/26450689-investing-101][Investing 101]]
-  - [[https://www.goodreads.com/book/show/45856219-o-s-rada][O sırada]]
+  - [[https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes][How to Take Smart Notes]]
+- Adjusting to school life and Ankara
+- Preparing for a club activity
+- Finding ways to eat healthy in a dormitory
 
 * What am I planning on doing?
-- Course selections
-- Returning to Ankara for university
+- Giving %110 to my academic work
 - Reuniting with my friends
+- Rediscovering amazing cafes and restaurants in Ankara
 
 * Archive
 #+begin_export html

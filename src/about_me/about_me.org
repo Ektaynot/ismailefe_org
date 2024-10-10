@@ -1,6 +1,5 @@
 #+title: About Me
 #+AUTHOR: İsmail Efe Top
-#+DATE: 2024-01-15
 
 #+LANGUAGE: en
 #+HTML_HEAD: <meta name="description" content="Learn about me." />

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <meta name="author" content="İsmail Efe Top" />
+    <meta name="dcterms.date" content="2024-10-13" />
+    <meta name="description" content="What I use for my design process." />
+    <title>My Design Stack</title>
+    <style>
+      html {
+        color: #1a1a1a;
+        background-color: #fdfdfd;
+      }
+      body {
+        margin: 0 auto;
+        max-width: 36em;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        hyphens: auto;
+        overflow-wrap: break-word;
+        text-rendering: optimizeLegibility;
+        font-kerning: normal;
+      }
+      @media (max-width: 600px) {
+        body {
+          font-size: 0.9em;
+          padding: 12px;
+        }
+        h1 {
+          font-size: 1.8em;
+        }
+      }
+      @media print {
+        html {
+          background-color: white;
+        }
+        body {
+          background-color: transparent;
+          color: black;
+          font-size: 12pt;
+        }
+        p,
+        h2,
+        h3 {
+          orphans: 3;
+          widows: 3;
+        }
+        h2,
+        h3,
+        h4 {
+          page-break-after: avoid;
+        }
+      }
+      p {
+        margin: 1em 0;
+      }
+      a {
+        color: #1a1a1a;
+      }
+      a:visited {
+        color: #1a1a1a;
+      }
+      img {
+        max-width: 100%;
+      }
+      svg {
+        height: auto;
+        max-width: 100%;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin-top: 1.4em;
+      }
+      h5,
+      h6 {
+        font-size: 1em;
+        font-style: italic;
+      }
+      h6 {
+        font-weight: normal;
+      }
+      ol,
+      ul {
+        padding-left: 1.7em;
+        margin-top: 1em;
+      }
+      li > ol,
+      li > ul {
+        margin-top: 0;
+      }
+      blockquote {
+        margin: 1em 0 1em 1.7em;
+        padding-left: 1em;
+        border-left: 2px solid #e6e6e6;
+        color: #606060;
+      }
+      code {
+        font-family: Menlo, Monaco, Consolas, "Lucida Console", monospace;
+        font-size: 85%;
+        margin: 0;
+        hyphens: manual;
+      }
+      pre {
+        margin: 1em 0;
+        overflow: auto;
+      }
+      pre code {
+        padding: 0;
+        overflow: visible;
+        overflow-wrap: normal;
+      }
+      .sourceCode {
+        background-color: transparent;
+        overflow: visible;
+      }
+      hr {
+        background-color: #1a1a1a;
+        border: none;
+        height: 1px;
+        margin: 1em 0;
+      }
+      table {
+        margin: 1em 0;
+        border-collapse: collapse;
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+        font-variant-numeric: lining-nums tabular-nums;
+      }
+      table caption {
+        margin-bottom: 0.75em;
+      }
+      tbody {
+        margin-top: 0.5em;
+        border-top: 1px solid #1a1a1a;
+        border-bottom: 1px solid #1a1a1a;
+      }
+      th {
+        border-top: 1px solid #1a1a1a;
+        padding: 0.25em 0.5em 0.25em 0.5em;
+      }
+      td {
+        padding: 0.125em 0.5em 0.25em 0.5em;
+      }
+      header {
+        margin-bottom: 4em;
+        text-align: center;
+      }
+      #TOC li {
+        list-style: none;
+      }
+      #TOC ul {
+        padding-left: 1.3em;
+      }
+      #TOC > ul {
+        padding-left: 0;
+      }
+      #TOC a:not(:hover) {
+        text-decoration: none;
+      }
+      code {
+        white-space: pre-wrap;
+      }
+      span.smallcaps {
+        font-variant: small-caps;
+      }
+      div.columns {
+        display: flex;
+        gap: min(4vw, 1.5em);
+      }
+      div.column {
+        flex: auto;
+        overflow-x: auto;
+      }
+      div.hanging-indent {
+        margin-left: 1.5em;
+        text-indent: -1.5em;
+      }
+      /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+      ul.task-list[class] {
+        list-style: none;
+      }
+      ul.task-list li input[type="checkbox"] {
+        font-size: inherit;
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1.6em;
+        vertical-align: middle;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+    <meta name="theme-color" content="#fffcf0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+  </head>
+  <body>
+    <header id="title-block-header">
+      <h1 class="title">My Design Stack</h1>
+      <p class="author">İsmail Efe Top</p>
+      <p class="date">2024-10-13</p>
+    </header>
+    <p>
+      If you are familiar with frontend and backend development, you've likely
+      come across tech stacks. You can think of tech stacks as a list of tools
+      people use to create applications. People can share their stack and others
+      can get inspired or learn about new technologies.
+    </p>
+    <p>
+      While it is common to find different stacks when working in the
+      programming field. You don't see them utilized in other fields, such as
+      <strong>design</strong>. Since I picked up a lot of design jobs and create
+      a lot of slides, I wanted to create a <strong>design stack</strong> and
+      share what I use and how I use them.
+    </p>
+    <p>
+      I am calling this the <strong>PCSG stack</strong>. Before I start
+      explaining, I want to go over two things.
+    </p>
+    <ul>
+      <li>
+        <p>
+          I am a student on a budget and can't afford multiple subscriptions. I
+          try to unnecessary avoid costs as much as possible, that is why all of
+          my recommendations are free to use.
+        </p>
+      </li>
+      <li>
+        <p>
+          I don't want to steal anyone's hard work. If a recommendation includes
+          user-generated content, it comes with an open commercial license or is
+          public domain.
+        </p>
+      </li>
+    </ul>
+    <h1 id="photopea">Photopea</h1>
+    <p>
+      <a href="https://www.photopea.com/">Photopea</a> is a browser-based photo
+      editor. Coming from
+      <a href="https://www.adobe.com/products/photoshop.html">Adobe Photoshop</a
+      >, I find it easy to work with, as Photopea draws heavily from Photoshop's
+      interface, shortcuts and features.
+    </p>
+    <p>
+      Since there is a lot of different options when it comes to photo editors,
+      I want to list the things I like about Photopea:
+    </p>
+    <ul>
+      <li>
+        Runs locally in your browser. That means you can open it on almost any
+        device and run it offline.
+      </li>
+      <li>
+        Can open PSD files flawlessly, it also supports
+        <a href="https://github.com/photopea/photopea">a bunch of formats</a>.
+      </li>
+      <li>
+        You can use it for free with ads. -$5 gets you an ad-free experience, 5
+        GB storage, and some AI credits-
+      </li>
+      <li>
+        Houses almost all of the Google Fonts library. -I will talk about Google
+        Fonts in a sec-
+      </li>
+      <li>
+        It has a large community that offers plenty of tutorials and technical
+        support.
+      </li>
+    </ul>
+    <h1 id="colorhunt">Colorhunt</h1>
+    <p>
+      <a href="https://colorhunt.co/">Colorhunt</a> is a website that hosts
+      curated color palettes. I use this website very often; you can search for
+      specific color palettes, sort by popularity, and add palettes to your
+      collection.
+    </p>
+    <p>
+      Colorhunt comes in handy when I have to quickly select a contrasting color
+      scheme for a slide or when I need inspiration for a project.
+    </p>
+    <h1 id="svg-repo">SVG Repo</h1>
+    <p>
+      I think I speak for all designers when I say SVGs are awesome! If you
+      don't know what an SVG is, I recommend
+      <a href="https://www.youtube.com/watch?v=emFMHH2Bfvo">this video</a>, as
+      it does a great job of explaining.
+    </p>
+    <p>
+      <a href="https://www.svgrepo.com/">SVG Repo</a> is a wonderful way to get
+      SVGs. It houses "500.000+ Open-licensed SVG Vector and Icons" and comes in
+      handy A LOT when doing design work.
+    </p>
+    <p>
+      Most of them have licenses that enable you to use them however you want. I
+      generally make use of SVGs in slides, posters, social media contents, and
+      websites.
+    </p>
+    <h1 id="google-fonts">Google Fonts</h1>
+    <p>
+      <a href="https://fonts.google.com/">Google Fonts</a> is one of my favorite
+      sites to use. It houses more than a thousand fonts, and all of them have
+      open licenses. All the fonts hosted have unique personalities, and you can
+      easily find one that suits your needs.
+    </p>
+    <p>
+      For example, my website mainly uses
+      <a href="https://fonts.google.com/specimen/EB+Garamond">EB Garamond</a>
+      and
+      <a href="https://fonts.google.com/specimen/Gentium+Plus">Gentium Plus</a>,
+      which I found and got from Google Fonts.
+    </p>
+    <p>
+      Google Fonts also has
+      <a href="https://fonts.google.com/knowledge">wonderful articles</a> that
+      teach you how to select fonts, where to use them, and how to use them.
+      These articles are a must-read for any designer.
+    </p>
+    <p>
+      If you are a webmaster, you can use Google Fonts on your websites without
+      downloading or hosting anything. This can be achieved by getting embed
+      links for the fonts you want to use and importing them with just one line
+      of CSS.
+    </p>
+    <h1 id="bonus">Bonus</h1>
+    <p>
+      Accessibility is something I deeply care about. A lot of my design work
+      comes in the form of web design. For more people to have the ability to
+      view my website comfortably, I need to be operating within the
+      <a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum"
+        >W3 contrast standards</a
+      >. I use 2 sites for checking whether I am following this standard or not.
+    </p>
+    <p>
+      First is <a href="https://colourcontrast.cc/">Colour contrast checker</a>,
+      this site lets me check the AA and the AAA value. If my color combination
+      doesn't pass, I proceed to use the second site.
+    </p>
+    <p>
+      Second is <a href="https://app.contrast-finder.org/">Contrast Finder</a>,
+      this site helps me find a color that both passes the standard and is
+      similar to my original color using an algorithm.
+    </p>
+    <h1 id="closing-words">Closing Words</h1>
+    <p>
+      Thanks a lot for reading about my easy to incorporate but horribly named
+      design stack.
+    </p>
+    <p>
+      I don't do any video, 3D, or professional vector work. That's why my flow
+      might be lacking in these and some other areas, but I am sure that you can
+      find something valuable to add into your own workflow.
+    </p>
+    <p>
+      If you have any suggestions or criticism, feel free to reach through
+      <a href="mailto:ismailefetop@gmail.com">my email</a>.
+    </p>
+    <div class="bottom-header">
+      <a class="bottom-header-link" href="/">Home</a>
+      <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link"
+        >Mail Me</a
+      >
+      <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+      <a
+        class="bottom-header-link"
+        href="https://github.com/Ektaynot/ismailefe_org"
+        target="_blank"
+        >Source</a
+      >
+    </div>
+    <div class="firechickenwebring">
+      <a href="https://firechicken.club/efe/prev">←</a>
+      <a href="https://firechicken.club">🔥⁠🐓</a>
+      <a href="https://firechicken.club/efe/next">→</a>
+    </div>
+  </body>
+</html>

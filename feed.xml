@@ -6,7 +6,185 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 14 Sep 2024 13:51:09 +0300</lastBuildDate>
+<lastBuildDate>Sun, 13 Oct 2024 15:53:56 +0300</lastBuildDate>
+<item>
+  <title>My Design Stack</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
+<header id="title-block-header">
+<h1 class="title">My Design Stack</h1>
+<p class="author">İsmail Efe Top</p>
+<p class="date">2024-10-13</p>
+</header>
+<p>
+      If you are familiar with frontend and backend development, you've likely
+      come across tech stacks. You can think of tech stacks as a list of tools
+      people use to create applications. People can share their stack and others
+      can get inspired or learn about new technologies.
+    </p>
+<p>
+      While it is common to find different stacks when working in the
+      programming field. You don't see them utilized in other fields, such as
+      <strong>design</strong>. Since I picked up a lot of design jobs and create
+      a lot of slides, I wanted to create a <strong>design stack</strong> and
+      share what I use and how I use them.
+    </p>
+<p>
+      I am calling this the <strong>PCSG stack</strong>. Before I start
+      explaining, I want to go over two things.
+    </p>
+<ul>
+<li>
+<p>
+          I am a student on a budget and can't afford multiple subscriptions. I
+          try to unnecessary avoid costs as much as possible, that is why all of
+          my recommendations are free to use.
+        </p>
+</li>
+<li>
+<p>
+          I don't want to steal anyone's hard work. If a recommendation includes
+          user-generated content, it comes with an open commercial license or is
+          public domain.
+        </p>
+</li>
+</ul>
+<h1 id="photopea">Photopea</h1>
+<p>
+<a href="https://www.photopea.com/">Photopea</a> is a browser-based photo
+      editor. Coming from
+      <a href="https://www.adobe.com/products/photoshop.html">Adobe Photoshop</a>, I find it easy to work with, as Photopea draws heavily from Photoshop's
+      interface, shortcuts and features.
+    </p>
+<p>
+      Since there is a lot of different options when it comes to photo editors,
+      I want to list the things I like about Photopea:
+    </p>
+<ul>
+<li>
+        Runs locally in your browser. That means you can open it on almost any
+        device and run it offline.
+      </li>
+<li>
+        Can open PSD files flawlessly, it also supports
+        <a href="https://github.com/photopea/photopea">a bunch of formats</a>.
+      </li>
+<li>
+        You can use it for free with ads. -$5 gets you an ad-free experience, 5
+        GB storage, and some AI credits-
+      </li>
+<li>
+        Houses almost all of the Google Fonts library. -I will talk about Google
+        Fonts in a sec-
+      </li>
+<li>
+        It has a large community that offers plenty of tutorials and technical
+        support.
+      </li>
+</ul>
+<h1 id="colorhunt">Colorhunt</h1>
+<p>
+<a href="https://colorhunt.co/">Colorhunt</a> is a website that hosts
+      curated color palettes. I use this website very often; you can search for
+      specific color palettes, sort by popularity, and add palettes to your
+      collection.
+    </p>
+<p>
+      Colorhunt comes in handy when I have to quickly select a contrasting color
+      scheme for a slide or when I need inspiration for a project.
+    </p>
+<h1 id="svg-repo">SVG Repo</h1>
+<p>
+      I think I speak for all designers when I say SVGs are awesome! If you
+      don't know what an SVG is, I recommend
+      <a href="https://www.youtube.com/watch?v=emFMHH2Bfvo">this video</a>, as
+      it does a great job of explaining.
+    </p>
+<p>
+<a href="https://www.svgrepo.com/">SVG Repo</a> is a wonderful way to get
+      SVGs. It houses "500.000+ Open-licensed SVG Vector and Icons" and comes in
+      handy A LOT when doing design work.
+    </p>
+<p>
+      Most of them have licenses that enable you to use them however you want. I
+      generally make use of SVGs in slides, posters, social media contents, and
+      websites.
+    </p>
+<h1 id="google-fonts">Google Fonts</h1>
+<p>
+<a href="https://fonts.google.com/">Google Fonts</a> is one of my favorite
+      sites to use. It houses more than a thousand fonts, and all of them have
+      open licenses. All the fonts hosted have unique personalities, and you can
+      easily find one that suits your needs.
+    </p>
+<p>
+      For example, my website mainly uses
+      <a href="https://fonts.google.com/specimen/EB+Garamond">EB Garamond</a>
+      and
+      <a href="https://fonts.google.com/specimen/Gentium+Plus">Gentium Plus</a>,
+      which I found and got from Google Fonts.
+    </p>
+<p>
+      Google Fonts also has
+      <a href="https://fonts.google.com/knowledge">wonderful articles</a> that
+      teach you how to select fonts, where to use them, and how to use them.
+      These articles are a must-read for any designer.
+    </p>
+<p>
+      If you are a webmaster, you can use Google Fonts on your websites without
+      downloading or hosting anything. This can be achieved by getting embed
+      links for the fonts you want to use and importing them with just one line
+      of CSS.
+    </p>
+<h1 id="bonus">Bonus</h1>
+<p>
+      Accessibility is something I deeply care about. A lot of my design work
+      comes in the form of web design. For more people to have the ability to
+      view my website comfortably, I need to be operating within the
+      <a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum">W3 contrast standards</a>. I use 2 sites for checking whether I am following this standard or not.
+    </p>
+<p>
+      First is <a href="https://colourcontrast.cc/">Colour contrast checker</a>,
+      this site lets me check the AA and the AAA value. If my color combination
+      doesn't pass, I proceed to use the second site.
+    </p>
+<p>
+      Second is <a href="https://app.contrast-finder.org/">Contrast Finder</a>,
+      this site helps me find a color that both passes the standard and is
+      similar to my original color using an algorithm.
+    </p>
+<h1 id="closing-words">Closing Words</h1>
+<p>
+      Thanks a lot for reading about my easy to incorporate but horribly named
+      design stack.
+    </p>
+<p>
+      I don't do any video, 3D, or professional vector work. That's why my flow
+      might be lacking in these and some other areas, but I am sure that you can
+      find something valuable to add into your own workflow.
+    </p>
+<p>
+      If you have any suggestions or criticism, feel free to reach through
+      <a href="mailto:ismailefetop@gmail.com">my email</a>.
+    </p>
+<div class="bottom-header">
+<a class="bottom-header-link" href="/">Home</a>
+<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
+<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
+</div>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/my_design_stack/index.html</link>
+  <guid>https://ismailefe.org/blog/my_design_stack/index.html</guid>
+  <pubDate>Sun, 13 Oct 2024 00:00:00 +0300</pubDate>
+</item>
+
 <item>
   <title>5 Life Lessons</title>
   <description><![CDATA[<!DOCTYPE html>

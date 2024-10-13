@@ -11,6 +11,7 @@ https://ismailefe.org/blog/hobbies/
 https://ismailefe.org/blog/arc_and_firefox/
 https://ismailefe.org/blog/org-awk-anki/
 https://ismailefe.org/blog/plain_text/
+https://ismailefe.org/blog/my_design_stack/
 https://ismailefe.org/blog/favorite_themes/
 https://ismailefe.org/blog/good_presentations/
 https://ismailefe.org/blog/rss/

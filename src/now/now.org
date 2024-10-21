@@ -13,19 +13,19 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * When did I last update this page
-- Sep 27, 2024
+- Oct 21, 2024
 
 * What am I doing?
-- Reading
-  - [[https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes][How to Take Smart Notes]]
-- Adjusting to school life and Ankara
-- Preparing for a club activity
-- Finding ways to eat healthy in a dormitory
+- Writing a proposal for a research paper about /*[retracted]*/
+- Doing the weekly chores for my 8 classes
+- Working on social projects for my department
+- Going to the gym
 
 * What am I planning on doing?
-- Giving %110 to my academic work
-- Reuniting with my friends
-- Rediscovering amazing cafes and restaurants in Ankara
+- If my proposal is accepted, I plan on working on my research paper for 1 year
+- Analyzing my daily nutritional intake and making a proper meal plan
+- Writing blog posts that focuses much more on my philosophical side
+- I want to be careful about my life style. If I take on too much, I might get burned out.
 
 * Archive
 #+begin_export html

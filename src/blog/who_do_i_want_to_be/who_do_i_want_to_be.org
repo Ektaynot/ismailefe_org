@@ -1,0 +1,75 @@
+#+Title: Who Do I Want to Be?
+#+Author: İsmail Efe Top
+#+Date: 2024-10-29
+#+Language: en
+#+Description: A manifesto about my future.
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <meta name="theme-color" content="#fffcf0">
+#+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
+
+#+begin_export html
+<br>
+<div style="max-width: fit-content; margin-left: auto; margin-right: auto">
+  <img
+    src="/etc/img/rose.webp"
+    width="600px"
+    alt="A drawing of a rose."
+  />
+</div>
+<br>
+#+end_export
+
+
+For me, there is only one answer to "What do you want to be?".
+
+*I want to be content.*
+
+I want to be content with what I do for a living, I want to be content with where I reside, and more importantly, I want to be content with *who I am*.
+
+While I do have specific plans for my future, in the end, nothing else matters if I am not content.
+
+I can't find *true fulfillment* in material things; it has to come from the work I put in. I have to work diligently, I have to always take the long road, and build myself with blood, sweat, and tears. So that I can cherish everything I have, as I will know for sure that they were deserved.
+
+I also have to build my surroundings. *We are reflections of our friends.* That means I have to look up to and be proud of people whom I call friends. A fellow blogger, [[https://marcel.io/about][Marcel]], has a great blog post called "[[https://marcel.io/posts/life-affirming-choices][Life-Affirming Choices]]". In that blog post, he says
+
+/"I want to be, and surround myself with, people who are willing to put in the effort to live a life their future selves will thank them for—people who make scalable, life-affirming choices because they know these actions grow and compound over time, leading to greater, unexpected benefits."/
+
+I recommend checking out his post as he has been a great inspiration for this.
+
+#+begin_export html
+<br>
+<div style="max-width: fit-content; margin-left: auto; margin-right: auto">
+  <img
+    src="/etc/img/ivy.png"
+    width="250px"
+    alt="A drawing of an ivy."
+  />
+</div>
+<br>
+#+end_export
+
+While I am proud and happy with everything I've achieved up until now, I also know my *potential*. I know that I can do great things that can change the world for the better, and I want to live up to it.
+
+#+HTML: <br>
+
+*In the end, our life is too fleeting not to do great things.*
+
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
+#+END_EXPORT

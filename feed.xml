@@ -6,7 +6,89 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 13 Oct 2024 15:53:56 +0300</lastBuildDate>
+<lastBuildDate>Tue, 29 Oct 2024 18:41:10 +0300</lastBuildDate>
+<item>
+  <title>Who Do I Want to Be?</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
+<header id="title-block-header">
+<h1 class="title">Who Do I Want to Be?</h1>
+<p class="author">İsmail Efe Top</p>
+<p class="date">2024-10-29</p>
+</header>
+<br/>
+<div style="max-width: fit-content; margin-left: auto; margin-right: auto">
+<img alt="A drawing of a rose." src="/etc/img/rose.webp" width="600px"/>
+</div>
+<br/>
+<p>For me, there is only one answer to "What do you want to be?".</p>
+<p><strong>I want to be content.</strong></p>
+<p>
+      I want to be content with what I do for a living, I want to be content
+      with where I reside, and more importantly, I want to be content with
+      <strong>who I am</strong>.
+    </p>
+<p>
+      While I do have specific plans for my future, in the end, nothing else
+      matters if I am not content.
+    </p>
+<p>
+      I can't find <strong>true fulfillment</strong> in material things; it has
+      to come from the work I put in. I have to work diligently, I have to
+      always take the long road, and build myself with blood, sweat, and tears.
+      So that I can cherish everything I have, as I will know for sure that they
+      were deserved.
+    </p>
+<p>
+      I also have to build my surroundings.
+      <strong>We are reflections of our friends.</strong> That means I have to
+      look up to and be proud of people whom I call friends. A fellow blogger,
+      <a href="https://marcel.io/about">Marcel</a>, has a great blog post called
+      "<a href="https://marcel.io/posts/life-affirming-choices">Life-Affirming Choices</a>". In that blog post, he says
+    </p>
+<p>
+<em>"I want to be, and surround myself with, people who are willing to put
+        in the effort to live a life their future selves will thank them
+        for—people who make scalable, life-affirming choices because they know
+        these actions grow and compound over time, leading to greater,
+        unexpected benefits."</em>
+</p>
+<p>
+      I recommend checking out his post as he has been a great inspiration for
+      this.
+    </p>
+<br/>
+<div style="max-width: fit-content; margin-left: auto; margin-right: auto">
+<img alt="A drawing of an ivy." src="/etc/img/ivy.png" width="250px"/>
+</div>
+<br/>
+<p>
+      While I am proud and happy with everything I've achieved up until now, I
+      also know my <strong>potential</strong>. I know that I can do great things
+      that can change the world for the better, and I want to live up to it.
+    </p>
+<br/>
+<p>
+<strong>In the end, our life is too fleeting not to do great things.</strong>
+</p>
+<div class="bottom-header">
+<a class="bottom-header-link" href="/">Home</a>
+<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
+<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
+</div>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/who_do_i_want_to_be/index.html</link>
+  <guid>https://ismailefe.org/blog/who_do_i_want_to_be/index.html</guid>
+  <pubDate>Tue, 29 Oct 2024 00:00:00 +0300</pubDate>
+</item>
+
 <item>
   <title>My Design Stack</title>
   <description><![CDATA[<!DOCTYPE html>
@@ -394,7 +476,7 @@
     </p>
 <br/>
 <div style="max-width: fit-content; margin-left: auto; margin-right: auto">
-<img alt="A drawing of an ivy." src="/blog/why_use_emacs/ivy.png" width="250px"/>
+<img alt="A drawing of an ivy." src="/etc/img/ivy.png" width="250px"/>
 </div>
 <p>
       I envy people who can just pick up a tool and start using it right away

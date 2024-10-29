@@ -18,6 +18,7 @@ https://ismailefe.org/blog/rss/
 https://ismailefe.org/blog/best_albums_2023/
 https://ismailefe.org/blog/emacs_functions/
 https://ismailefe.org/blog/why_use_emacs/
+https://ismailefe.org/blog/who_do_i_want_to_be/
 https://ismailefe.org/blog/writing_tools/
 https://ismailefe.org/blog/my_org_pandoc_workflow/
 https://ismailefe.org/blog/my_edc/

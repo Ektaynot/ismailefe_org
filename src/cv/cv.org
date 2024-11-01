@@ -43,6 +43,13 @@
 
     I am also a part of the [[https://localize.proton.me/][Proton Localization Community]]. In this community, I am responsible for translating all of the [[https://proton.me/][Proton Suite]] to Turkish.
 
+- *[November 2024]* Middle East Technical University - The 6th International English for Specific Purposes Conference *Main Photographer and Photography Coordinator*
+
+  - *Job Description:*
+    - Managed a team of photographers and social media staff, coordinating assignments and providing creative direction.
+    - Captured key photographs of presenters and event venues, ensuring quality and consistency.
+    - Oversaw the organization, editing, and timely distribution of all images produced by the team.
+
 -----
 
 #+HTML: <div class="skillsandinterest">

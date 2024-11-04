@@ -12,7 +12,7 @@
 
 #+begin_export html
 <div class="center-an-image">
-<img style="width: 800px;" src="/more/recommended_articles/map.webp" alt="Old Map of Galata Tower(Cropped)">
+<img style="width: 800px; opacity: 0.8; border-radius: 3px;" src="/more/recommended_articles/map.webp" alt="Old Map of Galata Tower(Cropped)">
 </div>
 #+end_export
 

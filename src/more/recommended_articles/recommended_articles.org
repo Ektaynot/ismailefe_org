@@ -14,7 +14,6 @@
 <div class="center-an-image">
 <img style="width: 800px;" src="/more/recommended_articles/map.webp" alt="Old Map of Galata Tower(Cropped)">
 </div>
-<br><br>
 #+end_export
 
 * November 2024

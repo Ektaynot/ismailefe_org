@@ -1,0 +1,38 @@
+#+Title: Recommended Articles
+#+Author: İsmail Efe Top
+#+Language: en
+#+Description: Here are the articles that I liked enough to put it in my blog.
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <meta name="theme-color" content="#fffcf0">
+#+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
+#+begin_export html
+<div class="center-an-image">
+<img style="width: 800px;" src="/more/recommended_articles/map.webp" alt="Old Map of Galata Tower(Cropped)">
+</div>
+<br><br>
+#+end_export
+
+* November 2024
+- [[https://marcel.io/posts/life-affirming-choices][Life-Affirming Choices by Marcel Wichmann]]
+- [[https://boz.com/articles/disagree][How Not to Disagree by Andrew Bosworth]]
+- [[https://boz.com/articles/inbox-ten][Inbox Ten by Andrew Bosworth]]
+
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
+#+END_EXPORT

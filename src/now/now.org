@@ -13,19 +13,21 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * When did I last update this page
-- Oct 21, 2024
+- Nov 7, 2024
 
 * What am I doing?
 - Writing a proposal for a research paper about /*[retracted]*/
 - Doing the weekly chores for my 8 classes
 - Working on social projects for my department
 - Going to the gym
+- Working on my part-time job as a Assistant Communications Coordinator
+- Studying for my midterms
+- Doing conference photoshoots
 
 * What am I planning on doing?
-- If my proposal is accepted, I plan on working on my research paper for 1 year
-- Analyzing my daily nutritional intake and making a proper meal plan
-- Writing blog posts that focuses much more on my philosophical side
-- I want to be careful about my life style. If I take on too much, I might get burned out.
+- I plan on buying a camera for my photography projects
+- I plan to keep up with my continuous studies
+- I am a student assistant for one of my classes, I plan to work on assignments with my professor
 
 * Archive
 #+begin_export html

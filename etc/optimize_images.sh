@@ -6,7 +6,7 @@
 # - jpegoptim
 # - optipng
 
-FOLDER="/Users/ismailefetop/projects/org-blog/ismailefe_org/photos/pics"
+FOLDER="/Users/ismailefetop/projects/org-blog/ismailefe_org/analog_photos/pics"
 
 # max width
 WIDTH=1600

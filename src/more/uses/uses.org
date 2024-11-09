@@ -1,0 +1,18 @@
+#+Title: Uses
+#+Author: İsmail Efe Top
+#+Date: 2024-09-12
+#+Language: en
+#+Description: What I use for my daily life.
+
+I have to move places constantly for different reasons. Because I don't live a stationary life, I must be careful about what I call my own. That's why I curated a physical and a virtual setup for entertainment, development, and general needs throughout the last few years. Here is a summary of my setup.
+
+* My Backpack
+I searched for a general-purpose bag for a long time. But every single backpack I tried had some caveats that prevented me from driving it daily. This could be the look, the size, or the internal design. My ideal bag would...
+
+- Look sleek
+- Be comfortable
+- Have a protective portion for laptops (even though I use a laptop sleeve)
+- Have a waterbottle holder
+- And have an outside pocket for holding my wallet (this is a must-have for summer months)
+
+And I finally found it. It is the [[https://www.oakley.com/en-us/product/FOS900737][Oakley Enduro 3.0]] and has everything I am looking for and is fairly cheap(around 50 dollars in Türkiye).

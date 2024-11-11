@@ -1,21 +1,15 @@
 Sitemap: https://ismailefe.org/sitemap.txt
 
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
 User-agent: *
-Disallow: /now/archive/*
+Disallow: /now/archive/
 Disallow: /etc/
 Disallow: /src/
-Disallow: *.docx
-Disallow: *.pdf
-Disallow: *.doc
-Disallow: *.png
-Disallow: *.jpeg
-Disallow: *.jpg
-Disallow: *.PNG
-Disallow: *.JPEG
-Disallow: *.JPG
-Disallow: *.gif
-Disallow: *.mp4
-Disallow: *.mkv
+Disallow: /*.docx$
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.png$
+Disallow: /*.jpeg$
+Disallow: /*.jpg$
+Disallow: /*.gif$
+Disallow: /*.mp4$
+Disallow: /*.mkv$

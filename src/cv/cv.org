@@ -65,6 +65,7 @@
 
 - *Computer Skills*
 
+  - Wordpress
   - GNU/Linux, Git, Emacs
   - Microsoft Office programs
   - Python, Bash, HTML, and CSS

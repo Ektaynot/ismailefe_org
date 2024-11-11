@@ -4,6 +4,7 @@
   }
   .pp-image {
     width: 350px;
+    border-radius: 5px;
   }
   .quote{
     padding-top: 2em;

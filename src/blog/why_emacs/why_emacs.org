@@ -88,7 +88,9 @@ In most editors, to change a core functionality, you have to write a package tha
 
 ** Org
 
-Org mode is *"A GNU Emacs major mode for keeping notes, authoring documents, computational notebooks, literate programming, maintaining to-do lists, planning projects, and more — in a fast and effective plain text system."* -[[https://orgmode.org][orgmode.org]]
+#+HTML: <blockquote>
+/"A GNU Emacs major mode for keeping notes, authoring documents, computational notebooks, literate programming, maintaining to-do lists, planning projects, and more — in a fast and effective plain text system."/ -[[https://orgmode.org][orgmode.org]]
+#+HTML: </blockquote>
 
 This is a good introduction but I think I can expand more upon this.
 

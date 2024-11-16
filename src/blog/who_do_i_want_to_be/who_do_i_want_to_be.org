@@ -37,7 +37,9 @@ I can't find *true fulfillment* in material things; it has to come from the work
 
 I also have to build my surroundings. *We are reflections of our friends.* That means I have to look up to and be proud of people whom I call friends. A fellow blogger, [[https://marcel.io/about][Marcel]], has a great blog post called "[[https://marcel.io/posts/life-affirming-choices][Life-Affirming Choices]]". In that blog post, he says
 
+#+HTML: <blockquote>
 /"I want to be, and surround myself with, people who are willing to put in the effort to live a life their future selves will thank them for—people who make scalable, life-affirming choices because they know these actions grow and compound over time, leading to greater, unexpected benefits."/
+#+HTML: </blockquote>
 
 I recommend checking out his post as he has been a great inspiration for this.
 

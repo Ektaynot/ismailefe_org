@@ -20,7 +20,7 @@
 - [[https://marcel.io/posts/life-affirming-choices][Life-Affirming Choices by Marcel Wichmann]]
 - [[https://boz.com/articles/disagree][How Not to Disagree by Andrew Bosworth]]
 - [[https://boz.com/articles/inbox-ten][Inbox Ten by Andrew Bosworth]]
-
+- [[https://jan.miksovsky.com/posts/2024/11-12-momboard][MomBoard by Jan Miksovsky]]
 
 #+BEGIN_EXPORT html
 <div class="bottom-header">

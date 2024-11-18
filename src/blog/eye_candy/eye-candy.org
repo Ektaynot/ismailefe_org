@@ -1,9 +1,8 @@
-#+title: My Emacs Eye Candy
-#+AUTHOR: İsmail Efe Top
-#+DATE: 2024-01-14
-
-#+HTML_HEAD: <meta name="description" content="Learn how to make Emacs look good">
-#+LANGUAGE: en
+#+Title: My Emacs Eye Candy
+#+Author: İsmail Efe Top
+#+Date: 2024-01-14
+#+Language: en
+#+Description: Learn how to make Emacs an eye candy.
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
 #+HTML_HEAD: <meta name="theme-color" content="#fffcf0">
@@ -14,12 +13,16 @@
 
 First of all, this post is directly inspired by [[https://xenodium.com/my-emacs-eye-candy/][Álvaro's]] work. I love his stuff and he has been a great inspiration for me. I suggest everyone to check out his stuff.
 
+#+HTML: <img src="/blog/eye_candy/eye-candy.webp" alt="Image of my Emacs window">
 
 In this post I am planning to walk you through my visual [[https://www.gnu.org/software/emacs/][Emacs]] setup, I will use the [[https://github.com/doomemacs/doomemacs][Doom Framework]]. I am planning on making a detail blog post about Emacs, [[https://orgmode.org/][org-mode]] and how I use them, because of this I will not go into explanation of what Emacs is. There are great sources about Emacs and org-mode on youtube. Until I make that post, you can explore the Emacs world freely.
+
+*Edit:* I have made that post. [[https://ismailefe.org/blog/why_use_emacs/][Why Use Emacs?]]
 
 *Let's Start*
 
 * Installing Brew
+
 I will be using [[https://brew.sh/][brew]] to install Emacs and it's dependencies.
 
 #+begin_src sh
@@ -27,103 +30,103 @@ I will be using [[https://brew.sh/][brew]] to install Emacs and it's dependencie
 #+end_src
 
 * Installing Emacs
-I am choosing the default cask for Emacs. I tried several different forks of mac Emacs but all of them gave me poor performance on my m2 macbook.
+
+I am choosing the default cask for Emacs. I tried several different forks of Emacs for MacOS but all of them gave me poor performance on my m2 MacBook Air.
 
 #+begin_src sh
 brew install --cask emacs
 #+end_src
 
-*After installing do not start Emacs.* Starting Emacs will create a profile, which will conflict with your doom profile.
+*After installing, do not start Emacs.* Starting Emacs will create a profile, which will conflict with your doom profile.
 
 * Installing Doom
-Doom is a stable framework for Emacs. You can considered like a base config file. It really makes Emacs usable out-of-box.
+
+Doom is a stable framework for Emacs. You can considered like a base config file. It really makes Emacs easy to use out-of-box.
+
 #+begin_src sh
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 ~/.config/emacs/bin/doom install
 #+end_src
+
 And now we are ready to hack our Emacs.
 
 * Changing the theme
+
 I used to use the doom-dracula theme. But nowadays my favorite is the [[https://github.com/meritamen/emacs-kanagawa-theme][kanagawa theme]].
 
-Add the below line to ~/.config/doom/package.el
 #+begin_src emacs-lisp
+;; add this to ~/.config/doom/package.el
 (package! kanagawa-theme)
 #+end_src
 
-Then set your theme to kanagawa
+Then set your theme to kanagawa.
 #+BEGIN_SRC emacs-lisp
+;; ~/.config/doom/config.el
 (setq doom-theme 'kanagawa)
 #+END_SRC
 
 * Changing the font
+
 I like using the [[https://www.jetbrains.com/lp/mono/][JetBrains Mono]].
 
 #+BEGIN_SRC emacs-lisp
+;; ~/.config/doom/config.el
 (setq doom-font (font-spec :family "JetBrains Mono" :size 22))
 #+END_SRC
 
 * Enabling Word Count
+
 This puts a word count in the modeline.
 #+begin_src emacs-lisp
+;; ~/.config/doom/config.el
 (setq doom-modeline-enable-word-count t)
 #+end_src
 
 * Disabling hl-line-mode
+
 'hl-line' makes the current line a different color. I don't like it.
 #+begin_src emacs-lisp
+;; ~/.config/doom/config.el
 (remove-hook 'doom-first-buffer-hook #'global-hl-line-mode)
 #+end_src
 
 * The title bar
-I like the look of an empty unified title-bar, so this removes the text. *Only works for mac.*
+
+I like the look of an empty unified title-bar, so this removes the text. *Only works for MacOS.*
+
 #+begin_src emacs-lisp
+;; ~/.config/doom/config.el
 (setq ns-use-proxy-icon nil)
 (setq frame-title-format nil)
 #+end_src
 
 * Removing the tilde signs
+
 There is an ugly tilde sign on empty lines by default. I really don't like it. You can remove it by commenting out the 'vi-tilde-fringe' line in ~/.config/doom/init.el
 
 * Olivetti mode
+
 There is a melpa package called [[https://github.com/rnkn/olivetti][olivetti]]. This package provides a good look for writing/reading by decreasing the width of the buffer.
 
-You can install Olivetti by adding the below line to ~/.config/doom/package.el
 #+begin_src emacs-lisp
+;; ~/.config/doom/package.el
 (package! olivetti)
 #+end_src
 
-You can adjust the width like this
+You can adjust the width with the below line
 #+BEGIN_SRC emacs-lisp
+;; ~/.config/doom/config.el
 (setq olivetti-body-width 94)
 #+END_SRC
 
-* Reading Mode
-When writing or reading I like a couple of things different. I like to open up olivetti, disable the line numbers and the modeline. This function allows me to change these settings in one go. Also I have an undo function. I have them set to 'ö' and 'ç' as those keys are not used for any commands.
-
-*Reading Function:*
+I also start Olivetti Mode automatically on Text Mode buffers
 #+begin_src emacs-lisp
-(defun efe/reading-mode ()
-  "Toggle reading mode."
-  (interactive)
-  (hide-mode-line-mode +1)
-  (olivetti-mode)
-  (menu-bar--display-line-numbers-mode-none))
-(global-set-key (kbd "C-ö") 'efe/reading-mode)
-#+end_src
-
-*Undo Function:*
-#+begin_src emacs-lisp
-(defun efe/undo-reading-mode ()
-  "undo reading mode."
-  (interactive)
-  (hide-mode-line-mode -1)
-  (setq olivetti-mode nil)
-  (menu-bar--display-line-numbers-mode-absolute))
-(global-set-key (kbd "C-ç") 'efe/undo-reading-mode)
+;; ~/.config/doom/config.el
+(add-hook 'text-mode-hook 'olivetti-mode)
 #+end_src
 
 * Changing the Icon
+
 Lastly, I like to use this [[https://commons.wikimedia.org/wiki/File:Emacs-logo.svg][logo]]. It is quite old but it suits my style.
 
 #+BEGIN_EXPORT html

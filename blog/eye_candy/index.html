@@ -2,16 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Learn how to make Emacs look good" />
     <meta name="generator" content="pandoc" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=yes"
     />
     <meta name="author" content="İsmail Efe Top" />
-    <meta name="theme-color" content="#fffcf0">
-
     <meta name="dcterms.date" content="2024-01-14" />
+    <meta name="description" content="Learn how to make Emacs an eye candy." />
     <title>My Emacs Eye Candy</title>
     <style>
       html {
@@ -234,6 +232,7 @@
           white-space: pre-wrap;
         }
         pre > code.sourceCode > span {
+          display: inline-block;
           text-indent: -5em;
           padding-left: 5em;
         }
@@ -327,6 +326,8 @@
         color: #ff0000;
         font-weight: bold;
       } /* Error */
+      code span.ex {
+      } /* Extension */
       code span.fl {
         color: #40a070;
       } /* Float */
@@ -377,6 +378,7 @@
       } /* Warning */
     </style>
     <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+    <meta name="theme-color" content="#fffcf0" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -394,7 +396,6 @@
       sizes="16x16"
       href="/favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="/favicon/site.webmanifest" />
   </head>
   <body>
     <header id="title-block-header">
@@ -408,7 +409,7 @@
       love his stuff and he has been a great inspiration for me. I suggest
       everyone to check out his stuff.
     </p>
-    <img src="eye-candy.webp" alt="Image of my Emacs window"/>
+    <img src="/blog/eye_candy/eye-candy.webp" alt="Image of my Emacs window" />
     <p>
       In this post I am planning to walk you through my visual
       <a href="https://www.gnu.org/software/emacs/">Emacs</a> setup, I will use
@@ -419,21 +420,26 @@
       sources about Emacs and org-mode on youtube. Until I make that post, you
       can explore the Emacs world freely.
     </p>
-    <p><strong>Let's Start</strong></p>
-    <h1 id="install-brew">Installing Homebrew</h1>
     <p>
-      I will be using <a href="https://brew.sh/">Homebrew</a> to install Emacs
-      and it's dependencies.
+      <strong>Edit:</strong> I have made that post.
+      <a href="https://ismailefe.org/blog/why_use_emacs/">Why Use Emacs?</a>
+    </p>
+    <p><strong>Let's Start</strong></p>
+    <h1 id="installing-brew">Installing Brew</h1>
+    <p>
+      I will be using <a href="https://brew.sh/">brew</a> to install Emacs and
+      it's dependencies.
     </p>
     <div class="sourceCode" id="cb1" data-org-language="sh">
       <pre
         class="sourceCode bash"
       ><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">/bin/bash</span> <span class="at">-c</span> <span class="st">&quot;</span><span class="va">$(</span><span class="ex">curl</span> <span class="at">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="va">)</span><span class="st">&quot;</span></span></code></pre>
     </div>
-    <h1 id="install-emacs">Installing Emacs</h1>
+    <h1 id="installing-emacs">Installing Emacs</h1>
     <p>
       I am choosing the default cask for Emacs. I tried several different forks
-      of mac Emacs but all of them gave me poor performance on my m2 macbook.
+      of Emacs for MacOS but all of them gave me poor performance on my m2
+      MacBook Air.
     </p>
     <div class="sourceCode" id="cb2" data-org-language="sh">
       <pre
@@ -441,13 +447,13 @@
       ><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install <span class="at">--cask</span> emacs</span></code></pre>
     </div>
     <p>
-      <strong>After installing do not start Emacs.</strong> Starting Emacs will
+      <strong>After installing, do not start Emacs.</strong> Starting Emacs will
       create a profile, which will conflict with your doom profile.
     </p>
-    <h1 id="install-doom">Installing Doom</h1>
+    <h1 id="installing-doom">Installing Doom</h1>
     <p>
       Doom is a stable framework for Emacs. You can considered like a base
-      config file. It really makes Emacs usable out-of-box.
+      config file. It really makes Emacs easy to use out-of-box.
     </p>
     <div class="sourceCode" id="cb3" data-org-language="sh">
       <pre
@@ -463,24 +469,19 @@
         >kanagawa theme</a
       >.
     </p>
-    <p>Add the below line to ~/.config/doom/package.el</p>
     <div class="sourceCode" id="cb4" data-org-language="emacs-lisp">
       <pre
         class="sourceCode commonlisp"
-      ><code class="sourceCode commonlisp"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>(package! kanagawa-theme)</span></code></pre>
+      ><code class="sourceCode commonlisp"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">;; add this to ~/.config/doom/package.el</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>(package! kanagawa-theme)</span></code></pre>
     </div>
-    <p>
-      Then set your theme to kanagawa, for this put the below line in your
-      config file ~/.config/doom/config.el
-    </p>
+    <p>Then set your theme to kanagawa.</p>
     <div class="sourceCode" id="cb5" data-org-language="emacs-lisp">
       <pre
         class="sourceCode commonlisp"
-      ><code class="sourceCode commonlisp"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> doom-theme <span class="dt">&#39;kanagawa</span>)</span></code></pre>
+      ><code class="sourceCode commonlisp"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">;; ~/.config/doom/config.el</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> doom-theme <span class="dt">&#39;kanagawa</span>)</span></code></pre>
     </div>
-    <p>
-      <b>Note:</b> From now on all the code should go into your config file.
-    </p>
     <h1 id="changing-the-font">Changing the font</h1>
     <p>
       I like using the
@@ -489,97 +490,74 @@
     <div class="sourceCode" id="cb6" data-org-language="emacs-lisp">
       <pre
         class="sourceCode commonlisp"
-      ><code class="sourceCode commonlisp"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> doom-font (font-spec :family <span class="st">&quot;JetBrains Mono&quot;</span> :size <span class="dv">22</span>))</span></code></pre>
+      ><code class="sourceCode commonlisp"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">;; ~/.config/doom/config.el</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> doom-font (font-spec :family <span class="st">&quot;JetBrains Mono&quot;</span> :size <span class="dv">22</span>))</span></code></pre>
     </div>
-    <h1 id="enable-word-count">Enabling Word Count</h1>
+    <h1 id="enabling-word-count">Enabling Word Count</h1>
     <p>This puts a word count in the modeline.</p>
     <div class="sourceCode" id="cb7" data-org-language="emacs-lisp">
       <pre
         class="sourceCode commonlisp"
-      ><code class="sourceCode commonlisp"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> doom-modeline-enable-word-count <span class="kw">t</span>)</span></code></pre>
+      ><code class="sourceCode commonlisp"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">;; ~/.config/doom/config.el</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> doom-modeline-enable-word-count <span class="kw">t</span>)</span></code></pre>
     </div>
-    <h1 id="disable-hl-line-mode">Disabling hl-line-mode</h1>
+    <h1 id="disabling-hl-line-mode">Disabling hl-line-mode</h1>
     <p>'hl-line' makes the current line a different color. I don't like it.</p>
     <div class="sourceCode" id="cb8" data-org-language="emacs-lisp">
       <pre
         class="sourceCode commonlisp"
-      ><code class="sourceCode commonlisp"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>(remove-hook <span class="dt">&#39;doom-first-buffer-hook</span> <span class="op">#&#39;</span>global-hl-line-mode)</span></code></pre>
+      ><code class="sourceCode commonlisp"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">;; ~/.config/doom/config.el</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>(remove-hook <span class="dt">&#39;doom-first-buffer-hook</span> <span class="op">#&#39;</span>global-hl-line-mode)</span></code></pre>
     </div>
     <h1 id="the-title-bar">The title bar</h1>
     <p>
       I like the look of an empty unified title-bar, so this removes the text.
-      <strong>Only works for mac.</strong>
+      <strong>Only works for MacOS.</strong>
     </p>
     <div class="sourceCode" id="cb9" data-org-language="emacs-lisp">
       <pre
         class="sourceCode commonlisp"
-      ><code class="sourceCode commonlisp"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> ns-use-proxy-icon <span class="kw">nil</span>)</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> frame-title-format <span class="kw">nil</span>)</span></code></pre>
+      ><code class="sourceCode commonlisp"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">;; ~/.config/doom/config.el</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> ns-use-proxy-icon <span class="kw">nil</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> frame-title-format <span class="kw">nil</span>)</span></code></pre>
     </div>
-    <h1 id="remove-the-tilde-signs">Removing the tilde signs</h1>
+    <h1 id="removing-the-tilde-signs">Removing the tilde signs</h1>
     <p>
       There is an ugly tilde sign on empty lines by default. I really don't like
       it. You can remove it by commenting out the 'vi-tilde-fringe' line in
       ~/.config/doom/init.el
     </p>
-    <h1 id="olivetti-mode">Olivetti Mode</h1>
+    <h1 id="olivetti-mode">Olivetti mode</h1>
     <p>
       There is a melpa package called
       <a href="https://github.com/rnkn/olivetti">olivetti</a>. This package
       provides a good look for writing/reading by decreasing the width of the
       buffer.
     </p>
-    <p>
-      You can install Olivetti by adding the below line to
-      ~/.config/doom/package.el
-    </p>
     <div class="sourceCode" id="cb10" data-org-language="emacs-lisp">
       <pre
         class="sourceCode commonlisp"
-      ><code class="sourceCode commonlisp"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>(package! olivetti)</span></code></pre>
+      ><code class="sourceCode commonlisp"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">;; ~/.config/doom/package.el</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>(package! olivetti)</span></code></pre>
     </div>
-    <p>You can adjust the width like this</p>
+    <p>You can adjust the width with the below line</p>
     <div class="sourceCode" id="cb11" data-org-language="emacs-lisp">
       <pre
         class="sourceCode commonlisp"
-      ><code class="sourceCode commonlisp"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> olivetti-body-width <span class="dv">94</span>)</span></code></pre>
+      ><code class="sourceCode commonlisp"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">;; ~/.config/doom/config.el</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>(<span class="kw">setq</span> olivetti-body-width <span class="dv">94</span>)</span></code></pre>
     </div>
-    <h1 id="reading-mode">Reading Mode</h1>
-    <p>
-      When writing or reading I like a couple of things different. I like to
-      open up olivetti, disable the line numbers and the modeline. This function
-      allows me to change these settings in one go. Also I have an undo
-      function. I have them set to 'ö' and 'ç' as those keys are not used for
-      any commands.
-    </p>
-    <p><strong>Reading Function:</strong></p>
+    <p>I also start Olivetti Mode automatically on Text Mode buffers</p>
     <div class="sourceCode" id="cb12" data-org-language="emacs-lisp">
       <pre
         class="sourceCode commonlisp"
-      ><code class="sourceCode commonlisp"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> efe/reading-mode </span>()</span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;Toggle reading mode.&quot;</span></span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  (interactive)</span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  (hide-mode-line-mode +1)</span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  (olivetti-mode)</span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>  (menu-bar--display-line-numbers-mode-none))</span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>(global-set-key (kbd <span class="st">&quot;C-ö&quot;</span>) <span class="dt">&#39;efe/reading-mode</span>)</span></code></pre>
-    </div>
-    <p><strong>Undo Function:</strong></p>
-    <div class="sourceCode" id="cb13" data-org-language="emacs-lisp">
-      <pre
-        class="sourceCode commonlisp"
-      ><code class="sourceCode commonlisp"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> efe/undo-reading-mode </span>()</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;undo reading mode.&quot;</span></span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  (interactive)</span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  (hide-mode-line-mode <span class="op">-</span><span class="dv">1</span>)</span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>  (<span class="kw">setq</span> olivetti-mode <span class="kw">nil</span>)</span>
-<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>  (menu-bar--display-line-numbers-mode-absolute))</span>
-<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>(global-set-key (kbd <span class="st">&quot;C-ç&quot;</span>) <span class="dt">&#39;efe/undo-reading-mode</span>)</span></code></pre>
+      ><code class="sourceCode commonlisp"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">;; ~/.config/doom/config.el</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>(add-hook <span class="dt">&#39;text-mode-hook</span> <span class="dt">&#39;olivetti-mode</span>)</span></code></pre>
     </div>
     <h1 id="changing-the-icon">Changing the Icon</h1>
     <p>
       Lastly, I like to use this
-      <a href="https://commons.wikimedia.org/wiki/File:Emacs-logo.svg">Icon</a>.
+      <a href="https://commons.wikimedia.org/wiki/File:Emacs-logo.svg">logo</a>.
       It is quite old but it suits my style.
     </p>
     <div class="bottom-header">

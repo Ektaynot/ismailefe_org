@@ -39,13 +39,12 @@ button:hover {
 
 @media (max-width: 900px) {
   .folder {
-    width: 90px;
-    height: 90px;
+    width: 75px;
+    height: 75px;
   }
   .folders {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
     justify-content: center;
     align-items: center;
     padding-inline: 20px;

@@ -3,7 +3,7 @@
 This site is the representation of myself on the internet. I post my thoughts and experiments on here. My main goals are making useful/educational content and putting my thoughts into the world.
 -----
 
-I avoid using javascript as much as possible. That's why I only have javascript [[https://ismailefe.org/analog_photos/][on my Photos Page]], which only adds the ability to expand the photos. The site works perfectly fine without it.
+I avoid using javascript as much as possible. That's why I only have javascript [[https://ismailefe.org/photos/analog_photos/][on my Photos Page]], which only adds the ability to expand the photos. The site works perfectly fine without it.
 
 The main css file is in /templates/style.css, I occasionally use extra css files which are mostly on the same page as the index file.
 

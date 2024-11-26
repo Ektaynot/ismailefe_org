@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Pictures of me that my friends have taken."
+    />
+    <meta name="generator" content="pandoc" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <meta name="author" content="İsmail Efe Top" />
+    <meta name="theme-color" content="#fffcf0">
+
+    <title>Pictures of me</title>
+    <style>
+      .vertical-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* two columns */
+        gap: 20px; /* Adjust the gap between images */
+        justify-content: center; /* Center content horizontally */
+        padding-bottom: 20px;
+      }
+      .horizontal-container,
+      .middle-vertical {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 20px;
+      }
+      .lightbox-image {
+        max-width: 100%; /* Ensure images don't exceed container width */
+        height: auto; /* Maintain aspect ratio */
+      }
+
+      @media (max-width: 600px) {
+        .vertical-container,
+        .horizontal-container,
+        .middle-vertical {
+          gap: 12px;
+          padding-bottom: 12px;
+        }
+      }
+    </style>
+    <!-- the gallery library is made by lokesh https://github.com/lokesh/lightbox2/ -->
+    <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/etc/lightbox2/dist/css/lightbox.css"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+  </head>
+  <body>
+    <header id="title-block-header">
+      <h1 class="title">Pictures of me</h1>
+      <p class="author">📷 by My Friends</p>
+    </header>
+    <br>
+    <blockquote>ℹ️ Here are some photos my dear friends have taken of me. I cherish them deeply and wanted to showcase their beautiful work.</blockquote>
+    <br>
+    <div class="horizontal-container">
+      <a href="/photos/pictures_of_me/pics/library.jpg" data-lightbox="goofy">
+        <img
+          alt="A picture of me in the front of a library."
+          data-lightbox="goofy"
+          class="lightbox-image"
+          fetchpriority="high"
+          src="/photos/pictures_of_me/pics/library.jpg"
+      /></a>
+    </div>
+    <div class="horizontal-container">
+      <a href="/photos/pictures_of_me/pics/politician.jpg" data-lightbox="goofy">
+        <img
+          alt="A picture of me looking like I am giving a political speech."
+          data-lightbox="goofy"
+          class="lightbox-image"
+          fetchpriority="high"
+          src="/photos/pictures_of_me/pics/politician.jpg"
+      /></a>
+    </div>
+    <div class="horizontal-container">
+      <a href="/photos/pictures_of_me/pics/goofy.jpg" data-lightbox="goofy">
+        <img
+          alt="A picture of me looking goofy."
+          data-lightbox="goofy"
+          class="lightbox-image"
+          fetchpriority="high"
+          src="/photos/pictures_of_me/pics/goofy.jpg"
+      /></a>
+    </div>
+    <div class="vertical-container">
+      <a href="/photos/pictures_of_me/pics/arch.jpg" data-lightbox="goofy">
+        <img
+          alt="A picture of me in the ARCH Building"
+          fetchpriority="high"
+          data-lightbox="goofy"
+          class="lightbox-image"
+          src="/photos/pictures_of_me/pics/arch.jpg"
+      /></a>
+      <a
+        href="/photos/pictures_of_me/pics/bw_solvay.jpg"
+        data-lightbox="goofy"
+      >
+        <img
+          alt="A picture of me in solvay"
+          fetchpriority="high"
+          data-lightbox="goofy"
+          class="lightbox-image"
+          src="/photos/pictures_of_me/pics/bw_solvay.jpg"
+      /></a>
+    </div>
+    <div class="horizontal-container">
+      <a href="/photos/pictures_of_me/pics/disgusted.jpg" data-lightbox="goofy">
+        <img
+          alt="A picture of me looking disgusted."
+          data-lightbox="goofy"
+          class="lightbox-image"
+          fetchpriority="high"
+          src="/photos/pictures_of_me/pics/disgusted.jpg"
+      /></a>
+    </div>
+    <div class="horizontal-container">
+      <a href="/photos/pictures_of_me/pics/digicam.jpg" data-lightbox="goofy">
+        <img
+          alt="A picture of me smiling for the camera."
+          data-lightbox="goofy"
+          class="lightbox-image"
+          fetchpriority="high"
+          src="/photos/pictures_of_me/pics/digicam.jpg"
+      /></a>
+    </div>
+    <div class="horizontal-container">
+      <a href="/photos/pictures_of_me/pics/haberimyokmusgibi1.jpg" data-lightbox="goofy">
+        <img
+          alt="A picture of me looking like I am not aware that my picture is being taken."
+          data-lightbox="goofy"
+          class="lightbox-image"
+          fetchpriority="high"
+          src="/photos/pictures_of_me/pics/haberimyokmusgibi1.jpg"
+      /></a>
+    </div>
+    <div class="horizontal-container">
+      <a href="/photos/pictures_of_me/pics/haberimyokmusgibi2.jpg" data-lightbox="goofy">
+        <img
+          alt="A picture of me looking like I am not aware that my picture is being taken."
+          data-lightbox="goofy"
+          class="lightbox-image"
+          fetchpriority="high"
+          src="/photos/pictures_of_me/pics/haberimyokmusgibi2.jpg"
+      /></a>
+    </div>
+    <div class="bottom-header">
+      <a class="bottom-header-link" href="/">Home</a>
+      <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link"
+        >Mail Me</a
+      >
+      <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+      <a
+        class="bottom-header-link"
+        href="https://github.com/Ektaynot/ismailefe_org"
+        target="_blank"
+        >Source</a
+      >
+    </div>
+    <div class="firechickenwebring">
+      <a href="https://firechicken.club/efe/prev">←</a>
+      <a href="https://firechicken.club">🔥⁠🐓</a>
+      <a href="https://firechicken.club/efe/next">→</a>
+    </div>
+    <script src="/etc/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
+    <script>
+      lightbox.option({
+        resizeDuration: 0,
+        wrapAround: true,
+        fadeDuration: 0,
+        imageFadeDuration: 0,
+      });
+    </script>
+  </body>
+</html>

@@ -76,7 +76,7 @@ hr {
 }
 @media print {
   body {
-    max-width: 55em;
+    max-width: 70em;
     background-color: white;
   }
   a, a:visited {

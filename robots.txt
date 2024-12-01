@@ -7,9 +7,6 @@ Disallow: /src/
 Disallow: /*.docx$
 Disallow: /*.pdf$
 Disallow: /*.doc$
-Disallow: /*.png$
-Disallow: /*.jpeg$
-Disallow: /*.jpg$
 Disallow: /*.gif$
 Disallow: /*.mp4$
 Disallow: /*.mkv$

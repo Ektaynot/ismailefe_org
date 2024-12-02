@@ -13,21 +13,19 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * When did I last update this page
-- Nov 7, 2024
+- Dec 2, 2024
 
 * What am I doing?
-- Writing a proposal for a research paper about /*[retracted]*/
-- Doing the weekly chores for my 8 classes
-- Working on social projects for my department
-- Going to the gym
+- Doing the weekly chores for my *9* classes
+- Doing cardio and body building
 - Working on my part-time job as a Assistant Communications Coordinator
 - Studying for my midterms
-- Doing conference photoshoots
+- I finally bought my dream camera, so I've been doing different kinds of photo shoots both professionally and as a hobby
+- I am studying constantly because I have three midterms this week
 
 * What am I planning on doing?
-- I plan on buying a camera for my photography projects
-- I plan to keep up with my continuous studies
-- I am a student assistant for one of my classes, I plan to work on assignments with my professor
+- I plan to do more professional photography work
+- I have a few end-of-the-year blog post ideas, I hope I can write them in time
 
 * Archive
 #+begin_export html

@@ -16,6 +16,9 @@
 </div>
 #+end_export
 
+* December 2024
+- [[https://taylor.town/next-two-zeroes][Your Next Two Zeroes by Taylor Troesh]]
+
 * November 2024
 - [[https://marcel.io/posts/life-affirming-choices][Life-Affirming Choices by Marcel Wichmann]]
 - [[https://boz.com/articles/disagree][How Not to Disagree by Andrew Bosworth]]

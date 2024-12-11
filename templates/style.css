@@ -125,6 +125,7 @@ body {
 }
 
 
+
 ul {
   list-style-type: circle;
 }
@@ -191,6 +192,9 @@ blockquote a:hover {
   text-decoration: underline;
 }
 
+blockquote ::selection {
+  color: #100f0f;
+}
 
 /* for phones */
 @media (max-width: 600px) {

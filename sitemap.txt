@@ -11,6 +11,7 @@ https://ismailefe.org/more/recommended_articles/
 https://ismailefe.org/blog/hobbies/
 https://ismailefe.org/blog/arc_and_firefox/
 https://ismailefe.org/blog/org-awk-anki/
+https://ismailefe.org/blog/reflecting_on_2024/
 https://ismailefe.org/blog/plain_text/
 https://ismailefe.org/blog/my_design_stack/
 https://ismailefe.org/blog/favorite_themes/
@@ -32,5 +33,6 @@ https://ismailefe.org/now/archive/
 https://ismailefe.org/cv/
 https://ismailefe.org/photos/
 https://ismailefe.org/photos/analog_photos/
+https://ismailefe.org/photos/pictures_of_me/
 https://ismailefe.org/photos/snowy_day_on_campus/
 https://ismailefe.org/feed.xml

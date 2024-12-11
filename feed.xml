@@ -6,7 +6,249 @@
 <description>İsmail Efe's Second Brain.</description>
 <language>en</language>
 <atom:link href="https://ismailefe.org/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 29 Oct 2024 18:41:10 +0300</lastBuildDate>
+<lastBuildDate>Wed, 11 Dec 2024 20:54:12 +0300</lastBuildDate>
+<item>
+  <title>Reflecting on 2024</title>
+  <description><![CDATA[<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><body>
+<header id="title-block-header">
+<h1 class="title">Reflecting on 2024</h1>
+<p class="author">İsmail Efe Top</p>
+<p class="date">2024-12-11</p>
+</header>
+<p>
+      I honestly don't even know where to begin. 2024 has been, by far, the
+      hardest, the most packed, the most adventurous, and the most rewarding
+      year of my life. I was able to grow so much this year and venture into
+      tons of different areas. Here is a rough overview of my year in
+      semi-chronological headings.
+    </p>
+<h1 id="ismailefe.org">ismailefe.org</h1>
+<p>
+      While this blog is not even 1 year old, it feels like I started it just a
+      month ago, yet at the same time, I feel like I’ve been running it for
+      decades. I’ve sunk countless hours and countless commits (<a href="https://github.com/Ektaynot/ismailefe_org/commits/master/">417 as of the time of writing</a>). Starting this blog, without a doubt, was the best decision I’ve made
+      after deciding to learn
+      <a href="https://ismailefe.org/blog/why_use_emacs/">Emacs and Org</a>.
+    </p>
+<p>
+      This blog has also been the spark that led me to all the awesome things
+      I’ve done this year. I don’t even want to imagine what my life would be
+      like if I didn’t pursue blogging, as it led me to make incredible friends
+      in the blogging space, work with amazing people in both real-life and
+      online projects, and have a fulfilling part-time job where I learn
+      important communication skills every day.
+    </p>
+<p>
+      I plan on making a more detailed post about my adventure in blogging
+      around the one-year mark of this blog.
+    </p>
+<h1 id="starting-my-career-as-a-social-media-manager">
+      Starting my career as a social media manager
+    </h1>
+<p>
+      It all started when I proposed a redesign of a blog our faculty managed.
+      After a few meetings, we decided that my skills would be more valuable in
+      starting a new social media platform for our faculty with a research
+      assistant who ran a few similiar projects before. And
+      <strong>we did!</strong> It’s been a great initiative, and I am also proud
+      of the fact that we are one of the few faculties in METU that has a
+      plethora of active and official social media accounts. Thanks to Yasemin
+      and Berkcan Hoca for the wonderful opportunity.
+    </p>
+<p>
+      I learned a lot during the growing phase, which came in handy when I got a
+      job offer from a laboratory in METU. I’ve been working there part-time for
+      almost two months, and I couldn’t be happier. My job title is Assistant
+      Communication Coordinator, and my job description includes the maintenance
+      and post creation for three different brands. I also do some
+      behind-the-scenes work, which I sadly cannot talk about. Our Communication
+      Coordinator has been a wonderful mentor to me. I do tons of things I’ve
+      never done before, and she tirelessly helps me every time. I honestly
+      can’t thank her enough.
+    </p>
+<h1 id="my-look-on-life">My look on life</h1>
+<p>
+      I had a 2-month period where my family and I faced some serious health and
+      personal issues. However, I was fortunate that, while these issues were
+      really hard to deal with, in the end, they were things that could be
+      overcome. I lost none of my family and our future seems very hopeful.
+    </p>
+<p>
+      In these two months, I learned very important lessons. The first lesson
+      was "<strong>never postpone being happy</strong>". You can always make
+      excuses for when to be happy. For example, you can say that you will be
+      happy once you get over your midterm week, or you can be more dreadful and
+      say that you will be happy once you have a lot of money or a significant
+      other. During those two months, I was sad to lose my health but was happy
+      that I even had it in the first place. I was also scared shitless when I
+      thought that I would lose my father, but was grateful that I had a person
+      in my life whom I loved so much that I would be devastated to see them go.
+    </p>
+<p>
+      A subheading of the first lesson is
+      <strong>enjoying the hardships of life</strong>. Things will rarely go the
+      way you want, and how you want to look at it entirely depends on you.
+      Personally, I look at hardships as chances to grow as a person. I am
+      fairly young, and I am fortunate that I am able to make wrong decisions
+      and suffer very little from them in the long term. Every time I overcome a
+      challenge, I grow proportional to it. And the everyday distress grows
+      smaller day by day. That's why I embrace and enjoy hardships, I know that
+      they will shape me into a better version of myself.
+    </p>
+<p>
+      The second lesson I learned is <strong>the art of letting go</strong>.
+      I’ve been a very obsessive person all my life. I used to worry about
+      everything and would always think obsessively about my next move or future
+      interactions. I would tirelessly try to change things I clearly had no
+      control over. This behavior became a lot more relaxed when I came to
+      university, but I know for a fact that it remained in some of my
+      relationships.
+    </p>
+<p>
+      After going through so many hardships, I learned that you have to pick
+      your battles and let go of the ones you have no control over. If you have
+      big goals, which I do, and want to achieve them in your limited lifetime,
+      you have to allocate time properly and not lose time on the
+      uncontrollable.
+    </p>
+<p>
+      I feel like I’ve taken these lessons to heart and am grateful that I was
+      able to grow from my challenges. I am much more in peace with my life and
+      body than I ever was.
+    </p>
+<h1 id="tübitak-proposal">TÜBİTAK Proposal</h1>
+<blockquote>
+<p>
+        The Scientific and Technological Research Council of Türkiye (TÜBİTAK)
+        is responsible for promoting, developing, organizing, conducting and
+        coordinating research and development in line with national targets and
+        priorities. -
+        <a href="https://tubitak.gov.tr/en/institutional/about-us/who-we-are">tubitak.gov.tr</a>
+</p>
+</blockquote>
+<p>
+      When I started my blog, I was lucky enough to come across wonderful
+      resources that highlighted the importance of accessibility on the web.
+      Accessibility is not a "nice thing to have"; it's a must thing to have.
+      That's why I do my best to adhere to
+      <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG standards</a>.
+    </p>
+<p>
+      During my course selection week, I came across a selective course called
+      “Inclusive Education.” It really caught my eye, and I was fast and lucky
+      enough to get it. I’ve been taking this course for the last 11 weeks, and
+      it’s really been an eye-opening experience. I learned a ton about
+      different types of learning disabilities and how to act as a teacher when
+      those students are present.
+    </p>
+<p>
+      And when the professor for this class recommended that we apply to a
+      TÜBİTAK-funded “Research Project Support Programme for Undergraduate
+      Students,” I jumped at the chance. I had been wanting to do research on
+      web accessibility for a while as I've been very passionate about
+      inclusivity and accessibility. The funding they provide is very minimal,
+      but doing research under the TÜBİTAK name will surely make the research
+      more credible. While the research sample will be narrow on purpose, I plan
+      on conducting a much larger study as part of an MA degree.
+    </p>
+<p>
+      For my research to be accepted, I had to write a proposal, which took
+      around three weeks. The proposal and the research has to be in Turkish. It
+      was quite hard for me to write an academic proposal in Turkish because all
+      of my academic work so far has been in English. But thanks to my
+      professor’s continuous iterations and feedback, I was able to finish it
+      well before the deadline.
+    </p>
+<p>
+      Whether my proposal is accepted or not, it’s been a wonderful journey, and
+      I learned a lot. I want to especially thank my professor for recommending
+      this programme and for her support.
+    </p>
+<h1 id="body-building">Body building</h1>
+<p>
+      I wanted to run ever since I was a kid. But every time I tried, I would
+      get out of breath seconds later. I never pushed the start button on
+      getting serious about running. Even though I tried it for a few weeks at
+      the beginning of 2024, I was ignoring the main problem.
+    </p>
+<p>
+      And the main problem was that I was really out of shape, not just in terms
+      of body fat but also in the cardiovascular sense. That’s why I’ve been
+      building my body for the last two months with the goal of running a full
+      marathon before I graduate.
+    </p>
+<p>
+      I can proudly say that my efforts are bearing fruit. I can run for
+      extended periods of time now, and my body has never looked better. I
+      rarely get out of breath, and I feel much more energetic.
+    </p>
+<p>
+      As an added benefit, my meals taste much better because of the hard work I
+      put into my body. I would recommend everyone build their body in some way.
+    </p>
+<h1 id="photography">Photography</h1>
+<p>
+      After two years of only shooting analog, I made the switch to digital just
+      three months ago. Don't get me wrong, I am a huge fan of analog shooting.
+      But the price of film and the washing/scanning costs have almost increased
+      fivefold, and I am honestly sick of people who try to take advantage of
+      hobbyists just because something has become trendy.
+    </p>
+<p>
+      One other reason I switched to digital is that I wanted to do conference
+      and concert photography. Shooting a conference on film is not really a
+      feasible choice.
+    </p>
+<p>
+      And luckily enough, I was able to accomplish what I wanted in this period
+      of time. I used my friend Onur's camera for a while (a big thank you to
+      him), and in the meantime, I saved up enough money to buy a
+      <a href="https://en.wikipedia.org/wiki/Fujifilm_X-T5">Fujifilm XT-5</a>
+      with an 18-55mm F2.8-4 Lens.
+    </p>
+<p>
+      Photography is probably the hobby that fulfills me the most. I love going
+      on photography tours, and I especially love taking pictures of people and
+      urban environments. I am really glad that I decided to pursue photography
+      more seriously this semester.
+    </p>
+<p>
+      I will probably write a more detailed post explaining my relationship with
+      photography in a future post.
+    </p>
+<h1 id="finale">Finale</h1>
+<p>
+      I really am proud of what I achieved this year, but I didn't achieve these
+      things alone.
+    </p>
+<p>
+      I first want to extend my gratitude to my family, who supported me in
+      every way they could. Then, I want to thank the people who are/were a
+      large part of my life.
+    </p>
+<p>
+      It's a privilege for a person to not regret anything, and I wear this
+      privilege like a badge of honor. <strong>Thank you for reading.</strong>
+</p>
+<div class="bottom-header">
+<a class="bottom-header-link" href="/">Home</a>
+<a class="bottom-header-link" href="mailto:ismailefetop@gmail.com">Mail Me</a>
+<a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+<a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+<a href="https://firechicken.club/efe/prev">←</a>
+<a href="https://firechicken.club">🔥⁠🐓</a>
+<a href="https://firechicken.club/efe/next">→</a>
+</div>
+</body></html>]]></description>
+  <author>ismailefetop@gmail.com (İsmail Efe Top)</author>
+  <link>https://ismailefe.org/blog/reflecting_on_2024/index.html</link>
+  <guid>https://ismailefe.org/blog/reflecting_on_2024/index.html</guid>
+  <pubDate>Wed, 11 Dec 2024 00:00:00 +0300</pubDate>
+</item>
+
 <item>
   <title>Who Do I Want to Be?</title>
   <description><![CDATA[<!DOCTYPE html>
@@ -46,13 +288,15 @@
       <a href="https://marcel.io/about">Marcel</a>, has a great blog post called
       "<a href="https://marcel.io/posts/life-affirming-choices">Life-Affirming Choices</a>". In that blog post, he says
     </p>
+<blockquote>
 <p>
-<em>"I want to be, and surround myself with, people who are willing to put
-        in the effort to live a life their future selves will thank them
-        for—people who make scalable, life-affirming choices because they know
-        these actions grow and compound over time, leading to greater,
-        unexpected benefits."</em>
+<em>"I want to be, and surround myself with, people who are willing to
+          put in the effort to live a life their future selves will thank them
+          for—people who make scalable, life-affirming choices because they know
+          these actions grow and compound over time, leading to greater,
+          unexpected benefits."</em>
 </p>
+</blockquote>
 <p>
       I recommend checking out his post as he has been a great inspiration for
       this.
@@ -462,12 +706,12 @@
 <p class="date">2024-08-19</p>
 </header>
 <p>
-      This article is about my relationship with Emacs as a 20 year old university
-      student. First of all, Emacs is a text editor that has been around for a
-      really long time, 48 years to be exact. It still gets updated regularly
-      and has a thriving community that continuously grows. The main selling
-      point of Emacs is how extensible it is. You can change any of it's part
-      using
+      This article is about my relationship with Emacs as a 20 year old
+      university student. First of all, Emacs is a text editor that has been
+      around for a really long time, 48 years to be exact. It still gets updated
+      regularly and has a thriving community that continuously grows. The main
+      selling point of Emacs is how extensible it is. You can change any of it's
+      part using
       <a href="https://en.wikipedia.org/wiki/Emacs_Lisp?useskin=vector">Emacs Lisp</a>.
     </p>
 <p>
@@ -633,14 +877,15 @@
       startup. Nothing else.
     </p>
 <h2 id="org">Org</h2>
+<blockquote>
 <p>
-      Org mode is
-      <strong>"A GNU Emacs major mode for keeping notes, authoring documents,
-        computational notebooks, literate programming, maintaining to-do lists,
-        planning projects, and more — in a fast and effective plain text
-        system."</strong>
-      -<a href="https://orgmode.org">orgmode.org</a>
+<em>"A GNU Emacs major mode for keeping notes, authoring documents,
+          computational notebooks, literate programming, maintaining to-do
+          lists, planning projects, and more — in a fast and effective plain
+          text system."</em>
+        -<a href="https://orgmode.org">orgmode.org</a>
 </p>
+</blockquote>
 <p>This is a good introduction but I think I can expand more upon this.</p>
 <p>
       Org documents are plain-text files that end with '.org'. Org can be used
@@ -2224,7 +2469,7 @@ Couplet;Two lines of poetry at the end of a sonnet, that have the same length an
       videos. Those places can be a great starting point for people who want to
       give a little more effort to what they carry.
     </p>
-<h1 id="my_edc">My EDC</h1>
+<h1 id="my-edc">My EDC</h1>
 <p>
       While mine might seem a little lacking and boring, it has been by far the
       most efficient setup for me.
@@ -2233,25 +2478,25 @@ Couplet;Two lines of poetry at the end of a sonnet, that have the same length an
       I will mostly write about the interesting stuff and give only the bare
       minimum for the normal stuff.
     </p>
-<h2 class="emoji" id="section">📱</h2>
+<h2 id="section">📱</h2>
 <p>
       I am using an iPhone, while the operating system is quite locked I love
       the polished iOS experience and the great ecosystem which I am a part of.
     </p>
-<h2 class="emoji" id="section-1">🎧</h2>
+<h2 id="section-1">🎧</h2>
 <p>
       I am using the airpods pro 2nd gen. While expensive, they sound great and
       switching between my phone and my computer is stupid easy. Not having to
       deal with the unwanted small stuff and focusing on my creative projects is
       really important to me. Being in the apple ecosystem allows me to do that.
     </p>
-<h2 class="emoji" id="section-2">⌚️</h2>
+<h2 id="section-2">⌚️</h2>
 <p>
       I am using an old apple watch. I like tracking my sleep and exercises so
       that I can make adjustments. Also, seeing notifications without looking at
       my phone really comes in handy more than you might think.
     </p>
-<h2 class="emoji" id="section-3">🪪</h2>
+<h2 id="section-3">🪪</h2>
 <p>
       Like most people, I used a lot of different wallets. My biggest problem
       with my old wallets were they size. Because of my different circumstances
@@ -2262,7 +2507,7 @@ Couplet;Two lines of poetry at the end of a sonnet, that have the same length an
       the ones I frequently use in the front pockets. It really is the perfect
       wallet for me.
     </p>
-<h2 class="emoji" id="section-4">🔑</h2>
+<h2 id="section-4">🔑</h2>
 <p>I carry the keys for my dormitory, nothing special.</p>
 <h1 id="my-backpack">My Backpack</h1>
 <p>
@@ -2270,14 +2515,14 @@ Couplet;Two lines of poetry at the end of a sonnet, that have the same length an
       inside my bag. I have a computer case with a big zipper pocket, a travel
       pouch, and an umbrella.
     </p>
-<h2 class="emoji" id="section-5">🎒</h2>
+<h2 id="section-5">🎒</h2>
 <p>
       My backpack is a mid-size Herschel Little America. Because I carry my
       backpack everywhere, it needs to be light and comfortable. This bag is
       just that. It has no fancy trick. Just a light and small backpack. It's
       the perfect size for carry it everyday.
     </p>
-<h2 class="emoji" id="section-6">💻</h2>
+<h2 id="section-6">💻</h2>
 <p>
       This is probably the most important part of my life. I take notes for
       class, I program on it, I watch youtube. Basically most of my digital life
@@ -2287,7 +2532,7 @@ Couplet;Two lines of poetry at the end of a sonnet, that have the same length an
       MacOS has the hackability of linux and it is crazy stable. I can easily
       say that this laptop suits my needs perfectly.
     </p>
-<h2 class="emoji" id="section-7">💼</h2>
+<h2 id="section-7">💼</h2>
 <p>
       While the most important use-case of my computer case is protecting my
       computer, it also holds a lot of important accessory like:
@@ -2300,7 +2545,7 @@ Couplet;Two lines of poetry at the end of a sonnet, that have the same length an
 <li>a Baseus Presentation Remote</li>
 <li>a Generic Type-C Hub</li>
 </ul>
-<h2 class="emoji" id="section-8">👝</h2>
+<h2 id="section-8">👝</h2>
 <p>
       I also have a vintage travel pouch. On one side I have a usb power adapter
       and a 3 headed power cable and on the other I have a small notebook and
@@ -2339,7 +2584,7 @@ Couplet;Two lines of poetry at the end of a sonnet, that have the same length an
       love his stuff and he has been a great inspiration for me. I suggest
       everyone to check out his stuff.
     </p>
-<img alt="Image of my Emacs window" src="eye-candy.webp"/>
+<img alt="Image of my Emacs window" src="/blog/eye_candy/eye-candy.webp"/>
 <p>
       In this post I am planning to walk you through my visual
       <a href="https://www.gnu.org/software/emacs/">Emacs</a> setup, I will use
@@ -2350,31 +2595,36 @@ Couplet;Two lines of poetry at the end of a sonnet, that have the same length an
       sources about Emacs and org-mode on youtube. Until I make that post, you
       can explore the Emacs world freely.
     </p>
-<p><strong>Let's Start</strong></p>
-<h1 id="install-brew">Installing Homebrew</h1>
 <p>
-      I will be using <a href="https://brew.sh/">Homebrew</a> to install Emacs
-      and it's dependencies.
+<strong>Edit:</strong> I have made that post.
+      <a href="https://ismailefe.org/blog/why_use_emacs/">Why Use Emacs?</a>
+</p>
+<p><strong>Let's Start</strong></p>
+<h1 id="installing-brew">Installing Brew</h1>
+<p>
+      I will be using <a href="https://brew.sh/">brew</a> to install Emacs and
+      it's dependencies.
     </p>
 <div class="sourceCode" data-org-language="sh" id="cb1">
 <pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a aria-hidden="true" href="#cb1-1" tabindex="-1"></a><span class="ex">/bin/bash</span> <span class="at">-c</span> <span class="st">"</span><span class="va">$(</span><span class="ex">curl</span> <span class="at">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="va">)</span><span class="st">"</span></span></code></pre>
 </div>
-<h1 id="install-emacs">Installing Emacs</h1>
+<h1 id="installing-emacs">Installing Emacs</h1>
 <p>
       I am choosing the default cask for Emacs. I tried several different forks
-      of mac Emacs but all of them gave me poor performance on my m2 macbook.
+      of Emacs for MacOS but all of them gave me poor performance on my m2
+      MacBook Air.
     </p>
 <div class="sourceCode" data-org-language="sh" id="cb2">
 <pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a aria-hidden="true" href="#cb2-1" tabindex="-1"></a><span class="ex">brew</span> install <span class="at">--cask</span> emacs</span></code></pre>
 </div>
 <p>
-<strong>After installing do not start Emacs.</strong> Starting Emacs will
+<strong>After installing, do not start Emacs.</strong> Starting Emacs will
       create a profile, which will conflict with your doom profile.
     </p>
-<h1 id="install-doom">Installing Doom</h1>
+<h1 id="installing-doom">Installing Doom</h1>
 <p>
       Doom is a stable framework for Emacs. You can considered like a base
-      config file. It really makes Emacs usable out-of-box.
+      config file. It really makes Emacs easy to use out-of-box.
     </p>
 <div class="sourceCode" data-org-language="sh" id="cb3">
 <pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a aria-hidden="true" href="#cb3-1" tabindex="-1"></a><span class="fu">git</span> clone <span class="at">--depth</span> 1 https://github.com/doomemacs/doomemacs ~/.config/emacs</span>
@@ -2386,103 +2636,77 @@ Couplet;Two lines of poetry at the end of a sonnet, that have the same length an
       I used to use the doom-dracula theme. But nowadays my favorite is the
       <a href="https://github.com/meritamen/emacs-kanagawa-theme">kanagawa theme</a>.
     </p>
-<p>Add the below line to ~/.config/doom/package.el</p>
 <div class="sourceCode" data-org-language="emacs-lisp" id="cb4">
-<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb4-1"><a aria-hidden="true" href="#cb4-1" tabindex="-1"></a>(package! kanagawa-theme)</span></code></pre>
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb4-1"><a aria-hidden="true" href="#cb4-1" tabindex="-1"></a><span class="co">;; add this to ~/.config/doom/package.el</span></span>
+<span id="cb4-2"><a aria-hidden="true" href="#cb4-2" tabindex="-1"></a>(package! kanagawa-theme)</span></code></pre>
 </div>
-<p>
-      Then set your theme to kanagawa, for this put the below line in your
-      config file ~/.config/doom/config.el
-    </p>
+<p>Then set your theme to kanagawa.</p>
 <div class="sourceCode" data-org-language="emacs-lisp" id="cb5">
-<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb5-1"><a aria-hidden="true" href="#cb5-1" tabindex="-1"></a>(<span class="kw">setq</span> doom-theme <span class="dt">'kanagawa</span>)</span></code></pre>
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb5-1"><a aria-hidden="true" href="#cb5-1" tabindex="-1"></a><span class="co">;; ~/.config/doom/config.el</span></span>
+<span id="cb5-2"><a aria-hidden="true" href="#cb5-2" tabindex="-1"></a>(<span class="kw">setq</span> doom-theme <span class="dt">'kanagawa</span>)</span></code></pre>
 </div>
-<p>
-<b>Note:</b> From now on all the code should go into your config file.
-    </p>
 <h1 id="changing-the-font">Changing the font</h1>
 <p>
       I like using the
       <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a>.
     </p>
 <div class="sourceCode" data-org-language="emacs-lisp" id="cb6">
-<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb6-1"><a aria-hidden="true" href="#cb6-1" tabindex="-1"></a>(<span class="kw">setq</span> doom-font (font-spec :family <span class="st">"JetBrains Mono"</span> :size <span class="dv">22</span>))</span></code></pre>
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb6-1"><a aria-hidden="true" href="#cb6-1" tabindex="-1"></a><span class="co">;; ~/.config/doom/config.el</span></span>
+<span id="cb6-2"><a aria-hidden="true" href="#cb6-2" tabindex="-1"></a>(<span class="kw">setq</span> doom-font (font-spec :family <span class="st">"JetBrains Mono"</span> :size <span class="dv">22</span>))</span></code></pre>
 </div>
-<h1 id="enable-word-count">Enabling Word Count</h1>
+<h1 id="enabling-word-count">Enabling Word Count</h1>
 <p>This puts a word count in the modeline.</p>
 <div class="sourceCode" data-org-language="emacs-lisp" id="cb7">
-<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb7-1"><a aria-hidden="true" href="#cb7-1" tabindex="-1"></a>(<span class="kw">setq</span> doom-modeline-enable-word-count <span class="kw">t</span>)</span></code></pre>
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb7-1"><a aria-hidden="true" href="#cb7-1" tabindex="-1"></a><span class="co">;; ~/.config/doom/config.el</span></span>
+<span id="cb7-2"><a aria-hidden="true" href="#cb7-2" tabindex="-1"></a>(<span class="kw">setq</span> doom-modeline-enable-word-count <span class="kw">t</span>)</span></code></pre>
 </div>
-<h1 id="disable-hl-line-mode">Disabling hl-line-mode</h1>
+<h1 id="disabling-hl-line-mode">Disabling hl-line-mode</h1>
 <p>'hl-line' makes the current line a different color. I don't like it.</p>
 <div class="sourceCode" data-org-language="emacs-lisp" id="cb8">
-<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb8-1"><a aria-hidden="true" href="#cb8-1" tabindex="-1"></a>(remove-hook <span class="dt">'doom-first-buffer-hook</span> <span class="op">#'</span>global-hl-line-mode)</span></code></pre>
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb8-1"><a aria-hidden="true" href="#cb8-1" tabindex="-1"></a><span class="co">;; ~/.config/doom/config.el</span></span>
+<span id="cb8-2"><a aria-hidden="true" href="#cb8-2" tabindex="-1"></a>(remove-hook <span class="dt">'doom-first-buffer-hook</span> <span class="op">#'</span>global-hl-line-mode)</span></code></pre>
 </div>
 <h1 id="the-title-bar">The title bar</h1>
 <p>
       I like the look of an empty unified title-bar, so this removes the text.
-      <strong>Only works for mac.</strong>
+      <strong>Only works for MacOS.</strong>
 </p>
 <div class="sourceCode" data-org-language="emacs-lisp" id="cb9">
-<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb9-1"><a aria-hidden="true" href="#cb9-1" tabindex="-1"></a>(<span class="kw">setq</span> ns-use-proxy-icon <span class="kw">nil</span>)</span>
-<span id="cb9-2"><a aria-hidden="true" href="#cb9-2" tabindex="-1"></a>(<span class="kw">setq</span> frame-title-format <span class="kw">nil</span>)</span></code></pre>
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb9-1"><a aria-hidden="true" href="#cb9-1" tabindex="-1"></a><span class="co">;; ~/.config/doom/config.el</span></span>
+<span id="cb9-2"><a aria-hidden="true" href="#cb9-2" tabindex="-1"></a>(<span class="kw">setq</span> ns-use-proxy-icon <span class="kw">nil</span>)</span>
+<span id="cb9-3"><a aria-hidden="true" href="#cb9-3" tabindex="-1"></a>(<span class="kw">setq</span> frame-title-format <span class="kw">nil</span>)</span></code></pre>
 </div>
-<h1 id="remove-the-tilde-signs">Removing the tilde signs</h1>
+<h1 id="removing-the-tilde-signs">Removing the tilde signs</h1>
 <p>
       There is an ugly tilde sign on empty lines by default. I really don't like
       it. You can remove it by commenting out the 'vi-tilde-fringe' line in
       ~/.config/doom/init.el
     </p>
-<h1 id="olivetti-mode">Olivetti Mode</h1>
+<h1 id="olivetti-mode">Olivetti mode</h1>
 <p>
       There is a melpa package called
       <a href="https://github.com/rnkn/olivetti">olivetti</a>. This package
       provides a good look for writing/reading by decreasing the width of the
       buffer.
     </p>
-<p>
-      You can install Olivetti by adding the below line to
-      ~/.config/doom/package.el
-    </p>
 <div class="sourceCode" data-org-language="emacs-lisp" id="cb10">
-<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb10-1"><a aria-hidden="true" href="#cb10-1" tabindex="-1"></a>(package! olivetti)</span></code></pre>
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb10-1"><a aria-hidden="true" href="#cb10-1" tabindex="-1"></a><span class="co">;; ~/.config/doom/package.el</span></span>
+<span id="cb10-2"><a aria-hidden="true" href="#cb10-2" tabindex="-1"></a>(package! olivetti)</span></code></pre>
 </div>
-<p>You can adjust the width like this</p>
+<p>You can adjust the width with the below line</p>
 <div class="sourceCode" data-org-language="emacs-lisp" id="cb11">
-<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb11-1"><a aria-hidden="true" href="#cb11-1" tabindex="-1"></a>(<span class="kw">setq</span> olivetti-body-width <span class="dv">94</span>)</span></code></pre>
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb11-1"><a aria-hidden="true" href="#cb11-1" tabindex="-1"></a><span class="co">;; ~/.config/doom/config.el</span></span>
+<span id="cb11-2"><a aria-hidden="true" href="#cb11-2" tabindex="-1"></a>(<span class="kw">setq</span> olivetti-body-width <span class="dv">94</span>)</span></code></pre>
 </div>
-<h1 id="reading-mode">Reading Mode</h1>
-<p>
-      When writing or reading I like a couple of things different. I like to
-      open up olivetti, disable the line numbers and the modeline. This function
-      allows me to change these settings in one go. Also I have an undo
-      function. I have them set to 'ö' and 'ç' as those keys are not used for
-      any commands.
-    </p>
-<p><strong>Reading Function:</strong></p>
+<p>I also start Olivetti Mode automatically on Text Mode buffers</p>
 <div class="sourceCode" data-org-language="emacs-lisp" id="cb12">
-<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb12-1"><a aria-hidden="true" href="#cb12-1" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> efe/reading-mode </span>()</span>
-<span id="cb12-2"><a aria-hidden="true" href="#cb12-2" tabindex="-1"></a>  <span class="st">"Toggle reading mode."</span></span>
-<span id="cb12-3"><a aria-hidden="true" href="#cb12-3" tabindex="-1"></a>  (interactive)</span>
-<span id="cb12-4"><a aria-hidden="true" href="#cb12-4" tabindex="-1"></a>  (hide-mode-line-mode +1)</span>
-<span id="cb12-5"><a aria-hidden="true" href="#cb12-5" tabindex="-1"></a>  (olivetti-mode)</span>
-<span id="cb12-6"><a aria-hidden="true" href="#cb12-6" tabindex="-1"></a>  (menu-bar--display-line-numbers-mode-none))</span>
-<span id="cb12-7"><a aria-hidden="true" href="#cb12-7" tabindex="-1"></a>(global-set-key (kbd <span class="st">"C-ö"</span>) <span class="dt">'efe/reading-mode</span>)</span></code></pre>
-</div>
-<p><strong>Undo Function:</strong></p>
-<div class="sourceCode" data-org-language="emacs-lisp" id="cb13">
-<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb13-1"><a aria-hidden="true" href="#cb13-1" tabindex="-1"></a>(<span class="kw">defun</span><span class="fu"> efe/undo-reading-mode </span>()</span>
-<span id="cb13-2"><a aria-hidden="true" href="#cb13-2" tabindex="-1"></a>  <span class="st">"undo reading mode."</span></span>
-<span id="cb13-3"><a aria-hidden="true" href="#cb13-3" tabindex="-1"></a>  (interactive)</span>
-<span id="cb13-4"><a aria-hidden="true" href="#cb13-4" tabindex="-1"></a>  (hide-mode-line-mode <span class="op">-</span><span class="dv">1</span>)</span>
-<span id="cb13-5"><a aria-hidden="true" href="#cb13-5" tabindex="-1"></a>  (<span class="kw">setq</span> olivetti-mode <span class="kw">nil</span>)</span>
-<span id="cb13-6"><a aria-hidden="true" href="#cb13-6" tabindex="-1"></a>  (menu-bar--display-line-numbers-mode-absolute))</span>
-<span id="cb13-7"><a aria-hidden="true" href="#cb13-7" tabindex="-1"></a>(global-set-key (kbd <span class="st">"C-ç"</span>) <span class="dt">'efe/undo-reading-mode</span>)</span></code></pre>
+<pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb12-1"><a aria-hidden="true" href="#cb12-1" tabindex="-1"></a><span class="co">;; ~/.config/doom/config.el</span></span>
+<span id="cb12-2"><a aria-hidden="true" href="#cb12-2" tabindex="-1"></a>(add-hook <span class="dt">'text-mode-hook</span> <span class="dt">'olivetti-mode</span>)</span></code></pre>
 </div>
 <h1 id="changing-the-icon">Changing the Icon</h1>
 <p>
       Lastly, I like to use this
-      <a href="https://commons.wikimedia.org/wiki/File:Emacs-logo.svg">Icon</a>.
+      <a href="https://commons.wikimedia.org/wiki/File:Emacs-logo.svg">logo</a>.
       It is quite old but it suits my style.
     </p>
 <div class="bottom-header">

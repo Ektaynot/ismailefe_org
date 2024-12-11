@@ -1,0 +1,102 @@
+#+Title: Reflecting on 2024
+#+Author: İsmail Efe Top
+#+Date: 2024-12-11
+#+Language: en
+#+Description: Reflecting on the biggest year of my life so far.
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <meta name="theme-color" content="#fffcf0">
+#+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
+I honestly don't even know where to begin. 2024 has been, by far, the hardest, the most packed, the most adventurous, and the most rewarding year of my life. I was able to grow so much this year and venture into tons of different areas. Here is a rough overview of my year in semi-chronological headings.
+
+* ismailefe.org
+
+While this blog is not even 1 year old, it feels like I started it just a month ago, yet at the same time, I feel like I’ve been running it for decades. I’ve sunk countless hours and countless commits ([[https://github.com/Ektaynot/ismailefe_org/commits/master/][417 as of the time of writing]]). Starting this blog, without a doubt, was the best decision I’ve made after deciding to learn [[https://ismailefe.org/blog/why_use_emacs/][Emacs and Org]].
+
+This blog has also been the spark that led me to all the awesome things I’ve done this year. I don’t even want to imagine what my life would be like if I didn’t pursue blogging, as it led me to make incredible friends in the blogging space, work with amazing people in both real-life and online projects, and have a fulfilling part-time job where I learn important communication skills every day.
+
+I plan on making a more detailed post about my adventure in blogging around the one-year mark of this blog.
+
+* Starting my career as a social media manager
+
+It all started when I proposed a redesign of a blog our faculty managed. After a few meetings, we decided that my skills would be more valuable in starting a new social media platform for our faculty with a research assistant who ran a few similiar projects before. And *we did!* It’s been a great initiative, and I am also proud of the fact that we are one of the few faculties in METU that has a plethora of active and official social media accounts. Thanks to Yasemin and Berkcan Hoca for the wonderful opportunity.
+
+I learned a lot during the growing phase, which came in handy when I got a job offer from a laboratory in METU. I’ve been working there part-time for almost two months, and I couldn’t be happier. My job title is Assistant Communication Coordinator, and my job description includes the maintenance and post creation for three different brands. I also do some behind-the-scenes work, which I sadly cannot talk about. Our Communication Coordinator has been a wonderful mentor to me. I do tons of things I’ve never done before, and she tirelessly helps me every time. I honestly can’t thank her enough.
+
+* My look on life
+
+I had a 2-month period where my family and I faced some serious health and personal issues. However, I was fortunate that, while these issues were really hard to deal with, in the end, they were things that could be overcome. I lost none of my family and our future seems very hopeful.
+
+In these two months, I learned very important lessons. The first lesson was "*never postpone being happy*". You can always make excuses for when to be happy. For example, you can say that you will be happy once you get over your midterm week, or you can be more dreadful and say that you will be happy once you have a lot of money or a significant other. During those two months, I was sad to lose my health but was happy that I even had it in the first place. I was also scared shitless when I thought that I would lose my father, but was grateful that I had a person in my life whom I loved so much that I would be devastated to see them go.
+
+A subheading of the first lesson is *enjoying the hardships of life*. Things will rarely go the way you want, and how you want to look at it entirely depends on you. Personally, I look at hardships as chances to grow as a person. I am fairly young, and I am fortunate that I am able to make wrong decisions and suffer very little from them in the long term. Every time I overcome a challenge, I grow proportional to it. And the everyday distress grows smaller day by day. That's why I embrace and enjoy hardships, I know that they will shape me into a better version of myself.
+
+The second lesson I learned is *the art of letting go*. I’ve been a very obsessive person all my life. I used to worry about everything and would always think obsessively about my next move or future interactions. I would tirelessly try to change things I clearly had no control over. This behavior became a lot more relaxed when I came to university, but I know for a fact that it remained in some of my relationships.
+
+After going through so many hardships, I learned that you have to pick your battles and let go of the ones you have no control over. If you have big goals, which I do, and want to achieve them in your limited lifetime, you have to allocate time properly and not lose time on the uncontrollable.
+
+I feel like I’ve taken these lessons to heart and am grateful that I was able to grow from my challenges. I am much more in peace with my life and body than I ever was.
+
+* TÜBİTAK Proposal
+
+#+HTML: <blockquote>
+The Scientific and Technological Research Council of Türkiye (TÜBİTAK) is responsible for promoting, developing, organizing, conducting and coordinating research and development in line with national targets and priorities. - [[https://tubitak.gov.tr/en/institutional/about-us/who-we-are][tubitak.gov.tr]]
+#+HTML: </blockquote>
+
+When I started my blog, I was lucky enough to come across wonderful resources that highlighted the importance of accessibility on the web. Accessibility is not a "nice thing to have"; it's a must thing to have. That's why I do my best to adhere to [[https://www.w3.org/WAI/standards-guidelines/wcag/][WCAG standards]].
+
+During my course selection week, I came across a selective course called “Inclusive Education.” It really caught my eye, and I was fast and lucky enough to get it. I’ve been taking this course for the last 11 weeks, and it’s really been an eye-opening experience. I learned a ton about different types of learning disabilities and how to act as a teacher when those students are present.
+
+And when the professor for this class recommended that we apply to a TÜBİTAK-funded “Research Project Support Programme for Undergraduate Students,” I jumped at the chance. I had been wanting to do research on web accessibility for a while as I've been very passionate about inclusivity and accessibility. The funding they provide is very minimal, but doing research under the TÜBİTAK name will surely make the research more credible. While the research sample will be narrow on purpose, I plan on conducting a much larger study as part of an MA degree.
+
+For my research to be accepted, I had to write a proposal, which took around three weeks. The proposal and the research has to be in Turkish. It was quite hard for me to write an academic proposal in Turkish because all of my academic work so far has been in English. But thanks to my professor’s continuous iterations and feedback, I was able to finish it well before the deadline.
+
+Whether my proposal is accepted or not, it’s been a wonderful journey, and I learned a lot. I want to especially thank my professor for recommending this programme and for her support.
+
+* Body building
+
+I wanted to run ever since I was a kid. But every time I tried, I would get out of breath seconds later. I never pushed the start button on getting serious about running. Even though I tried it for a few weeks at the beginning of 2024, I was ignoring the main problem.
+
+And the main problem was that I was really out of shape, not just in terms of body fat but also in the cardiovascular sense. That’s why I’ve been building my body for the last two months with the goal of running a full marathon before I graduate.
+
+I can proudly say that my efforts are bearing fruit. I can run for extended periods of time now, and my body has never looked better. I rarely get out of breath, and I feel much more energetic.
+
+As an added benefit, my meals taste much better because of the hard work I put into my body. I would recommend everyone build their body in some way.
+
+* Photography
+
+After two years of only shooting analog, I made the switch to digital just three months ago. Don't get me wrong, I am a huge fan of analog shooting. But the price of film and the washing/scanning costs have almost increased fivefold, and I am honestly sick of people who try to take advantage of hobbyists just because something has become trendy.
+
+One other reason I switched to digital is that I wanted to do conference and concert photography. Shooting a conference on film is not really a feasible choice.
+
+And luckily enough, I was able to accomplish what I wanted in this period of time. I used my friend Onur's camera for a while (a big thank you to him), and in the meantime, I saved up enough money to buy a [[https://en.wikipedia.org/wiki/Fujifilm_X-T5][Fujifilm XT-5]] with an 18-55mm F2.8-4 Lens.
+
+Photography is probably the hobby that fulfills me the most. I love going on photography tours, and I especially love taking pictures of people and urban environments. I am really glad that I decided to pursue photography more seriously this semester.
+
+I will probably write a more detailed post explaining my relationship with photography in a future post.
+
+* Finale
+
+I really am proud of what I achieved this year, but I didn't achieve these things alone.
+
+I first want to extend my gratitude to my family, who supported me in every way they could. Then, I want to thank the people who are/were a large part of my life.
+
+It's a privilege for a person to not regret anything, and I wear this privilege like a badge of honor. *Thank you for reading.*
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
+#+END_EXPORT

@@ -28,6 +28,8 @@ This page contains bits of information that I collected from various sources. It
 
 + “Society grows great when old men plant trees whose shade they know they shall never sit in.” - Anonymous Greek Proverb
 
++ "You can plan a pretty picnic, but you can't predict the weather." - André 3000
+
 #+BEGIN_EXPORT html
 <div class="bottom-header">
   <a class="bottom-header-link" href="/">Home</a>

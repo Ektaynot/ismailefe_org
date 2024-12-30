@@ -1,0 +1,36 @@
+#+Title: my_workout_routine
+#+Author: İsmail Efe Top
+#+Date: 2024-12-11
+#+Language: en
+#+Description:
+
+* My workout routine
+
+First of all, *this is not workout advice*. I am not qualified to talk about fitness in any way. I just wanted to talk about my routine as it's very unconventional. By the way, I always do super-sets to save time.
+
+- 15 minutes of high-intensity running as both a warmup and to build stamina.
+- 30 minutes of upper body building – I don't do specific area days; I just use machines that are empty at the moment.
+- 15 minutes of leg building. The leg machines are generally empty as people in my gym hate training legs. I generally use 3 machines with 3 sets for each machine and do weighted dips.
+- 10 minutes of core building. I just use a sit-up bench for three sets and then do leg raises to failure.
+- 15 minutes of stretching. I've been following [[https://youtu.be/g_tea8ZNk5A][this video]] for the last two months; please let me know if you have any recommendations.
+
+** Common questions I get about my workout routine
+
+*Why do you do cardio before muscle training, doesn't doing high-intensity cardio and then muscle trainging stump muscle growth?*
+
+Yes it does, but I love doing cardio and doing it before muscle training gets me excited for the rest of the workout.
+
+
+*Why don't you target spesific muscle groups in spesific days?*
+
+I hate waiting between sets and the empty machines differ every time I go, that's why I can hit different muscle groups equally and at the same time I don't have to wait for a machine that I have to use.
+
+
+*Why do you do super-sets?*
+
+It just saves time, no other reason.
+
+
+*Is streching really that necessary?*
+
+Yes it is.

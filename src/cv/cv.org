@@ -28,7 +28,7 @@
   - *CumGPA: 3.55*
 
 
-- *[2018 - 2022]* Körfez Atatürk Anadolu High School
+- *[2018 - 2022]* Körfez Atatürk Anatolian High School
 
 -----
 
@@ -37,23 +37,26 @@
 
   - *Job Description:* Responsible for managing social media and project websites, designing creative materials, and transforming scientific data into accessible formats to support research initiatives for projects such as [[https://proximedprima.eu/][ProxIMed]], [[https://funtomp.com/][FunTomP]], and [[https://suchaquality.com/][SuChAQuality]].
 
-- *[March 2024 - Present]* Middle East Technical University - Foreign Language Department Official Social Media Account Management
+- *[March 2024 - Present]* Volunteer Social Media Manager and Photographer for Middle East Technical University - Foreign Language Education Department
 
-  - *Job Description:* Responsible for creating short videos and announcement posts for social media as the head of media creation.
+  - *Job Description:* Responsible for overseeing the planning and creation of multimedia content for social media platforms, including producing short videos, designing announcement posts, and capturing event photography to enhance the online presence of the Middle East Technical University - Foreign Language Education Department.
 
-- *[November 2023 - Present]* Translation for Open-Source Apps
+- *[November 2023 - Present]* Volunteer Translation of Open-Source Apps
 
   - *Job Description:* Translated apps such as [[https://obsproject.com/][OBS]], [[https://iina.io/][IINA]], [[https://ryujinx.org/][Ryujinx]], and [[https://getwhisky.app/][Whisky]] from English to Turkish via [[https://crowdin.com/][Crowdin]].
 
     I am also a part of the [[https://localize.proton.me/][Proton Localization Community]]. In this community, I am responsible for translating all of the [[https://proton.me/][Proton Suite]] to Turkish.
 
-- *[November 2024]* Middle East Technical University - The 6th International English for Specific Purposes Conference *Main Photographer and Photography Coordinator*
+- *[November 2024]* Middle East Technical University - The 6th International English for Specific Purposes Conference *Head Photographer and Photography Coordinator*
 
   - *Job Description:*
     - Managed a team of photographers and social media staff, coordinating assignments and providing creative direction.
     - Captured key photographs of presenters and event venues, ensuring quality and consistency.
     - Oversaw the organization, editing, and timely distribution of all images produced by the team.
 
+- *[September 2019 - March 2020]* Vice President of the STEM Club of the Körfez Atatürk Anatolian High School
+
+  - *Job Description:* Led STEM initiatives, designed posters on career opportunities, organized skill-building events, and collaborated with members to foster student engagement in STEM fields.
 -----
 
 #+HTML: <div class="skillsandinterest">

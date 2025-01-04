@@ -16,6 +16,9 @@
 </div>
 #+end_export
 
+* January 2025
+- [[https://simonwillison.net/2025/Jan/2/they-spy-on-you-but-not-like-that/][I still don’t think companies serve you ads based on spying through your microphone by Simon Willison]]
+
 * December 2024
 - [[https://taylor.town/next-two-zeroes][Your Next Two Zeroes by Taylor Troesh]]
 

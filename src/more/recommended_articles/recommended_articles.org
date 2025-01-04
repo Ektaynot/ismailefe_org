@@ -17,6 +17,7 @@
 #+end_export
 
 * January 2025
+- [[https://robinrendle.com/stories/this-glorious-machine/][This Glorious Machine by Robin Rendle]]
 - [[https://simonwillison.net/2025/Jan/2/they-spy-on-you-but-not-like-that/][I still don’t think companies serve you ads based on spying through your microphone by Simon Willison]]
 
 * December 2024

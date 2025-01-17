@@ -19,6 +19,7 @@
 * January 2025
 - [[https://robinrendle.com/stories/this-glorious-machine/][This Glorious Machine by Robin Rendle]]
 - [[https://simonwillison.net/2025/Jan/2/they-spy-on-you-but-not-like-that/][I still don’t think companies serve you ads based on spying through your microphone by Simon Willison]]
+- [[https://taylor.town/how-do-you-want-to-help][How do you want to help? by Taylor Troesh]]
 
 * December 2024
 - [[https://taylor.town/next-two-zeroes][Your Next Two Zeroes by Taylor Troesh]]

@@ -3,7 +3,10 @@
 import glob
 import os
 
-full_project_dir = os.path.expanduser("~/ismailefe_org/")
+if "GITHUB_WORKSPACE" in os.environ:
+    full_project_dir = os.environ["GITHUB_WORKSPACE"]
+else:
+    full_project_dir = os.path.expanduser("~/ismailefe_org/")
 
 website_url = "https://ismailefe.org/"
 

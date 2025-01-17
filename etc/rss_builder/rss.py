@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 
+import os
 from datetime import datetime
 from bs4 import BeautifulSoup
 
-system_header = "/Users/ismailefetop/ismailefe_org"
+if "GITHUB_WORKSPACE" in os.environ:
+    system_header = os.environ["GITHUB_WORKSPACE"]
+else:
+    system_header = "/Users/ismailefetop/ismailefe_org"
+
 website_header= "https://ismailefe.org"
 blog_posts = ["/blog/reflecting_on_2024/index.html",
             "/blog/who_do_i_want_to_be/index.html",

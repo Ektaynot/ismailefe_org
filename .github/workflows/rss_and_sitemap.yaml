@@ -1,0 +1,22 @@
+name: Execute Scripts on Push
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  run-scripts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Execute RSS Builder
+        run: |
+          python3 ${{ github.workspace }}/etc/rss_builder/rss.py
+
+      - name: Execute Sitemap Generator
+        run: |
+          python3 ${{ github.workspace }}/etc/sitemap_generator/sitemap_generator.py

@@ -30,6 +30,8 @@ This page contains bits of information that I collected from various sources. It
 
 + "You can plan a pretty picnic, but you can't predict the weather." - André 3000
 
++ "If you're not prepared to look stupid, then nothing great is ever gonna happen, right?" - House M.D. S2.E14
+
 #+BEGIN_EXPORT html
 <div class="bottom-header">
   <a class="bottom-header-link" href="/">Home</a>

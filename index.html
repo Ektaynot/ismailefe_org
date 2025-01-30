@@ -15,7 +15,7 @@
     />
     <meta name="description" content="İsmail Efe Top's Blog Site" />
     <meta name="author" content="İsmail Efe Top" />
-    <meta name="theme-color" content="#fffcf0">
+    <meta name="theme-color" content="#fffcf0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://github.com/ektaynot" rel="me" />
     <link rel="stylesheet" href="/templates/style.css" />
@@ -56,6 +56,12 @@
       .all-posts {
         font-size: 22px;
       }
+      .avatar {
+        width: 1.3em;
+        height: 1.3em;
+        vertical-align: middle;
+        padding-bottom: 0.2em;
+      }
       @media (max-width: 600px) {
         .post-date {
           font-size: 10pt;
@@ -68,6 +74,10 @@
         }
         h1::before {
           font-size: 20pt;
+        }
+        .avatar {
+          width: 1.2em;
+          height: 1.2em;
         }
       }
       .all-posts-button {
@@ -98,10 +108,14 @@
         box-shadow: rgb(16, 15, 15) 2px 2px 0 0;
         transform: translate(2px, 2px);
       }
+
     </style>
   </head>
   <body>
-    <h1 id="ismail-efes-blog-site">İsmail Efe's Blog Site</h1>
+    <h1 id="ismail-efes-blog-site">
+      İsmail Efe's Blog Site
+      <img class="avatar" src="/avatar.png" alt="Avatar" />
+    </h1>
     <p>Welcome to my second brain. I am planning to post my thoughts here.</p>
     <p>
       <em
@@ -113,31 +127,31 @@
 
     <h2 id="blog-posts">Latest Posts</h2>
     <ul>
-      <li style="color: green; list-style-type: disc;">
+      <li style="color: green; list-style-type: disc">
         <p>
           <a href="/blog/reflecting_on_2024/">Reflecting on 2024</a>
           <span class="post-date">December 11, 2024</span>
         </p>
       </li>
-      <li style="color: green; list-style-type: disc;">
+      <li style="color: green; list-style-type: disc">
         <p>
           <a href="/blog/who_do_i_want_to_be/">Who Do I Want to Be?</a>
           <span class="post-date">October 29, 2024</span>
         </p>
       </li>
-      <li style="color: green; list-style-type: disc;">
+      <li style="color: green; list-style-type: disc">
         <p>
           <a href="/blog/my_design_stack/">My Design Stack</a>
           <span class="post-date">October 13, 2024</span>
         </p>
       </li>
-      <li style="color: green; list-style-type: disc;">
+      <li style="color: green; list-style-type: disc">
         <p>
           <a href="/blog/5_life_lessons/">5 Life Lessons</a>
           <span class="post-date">September 14, 2024</span>
         </p>
       </li>
-      <li style="color: green; list-style-type: disc;">
+      <li style="color: green; list-style-type: disc">
         <p>
           <a href="/blog/why_use_emacs/">Why Use Emacs</a>
           <span class="post-date">August 19, 2024</span>

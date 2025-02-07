@@ -13,18 +13,17 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * When did I last update this page
-- Dec 30, 2024
+- Feb 7, 2025
 
 * What am I doing?
-- Preparing for my finals
-- Doing lots of photoshoots, both professionally and for fun
-- Going to the gym and running regularly
-- Working on my part-time job
+- Trying to spend time with my family before the semester starts
+- Working on web-design professionally
+- Watching [[https://www.imdb.com/title/tt0412142/][House]]
 
 * What am I planning on doing?
-- I hope to have a pleasant new year celebration with my friends
-- I have a few professional photoshoots lined up in İstanbul, I plan to shoot them in my semester vacation
-- I hope to finish all of my assigments and finals the way I want
+- Once I am back in Ankara, I want to do lots of photography tours
+- I really missed my friends, I plan to spend a lot of time with them
+- I wasn't able to exercise for various reasons, I plan to get back on track
 
 * Archive
 #+begin_export html

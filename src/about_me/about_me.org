@@ -25,7 +25,7 @@
 
 #+END_EXPORT
 
-My name is İsmail Efe Top. I'm a second year Foreign Language Education student at [[https://www.metu.edu.tr/][METU]].
+My name is İsmail Efe Top. I do a major in Foreign Language Education and a minor in Logic and Philosophy of science at [[https://www.metu.edu.tr/][METU]].
 
 I like discovering new places, programming and hacking the programs I use. Some of my favorite programs are...
 

@@ -13,17 +13,17 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * When did I last update this page
-- Feb 7, 2025
+- Mar 1, 2025
 
 * What am I doing?
-- Trying to spend time with my family before the semester starts
-- Working on web-design professionally
-- Watching [[https://www.imdb.com/title/tt0412142/][House]]
+- I started doing a minor in Logic and Philosophy of Science, it's going really well but my academic load increased a lot. That's why I've been visiting the library everyday to study.
+- I am reading [[https://www.goodreads.com/book/show/390606.Philosophy_of_Science_in_the_Twentieth_Century][Philosophy of Science in the Twentieth Century: Four Central Themes by Donald Gillies]]
+- I've been doing web design for [[https://criticaleltmaterials.org/][Critical ELT Materials]] and [[https://elestirelpedagoji.org][Eleştirel Pedagoji]]
+- I started taking French lessons, I am doing my best to learn vocab and grammar.
 
 * What am I planning on doing?
-- Once I am back in Ankara, I want to do lots of photography tours
-- I really missed my friends, I plan to spend a lot of time with them
-- I wasn't able to exercise for various reasons, I plan to get back on track
+- I will shoot a convention this week, really excited for it. It's been a while since I last did a shoot for a convention.
+- Philosophy is a subject I am passionate about. I plan on reading a lot more about the Philosophy of science.
 
 * Archive
 #+begin_export html

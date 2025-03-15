@@ -1,4 +1,4 @@
-#+LANGUAGE: en
+#+Language: en
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/cv/cv.css" />
@@ -23,54 +23,72 @@
 #+END_EXPORT
 
 * Education
-- *[2022 - Present]* Middle East Technical University - Foreign Language Education (Second Year)
+-  *[2025 - Present]* Middle East Technical University - Minor Program in Logic and Philosophy of Science
   #+HTML: <p></p>
-  - *CumGPA: 3.55*
 
+-  *[2022 - Present]* Middle East Technical University - Major Program in Foreign Language Education
+  #+HTML: <p></p>
+  - *CumGPA: 3,42*
 
-- *[2018 - 2022]* Körfez Atatürk Anatolian High School
+-  *[2018 - 2022]* Körfez Atatürk Anatolian High School
+
+-----
+* Experiences
+
+- *[October 2024 - Present]* Self-employed Photographer
+ #+HTML: <p></p>
+  - *Job Description:* Specializing in conference and portrait photography. Based in Ankara, traveling frequently to Istanbul. Providing event photography and commercial storytelling services.
+
+- *[October 2024 - Present]* OZTOP LAB - Undergraduate Communications Assistant
+ #+HTML: <p></p>
+  - *Job Description:* Responsible for managing social media and project websites, designing creative materials, and transforming scientific data into accessible formats to support research initiatives for projects such as [[https://proximedprima.eu/][ProxIMed]], [[https://funtomp.com/][FunTomP]], and [[https://suchaquality.com/][SuChAQuality]].
+
+- *[September 2019 - March 2020]* Vice President of the STEM Club of Körfez Atatürk Anatolian High School
+ #+HTML: <p></p>
+  - *Job Description:* Led STEM initiatives, designed posters on career opportunities, organized skill-building events, and collaborated with members to foster student engagement in STEM fields.
 
 -----
 
-* Experiences
-- *[October 2024 - Present]* OZTOP LAB - Undergraduate Communications Assistant
+* Volunteer
+-  *[February 2025 - Present]* ODTÜMİST - Peer Mentor
+  #+HTML: <p></p>
+  - *Job Description:* Mentoring a peer in academic and personal development, providing guidance on coursework, resources, campus opportunities, and effective study strategies.
 
-  - *Job Description:* Responsible for managing social media and project websites, designing creative materials, and transforming scientific data into accessible formats to support research initiatives for projects such as [[https://proximedprima.eu/][ProxIMed]], [[https://funtomp.com/][FunTomP]], and [[https://suchaquality.com/][SuChAQuality]].
+-  *[January 2025 - Present]* Elestirel Pedagoji - Web Developer (Part-time)
+  #+HTML: <p></p>
+  - *Job Description:* Web Developer and WordPress management.
 
-- *[March 2024 - Present]* Volunteer Social Media Manager and Photographer for Middle East Technical University - Foreign Language Education Department
+-  *[November 2024 - Present]* Critical ELT Materials - Communication Coordinator
+  #+HTML: <p></p>
+  - *Job Description:* Creating and coordinating communication strategies and multimedia content for educational materials.
 
-  - *Job Description:* Responsible for overseeing the planning and creation of multimedia content for social media platforms, including producing short videos, designing announcement posts, and capturing event photography to enhance the online presence of the Middle East Technical University - Foreign Language Education Department.
+-  *[March 2024 - Present]* Middle East Technical University - Department of Foreign Language Education (Communication Coordinator)
+  #+HTML: <p></p>
+  - *Job Description:* Responsible for assisting the planning, creation, and dissemination of multimedia content for social media platforms, including producing short videos, designing announcement posts, and capturing event photography to enhance the online presence of the department.
 
-- *[November 2023 - Present]* Volunteer Translation of Open-Source Apps
+- *[November 2023 - Present]* Proton - Translator
+ #+HTML: <p></p>
+  - *Job Description:* I am part of the Proton Localization Community. Responsible for translating all of the Proton Suite to Turkish.
 
-  - *Job Description:* Translated apps such as [[https://obsproject.com/][OBS]], [[https://iina.io/][IINA]], [[https://ryujinx.org/][Ryujinx]], and [[https://getwhisky.app/][Whisky]] from English to Turkish via [[https://crowdin.com/][Crowdin]].
+- *[November 2023 - Present]* Crowdin - Translator
+ #+HTML: <p></p>
+  - *Job Description:* Voluntarily translating apps such as OBS, IINA, Ryujinx, and Whisky from English to Turkish via Crowdin.
 
-    I am also a part of the [[https://localize.proton.me/][Proton Localization Community]]. In this community, I am responsible for translating all of the [[https://proton.me/][Proton Suite]] to Turkish.
 
-- *[November 2024]* Middle East Technical University - The 6th International English for Specific Purposes Conference *Head Photographer and Photography Coordinator*
-
-  - *Job Description:*
-    - Managed a team of photographers and social media staff, coordinating assignments and providing creative direction.
-    - Captured key photographs of presenters and event venues, ensuring quality and consistency.
-    - Oversaw the organization, editing, and timely distribution of all images produced by the team.
-
-- *[September 2019 - March 2020]* Vice President of the STEM Club of the Körfez Atatürk Anatolian High School
-
-  - *Job Description:* Led STEM initiatives, designed posters on career opportunities, organized skill-building events, and collaborated with members to foster student engagement in STEM fields.
 -----
 
 #+HTML: <div class="skillsandinterest">
 #+HTML: <div class="skills">
 
 * Skills
-- *Languages*
+-  *Languages*
 
   - Turkish - Native Tongue
   - English - C2
 
 #+HTML: <p></p><p></p>
 
-- *Computer Skills*
+-  *Computer Skills*
 
   - Wordpress
   - GNU/Linux, Git, Emacs
@@ -82,22 +100,20 @@
 #+HTML: <div class="skills">
 
 * Interests
-- Personal Blog Site | [[https://ismailefe.org][ismailefe.org]]
+-  Personal Blog Site | [[https://ismailefe.org][ismailefe.org]]
 #+HTML: <p></p>
 
-- Open-Source Software | [[https://github.com/Ektaynot/][github.com/Ektaynot]]
+-  Open-Source Software | [[https://github.com/Ektaynot/][github.com/Ektaynot]]
 #+HTML: <p></p>
 
-- Graphic Design | Frontend Web Desing and General Photoshop Usage
+-  Graphic Design | Frontend Web Design and General Photoshop Usage
 #+HTML: <p></p>
 
-- Writing | [[https://ismailefe.org/all][ismailefe.org/all]]
+-  Writing | [[https://ismailefe.org/all][ismailefe.org/all]]
 #+HTML: <p></p>
 
-- Photography | [[https://ismailefe.org/photos][ismailefe.org/photos]]
+-  Photography | [[https://ismailefe.org/photos][ismailefe.org/photos]]
 
 #+HTML: </div>
-
 #+HTML: </div>
-
 -----

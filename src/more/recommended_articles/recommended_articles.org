@@ -16,6 +16,9 @@
 </div>
 #+end_export
 
+* April 2025
+[[https://programmingisterrible.com/post/696130032656171008/questions-i-have-been-asked-about-photography][Questions I have been asked about photography by tef]]
+
 * January 2025
 - [[https://robinrendle.com/stories/this-glorious-machine/][This Glorious Machine by Robin Rendle]]
 - [[https://simonwillison.net/2025/Jan/2/they-spy-on-you-but-not-like-that/][I still don’t think companies serve you ads based on spying through your microphone by Simon Willison]]

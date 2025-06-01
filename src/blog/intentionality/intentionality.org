@@ -1,0 +1,46 @@
+#+Title: Intentionality
+#+Author: İsmail Efe Top
+#+Date: 2025-06-01
+#+Language: en
+#+Description: Intentionality: The fact of being deliberate or purposive.
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <meta name="theme-color" content="#fffcf0">
+#+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+#+HTMl_HEAD: <style>@media (min-width: 1024px) { .desktop-max-width { max-width: 80%; } }</style>
+
+#+HTML: <img src="/blog/intentionality/ch.webp" style="display: block;margin-left: auto;margin-right: auto;padding-bottom: 0.80em;" class="desktop-max-width" }>
+
+I've been practicing acting with intent for a while now. I think we, as human beings, are naturally prone to turning off our heads and giving control to routines.
+
+In my case, this behavior is mostly a coping mechanism. For example, I just let go and entrust my body to routines when I am overwhelmed by responsibilities. It feels like a sacrifice, an equilibrium. I let go of my intentionality and in return, skip over parts of my life that I don't want to deal with.
+
+But this has started to bother me. I've been getting headaches over gone by moments. Time is starting to feel like a lump of sand that I've been desperately trying to hold onto. This has slowly been cracking me like a mud teapot that's been neglected. And rather than mending, I've just been taping over the cracks. And my tape of choice has also been letting myself fall into routines.
+
+Like I said, I've been practicing acting with intent for a while. *I've been taking things slowly and think before I act. Stop and ask. Look inside and see.* Of course, there are times when I fall into old habits, but it is a journey, and that's what a journey is.
+
+I think this is why I've been so into photography, capturing an otherwise fleeting moment and halting it forever. Feels good to visit old memories that you might otherwise have a problem recalling. I also started journaling. I think writing is the most important form of intentional expression, and intentional expression is as essential as eating or breathing for a soul. That's why I've been trying to write more.
+
+Writing helps me see the big picture and understand myself better. For the last couple of months, I've been writing poems and journals. But I am not the kind of person who can write only for himself. That's why I've been wanting to write more blog posts.
+
+To reflect upon the past a bit, my blogging journey started with writing technical posts. Mostly about Emacs and everyday tools, and when I wrote everything I wanted to write, it evolved into personal philosophical pieces. I am really happy with this change. Because I love writing about my thoughts, opinions, my reasons for living, and my general philosophy.
+
+I hope I can continue my pursuit of intentionality and I hope I can give the love my blog deserves to have. As it marked the beginning of a whole new chapter of my life.
+
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
+#+END_EXPORT

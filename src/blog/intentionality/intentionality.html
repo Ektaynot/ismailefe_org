@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <meta name="author" content="İsmail Efe Top" />
+    <meta name="dcterms.date" content="2025-06-01" />
+    <meta
+      name="description"
+      content="Intentionality: The fact of being deliberate or purposive."
+    />
+    <title>Intentionality</title>
+    <style>
+      html {
+        color: #1a1a1a;
+        background-color: #fdfdfd;
+      }
+      body {
+        margin: 0 auto;
+        max-width: 36em;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        hyphens: auto;
+        overflow-wrap: break-word;
+        text-rendering: optimizeLegibility;
+        font-kerning: normal;
+      }
+      @media (max-width: 600px) {
+        body {
+          font-size: 0.9em;
+          padding: 12px;
+        }
+        h1 {
+          font-size: 1.8em;
+        }
+      }
+      @media print {
+        html {
+          background-color: white;
+        }
+        body {
+          background-color: transparent;
+          color: black;
+          font-size: 12pt;
+        }
+        p,
+        h2,
+        h3 {
+          orphans: 3;
+          widows: 3;
+        }
+        h2,
+        h3,
+        h4 {
+          page-break-after: avoid;
+        }
+      }
+      p {
+        margin: 1em 0;
+      }
+      a {
+        color: #1a1a1a;
+      }
+      a:visited {
+        color: #1a1a1a;
+      }
+      img {
+        max-width: 100%;
+      }
+      svg {
+        height: auto;
+        max-width: 100%;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin-top: 1.4em;
+      }
+      h5,
+      h6 {
+        font-size: 1em;
+        font-style: italic;
+      }
+      h6 {
+        font-weight: normal;
+      }
+      ol,
+      ul {
+        padding-left: 1.7em;
+        margin-top: 1em;
+      }
+      li > ol,
+      li > ul {
+        margin-top: 0;
+      }
+      blockquote {
+        margin: 1em 0 1em 1.7em;
+        padding-left: 1em;
+        border-left: 2px solid #e6e6e6;
+        color: #606060;
+      }
+      code {
+        font-family: Menlo, Monaco, Consolas, "Lucida Console", monospace;
+        font-size: 85%;
+        margin: 0;
+        hyphens: manual;
+      }
+      pre {
+        margin: 1em 0;
+        overflow: auto;
+      }
+      pre code {
+        padding: 0;
+        overflow: visible;
+        overflow-wrap: normal;
+      }
+      .sourceCode {
+        background-color: transparent;
+        overflow: visible;
+      }
+      hr {
+        border: none;
+        border-top: 1px solid #1a1a1a;
+        height: 1px;
+        margin: 1em 0;
+      }
+      table {
+        margin: 1em 0;
+        border-collapse: collapse;
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+        font-variant-numeric: lining-nums tabular-nums;
+      }
+      table caption {
+        margin-bottom: 0.75em;
+      }
+      tbody {
+        margin-top: 0.5em;
+        border-top: 1px solid #1a1a1a;
+        border-bottom: 1px solid #1a1a1a;
+      }
+      th {
+        border-top: 1px solid #1a1a1a;
+        padding: 0.25em 0.5em 0.25em 0.5em;
+      }
+      td {
+        padding: 0.125em 0.5em 0.25em 0.5em;
+      }
+      header {
+        margin-bottom: 4em;
+        text-align: center;
+      }
+      #TOC li {
+        list-style: none;
+      }
+      #TOC ul {
+        padding-left: 1.3em;
+      }
+      #TOC > ul {
+        padding-left: 0;
+      }
+      #TOC a:not(:hover) {
+        text-decoration: none;
+      }
+      code {
+        white-space: pre-wrap;
+      }
+      span.smallcaps {
+        font-variant: small-caps;
+      }
+      div.columns {
+        display: flex;
+        gap: min(4vw, 1.5em);
+      }
+      div.column {
+        flex: auto;
+        overflow-x: auto;
+      }
+      div.hanging-indent {
+        margin-left: 1.5em;
+        text-indent: -1.5em;
+      }
+      /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+      ul.task-list[class] {
+        list-style: none;
+      }
+      ul.task-list li input[type="checkbox"] {
+        font-size: inherit;
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1.6em;
+        vertical-align: middle;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+    <meta name="theme-color" content="#fffcf0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <style>
+      @media (min-width: 1024px) {
+        .desktop-max-width {
+          max-width: 80%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header id="title-block-header">
+      <h1 class="title">Intentionality</h1>
+      <p class="author">İsmail Efe Top</p>
+      <p class="date">2025-06-01</p>
+    </header>
+    <img
+      src="/blog/intentionality/ch.webp"
+      style="
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0.8em;
+      "
+      class="desktop-max-width"
+      }
+    />
+    <p>
+      I've been practicing acting with intent for a while now. I think we, as
+      human beings, are naturally prone to turning off our heads and giving
+      control to routines.
+    </p>
+    <p>
+      In my case, this behavior is mostly a coping mechanism. For example, I
+      just let go and entrust my body to routines when I am overwhelmed by
+      responsibilities. It feels like a sacrifice, an equilibrium. I let go of
+      my intentionality and in return, skip over parts of my life that I don't
+      want to deal with.
+    </p>
+    <p>
+      But this has started to bother me. I've been getting headaches over gone
+      by moments. Time is starting to feel like a lump of sand that I've been
+      desperately trying to hold onto. This has slowly been cracking me like a
+      mud teapot that's been neglected. And rather than mending, I've just been
+      taping over the cracks. And my tape of choice has also been letting myself
+      fall into routines.
+    </p>
+    <p>
+      Like I said, I've been practicing acting with intent for a while.
+      <strong
+        >I've been taking things slowly and think before I act. Stop and ask.
+        Look inside and see.</strong
+      >
+      Of course, there are times when I fall into old habits, but it is a
+      journey, and that's what a journey is.
+    </p>
+    <p>
+      I think this is why I've been so into photography, capturing an otherwise
+      fleeting moment and halting it forever. Feels good to visit old memories
+      that you might otherwise have a problem recalling. I also started
+      journaling. I think writing is the most important form of intentional
+      expression, and intentional expression is as essential as eating or
+      breathing for a soul. That's why I've been trying to write more.
+    </p>
+    <p>
+      Writing helps me see the big picture and understand myself better. For the
+      last couple of months, I've been writing poems and journals. But I am not
+      the kind of person who can write only for himself. That's why I've been
+      wanting to write more blog posts.
+    </p>
+    <p>
+      To reflect upon the past a bit, my blogging journey started with writing
+      technical posts. Mostly about Emacs and everyday tools, and when I wrote
+      everything I wanted to write, it evolved into personal philosophical
+      pieces. I am really happy with this change. Because I love writing about
+      my thoughts, opinions, my reasons for living, and my general philosophy.
+    </p>
+    <p>
+      I hope I can continue my pursuit of intentionality and I hope I can give
+      the love my blog deserves to have. As it marked the beginning of a whole
+      new chapter of my life.
+    </p>
+    <div class="bottom-header">
+      <a class="bottom-header-link" href="/">Home</a>
+      <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link"
+        >Mail Me</a
+      >
+      <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+      <a
+        class="bottom-header-link"
+        href="https://github.com/Ektaynot/ismailefe_org"
+        target="_blank"
+        >Source</a
+      >
+    </div>
+    <div class="firechickenwebring">
+      <a href="https://firechicken.club/efe/prev">←</a>
+      <a href="https://firechicken.club">🔥⁠🐓</a>
+      <a href="https://firechicken.club/efe/next">→</a>
+    </div>
+  </body>
+</html>

@@ -112,7 +112,7 @@
 -  Writing | [[https://ismailefe.org/all][ismailefe.org/all]]
 #+HTML: <p></p>
 
--  Photography | [[https://ismailefe.org/photos][ismailefe.org/photos]]
+-  Photography | [[https://ismailefe.org/photography][ismailefe.org/photography]]
 
 #+HTML: </div>
 #+HTML: </div>

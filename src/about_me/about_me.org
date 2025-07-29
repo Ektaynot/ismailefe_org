@@ -47,7 +47,9 @@ Couple of fun facts about me are...
 - My timezone is GMT+03:00.
 - I am a member of the [[https://firechicken.club/][fire chicken webring]]
 - I recently opened a Buy Me a Coffee page, [[https://www.buymeacoffee.com/ismailefetop][ismailefetop]]
-- My favorite movie is zoolander
+- My favorite movie is [[https://www.imdb.com/title/tt0196229][Zoolander]]
+- My favorite TV series is [[https://www.imdb.com/title/tt10802170/][The Rehearsal]]
+
 #+BEGIN_EXPORT html
 <div class="bottom-header">
   <a class="bottom-header-link" href="/">Home</a>

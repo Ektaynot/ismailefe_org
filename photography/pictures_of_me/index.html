@@ -12,7 +12,7 @@
       content="width=device-width, initial-scale=1.0, user-scalable=yes"
     />
     <meta name="author" content="İsmail Efe Top" />
-    <meta name="theme-color" content="#fffcf0">
+    <meta name="theme-color" content="#fffcf0" />
 
     <title>Pictures of me</title>
     <style>
@@ -44,6 +44,13 @@
           gap: 12px;
           padding-bottom: 12px;
         }
+      }
+      .audio-wrap {
+        text-align: center;
+        padding-bottom: 12px;
+      }
+      .audio-wrap audio {
+        display: inline-block;
       }
     </style>
     <!-- the gallery library is made by lokesh https://github.com/lokesh/lightbox2/ -->
@@ -77,11 +84,29 @@
       <h1 class="title">Pictures of me</h1>
       <p class="author">📷 by My Friends</p>
     </header>
-    <br>
-    <blockquote>ℹ️ Here are some photos my dear friends have taken of me. I cherish them deeply and wanted to showcase their beautiful work.</blockquote>
-    <br>
+    <br />
+    <blockquote>
+      ℹ️ Here are some photos my dear friends have taken of me. I cherish them
+      deeply and wanted to showcase their beautiful work.
+      <br>
+      <br>
+      Also, here is some background music. Enjoy!
+
+    </blockquote>
+    <div class="audio-wrap">
+      <audio controls autoplay>
+        <source
+          src="/etc/songs/from-the-start-(meowfey).mp3"
+          type="audio/mpeg"
+        />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
     <div class="horizontal-container">
-      <a href="/photography/pictures_of_me/pics/ferry.webp" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/ferry.webp"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me eating a Turkish bagel in a ferry. Shot by Özge."
           title="A picture of me eating a Turkish bagel in a ferry. Shot by Özge."
@@ -89,9 +114,13 @@
           class="lightbox-image"
           fetchpriority="high"
           src="/photography/pictures_of_me/pics/ferry.webp"
-      /></a></div>
+      /></a>
+    </div>
     <div class="vertical-container">
-      <a href="/photography/pictures_of_me/pics/miller.webp" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/miller.webp"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me drinking a Miller. Shot by Zehra."
           title="A picture of me drinking a Miller. Shot by Zehra."
@@ -100,7 +129,10 @@
           class="lightbox-image"
           src="/photography/pictures_of_me/pics/miller.webp"
       /></a>
-      <a href="/photography/pictures_of_me/pics/sepia.webp" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/sepia.webp"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me holding an umbrella in the sepia colorscheme. Shot by Berfin."
           title="A picture of me holding an umbrella in the sepia colorscheme. Shot by Berfin."
@@ -111,7 +143,10 @@
       /></a>
     </div>
     <div class="horizontal-container">
-      <a href="/photography/pictures_of_me/pics/coffee.webp" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/coffee.webp"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me with a take-away coffee in front of the education building. Shot by Ömer."
           title="A picture of me with a take-away coffee in front of the education building. Shot by Ömer."
@@ -120,7 +155,10 @@
           fetchpriority="high"
           src="/photography/pictures_of_me/pics/coffee.webp"
       /></a>
-      <a href="/photography/pictures_of_me/pics/physics.webp" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/physics.webp"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me sitting in front of the windows in the physics department. Shot by Berkin."
           title="A picture of me sitting in front of the windows in the physics department. Shot by Berkin."
@@ -129,7 +167,10 @@
           fetchpriority="high"
           src="/photography/pictures_of_me/pics/physics.webp"
       /></a>
-      <a href="/photography/pictures_of_me/pics/umbrella.webp" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/umbrella.webp"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me falling with an umbrella. Shot by Berfin."
           title="A picture of me sticking my head out of a sculpture. Shot by Berfin."
@@ -138,7 +179,10 @@
           fetchpriority="high"
           src="/photography/pictures_of_me/pics/umbrella.webp"
       /></a>
-      <a href="/photography/pictures_of_me/pics/sculpture.webp" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/sculpture.webp"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me sticking my head out of a sculpture. Shot by Berke."
           title="A picture of me sticking my head out of a sculpture. Shot by Berke."
@@ -147,7 +191,10 @@
           fetchpriority="high"
           src="/photography/pictures_of_me/pics/sculpture.webp"
       /></a>
-      <a href="/photography/pictures_of_me/pics/talking.webp" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/talking.webp"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me with a big smile talking on the phone. Shot by Berke."
           title="A picture of me with a big smile talking on the phone. Shot by Berke."
@@ -156,7 +203,10 @@
           fetchpriority="high"
           src="/photography/pictures_of_me/pics/talking.webp"
       /></a>
-      <a href="/photography/pictures_of_me/pics/walkers.webp" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/walkers.webp"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me with a big smile. Shot by Erdi."
           title="A picture of me with a big smile. Shot by Erdi."
@@ -165,7 +215,10 @@
           fetchpriority="high"
           src="/photography/pictures_of_me/pics/walkers.webp"
       /></a>
-      <a href="/photography/pictures_of_me/pics/bigsmile.jpg" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/bigsmile.jpg"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me with a big smile. Shot by Gülsüm and Ece."
           title="A picture of me with a big smile. Shot by Gülsüm and Ece."
@@ -174,7 +227,10 @@
           fetchpriority="high"
           src="/photography/pictures_of_me/pics/bigsmile.jpg"
       /></a>
-      <a href="/photography/pictures_of_me/pics/library.jpg" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/library.jpg"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me in the front of a library. Shot by Ahmet Emre."
           title="A picture of me in the front of a library. Shot by Ahmet Emre."
@@ -183,7 +239,10 @@
           fetchpriority="high"
           src="/photography/pictures_of_me/pics/library.jpg"
       /></a>
-      <a href="/photography/pictures_of_me/pics/politician.jpg" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/politician.jpg"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me looking like I am giving a political speech. Shot by Ahmet Emre."
           title="A picture of me looking like I am giving a political speech. Shot by Ahmet Emre."
@@ -192,7 +251,10 @@
           fetchpriority="high"
           src="/photography/pictures_of_me/pics/politician.jpg"
       /></a>
-      <a href="/photography/pictures_of_me/pics/goofy.jpg" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/goofy.jpg"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me looking goofy. Shot by Ahmet Emre."
           title="A picture of me looking goofy. Shot by Ahmet Emre."
@@ -226,7 +288,10 @@
       /></a>
     </div>
     <div class="horizontal-container">
-      <a href="/photography/pictures_of_me/pics/disgusted.jpg" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/disgusted.jpg"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me looking disgusted. Shot by Ufuk."
           title="A picture of me looking disgusted. Shot by Ufuk."
@@ -235,7 +300,10 @@
           fetchpriority="high"
           src="/photography/pictures_of_me/pics/disgusted.jpg"
       /></a>
-      <a href="/photography/pictures_of_me/pics/digicam.jpg" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/digicam.jpg"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me smiling for the camera. Shot by Mina."
           title="A picture of me smiling for the camera. Shot by Mina."
@@ -244,7 +312,10 @@
           fetchpriority="high"
           src="/photography/pictures_of_me/pics/digicam.jpg"
       /></a>
-      <a href="/photography/pictures_of_me/pics/haberimyokmusgibi1.jpg" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/haberimyokmusgibi1.jpg"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me looking like I am not aware that my picture is being taken. Shot by Kaan."
           title="A picture of me looking like I am not aware that my picture is being taken. Shot by Kaan."
@@ -253,7 +324,10 @@
           fetchpriority="high"
           src="/photography/pictures_of_me/pics/haberimyokmusgibi1.jpg"
       /></a>
-      <a href="/photography/pictures_of_me/pics/haberimyokmusgibi2.jpg" data-lightbox="goofy">
+      <a
+        href="/photography/pictures_of_me/pics/haberimyokmusgibi2.jpg"
+        data-lightbox="goofy"
+      >
         <img
           alt="A picture of me looking like I am not aware that my picture is being taken. Shot by Kaan."
           title="A picture of me looking like I am not aware that my picture is being taken. Shot by Kaan."

@@ -16,8 +16,11 @@
 </div>
 #+end_export
 
+* September 2025
+-[[https://taylor.town/type-of-person][Type of Person by Taylor Troesh]]
+
 * April 2025
-[[https://programmingisterrible.com/post/696130032656171008/questions-i-have-been-asked-about-photography][Questions I have been asked about photography by tef]]
+- [[https://programmingisterrible.com/post/696130032656171008/questions-i-have-been-asked-about-photography][Questions I have been asked about photography by tef]]
 
 * January 2025
 - [[https://robinrendle.com/stories/this-glorious-machine/][This Glorious Machine by Robin Rendle]]

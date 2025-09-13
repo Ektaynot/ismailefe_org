@@ -30,7 +30,7 @@ My name is İsmail Efe Top. I do a major in Foreign Language Education and a min
 I like discovering new places, programming and hacking the programs I use. Some of my favorite programs are...
 
 - [[https://www.gnu.org/software/emacs/][Emacs]] for writing and reading.
-- [[https://sw.kovidgoyal.net/kitty/][Kitty]] for terminal emulation.
+- [[https://ghostty.org/][Ghostty]] for terminal emulation.
 - [[https://bear.app][Bear]] for taking short notes.
 - [[https://www.zotero.org/][Zotero]] for collecting papers and making citations.
 - [[https://www.mozilla.org/tr/firefox/new/][Firefox]] for web browsing.

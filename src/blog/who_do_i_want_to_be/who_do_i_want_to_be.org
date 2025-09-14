@@ -45,13 +45,13 @@ I recommend checking out his post as he has been a great inspiration for this.
 
 #+begin_export html
 <br>
-<div style="max-width: fit-content; margin-left: auto; margin-right: auto">
-  <img
-    src="/etc/img/ivy.png"
-    width="250px"
-    alt="A drawing of an ivy."
-  />
-</div>
+    <div style="max-width: fit-content; margin-left: auto; margin-right: auto">
+      <img
+        src="/etc/img/david_finch_content.png"
+        width="400px"
+        alt='A two-panel cartoon by David Finch contrasting the stress of consuming digital "Content" with the peaceful feeling of being "content."'
+        title="A drawing by David Finch."/>
+    </div>
 <br>
 #+end_export
 

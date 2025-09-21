@@ -13,18 +13,18 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * When did I last update this page
-- Sep 6, 2025
+- Sep 21, 2025
 
 * What am I doing?
-- I am currently in İzmir, I came here to join [[https://dilbilim.deu.edu.tr/conference-information/][ICTL22]], which is a conference on Turkish Linguistics. The conference ended today. It was a wonderful experience. I watched a bunch of great presentations. Hope to join the 23rd one with my own research. I hope to return to Kocaeli on the 8th. I will spend my last two days exploring the urban environment of İzmir.
-- I am also taking lots of pictures. To be honest, I am having a really hard time capturing the soul of urban İzmir. I have a couple of shots I plan to share. You can see them in a couple of days on my [[https://glass.photo/efe][glass page]] and [[https://unsplash.com/@ismailefetop][unsplash page]].
-- Lately my professional work has consisted of web development and video editing. While development is going well, editing is really taking a toll on me.
+- I am currently in Kocaeli, but will go back to the campus in Ankara in a week.
+- My current days are spent with hanging out with my family and doing remote dissemination work.
+- I am reading [[https://myanimelist.net/manga/144267/Kaoru_Hana_wa_Rin_to_Saku][Kaoru Hana wa Rin to Saku]], it's quickly becoming my favorite romance manga. I would first recommend watching the anime and then reading the manga. I am also listening [[https://www.youtube.com/watch?v=5p5TAry-OPg][SENDEN ÇIKIŞ YOK]] on repeat, it's a really catchy song.
 
 * What am I planning on doing?
-- When I go back to Kocaeli, things are going to be a bit busy. I will spend two weeks there before going back to university. I have to balance work and family/friend time.
-- Course selections will start at the end of the month. I have to do proper preparation because I have to take 4 must courses, 1 departmental elective, 1 non-departmental elective, and 2 must courses for my minor. All 8 classes must be scheduled at different times, with no overlaps.
-- I want to start running again. I am waiting for going back into uni to start because there are no proper tracks for running where I live.
-
+- I have a business trip coming up in December. I can't share the exact details now but I plan to write a blog post about it.
+- I have tickets to see Salih Tıraş's comedy show. I saw him open for Deniz Göktaş and he was hilarious.
+- I'm really looking forward to the launch conference for APRISE, the first project I'll be helping build from the ground up. Working on a topic like alternative proteins feels great as a vegetarian.
+- I really missed my friends. I will be sure to fill my days up with them.
 
 * Archive
 #+begin_export html

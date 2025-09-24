@@ -8,10 +8,16 @@
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 #+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
 
-This is a collection of quotes that I find meaningful.
 
 #+BEGIN_EXPORT html
+<blockquote>ℹ️ This is a collection of quotes that I find meaning in and want to share.</blockquote>
 <br>
+<img
+  style="width: 250px"
+  class="centered-image"
+  src="/etc/img/luckycat.webp"
+  alt="Picture of my rotring 500"
+/>
 #+END_EXPORT
 
 + "DO NOT add tags, create projects, or create other to-do infrastructure to manage your to-dos better. This is procrastination disguised as productivity." [[https://randsinrepose.com/archives/seven-steps-to-fixing-stalled-to-do-tasks/][- randsinrepose]]

@@ -8,7 +8,7 @@
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 #+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
 
-This page contains bits of information that I collected from various sources. It's going to keep evolving over time.
+This is a collection of quotes that I find meaningful.
 
 #+BEGIN_EXPORT html
 <br>

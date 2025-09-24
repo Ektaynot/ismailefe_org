@@ -32,6 +32,8 @@ This page contains bits of information that I collected from various sources. It
 
 + "If you're not prepared to look stupid, then nothing great is ever gonna happen, right?" - House M.D. S2.E14
 
++ "I don't know if I will get another year in the league or not. Shit, I don't buy GREEN bananas any more." - [[https://www.washingtonpost.com/lifestyle/2025/09/22/nelson-bradbury-softball-message-tiktok/][Nelson "Nel" Bradbury]]
+
 #+BEGIN_EXPORT html
 <div class="bottom-header">
   <a class="bottom-header-link" href="/">Home</a>

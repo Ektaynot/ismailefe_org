@@ -13,18 +13,16 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * When did I last update this page
-- Oct 12, 2025
+- Nov 20, 2025
 
 * What am I doing?
-- I started my 5th semester. Currently in the campus library, working on the social media of a company soon to be made public.
-- I recently did a photoshoot for [[https://www.instagram.com/almesostudio/][almeso]], I am really excited to showcase the results. It will be shared on my Instagram page soon. EDIT: [[https://www.instagram.com/p/DQBiJhEjJ46][link to the post]]
-- I am taking Corpus Literacy for Language Professionals. It's probably the highlight of this semester. Corpus is a subject which I am deeply interested in. Being able to take this class is really a great opportunity as there is not a course similar to this in any undergraduate programs across Türkiye.
-  
+- I am in the middle of a midterm period, so I am studying regularly for my major and minor.
+- I am preparing for my trip overseas, I will go in two weeks. Quite excited to travel and see a place I've never been before.
+- We are planning a Winter Social Sciences Camp in [[https://en.wikipedia.org/wiki/Middle_East_Technical_University_Northern_Cyprus_Campus][METU Cyprus Campus]], I am responsible for photography there. I am doing some pre-planning and shooting some promos.
+     
 * What am I planning on doing?
-- I have tickets for an improv theater that my friends are staring in. I really look forward to see it. 
-- I want to go on photowalks. I am working in couple of jobs at the moment. Two of them I am starting this week. So my days are really taking a toll on me as I am trying to navigate this change in my schedule. I never had to chance to be "off" for a couple of hours during sunlight and thus haven't had the chance to go out and shoot.
-- I want to a [[https://en.wikipedia.org/wiki/Meyhane][meyhane]] and drink [[https://en.wikipedia.org/w/index.php?title=Rak%C4%B1][rakı]] with my friends. It's been a really long time since we last went. It's a really therapeutic experience for me.
-- Two of my friends are in the US at the moment. I haven't seen them all summer and they are coming back in a couple of days. I plan to have remarkable conversations with them.
+- I plan to take great photos in my overseas trip and in Cyprus. I like discovering places through the lens. 
+- I am working on a corpus linguistics tool. I plan to fully launch it one day.
 
 * Archive
 #+begin_export html

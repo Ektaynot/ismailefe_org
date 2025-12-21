@@ -13,16 +13,16 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * When did I last update this page
-- Nov 20, 2025
+- Dec 21, 2025
 
 * What am I doing?
-- I am in the middle of a midterm period, so I am studying regularly for my major and minor.
-- I am preparing for my trip overseas, I will go in two weeks. Quite excited to travel and see a place I've never been before.
-- We are planning a Winter Social Sciences Camp in [[https://en.wikipedia.org/wiki/Middle_East_Technical_University_Northern_Cyprus_Campus][METU Cyprus Campus]], I am responsible for photography there. I am doing some pre-planning and shooting some promos.
-     
+ - I came back from Japan. I was there with an academic program. It was a beautiful place and I learned a lot. I am thinking of writing a blog post about my trip.   
+ - I finished my midterm exams a week ago and now I am preparing for my finals.
+ - I am working on creating my own corpus software. I need to find a better solution for hosting than vercel. Once I find it I plan on sharing by writing a blog post!
+
 * What am I planning on doing?
-- I plan to take great photos in my overseas trip and in Cyprus. I like discovering places through the lens. 
-- I am working on a corpus linguistics tool. I plan to fully launch it one day.
+ - A friend of mine invited me to a vision board-making meetup. I plan to go there and create a hopeful but realistic plan for 2026. I like vision boards because they help you visualize and solidify your goals.
+ - I made a plan with my friends to celebrate new years. Really excited to celebrate new years with people who are dear to me. 
 
 * Archive
 #+begin_export html

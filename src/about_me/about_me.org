@@ -25,7 +25,7 @@
 
 #+END_EXPORT
 
-My name is İsmail Efe Top. I do a major in Foreign Language Education and a minor in Logic and Philosophy of science at [[https://www.metu.edu.tr/][METU]].
+My name is İsmail Efe Top. I am pursuing a major in Foreign Language Education and a minor in Logic and Philosophy of Science at METU. I am interested in Corpus Linguistics and plan to have an academic career in this field.
 
 I like discovering new places, programming and hacking the programs I use. Some of my favorite programs are...
 
@@ -46,7 +46,6 @@ Couple of fun facts about me are...
 - My favorite place is the METU campus
 - My timezone is GMT+03:00.
 - I am a member of the [[https://firechicken.club/][fire chicken webring]]
-- I recently opened a Buy Me a Coffee page, [[https://www.buymeacoffee.com/ismailefetop][ismailefetop]]
 - My favorite movie is [[https://www.imdb.com/title/tt0196229][Zoolander]]
 - My favorite TV series is [[https://www.imdb.com/title/tt10802170/][The Rehearsal]]
 

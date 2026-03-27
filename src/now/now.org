@@ -13,17 +13,18 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * When did I last update this page
-- Dec 21, 2025
+- March 27, 2026
 
 * What am I doing?
- - I came back from Japan. I was there with an academic program. It was a beautiful place and I learned a lot. I am thinking of writing a blog post about my trip.   
- - I finished my midterm exams a week ago and now I am preparing for my finals.
- - I am working on creating my own corpus software. I need to find a better solution for hosting than vercel. Once I find it I plan on sharing by writing a blog post!
-
+- I started taking photographs again, I wasn't able to shoot much ever since I got back from Japan. ([[https://glass.photo/efe][View my Japan Photographs here]])
+- I enjoy writing poems a lot, while I plan to share them in the future, for now I am keeping them to myself.
+- I've been watching a lot of films in the last couple of weeks. I really recommend [[https://letterboxd.com/film/one-sings-the-other-doesnt/][One Sings, the Other Doesn’t]] and [[https://letterboxd.com/film/hamnet/][Hamnet]].
+  
 * What am I planning on doing?
- - A friend of mine invited me to a vision board-making meetup. I plan to go there and create a hopeful but realistic plan for 2026. I like vision boards because they help you visualize and solidify your goals.
- - I made a plan with my friends to celebrate new years. Really excited to celebrate new years with people who are dear to me. 
-
+- My midterms are starting real soon, I plan to spent a couple of days in the library.
+- I have two workshops coming up, I will be teaching Photography and Dissemination.
+- I will be going on a photography trip pretty soon. I will leave my phone, print out the map of the area I will be visiting, and enjoy the local cuisine while taking mediocre photos.
+  
 * Archive
 #+begin_export html
 <p>I also have a page dedicated to my old Now pages. You can check it out here, <a href="/now/archive/">Now Archive Page</a>.</p>

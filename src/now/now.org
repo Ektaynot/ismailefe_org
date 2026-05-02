@@ -13,18 +13,19 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * When did I last update this page
-- March 27, 2026
+- May 2, 2026
 
 * What am I doing?
-- I started taking photographs again, I wasn't able to shoot much ever since I got back from Japan. ([[https://glass.photo/efe][View my Japan Photographs here]])
-- I enjoy writing poems a lot, while I plan to share them in the future, for now I am keeping them to myself.
-- I've been watching a lot of films in the last couple of weeks. I really recommend [[https://letterboxd.com/film/one-sings-the-other-doesnt/][One Sings, the Other Doesn’t]] and [[https://letterboxd.com/film/hamnet/][Hamnet]].
-  
+- Currently in a shuttle going to the airport, I will visit Estonia as an assistant for the [[https://enfiberconference.eu/][ENFiber International Conference]] 
+- I am currently working in a large scale project about corpus linguistics. I love corpus linguistics, so it's really fun to work on it
+- Related to the project, I am working on my own corpus software: [[https://topcor.org][TopCor.]]
+
 * What am I planning on doing?
-- My midterms are starting real soon, I plan to spent a couple of days in the library.
-- I have two workshops coming up, I will be teaching Photography and Dissemination.
-- I will be going on a photography trip pretty soon. I will leave my phone, print out the map of the area I will be visiting, and enjoy the local cuisine while taking mediocre photos.
-  
+- I have a few class presentations coming up. I will have to coordinate the group work needed and do the research
+- The Spring Festival is coming up in METU. I have a complicated relationship with the festival, but alas, I am really excited because I will be with my friends
+- A very dear professor of mine from abroad is visiting us METU folks in the coming weeks. Really excited to spend time with her!
+- A religious holiday is coming up, that means I will be with my family for a whole week! I will probably still be working remotely but doing it so in my home doesn't sound so bad.
+
 * Archive
 #+begin_export html
 <p>I also have a page dedicated to my old Now pages. You can check it out here, <a href="/now/archive/">Now Archive Page</a>.</p>

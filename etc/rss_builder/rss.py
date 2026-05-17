@@ -10,7 +10,8 @@ else:
     system_header = "/Users/ismailefetop/ismailefe_org"
 
 website_header= "https://ismailefe.org"
-blog_posts = ["/blog/intentionality/index.html",
+blog_posts = ["/blog/my_first_trip_to_europe/index.html",
+            "/blog/intentionality/index.html",
             "/blog/reflecting_on_2024/index.html",
             "/blog/who_do_i_want_to_be/index.html",
             "/blog/my_design_stack/index.html",

@@ -13,19 +13,18 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * When did I last update this page
-- May 2, 2026
+- Jun 9, 2026
 
 * What am I doing?
-- Currently in a shuttle going to the airport, I will visit Estonia as an assistant for the [[https://enfiberconference.eu/][ENFiber International Conference]] 
-- I am currently working in a large scale project about corpus linguistics. I love corpus linguistics, so it's really fun to work on it
-- Related to the project, I am working on my own corpus software: [[https://topcor.org][TopCor.]]
-
+- I am currently taking a break from studying for my finals.
+- I started developing an iOS game, learning a lot from the whole process. The app will hopefully be out in a few weeks.
+- I've also been dabbling with interacting with LLM's through the API. I am learning a lot of basics that I missed learning.
+- I am reading [[https://www.goodreads.com/book/show/57443844-i-mkans-z-a-lar-ve-di-er-yaz-lar][O Sırada 2]], this is the best book series ever.
+  
 * What am I planning on doing?
-- I have a few class presentations coming up. I will have to coordinate the group work needed and do the research
-- The Spring Festival is coming up in METU. I have a complicated relationship with the festival, but alas, I am really excited because I will be with my friends
-- A very dear professor of mine from abroad is visiting us METU folks in the coming weeks. Really excited to spend time with her!
-- A religious holiday is coming up, that means I will be with my family for a whole week! I will probably still be working remotely but doing it so in my home doesn't sound so bad.
-
+- I have a bus trip coming up, and I will visit a couple of countries from Europe. I am really excited about it.
+- I will be joining the [[https://www.birmingham.ac.uk/events/corpus-linguistics-summer-school-2026][Corpus Linguistics Summer School 2026]], I am really excited about this school/course. There aren't many corpus-related programs, so finding a one like this makes me really excited.
+  
 * Archive
 #+begin_export html
 <p>I also have a page dedicated to my old Now pages. You can check it out here, <a href="/now/archive/">Now Archive Page</a>.</p>

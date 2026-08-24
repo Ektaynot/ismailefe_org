@@ -13,18 +13,18 @@
 If you don't know what a now page is, check out [[https://nownownow.com/about][this website]].
 
 * When did I last update this page
-- Jun 9, 2026
+- Aug 24, 2026
 
 * What am I doing?
-- I am currently taking a break from studying for my finals.
-- I started developing an iOS game, learning a lot from the whole process. The app will hopefully be out in a few weeks.
-- I've also been dabbling with interacting with LLM's through the API. I am learning a lot of basics that I missed learning.
-- I am reading [[https://www.goodreads.com/book/show/57443844-i-mkans-z-a-lar-ve-di-er-yaz-lar][O Sırada 2]], this is the best book series ever.
-  
+- This summer, I enrolled in summer school. I thought taking a course from a year above could lessen my workload, as completing a philosophy minor alongside my major is quite challenging.
+- I've been doing a lot of catching up with old friends. Sometimes, finding a time that works for both parties can be difficult, but in the end, it's very much worth it, as spending time with someone I haven't seen in a long time is one of the best feelings there is.
+- I try to find interesting photography projects. They are mostly disasters, but I find joy in disasters because, even though I am fairly new to photography (about four years), I am quite bored with chasing the “perfect photograph” that everyone seems to pursue. I am doing lots of experiments and happily failing a lot.
+   
 * What am I planning on doing?
-- I have a bus trip coming up, and I will visit a couple of countries from Europe. I am really excited about it.
-- I will be joining the [[https://www.birmingham.ac.uk/events/corpus-linguistics-summer-school-2026][Corpus Linguistics Summer School 2026]], I am really excited about this school/course. There aren't many corpus-related programs, so finding a one like this makes me really excited.
-  
+- I am doing a lot of cooking at the moment but not quite at the level that I would have liked. I want to get into vegan recipes. The first recipe I want to try is a Glazed Tofu with Rice, something like [[https://supperinthesuburbs.com/2026/01/28/soy-glazed-tofu-with-rice-and-peas/][this]]. I want to try a bunch of different recipes, so if you have any recipe recommendations, feel free to [[mailto:ismailefetop@gmail.com][e-mail me]].
+- It has been a while since I last did a portrait photoshoot. I want to do a themed portrait photoshoot.
+- I want to get into the tea hobby, but I think winter would be a better time to start as it's really hot in Ankara right now!
+
 * Archive
 #+begin_export html
 <p>I also have a page dedicated to my old Now pages. You can check it out here, <a href="/now/archive/">Now Archive Page</a>.</p>

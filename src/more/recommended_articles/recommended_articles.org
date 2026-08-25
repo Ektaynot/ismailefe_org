@@ -16,8 +16,11 @@
 </div>
 #+end_export
 
+* August 2026
+- [[https://www.gordonmclean.co.uk/2026/08/18/i-no-longer-care/][I no longer care]]
+
 * September 2025
--[[https://taylor.town/type-of-person][Type of Person by Taylor Troesh]]
+- [[https://taylor.town/type-of-person][Type of Person by Taylor Troesh]]
 
 * April 2025
 - [[https://programmingisterrible.com/post/696130032656171008/questions-i-have-been-asked-about-photography][Questions I have been asked about photography by tef]]

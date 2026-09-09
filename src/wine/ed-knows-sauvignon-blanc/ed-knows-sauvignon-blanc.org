@@ -1,0 +1,77 @@
+#+Title: Ed Knows - Sauvignon Blanc
+#+Author: İsmail Efe Top
+#+Date: 2026-09-09
+#+Language: en
+#+Description:
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
+#+HTML_HEAD: <meta name="theme-color" content="#fffcf0">
+#+HTML_HEAD: <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+#+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
+
+* Bottle Info
+
+- Wine: Ed Knows Sauvignon Blanc
+- Producer: Vinaria Bostavan
+- Vintage: NV
+- Country / Region: Moldova
+- Grape(s): Sauvignon Blanc
+- Style: Dry
+- ABV: 12.5%
+- Bottling Date: 14.11.2024
+- Lot: L-322
+- Price: 500₺ (~10$)
+- Tasted on: 09.09.2026
+
+* Appearance
+
+- Color: Lemon Yellow
+- Clarity: Clear
+- Intensity: Pale
+
+* Nose
+
+- Intensity: Light
+- Main aromas: Citrus
+
+* Palate
+
+- Sweetness: Dry
+- Acidity: Medium - High
+- Body: Light
+- Alcohol: Medium
+- Flavor notes: Very citrus-centered
+- Finish: Short
+
+* Overall
+
+- Rating: 5.5/10
+- Would buy again: Maybe
+
+* Thoughts
+
+This is my first time doing wine tasting. I'm trying to get into the hobby in order to get knowledgeable about wine and to improve my palate.
+
+Because this is my first time, I'm guessing that it will take some time for me to adjust the criteria. I plan to turn this series into a useful guide for people all around the world.
+
+When it comes to Ed Knows Sauvignon Blanc, I think it's an adequate white wine especially taking its price into account.
+
+It's really light and acidic. So if this kind of a profile suits your taste, I would say go for it.
+
+I had it with feta cheese, they paired beautifully together.
+
+#+BEGIN_EXPORT html
+<div class="bottom-header">
+  <a class="bottom-header-link" href="/">Home</a>
+  <a href="mailto:ismailefetop@gmail.com" class="bottom-header-link">Mail Me</a>
+  <a class="bottom-header-link" href="/feed.xml" target="_blank">RSS</a>
+  <a class="bottom-header-link" href="https://github.com/Ektaynot/ismailefe_org" target="_blank">Source</a>
+</div>
+<div class="firechickenwebring">
+  <a href="https://firechicken.club/efe/prev">←</a>
+  <a href="https://firechicken.club">🔥⁠🐓</a>
+  <a href="https://firechicken.club/efe/next">→</a>
+</div>
+#+END_EXPORT

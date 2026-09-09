@@ -1,0 +1,41 @@
+* Bottle Info
+
+- Wine:
+- Producer:
+- Vintage: 
+- Country / Region:
+- Grape(s):
+- Style: Dry / Off-dry / Sweet
+- ABV:
+- Price:
+- Tasted on:
+
+* Appearance
+
+- Color:
+- Clarity: Clear / Hazy
+- Intensity: Pale / Medium / Deep
+
+* Nose
+
+- Intensity: Light / Medium / Pronounced
+- Main aromas:
+- Secondary notes:
+
+* Palate
+
+- Sweetness: Dry / Off-dry / Sweet
+- Acidity: Low / Medium / High
+- Tannin: Low / Medium / High / N/A
+- Body: Light / Medium / Full
+- Alcohol: Low / Medium / High
+- Flavor notes:
+- Finish: Short / Medium / Long
+
+* Overall
+
+- Rating: /10
+- Would buy again: Yes / Maybe / No
+
+
+* Thoughts

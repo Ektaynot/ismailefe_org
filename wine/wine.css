@@ -1,0 +1,51 @@
+main {
+  max-width: 720px;
+  margin: 48px auto 0;
+}
+
+.shelf {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.wine {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.wine a {
+  display: block;
+  width: 100%;
+  /* Keep the original bottle height, with room for wider bottle shapes. */
+  aspect-ratio: 5 / 7;
+  transform-origin: bottom center;
+}
+
+.wine a:hover,
+.wine a:focus-visible {
+  transform: scale(1.1);
+}
+
+.wine a:focus-visible {
+  outline: 2px solid var(--hyperlink-color);
+  outline-offset: 4px;
+}
+
+.wine img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+}
+
+.shelf-image {
+  display: block;
+  grid-column: 1 / -1;
+  width: 100%;
+  height: auto;
+  margin-top: -1px;
+}

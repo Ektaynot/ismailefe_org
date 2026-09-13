@@ -1,3 +1,11 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/etc/fonts/Special_Elite/SpecialElite-Regular.woff2') format('woff2');
+}
+
 main {
   max-width: 720px;
   margin: 48px auto 0;

@@ -6,7 +6,7 @@
   src: url('/etc/fonts/Special_Elite/SpecialElite-Regular.woff2') format('woff2');
 }
 
-main {
+.collection main {
   max-width: 720px;
   margin: 48px auto 0;
 }
@@ -56,4 +56,11 @@ main {
   width: 100%;
   height: auto;
   margin-top: -1px;
+}
+
+ul {
+  list-style-type: disc !important;
+}
+ul li::marker {
+  color: #722f37 !important;
 }

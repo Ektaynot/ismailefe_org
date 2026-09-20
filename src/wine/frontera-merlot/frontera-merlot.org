@@ -1,8 +1,8 @@
-#+Title: Ed Knows - Sauvignon Blanc
+#+Title: Frontera Merlot
 #+Author: İsmail Efe Top
-#+Date: 2026-09-09
+#+Date: 2026-09-20
 #+Language: en
-#+Description: A wine review of Ed Know Sauvignon Blanc.
+#+Description: A wine review of Frontera Merlot.
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/templates/style.css" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/wine/wine.css" />
@@ -12,56 +12,53 @@
 #+HTML_HEAD: <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 #+HTML_HEAD: <link rel="manifest" href="/favicon/site.webmanifest">
 
+
 * Bottle Info
 
-- Wine: Ed Knows Sauvignon Blanc
-- Producer: Vinaria Bostavan
+- Wine: Frontera Merlot
+- Producer: Viña Concha y Toro
 - Vintage: NV
-- Country / Region: Moldova
-- Grape(s): Sauvignon Blanc
-- Style: Dry
-- ABV: 12.5%
-- Bottling Date: 14.11.2024
-- Lot: L-322
-- Price: 500₺ (~10$)
-- Tasted on: 09.09.2026
+- Country / Region: Chile / Valle Central
+- Grape(s): Merlot (Possibly a small amount of other grapes.)
+- Style: Off-dry
+- ABV: 12%
+- Bottling Date: 16.09.2025
+- Price: ₺810 ($16)
+- Tasted on: 18.09.2026
 
 * Appearance
 
-- Color: Lemon Yellow
+- Color: Cherry Red
 - Clarity: Clear
-- Intensity: Pale
+- Intensity: Medium
 
 * Nose
 
-- Intensity: Light
-- Main aromas: Citrus
+- Intensity: Light-Medium
+- Main aromas: Cherry
+- Secondary notes: Plum and Orange
 
 * Palate
 
-- Sweetness: Dry
-- Acidity: Medium - High
-- Body: Light
-- Alcohol: Medium
-- Flavor notes: Very citrus-centered
-- Finish: Short
+- Sweetness: Off-dry
+- Acidity: Medium
+- Tannin: Low
+- Body: Medium
+- Alcohol: Low-Medium
+- Flavor notes: Very fruity 
+- Finish: Medium
 
 * Overall
 
-- Rating: 5.5/10
-- Would buy again: Maybe
+- Rating: 7/10
+- Would buy again: Yes
+
 
 * Thoughts
 
-This is my first time doing wine tasting. I'm trying to get into the hobby in order to get knowledgeable about wine and to improve my palate.
+It was a fun drink. Very casual. It would go great with greasy food. I had a hard time describing this wine. It didn't have any extreme characteristics. Maybe that's why it was fun. It was relatively cheap compared to how good it tasted.
 
-Because this is my first time, I'm guessing that it will take some time for me to adjust the criteria. I plan to turn this series into a useful guide for people all around the world.
-
-When it comes to Ed Knows Sauvignon Blanc, I think it's an adequate white wine especially taking its price into account.
-
-It's really light and acidic. So if this kind of a profile suits your taste, I would say go for it.
-
-I had it with feta cheese, they paired beautifully together.
+I think it would be a great wine for people who don't like wine. I had it with my dear friend Osman. I wouldn't recommend drinking this wine alone.
 
 #+BEGIN_EXPORT html
 <div class="bottom-header">

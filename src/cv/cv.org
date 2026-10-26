@@ -33,6 +33,11 @@ Undergraduate student in Foreign Language Education at Middle East Technical Uni
 - *2018 – 2022* — Körfez Atatürk Anatolian High School.
 
 * Research Experience
+- *April 2026 – Present* — *Member*, TDK National Corpus of Türkiye and Corpus-Based Turkish Dictionary Project, Turkish Language Association (TDK).
+  - Contribute to the development of a national Turkish language corpus and corpus-based dictionary initiative.
+  - Part of a research initiative academically coordinated by the project team, with its first phase expected to be completed in 2028.
+  - [[https://blog.metu.edu.tr/hisik/projects/][Project information]] | [[https://www.aa.com.tr/tr/kultur/tdk-derlem-tabanli-turkce-sozlugunu-yapay-zeka-destegiyle-hazirliyor/3660287][News coverage]]
+    
 - *March 2025 – July 2025* — *Undergraduate Research Assistant*, TÜBİTAK Project 121K227 / METU.
   - Supported research on effective and ineffective practices in English-medium university classrooms, using corpus-assisted discourse analysis and evidence from classroom interaction.
   - Developed project web and dissemination materials and interactive learning resources using Articulate Storyline 360.

@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="generator" content="pandoc" />
+    <meta name="generator" content="pandoc 3.12.1" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=yes"
@@ -10,9 +10,15 @@
     <meta name="author" content="İsmail Efe Top" />
     <title>CV</title>
     <style>
+      /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
       html {
         color: #1a1a1a;
+        color: light-dark(#1a1a1a, #fdfdfd);
         background-color: #fdfdfd;
+        background-color: light-dark(#fdfdfd, #1a1a1a);
+        color-scheme: light dark;
       }
       body {
         margin: 0 auto;
@@ -37,12 +43,23 @@
       }
       @media print {
         html {
-          background-color: white;
+          color-scheme: light only;
         }
-        body {
+        html,
+        body,
+        pre,
+        code {
           background-color: transparent;
+        }
+        body,
+        a,
+        a:visited,
+        blockquote {
           color: black;
-          font-size: 12pt;
+        }
+        pre,
+        code {
+          padding: 0;
         }
         p,
         h2,
@@ -59,11 +76,9 @@
       p {
         margin: 1em 0;
       }
-      a {
-        color: #1a1a1a;
-      }
+      a,
       a:visited {
-        color: #1a1a1a;
+        color: inherit;
       }
       img {
         max-width: 100%;
@@ -100,10 +115,14 @@
       blockquote {
         margin: 1em 0 1em 1.7em;
         padding-left: 1em;
-        border-left: 2px solid #e6e6e6;
+        border-left: 2px solid;
+        border-color: #e6e6e6;
+        border-color: light-dark(#e6e6e6, #4c4c4c);
         color: #606060;
+        color: light-dark(#606060, #b6b6b6);
       }
       code {
+        white-space: pre-wrap;
         font-family: Menlo, Monaco, Consolas, "Lucida Console", monospace;
         font-size: 85%;
         margin: 0;
@@ -124,7 +143,7 @@
       }
       hr {
         border: none;
-        border-top: 1px solid #1a1a1a;
+        border-top: 1px solid currentColor;
         height: 1px;
         margin: 1em 0;
       }
@@ -141,11 +160,11 @@
       }
       tbody {
         margin-top: 0.5em;
-        border-top: 1px solid #1a1a1a;
-        border-bottom: 1px solid #1a1a1a;
+        border-top: 1px solid currentColor;
+        border-bottom: 1px solid currentColor;
       }
       th {
-        border-top: 1px solid #1a1a1a;
+        border-top: 1px solid currentColor;
         padding: 0.25em 0.5em 0.25em 0.5em;
       }
       td {
@@ -167,19 +186,23 @@
       #TOC a:not(:hover) {
         text-decoration: none;
       }
-      code {
-        white-space: pre-wrap;
-      }
       span.smallcaps {
         font-variant: small-caps;
       }
       div.columns {
         display: flex;
-        gap: min(4vw, 1.5em);
+        gap: 1.5em;
       }
       div.column {
         flex: auto;
-        overflow-x: auto;
+      }
+      @media screen {
+        div.columns {
+          gap: min(4vw, 1.5em);
+        }
+        div.column {
+          overflow-x: auto;
+        }
       }
       div.hanging-indent {
         margin-left: 1.5em;
@@ -233,227 +256,356 @@
       <p>Location: Ankara/Turkey</p>
     </div>
 
+    <h1 id="profile">Profile</h1>
+    <p>
+      Undergraduate student in Foreign Language Education at Middle East
+      Technical University (METU), pursuing a minor in Logic and Philosophy of
+      Science. Contributed to a METU–TÜBİTAK project investigating
+      English-medium instruction (EMI) classroom interactions and their
+      implications for faculty development. Research interests include discourse
+      analysis, corpus linguistics, computational linguistics, teacher
+      education, and critical pedagogy.
+    </p>
     <h1 id="education">Education</h1>
     <ul>
       <li>
-        <p>
-          <strong>[2025 - Present]</strong> Middle East Technical University -
-          Minor Program in Logic and Philosophy of Science
-        </p>
-        <p></p>
+        <strong>2025 – Present</strong> — Minor in Logic and Philosophy of
+        Science, Middle East Technical University (expected 2027).
       </li>
       <li>
-        <p>
-          <strong>[2022 - Present]</strong> Middle East Technical University -
-          Major Program in Foreign Language Education
-        </p>
-        <p></p>
+        <strong>2022 – Present</strong> — B.A. in Foreign Language Education,
+        Middle East Technical University (expected 2027).
         <ul>
-          <li><strong>CumGPA: 3,42</strong></li>
+          <li><strong>Cumulative GPA</strong> — 3.31/4.00.</li>
         </ul>
       </li>
       <li>
-        <p>
-          <strong>[2018 - 2022]</strong> Körfez Atatürk Anatolian High School
-        </p>
+        <strong>2018 – 2022</strong> — Körfez Atatürk Anatolian High School.
       </li>
     </ul>
-    <hr />
-    <h1 id="experiences">Experiences</h1>
+    <h1 id="research-experience">Research Experience</h1>
     <ul>
       <li>
-        <p>
-          <strong>[October 2024 - Present]</strong> Self-employed Photographer
-        </p>
-        <p></p>
+        <strong>March 2025 – July 2025</strong> —
+        <strong>Undergraduate Research Assistant</strong>, TÜBİTAK Project
+        121K227 / METU.
         <ul>
           <li>
-            <strong>Job Description:</strong> Specializing in conference and
-            portrait photography. Based in Ankara, traveling frequently to
-            Istanbul. Providing event photography and commercial storytelling
-            services.
+            Supported research on effective and ineffective practices in
+            English-medium university classrooms, using corpus-assisted
+            discourse analysis and evidence from classroom interaction.
           </li>
-        </ul>
-      </li>
-      <li>
-        <p>
-          <strong>[October 2024 - Present]</strong> OZTOP LAB - Undergraduate
-          Communications Assistant
-        </p>
-        <p></p>
-        <ul>
           <li>
-            <strong>Job Description:</strong> Responsible for managing social
-            media and project websites, designing creative materials, and
-            transforming scientific data into accessible formats to support
-            research initiatives for projects such as
-            <a href="https://proximedprima.eu/">ProxIMed</a>,
-            <a href="https://funtomp.com/">FunTomP</a>, and
-            <a href="https://suchaquality.com/">SuChAQuality</a>.
+            Developed project web and dissemination materials and interactive
+            learning resources using Articulate Storyline 360.
           </li>
-        </ul>
-      </li>
-      <li>
-        <p>
-          <strong>[September 2019 - March 2020]</strong> Vice President of the
-          STEM Club of Körfez Atatürk Anatolian High School
-        </p>
-        <p></p>
-        <ul>
           <li>
-            <strong>Job Description:</strong> Led STEM initiatives, designed
-            posters on career opportunities, organized skill-building events,
-            and collaborated with members to foster student engagement in STEM
-            fields.
+            The wider research programme informs the development of an EMI
+            faculty development module.
           </li>
         </ul>
       </li>
     </ul>
-    <hr />
-    <h1 id="volunteer">Volunteer</h1>
+    <h1 id="publications">Publications</h1>
     <ul>
       <li>
-        <p><strong>[February 2025 - Present]</strong> ODTÜMİST - Peer Mentor</p>
-        <p></p>
+        Top, İ. E. (2026). Bir lisans öğrencisinin gözünden eleştirel eylem:
+        criticaleltmaterials.org.
+        <em>Eleştirel Pedagoji: Altı Aylık Politik Eğitim Dergisi</em> [biannual
+        political education magazine], no. 79 (March), pp. 142–147.
         <ul>
           <li>
-            <strong>Job Description:</strong> Mentoring a peer in academic and
-            personal development, providing guidance on coursework, resources,
-            campus opportunities, and effective study strategies.
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p>
-          <strong>[January 2025 - Present]</strong> Elestirel Pedagoji - Web
-          Developer (Part-time)
-        </p>
-        <p></p>
-        <ul>
-          <li>
-            <strong>Job Description:</strong> Web Developer and WordPress
-            management.
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p>
-          <strong>[November 2024 - Present]</strong> Critical ELT Materials -
-          Communication Coordinator
-        </p>
-        <p></p>
-        <ul>
-          <li>
-            <strong>Job Description:</strong> Creating and coordinating
-            communication strategies and multimedia content for educational
-            materials.
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p>
-          <strong>[March 2024 - Present]</strong> Middle East Technical
-          University - Department of Foreign Language Education (Communication
-          Coordinator)
-        </p>
-        <p></p>
-        <ul>
-          <li>
-            <strong>Job Description:</strong> Responsible for assisting the
-            planning, creation, and dissemination of multimedia content for
-            social media platforms, including producing short videos, designing
-            announcement posts, and capturing event photography to enhance the
-            online presence of the department.
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p><strong>[November 2023 - Present]</strong> Proton - Translator</p>
-        <p></p>
-        <ul>
-          <li>
-            <strong>Job Description:</strong> I am part of the Proton
-            Localization Community. Responsible for translating all of the
-            Proton Suite to Turkish.
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p><strong>[November 2023 - Present]</strong> Crowdin - Translator</p>
-        <p></p>
-        <ul>
-          <li>
-            <strong>Job Description:</strong> Voluntarily translating apps such
-            as OBS, IINA, Ryujinx, and Whisky from English to Turkish via
-            Crowdin.
+            A first-person account of developing the
+            <a href="https://criticaleltmaterials.org"
+              >Critical ELT Materials</a
+            >
+            open-access platform and the role of student-led critical
+            pedagogical action.
           </li>
         </ul>
       </li>
     </ul>
-    <hr />
-    <div class="skillsandinterest">
-      <div class="skills">
-        <h1 id="skills">Skills</h1>
+    <h1 id="conference-presentations">Conference Presentations</h1>
+    <ul>
+      <li>
+        <strong>July 6–9, 2026</strong> — Top, İ. E.
+        <strong>“TopCor: An Advanced Corpus Linguistics Toolkit.”</strong>
+        Corpus Linguistics Summer School 2026, Centre for Corpus Research,
+        University of Birmingham, UK (online presentation).
         <ul>
           <li>
-            <p><strong>Languages</strong></p>
-            <ul>
-              <li>Turkish - Native Tongue</li>
-              <li>English - C2</li>
-            </ul>
+            Presented a toolkit for corpus preparation and analysis, including
+            multilingual part-of-speech annotation, CEFR tagging, concordance
+            (KWIC), collocations, n-grams, metadata, and anonymization
+            functionality.
           </li>
         </ul>
-        <p></p>
-        <p></p>
+      </li>
+      <li>
+        <strong>December 6–7, 2025</strong> — Şimşek-Tontuş, A., Turan, P.,
+        &amp; Top, İ. E.
+        <strong
+          >“More Than Meets the Eye: Rethinking How We Analyze EMI Classroom
+          Interaction.”</strong
+        >
+        The 8th JAAL in JACET Conference, Ritsumeikan University, Osaka, Japan.
+        <a href="https://emi.metu.edu.tr/en/publications"
+          >METU EMI Research Network listing</a
+        >.
         <ul>
           <li>
-            <p><strong>Computer Skills</strong></p>
-            <ul>
-              <li>Wordpress</li>
-              <li>GNU/Linux, Git, Emacs</li>
-              <li>Microsoft Office programs</li>
-              <li>Python, Bash, HTML, and CSS</li>
-              <li>Photoshop and Lightroom</li>
-            </ul>
+            Compared micro-analyses of EMI classroom video with instructors’
+            retrospective accounts, highlighting discipline-specific insights
+            and the importance of triangulating researcher and practitioner
+            perspectives.
           </li>
         </ul>
-      </div>
-      <div class="skills">
-        <h1 id="interests">Interests</h1>
+      </li>
+    </ul>
+    <h1 id="selected-projects">Selected Projects</h1>
+    <ul>
+      <li>
+        <strong>2026</strong> — <strong>TopCor</strong>, NLP and Corpus Analysis
+        Web Application.
         <ul>
           <li>
-            Personal Blog Site |
-            <a href="https://ismailefe.org">ismailefe.org</a>
+            <strong>Technology stack</strong> — Python, Flask, JavaScript,
+            HTML/CSS, spaCy, NLTK, Redis, Firebase Authentication, D3.js, AWS
+            EC2, Gunicorn.
+          </li>
+          <li>
+            Built a full-stack application for English and Turkish text
+            analysis, featuring part-of-speech (POS) tagging, n-grams,
+            keyword-in-context (KWIC) search, collocation analysis, and
+            interactive word-cloud visualizations.
+          </li>
+          <li>
+            Integrated document processing and web-page extraction, Firebase
+            authentication, and Redis-backed caching, session storage, and API
+            rate limiting.
+          </li>
+          <li>Deployed the Flask backend to AWS EC2 using Gunicorn.</li>
+          <li>
+            Presented TopCor at the University of Birmingham Corpus Linguistics
+            Summer School (online, July 2026); see Conference Presentations.
           </li>
         </ul>
-        <p></p>
+      </li>
+    </ul>
+    <h1 id="professional-experience">Professional Experience</h1>
+    <ul>
+      <li>
+        <strong>October 2024 – Present</strong> —
+        <strong>Webmaster and Undergraduate Communications Assistant</strong>,
+        Öztop Lab / METU Food Technologies Lab.
         <ul>
           <li>
-            Open-Source Software |
-            <a href="https://github.com/Ektaynot/">github.com/Ektaynot</a>
+            Manage and maintain multiple research-project websites built with
+            <strong>Drupal</strong> and <strong>WordPress</strong>, including
+            website content, updates, writing custom code, and ongoing site
+            administration.
+          </li>
+          <li>
+            Support digital communication and dissemination across international
+            research initiatives, preparing and publishing accessible project
+            news, event information, visual materials, and research updates.
+          </li>
+          <li>
+            Contribute to the online presence and communications of projects
+            including <a href="https://proximedprima.eu/">ProxIMed</a>,
+            <a href="https://funtomp.com/">FunTomP</a>,
+            <a href="https://suchaquality.com/">SuChAQuality</a>,
+            <a href="https://enfiber.eu/">ENFiber</a> (COST Action CA24111), and
+            <a href="https://apriseproject.eu/">APRISE</a> (Alternative Protein
+            Research &amp; Innovation Skills Enhancement).
+          </li>
+          <li>
+            Support project newsletters, conference and training communications,
+            and dissemination materials in collaboration with the research team.
           </li>
         </ul>
-        <p></p>
+      </li>
+      <li>
+        <strong>October 2024 – Present</strong> —
+        <strong>Event and Portrait Photographer</strong>, Self-employed.
         <ul>
           <li>
-            Graphic Design | Frontend Web Design and General Photoshop Usage
+            Produce event, conference, and portrait photography in Ankara and
+            İstanbul.
           </li>
         </ul>
-        <p></p>
+      </li>
+    </ul>
+    <h1 id="conference-and-event-organization">
+      Conference and Event Organization
+    </h1>
+    <ul>
+      <li>
+        <strong>May 4–6, 2026</strong> —
+        <strong>Assistant Organizer / Organizing Team Member</strong>, 1st
+        ENFiber Conference, Tartu, Estonia.
         <ul>
           <li>
-            Writing | <a href="https://ismailefe.org/all">ismailefe.org/all</a>
+            Worked across conference planning, coordination, and on-site
+            implementation (COST Action CA24111 / ENFiber).
           </li>
         </ul>
-        <p></p>
+      </li>
+      <li>
+        <strong>January 3, 2025</strong> —
+        <strong>Event Photographer / Student Assistant</strong>, METU FLE Career
+        Planning Event, Ankara.
         <ul>
           <li>
-            Photography |
-            <a href="https://ismailefe.org/photography">ismailefe.org/photography</a>
+            Primarily handled event photography and visual documentation for
+            METU's Department of Foreign Language Education.
           </li>
         </ul>
-      </div>
-    </div>
-    <hr />
+      </li>
+      <li>
+        <strong>November 1–2, 2024</strong> —
+        <strong>Event Photographer / Organizing Committee Assistant</strong>,
+        6th International English for Specific Purposes Conference, Ankara.
+        <ul>
+          <li>
+            Primarily provided event photography and visual documentation for
+            the two-day IESPTA–METU conference.
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h1 id="professional-development-and-conferences">
+      Professional Development and Conferences
+    </h1>
+    <ul>
+      <li>
+        <strong>July 6–9, 2026</strong> — Corpus Linguistics Summer School,
+        University of Birmingham — completed synchronous and preceding
+        asynchronous sessions; delivered a presentation listed above.
+      </li>
+      <li>
+        <strong>November 2025 – June 2026</strong> — ODTÜMİST Career Mentorship
+        Programme — completed programme as a <strong>mentee</strong>;
+        certificate issued July 24, 2026.
+      </li>
+      <li>
+        <strong>December 6–7, 2025</strong> — JAAL in JACET 2025, Japan
+        Association of College English Teachers — conference participant and
+        co-author/co-presenter as listed above.
+      </li>
+      <li>
+        <strong>November 28–29, 2025</strong> — International Conference on
+        Transnational Education — Beyond Borders in Higher Education, TED
+        University, Ankara — attendee.
+      </li>
+      <li>
+        <strong>November 19–23, 2025</strong> — TÜBİTAK 2237-A, “An Applied
+        Training Programme for Prospective English Teachers on the Use of
+        Artificial Intelligence Tools in Teaching English Language Skills,”
+        Çanakkale Onsekiz Mart University — trainee.
+      </li>
+      <li>
+        <strong>2025</strong> — 22nd International Conference on Turkish
+        Linguistics — attendee (ICTL 2025).
+      </li>
+    </ul>
+    <h1 id="volunteer-experience-and-leadership">
+      Volunteer Experience and Leadership
+    </h1>
+    <ul>
+      <li>
+        <strong>January 2025 – Present</strong> —
+        <strong>Volunteer Web Developer</strong>, Eleştirel Pedagoji.
+        <ul>
+          <li>Maintain and develop WordPress web content.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>November 2024 – Present</strong> —
+        <strong>Communication Coordinator</strong>, Critical ELT Materials.
+        <ul>
+          <li>
+            Coordinate communications and multimedia content for educational
+            materials; received a Certificate of Appreciation for project
+            contributions.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>March 2024 – Present</strong> —
+        <strong>Volunteer Communications Coordinator</strong>, METU Department
+        of Foreign Language Education.
+        <ul>
+          <li>
+            Produce announcements, short videos, multimedia materials, and event
+            photography for departmental outreach.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>November 2023 – Present</strong> —
+        <strong>Volunteer Turkish Translator</strong>, Proton Localization
+        Community.
+        <ul>
+          <li>
+            Contribute to Turkish localization of Proton applications; received
+            the <strong>Volunteer Translation Excellence</strong> appreciation
+            certificate, October 10, 2026 (recognized for three years in the
+            community).
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>November 2023 – Present</strong> —
+        <strong>Volunteer Translator</strong>, Crowdin.
+        <ul>
+          <li>
+            Contributed English-to-Turkish localization for open-source
+            applications such as OBS, IINA, Ryujinx, and Whisky.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>February 2025 – June 2025</strong> —
+        <strong>Peer Mentor</strong>, ODTÜMİST.
+        <ul>
+          <li>Provided peer academic and personal-development guidance.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>September 2019 – March 2020</strong> —
+        <strong>Vice President</strong>, Körfez Atatürk Anatolian High School
+        STEM Club.
+        <ul>
+          <li>
+            Helped organize STEM initiatives, career information materials, and
+            student events.
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h1 id="skills">Skills</h1>
+    <ul>
+      <li>
+        <strong>Research</strong> — Corpus-assisted discourse analysis,
+        classroom interaction research, corpus linguistics, academic
+        dissemination.
+      </li>
+      <li>
+        <strong>Software and technical</strong> — Python, Flask, JavaScript,
+        HTML/CSS, spaCy, NLTK, Redis, Firebase Authentication, D3.js, AWS EC2,
+        Gunicorn, Bash, GNU/Linux, Git, Emacs, Drupal, WordPress, Articulate
+        Storyline 360, Microsoft Office, Adobe Photoshop and Lightroom.
+      </li>
+      <li><strong>Languages</strong> — Turkish (native); English (C2).</li>
+    </ul>
+    <h1 id="selected-links">Selected Links</h1>
+    <ul>
+      <li><a href="https://ismailefe.org">Personal website and blog</a></li>
+      <li>
+        <a href="https://github.com/Ektaynot/">Open-source projects (GitHub)</a>
+      </li>
+      <li><a href="https://glass.photo/efe">Photography portfolio</a></li>
+    </ul>
   </body>
 </html>
